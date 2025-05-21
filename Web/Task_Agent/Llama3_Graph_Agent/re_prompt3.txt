@@ -1,0 +1,11 @@
+For validating your API selection, the validation principles are as follows:
+1.If the tool you invoke cannot directly provide the final result required for the problem after execution, the result is False.
+2.If the tool you invoke cannot solve the problem itself, the result is False.
+3.Otherwise, your selection is True.
+Notice: 
+1.Node is merely an abstract representation of parameter definitions in the API, and it aligns with the task objectives mentioned in the question.
+2.Since some questions involve real-world scenarios, you need to carefully consider the connection between the question and the tool, rather than simply judging based on surface-level consistency or inconsistency.
+Provide me with your corrected response, still answering either False or True.
+The answer format is:
+Thought:
+Answer:

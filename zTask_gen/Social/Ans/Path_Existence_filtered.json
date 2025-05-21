@@ -1,0 +1,2018 @@
+[
+    {
+        "origin_question": "在社交网络中，平台希望帮助用户0302拓展人脉圈层。根据现有的单向关注关系网络，系统需要判断是否可以通过用户间的间接关注链路，将0714用户纳入0302的潜在推荐列表。请问当前网络结构下是否存在这样的传播路径？",
+        "question": "In the social network, the platform aims to assist user 0302 in expanding their network. Based on the existing unidirectional follow relationships, the system needs to determine whether it is possible to include user 0714 in the potential recommendation list for user 0302 through indirect follow links among users. Is there such a propagation path in the current network structure?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台希望向用户0302推荐可能感兴趣的跨领域大V账号，但需确保目标账号0714能通过现有关注链被自然触达。根据关注关系网络，系统是否需要将0714纳入0302的\"发现同好\"推荐列表？即两用户间是否存在单向关注路径？",
+        "question": "A certain social media platform wishes to recommend potentially interesting cross-domain influencers to user 0302, but it must ensure that the target account 0714 can be naturally reached through the existing following network. Based on the following relationship network, does the system need to include 0714 in the \"discover like-minded people\" recommendation list for 0302? In other words, is there a one-way following path between the two users?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台中，用户0302希望扩展同兴趣圈层的好友，平台推荐算法需要判断是否存在从该用户出发、通过现有关注链触达用户0714的可能性。请问根据当前关注关系网络，系统是否应当将0714纳入0302的「可能感兴趣的同好」推荐列表？",
+        "question": "In the social platform, user 0302 wishes to expand their circle of friends with similar interests. The platform's recommendation algorithm needs to determine if there is a possibility of reaching user 0714 starting from this user, through the existing following chain. Based on the current relationship network, should the system include user 0714 in the \"potentially interesting peers\" recommendation list for user 0302?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在用户推荐系统中，若希望将用户0302纳入用户0714的\"可能认识的人\"候选名单，是否需要确认存在从0302出发、通过任意中间用户最终抵达0714的关注关系路径？",
+        "question": "In a user recommendation system, if we want to include user 0302 in the \"people that user 0714 might know\" candidate list, do we need to confirm the existence of a follow relationship path starting from 0302, passing through any intermediate users, and ultimately reaching 0714?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "平台计划将科技领域活跃用户0302的内容推荐给游戏社群用户0714，需确认是否存在从0302到0714的关注关系链，从而判断是否满足跨领域推荐条件。该路径是否存在？",
+        "question": "The platform plans to recommend content from active user 0302 in the tech field to community user 0714 in the gaming sector. It is necessary to confirm whether there is a following relationship chain from 0302 to 0714 in order to determine if the criteria for cross-domain recommendations are met. Does this path exist?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在基于关注关系的社群发现中，平台需要确认用户ID为0302的运动健身爱好者是否可能通过现有关注链条被推荐给用户ID为0714的健康饮食博主，请问两用户间是否存在单向传播路径？",
+        "question": "In the community discovery based on follower relationships, the platform needs to check whether the fitness enthusiast with user ID 0302 can be recommended to the health food blogger with user ID 0714 through the existing follower chain. Is there a one-way propagation path between the two users?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台分析发现用户0714是某兴趣社群的核心节点，现需评估用户0302是否属于该社群辐射范围。若存在从0302到0714的关注链路，系统将启动跨圈推荐功能。请验证这两个用户间是否存在可达路径？",
+        "question": "A certain social media platform analysis found that user 0714 is a core node of a specific interest community. We now need to assess whether user 0302 falls within the reach of that community. If there is a connection from 0302 to 0714, the system will activate the cross-community recommendation feature. Please verify if there is an accessible path between these two users.",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交媒体平台中，用户0302希望系统推荐摄影爱好者同好，能否通过现有关注关系链触达用户0714？",
+        "question": "In social media platforms, user 0302 hopes that the system can recommend fellow photography enthusiasts. Is it possible to reach user 0714 through the existing network of connections?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台希望将旅行摄影社群用户\"0714\"的内容推荐给摄影爱好者社群用户\"0302\"，但需确保两者之间存在关注链路。请问系统是否能通过分析关注关系，确认从\"0302\"到\"0714\"存在至少一条单向传播路径来实现跨社群推荐？",
+        "question": "A certain social media platform hopes to recommend content from the travel photography community user \"0714\" to the photography enthusiasts community user \"0302\", but must ensure that there is a following link between the two. Can the system analyze the following relationships to confirm whether there is at least one unidirectional propagation path from \"0302\" to \"0714\" in order to achieve cross-community recommendations?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台计划向用户0714推荐\"兴趣社群\"成员，需确认用户0302是否存在于该社群的关系链中。若平台仅通过关注路径判断归属，能否确定用户0302到0714存在单向触达可能？",
+        "question": "A certain social media platform plans to recommend \"interest community\" members to user 0714 and needs to confirm whether user 0302 exists in that community's relationship chain. If the platform determines affiliation solely based on the following paths, can it ascertain whether there is a possibility of one-way contact from user 0302 to 0714?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某微博平台想通过用户关注关系挖掘潜在推荐机会，已知用户'0302'属于科技兴趣社群，而用户'0714'是数码产品博主。系统需确认能否通过现有关注链路，将'0302'的内容推荐给'0714'的粉丝群体？",
+        "question": "A certain Weibo platform aims to explore potential recommendation opportunities through user follow relationships. It is known that user '0302' belongs to a tech interest community, while user '0714' is a digital product blogger. The system needs to determine whether it can recommend content from '0302' to the fan base of '0714' through existing follow connections.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台正在分析用户社群结构，发现用户0302所在的兴趣小组可能需要与用户0714所在的小组建立跨社群推荐通道。根据单向关注关系数据，系统需要确认这两个用户之间是否存在至少一条可触达的间接关注路径，以决定是否启动跨社群用户推荐机制。请问当前网络拓扑是否满足该推荐条件？",
+        "question": "A certain social media platform is analyzing the structure of user communities and has found that the interest group of user 0302 may need to establish a cross-community recommendation channel with the group of user 0714. Based on data from unidirectional follow relationships, the system needs to confirm whether there is at least one indirect follow path that can be reached between these two users in order to decide whether to initiate the cross-community user recommendation mechanism. Could you please check if the current network topology meets this recommendation condition?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络用户推荐场景中，平台需判断用户'0302'是否可能通过现有关注链（如共同社群成员转发）接触到用户'0714'的内容，从而决定是否进行跨圈层推荐。当前需确认两用户间是否存在单向传播路径？",
+        "question": "In the context of user recommendation scenarios on social networks, the platform needs to determine whether user '0302' might come across user '0714's content through the existing connection chain (such as retweets by common community members), in order to decide whether to make an inter-group recommendation. Currently, it is necessary to confirm whether there is a one-way propagation path between the two users.",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，平台希望通过用户0302的关注链推荐其作为社群0714的潜在成员以促进社群增长，系统是否需要检查该用户与社群管理员0714之间存在可触达的路径？",
+        "question": "In social networks, the platform aims to recommend user 0302 as a potential member of community 0714 based on their follower chain to promote community growth. Does the system need to check if there is a reachable path between this user and community administrator 0714?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台发现用户0302活跃于摄影爱好者社群，现希望将用户0714纳入同类兴趣推荐名单，但需确认0302能否通过关注链间接触达0714以确保推荐关联性。请问系统能否实现这种基于关注关系的跨用户内容传播？",
+        "question": "A social platform has discovered that user 0302 is active in the photography enthusiasts community. They now wish to include user 0714 in the same interest recommendation list, but they need to confirm whether user 0302 can indirectly reach user 0714 through the follower chain to ensure the relevance of the recommendations. Can the system achieve this type of cross-user content dissemination based on the follower relationship?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台希望向用户'0302'推荐同城兴趣社群的活跃成员'0714'，但需先验证两人是否通过关注链间接关联。当前能否基于关注关系网络确认从'0302'到'0714'的可达性？",
+        "question": "A social platform hopes to recommend an active member of a local interest group, '0714', to user '0302', but it must first verify whether the two are indirectly connected through their following relationships. Is it currently possible to confirm the reachability from '0302' to '0714' based on the following relationship network?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台在进行跨社群用户推荐策略测试时，发现用户0302属于科技兴趣群组，而用户0714活跃于创业交流社群。若仅通过单向关注关系链推荐用户，能否从0302出发，通过其直接或间接关注的用户触达0714？",
+        "question": "During a cross-community user recommendation strategy test on a certain social platform, it was found that user 0302 belongs to the technology interest group, while user 0714 is active in the entrepreneurship discussion community. If recommendations are made solely through a one-way follow relationship chain, can user 0714 be reached from user 0302 by way of the users they follow, either directly or indirectly?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在微博平台的兴趣社群推荐机制中，用户'0302'活跃于摄影发烧友超话，用户'0714'是旅行摄影类头部博主。系统需判断是否应将'0302'纳入“可能感兴趣的用户”推送给'0714'，请问当前关注关系网络中是否存在从0302到0714的间接关注链路？",
+        "question": "In the interest community recommendation mechanism on the Weibo platform, user '0302' is active in the photography enthusiasts super topic, while user '0714' is a leading blogger in travel photography. The system needs to determine whether '0302' should be included in the \"potentially interested users\" recommendation for '0714'. Is there currently an indirect following chain from '0302' to '0714' in the existing follow relationship network?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台希望向用户0302推荐跨兴趣社群的关键用户0714，但需确认两者间是否存在关注链路径。若用户0302能通过单向关注关系间接触达0714，系统将实施跨圈推荐策略。当前网络环境下，能否确认从0302到0714存在有效路径？",
+        "question": "A certain social platform wishes to recommend key user 0714 from cross-interest communities to user 0302, but needs to verify whether there is a connection chain between the two. If user 0302 can indirectly reach 0714 through a one-way follow relationship, the system will implement a cross-circle recommendation strategy. Given the current network environment, is it possible to confirm that there is a valid path from 0302 to 0714?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台希望通过社群内的关注关系链，向用户0714推荐可能感兴趣的潜在好友。已知用户0302属于一个活跃的兴趣社群，平台需要确认是否存在一条由关注关系构成的路径，使得用户0714能通过其关注链间接接触到用户0302，从而完成跨社群推荐？",
+        "question": "A certain social media platform aims to recommend potential friends that user 0714 might be interested in, based on the network of follow relationships within communities. It is known that user 0302 belongs to an active interest group. The platform needs to determine whether there is a path made up of follow relationships that allows user 0714 to indirectly connect with user 0302 through their follow chain, thereby completing a cross-community recommendation.",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台希望向用户0302推荐可能感兴趣的跨领域好友0714，但需确保两人存在间接关注链以避免打扰。当前关注网络中，能否确认从用户0302出发，通过单向关注关系最终可达用户0714？",
+        "question": "A certain social platform wants to recommend a potentially interesting cross-domain friend (user 0714) to user 0302, but it needs to ensure that there is an indirect connection chain between the two to avoid any disturbances. In the current network of followers, can we confirm that it is possible to reach user 0714 from user 0302 through a one-way following relationship?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台中，用户0302属于摄影爱好者核心社群，运营团队希望将其作品推荐给动漫同好社群的活跃用户0714。根据关注链路分析，平台需要确认这两个不同兴趣圈层的用户之间是否存在单向关注路径，以判断跨社群推荐是否具有传播可行性？",
+        "question": "In a certain social platform, user 0302 belongs to the core community of photography enthusiasts, and the operations team aims to recommend their work to the active user 0714 from the anime community. Based on the analysis of the following relationships, the platform needs to determine whether there is a one-way following path between these two users from different interest groups in order to assess the feasibility of cross-community recommendations.",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，平台希望将用户'0302'推荐给用户'0714'的潜在好友列表，但需确认两人是否存在间接关注链路（例如A关注B、B关注C形成A到C的路径）。当前能否基于关注关系网络进行此推荐？",
+        "question": "In social networks, the platform intends to recommend user '0302' to user '0714' from a potential friend list, but it needs to confirm whether there is an indirect connection between them (for example, A follows B, and B follows C, forming a path from A to C). Is it currently possible to make this recommendation based on the follower relationship network?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，用户0302希望加入用户0714所在兴趣社群，但未直接关注对方。平台需判断是否可通过现有关注关系链（如共同好友或间接关注路径）将0302推荐至0714的社群，请确认两节点间是否存在可达路径？",
+        "question": "In the social network, user 0302 wishes to join the interest group of user 0714 but has not directly followed them. The platform needs to determine whether it can recommend 0302 to 0714's group through existing follow relationships (such as mutual friends or indirect following paths). Please confirm if there is a reachable path between the two nodes.",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在某个社交平台中，用户0302因摄影作品被划入同好社群，系统需要判断是否可能通过现有关注关系的链式传导，将他的内容推荐给用户0714。请问是否存在这样的关注路径？",
+        "question": "Translate to English: In a certain social platform, user 0302 is categorized into a community of like-minded individuals due to their photography work. The system needs to determine whether it is possible to recommend their content to user 0714 through the chain transmission of existing follow relationships. Is there such a follow path?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "社交平台正在分析用户0302的潜在兴趣社群，发现该用户关注链中可能存在与0714用户的隐性关联。请问仅基于单向关注关系，能否确认从0302到0714存在至少一条可触达路径？",
+        "question": "The social platform is analyzing the potential interest communities of user 0302 and has discovered that there may be a latent connection between this user and user 0714 in the following chain of followers. Based solely on the unidirectional following relationship, can we confirm that there is at least one reachable path from 0302 to 0714?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台发现用户0714活跃于同城摄影社群，而用户0302近期频繁搜索相关兴趣小组。为精准推荐潜在同好，系统需判断0302是否可通过现有关注关系链（如A→B→C）触达0714。请问该用户之间是否存在可推荐路径？",
+        "question": "A social platform has discovered that user 0714 is active in a local photography community, while user 0302 has recently been frequently searching for related interest groups. To accurately recommend potential like-minded individuals, the system needs to determine whether user 0302 can reach user 0714 through the existing network of follow relationships (e.g., A → B → C). Is there a recommendable path between these users?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "平台希望向用户0302推荐潜在好友，但需先确认其关注链是否可能间接连接到用户0714以保持相关性，当前关注网络中是否存在这样的传播链路？",
+        "question": "The platform hopes to recommend potential friends to user 0302, but needs to first confirm whether their following chain could indirectly connect to user 0714 to maintain relevance. Is there currently such a propagation path in the existing following network?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在社交网络中，用户0302属于摄影爱好者社群，平台希望将旅行达人0714推荐给潜在兴趣用户。若存在从0302到0714的关注路径，是否应将0714纳入0302的跨社群推荐列表？",
+        "question": "In social networks, user 0302 belongs to the photography enthusiast community, and the platform wants to recommend travel expert 0714 to potential interested users. If there is a follow path from 0302 to 0714, should 0714 be included in the cross-community recommendation list for 0302?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在用户推荐系统中，若用户0302属于科技爱好者社群，用户0714是该社群的KOL，平台需要判断0302是否可能通过现有关注关系链触达0714，从而验证推荐合理性。请问当前网络中存在这样的潜在推荐路径吗？",
+        "question": "In a user recommendation system, if user 0302 belongs to a technology enthusiast community and user 0714 is a Key Opinion Leader (KOL) in that community, the platform needs to determine whether 0302 can potentially reach 0714 through the existing relationship chain. This would help validate the reasonableness of the recommendation. Is there currently a potential recommendation path existing in the network?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台中，用户0302希望了解自己是否可能通过现有关注链被系统推荐用户0714的内容（例如共同兴趣社群）。若仅考虑单向关注关系，平台能否确认从0302到0714存在至少一条可触达的路径？",
+        "question": "In the social platform, user 0302 wants to know if they can be recommended content from user 0714 through their existing follow chain (for example, shared interest communities). If we only consider one-way follow relationships, can the platform confirm that there exists at least one reachable path from 0302 to 0714?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台中，用户'0302'希望将用户'0714'纳入潜在好友推荐列表，但需确认两者间是否存在至少一条单向关注路径（如A→B→C视为A到C的路径）。若存在，则系统可基于共同社群关联进行推荐。请问当前网络是否满足这一条件？",
+        "question": "In the social platform, user '0302' wants to include user '0714' in the potential friend recommendation list, but it is necessary to confirm whether there is at least one one-way follow path between the two (for example, A→B→C is considered a path from A to C). If such a path exists, the system can make recommendations based on shared community connections. Is the current network meeting this condition?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，用户0302希望扩展同城校友圈关注列表，平台需要判断其关注链是否可能通过多层转发触达用户0714（某校友会官方账号），从而决定是否将0714纳入推荐列表。当前关注网络中是否存在这种潜在连接路径？",
+        "question": "In the social network, user 0302 wishes to expand their list of local alumni to follow. The platform needs to determine whether their follow chain could potentially reach user 0714 (an official account of an alumni association) through multi-layer forwarding, in order to decide whether to include 0714 in the recommendation list. Is there a potential connection path in the current follow network that allows for this?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台希望通过用户0302的关注链挖掘潜在推荐对象，发现其可能关联的隐藏社群。若需验证用户0714是否在该用户的关系辐射范围内，能否通过现有单向关注路径确认两者连通性？",
+        "question": "A certain social media platform hopes to explore potential recommendation targets through the follower chain of user 0302 and discover any hidden communities they may be associated with. If it is necessary to verify whether user 0714 falls within the relational radius of user 0302, can we confirm the connectivity between the two based on the existing unidirectional follower path?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台希望向新用户0302推荐可能感兴趣的关系链，发现其与用户0714可能存在潜在关注路径。若存在从0302到0714的单向关注链路，系统便会触发推荐。当前能否确认这两个用户之间存在这样的可通达路径？",
+        "question": "A certain social platform hopes to recommend potential relationships that might interest new user 0302, and has discovered a potential attention path with user 0714. If there is a unidirectional attention link from 0302 to 0714, the system will trigger the recommendation. Is it currently possible to confirm whether there is such an accessible path between these two users?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络分析中，若发现用户'0302'属于摄影爱好者社群，而用户'0714'活跃于旅行攻略社群，平台希望基于关注关系实现跨社群用户推荐。请问能否通过用户间的直接或间接关注链，确认从'0302'到'0714'的路径存在性以支持推荐逻辑？",
+        "question": "In social network analysis, if it is found that user '0302' belongs to the photography enthusiasts community and user '0714' is active in the travel guide community, the platform hopes to implement cross-community user recommendations based on following relationships. Is it possible to confirm the existence of a path from '0302' to '0714' through direct or indirect following chains between users to support the recommendation logic?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台希望向用户0302推荐潜在兴趣社群成员，发现用户0714近期活跃但无直接关注关系。平台需验证这两个账号是否通过单向关注链（如0302→A→B→0714）连通，以判断能否触发跨社群推荐机制。当前是否存在这样的路径？",
+        "question": "A certain social platform wishes to recommend potential interest community members to user 0302, having discovered that user 0714 has recently been active but has no direct following relationship. The platform needs to verify whether these two accounts are connected through a one-way following chain (e.g., 0302→A→B→0714) in order to determine if it can trigger the cross-community recommendation mechanism. Is there currently such a path?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络的用户推荐系统中，若系统希望通过共同社群关联向用户“0302”推荐用户“0714”，是否需要检查两者间存在单向关注路径以确保推荐合理性？",
+        "question": "In the user recommendation system of social networks, if the system wants to recommend user \"0714\" to user \"0302\" through common community connections, is it necessary to check for a one-way following path between the two to ensure the recommendation's validity?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台想向用户0302推荐潜在感兴趣的社群成员，系统检测到用户0714可能与其有共同兴趣，但需确认0302是否可能通过现有关注关系间接触达0714。请问当前关注网络中能否从用户0302出发，通过单向关注链找到用户0714？",
+        "question": "A certain social platform wants to recommend potential community members of interest to user 0302. The system has detected that user 0714 may have common interests with them, but it needs to confirm whether user 0302 can indirectly reach user 0714 through existing follow relationships. The question is, in the current follow network, can we start from user 0302 and find user 0714 through a one-way follow chain?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络中，用户0302属于摄影爱好者社群，系统希望向该用户推荐旅游达人0714的内容。由于推荐需基于关注链路的可达性，当前网络中是否存在从0302到0714的路径？",
+        "question": "In the social network, user 0302 belongs to the photography enthusiast community, and the system hopes to recommend content from travel expert 0714 to this user. Since the recommendation needs to be based on the accessibility of the follow chain, is there currently a path from 0302 to 0714 in the network?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "平台计划向用户0714推荐同城兴趣社群成员，需检测用户0302是否可通过现有关注链被触达。当前能否将该用户纳入推荐列表？",
+        "question": "The platform plans to recommend local interest community members to user 0714 and needs to check whether user 0302 can be reached through the existing follow chain. Is it currently possible to include this user in the recommendation list?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在优化用户推荐系统，当分析用户0302与0714的潜在关联时，需要确认是否存在一条关注链路使得0302发布的内容能够间接触达0714所在的兴趣社群。请问当前关注网络中该传播路径是否成立？",
+        "question": "A certain social media platform is optimizing its user recommendation system. When analyzing the potential connection between users 0302 and 0714, it is necessary to confirm whether there exists a follower chain that allows the content posted by 0302 to indirectly reach the interest group that 0714 belongs to. Could you please check if this propagation path is valid in the current follower network?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "平台希望向用户0302推荐“科技创业”兴趣社群，该社群核心成员是用户0714。需要确认0302是否通过现有关注链路与0714存在间接关联，以便判断是否符合推荐条件？",
+        "question": "The platform intends to recommend the \"Tech Entrepreneurship\" interest community to user 0302, whose core member is user 0714. It is necessary to confirm whether 0302 has an indirect connection with 0714 through the existing follower network in order to determine if they meet the recommendation criteria.",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台发现用户0302与0714可能属于同个兴趣社群，需通过单向关注链判断是否应将二者归入同一群体。当前能否确认存在从0302到0714的路径？",
+        "question": "A certain social platform has found that users 0302 and 0714 may belong to the same interest group, and it is necessary to determine whether they should be classified into the same group through a one-way following chain. Is it currently possible to confirm if there is a path from 0302 to 0714?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台希望通过社群关系优化用户推荐系统。用户\"0302\"近期加入了一个兴趣社群，运营团队需要确认该用户是否与活跃用户\"0714\"存在关注链路，以便判断能否将\"0714\"的内容推荐给\"0302\"。请问两者之间是否存在至少一条单向关注路径？",
+        "question": "A certain social media platform aims to optimize its user recommendation system through community relationships. User \"0302\" has recently joined an interest community, and the operations team needs to confirm whether there is a connection between this user and the active user \"0714\" in terms of following relationships, in order to determine whether \"0714\"'s content can be recommended to \"0302\". Is there at least one unidirectional following path between the two?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "平台希望向用户0714推荐同城摄影社群成员，但需确认用户0302能否通过现有单向关注链路被触达。当前网络中是否存在从0302到0714的可行关注路径？",
+        "question": "The platform wants to recommend local photography community members to user 0714, but it needs to confirm whether user 0302 can be reached through the existing one-way follow chain. Is there a viable follow path from 0302 to 0714 in the current network?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台希望向用户0302推荐潜在好友0714以促进社群发现，但需确认双方是否存在至少一条单向关注链（如0302关注A、A关注B、B关注0714）。能否基于当前关注关系网络实现该推荐？",
+        "question": "A certain social platform wants to recommend potential friend 0714 to user 0302 to promote community discovery, but it needs to confirm whether there is at least one unidirectional follow chain between the two (for example, 0302 follows A, A follows B, and B follows 0714). Is it possible to implement this recommendation based on the current follow relationship network?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交媒体平台希望向用户0302推荐潜在的同好社群成员，根据关注关系的传播链条，能否确认用户0714位于其可触达的社交圈层内？",
+        "question": "A certain social media platform wants to recommend potential community members with similar interests to user 0302. Based on the propagation chain of follower relationships, can it be confirmed whether user 0714 is within user 0302's reachable social circle?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析用户0302的潜在兴趣社群时，系统需判断其关注网络能否触达用户0714以进行跨社群推荐，当前关注链路是否存在有效传播路径？",
+        "question": "When analyzing the potential interest communities of user 0302, the system needs to determine whether the attention network can reach user 0714 for cross-community recommendations. Is there an effective dissemination path in the current attention chain?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析社交网络中信息扩散路径时，用户'0302'发布的一条重要公告是否有可能通过关注链被用户'0714'接收到？",
+        "question": "In analyzing the information diffusion path in social networks, is it possible for an important announcement made by user '0302' to be received by user '0714' through the following chain of connections?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交网络中谣言传播路径时，信息溯源小组需要确认用户'0302'发布的虚假信息是否可能通过单向转发链扩散至用户'0714'的社交主页，这种情况是否存在？",
+        "question": "When analyzing the spread of rumors in a certain social network, the information tracing team needs to confirm whether the false information posted by user '0302' could potentially spread to user '0714' through a one-way forwarding chain. Does this situation exist?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在某个社交媒体平台中，用户'0302'转发了某条重要公告，平台需要确认该公告内容是否可能通过关注关系链传播到用户'0714'的收件箱中。请问系统能否判定这种信息扩散路径的存在性？",
+        "question": "In a certain social media platform, user '0302' shared an important announcement, and the platform needs to confirm whether the content of that announcement could potentially reach user '0714' through their network of connections. Can the system determine the existence of such an information diffusion path?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在微博平台中，用户'0302'发布了一条重要谣言，现需核查该信息是否通过转发链条最终扩散至用户'0714'的社交圈。根据关注关系数据，能否确认存在从'0302'到'0714'的完整传播路径？",
+        "question": "On the Weibo platform, user '0302' has posted an important rumor. There is a need to verify if this information spread to user '0714's social network through the retweet chain. Based on the follower relationship data, is it possible to confirm the existence of a complete transmission path from '0302' to '0714'?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交网络中谣言的传播路径时，能否确认用户'0302'发布的帖子是否通过关注链路传递到了用户'0714'的页面？",
+        "question": "In analyzing the propagation path of rumors in a certain social network, is it possible to confirm whether the post published by user '0302' was transmitted to user '0714's page through the following chain?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在当前的社交网络中，用户'0302'发布了一条重要动态，平台需要确认该内容是否能通过用户的单向关注关系链条触达用户'0714'，是否存在这样的传播链路？",
+        "question": "In the current social network, user '0302' published an important update. The platform needs to confirm whether this content can reach user '0714' through the one-way following relationship chain. Is there such a communication link?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，某虚假新闻核查机构发现一条谣言最初由用户0302发布，现需确认该内容是否可能通过转发关注链扩散至用户0714。仅基于关注关系，能否判定这条信息传播路径存在？",
+        "question": "In the social network, a fact-checking organization discovered that a rumor was initially posted by user 0302. It now needs to confirm whether this content could have spread to user 0714 through the retweeting of follow relationships. Based solely on the follower connections, can we determine whether this information dissemination path exists?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台需核查用户'0302'发布的一条谣言是否可能通过转发路径触达用户'0714'。已知用户间仅通过单向关注形成传播链，请验证该谣言传播链路是否成立？",
+        "question": "Translate to English: A certain social media platform needs to verify whether a rumor posted by user '0302' could potentially reach user '0714' through the forwarding path. It is known that the communication chain between users is formed only through one-way follows. Please verify whether the rumor transmission path is valid.",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在{社交网络背景}中，用户'0302'发布的内容能否通过关注链被'0714'浏览到？请根据单向关注关系判断是否存在从前者到后者的传播路径。",
+        "question": "In the context of {social network}, can the content published by user '0302' be seen by user '0714' through the follow chain? Please determine if there is a propagation path from the former to the latter based on the one-way following relationship.",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交媒体谣言追溯中，若用户'0302'被标记为初始传播者，能否通过关注关系链逆向确认该用户的言论可能影响到用户'0714'？请根据单向关注网络验证这种潜在传播路径是否存在。",
+        "question": "In tracing social media rumors, if user '0302' is identified as the initial disseminator, is it possible to reverse confirm that this user's statements might have influenced user '0714' through their follower relationships? Please verify whether this potential transmission path exists based on a one-way following network.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台用户0302发布了一条产品推广动态，希望通过关注链传播给用户0714进行合作。若仅考虑单向关注关系，能否确认当前关注网络中该动态的信息传播路径存在？",
+        "question": "A user (0302) on a social media platform has posted a product promotion and hopes to collaborate with user (0714) through a follower chain. If we only consider one-way follower relationships, can we confirm whether there is a path for information dissemination from the current follower network for this post?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在某个社交平台中，用户'0302'发布的一条谣言能否通过单向关注关系链传播到用户'0714'的收件箱？请根据关注路径的连通性判断是否存在这种信息扩散的可能性。",
+        "question": "Translate to English: Can a rumor posted by user '0302' on a certain social platform spread to user '0714's inbox through a one-way follow relationship chain? Please determine whether there is a possibility of such information diffusion based on the connectivity of the follow paths.",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交媒体谣言溯源任务中，需要确认用户'0302'发布的虚假信息是否可能通过单向关注链传播到用户'0714'的浏览页。根据关注关系网络，能否判定两者间存在至少一条信息传播通路？",
+        "question": "In the task of tracing the sources of rumors on social media, it is necessary to determine whether the false information posted by user '0302' could potentially spread to the browsing page of user '0714' through a one-way following chain. Based on the relationship network of followers, is it possible to ascertain whether there exists at least one information transmission path between the two users?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台正在分析信息扩散路径，用户0302发布了一条重要动态，平台需要确认该内容是否可能通过关注链传播到用户0714的浏览页面上。请问从0302到0714是否存在至少一条有效的信息传播通道？",
+        "question": "A certain social media platform is analyzing information dissemination paths. User 0302 has posted an important update, and the platform needs to confirm whether this content could potentially reach user 0714's browsing page through the following chain. Is there at least one valid information dissemination channel from 0302 to 0714?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在进行谣言溯源，需确认用户'0302'发布的谣言是否可能通过关注链传播至用户'0714'。当前关注网络中是否存在从'0302'到'0714'的信息传播路径？",
+        "question": "A certain social media platform is conducting a rumor tracing investigation and needs to confirm whether the rumor published by user '0302' could have spread to user '0714' through the follower chain. Is there currently an information transmission path in the following network from '0302' to '0714'?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络中，用户'0302'发布了一条重要消息，平台需要确认该消息是否可能通过单向关注关系链传播到用户'0714'的收件箱中。请问当前关注网络是否存在这样的传播路径？",
+        "question": "In the social network, user '0302' posted an important message, and the platform needs to confirm whether this message could possibly be transmitted to user '0714's inbox through a one-way follower relationship chain. Is there currently a transmission path in the following network that allows for this?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台的信息传播链路时，若用户'0302'发布的内容需要经过多层级关注关系扩散，是否存在一条关注路径能使该内容最终触达用户'0714'？",
+        "question": "When analyzing the information dissemination chain on a certain social media platform, if the content posted by user '0302' needs to spread through multiple layers of follow relationships, is there a follow path that allows the content to eventually reach user '0714'?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在分析用户间的信息传播效率，已知用户'0302'发布了一条重要公告，运营团队需要确认这条内容能否通过关注链的逐层转发触达用户'0714'。请问在当前关注网络中，是否存在从'0302'到'0714'的信息传播路径？",
+        "question": "A social media platform is analyzing the information dissemination efficiency among users. It is known that user '0302' has posted an important announcement, and the operations team needs to confirm whether this content can reach user '0714' through layer-by-layer forwarding along the follow chain. Is there an information dissemination path from '0302' to '0714' in the current following network?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交网络的信息传播效率时，团队需要确认用户'0302'发布的紧急通知能否通过单向关注关系链路最终触达核心用户'0714'。根据现有关注关系数据，该通知是否存在从源用户到目标用户的完整传播路径？",
+        "question": "In analyzing the information dissemination efficiency of a certain social network, the team needs to confirm whether the urgent notification published by user '0302' can ultimately reach the core user '0714' through a one-way following relationship. Based on the existing follower relationship data, is there a complete dissemination path from the source user to the target user for this notification?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在追踪一则谣言的扩散路径，已知用户'0302'是初始发布者，现需确认该谣言是否可能通过单向关注关系传播至用户'0714'，平台是否存在这样的信息扩散链路？",
+        "question": "A social media platform is tracking the spread of a rumor. It is known that user '0302' is the initial publisher, and now it needs to confirm whether the rumor could possibly spread to user '0714' through one-way follow relationships. Is there such a information diffusion path on the platform?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在核查用户‘0302’发布的一条不实信息是否可能通过关注关系触达用户‘0714’。根据关注链路分析，能否确认该虚假内容存在传播至目标用户的路径？",
+        "question": "A certain social media platform is reviewing whether a false message posted by user '0302' could reach user '0714' through their following relationships. Based on the analysis of the following connections, can we confirm whether there is a pathway for this false content to be disseminated to the target user?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在{社交网络背景}中，用户'0302'发布了一条重要动态，若消息只能通过单向关注关系传播，能否确认存在一条从该用户到用户'0714'的信息传播路径？",
+        "question": "In the context of {social network}, user '0302' has posted an important update. If the message can only spread through a one-way follow relationship, can we confirm the existence of an information propagation path from this user to user '0714'?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在某社交平台的信息传播分析中，若用户0302发布了重要动态，其粉丝网络是否可能通过多级转发路径（例如A关注B转发、B关注C再转发）使该内容最终触达用户0714？请根据关注关系验证这种传播可能性。",
+        "question": "In the analysis of information dissemination on a certain social media platform, if user 0302 publishes an important update, is it possible for their follower network to ultimately reach user 0714 through multi-level forwarding paths (for example, A follows B who then forwards, and B follows C who then forwards)? Please verify this possibility based on the follower relationships.",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台正在分析信息扩散路径，用户0302发布的一条重要通知能否通过关注关系链最终触达用户0714的收件箱？请确认该传播通道是否存在。",
+        "question": "A social media platform is analyzing the information diffusion path. Can an important notification posted by user 0302 ultimately reach user 0714's inbox through the follower relationship chain? Please confirm whether this communication channel exists.",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在分析某社交平台的信息扩散路径时，发现用户'0302'发布的紧急寻人启事需触达志愿者'0714'。根据现有关注关系网络，能否确认该信息存在从'0302'到'0714'的传播通道？",
+        "question": "In analyzing the information diffusion pathways on a certain social platform, it was found that the urgent missing person notice posted by user '0302' needs to reach volunteer '0714'. Based on the existing network of followers, is it possible to confirm if there is a channel for the information to be transmitted from '0302' to '0714'?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某社交网络谣言传播路径时，需要确认用户'0302'发布的虚假信息是否可能通过关注关系形成的转发链到达用户'0714'。请问该平台是否存在这样的传播链路？",
+        "question": "When analyzing the spread of rumors on a certain social network, it is necessary to confirm whether the false information posted by user '0302' could potentially reach user '0714' through a retweet chain formed by their following relationships. Is there such a transmission link on the platform?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在分析谣言扩散路径，若用户'0302'是谣言发起者，需检测其发布内容是否有可能通过单向关注关系链传播至用户'0714'处，请问两者间是否存在至少一条有效传播路径？",
+        "question": "A certain social media platform is analyzing the spread of rumors. If user '0302' is the originator of the rumor, it needs to determine whether the content they posted can potentially spread to user '0714' through a unidirectional following relationship chain. Is there at least one valid transmission path between the two users?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析社交网络中某条谣言的传播路径时，能否确认用户'0302'最初发布的内容可能通过关注关系链传递到用户'0714'？",
+        "question": "In analyzing the dissemination path of a rumor within a social network, can we confirm that the content initially posted by user '0302' may have been transmitted to user '0714' through the chain of following relationships?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台的信息扩散路径时，若用户'0302'发布的内容被其关注者逐级转发，能否通过这种单向传播链路触达用户'0714'？请确认该传播通道是否存在。",
+        "question": "When analyzing the information diffusion path on a certain social media platform, if the content released by user '0302' is successively shared by their followers, can this unidirectional transmission chain reach user '0714'? Please confirm whether this communication channel exists.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在{社交网络背景}中，某条由用户'0302'发起的活动倡议需要通过关注链扩散到用户'0714'，以触发关键响应。若仅考虑单向关注关系，能否确认该活动信息存在从'0302'到'0714'的传播通路？",
+        "question": "In the context of {social network}, an activity initiative initiated by user '0302' needs to spread through the attention chain to user '0714' in order to trigger a key response. If only one-way attention relationships are considered, can we confirm the existence of a communication path for the activity information from '0302' to '0714'?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，用户'0302'发布了一条重要动态，若信息仅能通过单向关注关系传播，请问该内容是否有可能经由用户间的转发路径最终触达用户'0714'？",
+        "question": "In the social network, user '0302' posted an important update. If the information can only be spread through one-way follow relationships, is it possible for that content to ultimately reach user '0714' via the forwarding path between users?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络信息传播分析中，用户'0302'发布的内容需要触达用户'0714'进行舆情监测。已知用户间存在单向关注链路，平台需验证从'0302'到'0714'是否存在至少一条信息传播通道，能否确认该传播路径的存在？",
+        "question": "In the analysis of information dissemination on social networks, the content published by user '0302' needs to reach user '0714' for public opinion monitoring. It is known that there is a unidirectional follow link between users. The platform needs to verify whether there is at least one information dissemination channel from '0302' to '0714'. Can the existence of this dissemination path be confirmed?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，用户'0302'发布了一条重要信息，能否通过关注链的传播路径最终被用户'0714'接收到？请判断是否存在这样的传递通道。",
+        "question": "In the social network, user '0302' posted an important message. Is it possible for this message to be eventually received by user '0714' through the propagation path of following connections? Please determine if such a transmission channel exists.",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某社交平台的信息传播路径时，若用户'0302'发布了一条重要公告，能否通过现有的单向关注关系链条，确认这条信息存在至少一条最终触达用户'0714'的传播通道？",
+        "question": "When analyzing the information dissemination path of a certain social platform, if user '0302' posts an important announcement, can we confirm that there exists at least one communication channel that ultimately reaches user '0714' through the existing unidirectional following relationship?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在某个社交平台中，用户'0302'发布了一条重要公告。由于平台的信息推送规则依赖关注关系，运营团队需要确认这条公告能否通过用户间的关注链传递到用户'0714'的页面。是否存在这样的传播路径？",
+        "question": "Translation: On a certain social platform, the user '0302' posted an important announcement. Since the platform's information push rules depend on the relationships of followers, the operations team needs to confirm whether this announcement can be transmitted to user '0714's page through the network of followers. Is there such a propagation path?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某社交平台的信息扩散路径时，发现用户'0302'发布的内容能否通过关注链的层级传播机制（例如A关注B转发、B关注C再转发）最终被用户'0714'接收到？",
+        "question": "When analyzing the information dissemination path on a certain social platform, we found that whether the content published by user '0302' can be ultimately received by user '0714' through the hierarchical propagation mechanism of the following chain (for example, A follows B, who then reposts, and B follows C, who then reposts) is worth investigating.",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交媒体谣言溯源分析中，需要确认用户'0302'发布的谣言是否可能通过关注链传播至用户'0714'的账户，是否存在这样的信息传播路径？",
+        "question": "In the analysis of rumor tracing on social media, it is necessary to confirm whether the rumor published by user '0302' could potentially spread to user '0714' through a chain of followers. Is there such a pathway for information dissemination?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在分析某社交平台上的活动邀请传播路径时，需要确定编号0302的用户能否通过其关注关系将邀请最终送达至编号0714的用户。是否存在这样的可行路径？",
+        "question": "When analyzing the dissemination path of activity invitations on a social platform, it is necessary to determine whether user 0302 can ultimately deliver the invitation to user 0714 through their following relationships. Is there a feasible path for this?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，用户'0302'发布了一条紧急辟谣信息，平台需要确认该内容能否通过转发链触达关键节点'0714'，以避免谣言扩散。当前关注关系网络中是否存在从'0302'到'0714'的有效传播路径？",
+        "question": "In the social network, user '0302' has posted an urgent debunking message. The platform needs to confirm whether this content can reach the key node '0714' through the forwarding chain to prevent the spread of rumors. Is there currently an effective dissemination path from '0302' to '0714' in the existing attention relationship network?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在{社交网络背景}中，用户'0302'发布的一条重要动态是否能通过关注链传播到用户'0714'？请根据关注关系判断两者之间是否存在有效的信息触达路径。",
+        "question": "In the context of {social network}, can an important update posted by user '0302' reach user '0714' through the following relationship? Please determine if there is an effective information dissemination path between the two based on their following relationships.",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络中，用户0302发布了一条重要公告，运营部门需要确认该信息能否通过用户间的单向关注关系传播至用户0714。请问当前关注网络中是否存在从0302到0714的信息传播路径？",
+        "question": "In the social network, user 0302 has posted an important announcement. The operations department needs to confirm whether this information can be disseminated to user 0714 through a one-way follow relationship between users. Is there currently a communication path from 0302 to 0714 in the existing follow network?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在分析重要公告的传播路径，若用户'0302'发布了一条政策解读，能否通过单向关注链触达用户'0714'？请验证两者间是否存在至少一条有效信息扩散通道。",
+        "question": "A certain social platform is analyzing the dissemination paths of important announcements. If user '0302' publishes a policy interpretation, can it reach user '0714' through a one-way following chain? Please verify whether there exists at least one effective information diffusion channel between the two users.",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台中，用户'0302'发布了一条紧急求助信息，需要通过关注关系链传递给公益组织账号'0714'以启动救援。请问这条信息能否通过用户间的单向关注路径触达目标账号？请确认是否存在有效传播链路。",
+        "question": "In the social platform, user '0302' posted an urgent help request that needs to be transmitted to the non-profit organization account '0714' through the follower relationship chain to initiate rescue. Can this information reach the target account through a one-way follow path between users? Please confirm if there is an effective communication link.",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某社交平台的信息传播路径时，发现用户'0302'发布了一条重要公告。现需确认该内容是否可能通过用户间的单向关注关系链，最终被用户'0714'浏览到。这种传播链路是否存在？",
+        "question": "When analyzing the information dissemination path on a certain social media platform, it was found that user '0302' posted an important announcement. We now need to confirm whether this content could potentially be viewed by user '0714' through a unidirectional follow relationship chain between users. Does such a dissemination pathway exist?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络中，用户'0302'发布的一条谣言能否通过关注链传播到用户'0714'的收件箱中？请确认是否存在这样的信息扩散路径。",
+        "question": "In the social network, can a rumor posted by user '0302' spread to user '0714's inbox through the focus chain? Please confirm whether such an information diffusion path exists.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交媒体平台中，用户'0302'发布的一条重要公告能否通过转发链传播至用户'0714'？请确认是否存在这样的信息扩散路径。",
+        "question": "In social media platforms, can an important announcement posted by user '0302' be propagated to user '0714' through a retweet chain? Please confirm if such an information diffusion path exists.",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在{社交网络背景}中，用户'0302'发布了一条新功能通知，若信息只能通过单向关注关系传播，请问这条通知是否有可能通过用户间的转发路径最终触达用户'0714'？",
+        "question": "In the context of {social network}, user '0302' posted a notification about a new feature. If the information can only be disseminated through one-way follow relationships, is it possible for this notification to eventually reach user '0714' through forwarding paths between users?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，用户'0302'发布了一则重要公告，平台需要确认该信息能否通过用户的关注关系链传播至用户'0714'。请问是否存在这样的传播路径？",
+        "question": "In the social network, user '0302' posted an important announcement, and the platform needs to confirm whether this information can be disseminated to user '0714' through the user's following relationship chain. Is there such a propagation path?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络中，用户'0302'发布了一条重要消息，能否通过关注者的转发链条最终触达用户'0714'？请判断是否存在这样的传播路径。",
+        "question": "In the social network, user '0302' posted an important message. Is it possible for this message to reach user '0714' through the retweet chain of followers? Please determine whether such a transmission path exists.",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在社交网络中，用户0302发布了一条重要谣言，需要通过关注关系传播给0714用户进行舆情管控。能否确认当前关注网络中，这条谣言内容存在从源头0302扩散到目标0714的传播链路？",
+        "question": "In the social network, user 0302 has posted an important rumor that needs to be spread to user 0714 through their connections for public opinion management. Can you confirm whether there exists a communication path in the current following network that allows the rumor to spread from the source 0302 to the target 0714?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台中，用户'0302'发布了一条重要公告。由于平台信息通过关注链传播，运营团队需要确认用户'0714'是否有可能通过转发链条看到该公告。已知用户间的关注为单向关系，请问仅基于关注路径分析，这条信息是否存在从'0302'流向'0714'的可能性？",
+        "question": "In a certain social platform, user '0302' has posted an important announcement. Since information on the platform spreads through a follow chain, the operations team needs to confirm whether user '0714' might see the announcement through a retweet chain. It is known that the following relationship between users is one-way. Based solely on the follow path analysis, is there a possibility for this information to flow from '0302' to '0714'?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某社交平台的信息传播链路时，我们发现用户'0302'发布的热点新闻是否可能通过关注关系的逐层转发，最终触达用户'0714'的浏览界面？请确认两账号间是否存在这样的传播路径。",
+        "question": "When analyzing the information dissemination chain on a certain social platform, we found that is it possible for the trending news published by user '0302' to reach user '0714' through layer-by-layer forwarding linked by their following relationships? Please confirm if such a dissemination path exists between the two accounts.",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在{社交网络背景}中，用户'0302'发布的一条紧急求助信息需要通过关注关系逐层扩散，请问当前关注关系网络中，这条信息是否可能通过用户间的单向关注链路最终触达用户'0714'？",
+        "question": "In the context of {social networks}, a distress message posted by user '0302' needs to spread through the follower relationships layer by layer. Is it possible for this message to ultimately reach user '0714' through unidirectional follower links in the current follower relationship network?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络中，用户'0302'发布的重要通知能否通过关注关系链传递到用户'0714'？请确认是否存在这样的单向信息传播路径。",
+        "question": "In the social network, can the important notification published by user '0302' be transmitted to user '0714' through the following relationship chain? Please confirm whether such a unidirectional information propagation path exists.",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台的谣言扩散路径时，若发现编号0302的用户最早发布不实信息，能否通过关注链条将谣言传播至编号0714的用户？请确认两者间是否存在至少一条信息传递通道。",
+        "question": "In analyzing the rumor propagation path on a certain social platform, if it is found that user 0302 was the first to publish false information, can the rumor be spread to user 0714 through the attention chain? Please confirm whether there is at least one channel of information transmission between the two users.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，用户‘0302’发布了一条谣言，平台需要核查该内容是否可能通过关注关系传播到用户‘0714’的浏览界面。请问根据当前的关注链路，是否存在这样的信息扩散路径？",
+        "question": "In the social network, the user '0302' has posted a rumor, and the platform needs to verify whether this content could spread to the browsing interface of user '0714' through their connections. According to the current following relationships, is there such a diffusion path for this information?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在虚假账号检测中，需确认可疑账号'0302'是否通过单向关注关系形成的链条能间接触达用户'0714'，从而判断其是否属于同一操控网络。当前网络中该路径是否存在？",
+        "question": "In the detection of fake accounts, it is necessary to confirm whether the suspicious account '0302' can indirectly reach the user '0714' through a one-way follow relationship, in order to determine if they belong to the same control network. Does this path currently exist in the network?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台安全团队发现用户'0302'疑似属于虚假账号群组，需核查该账号是否通过多层关注关系间接操控或影响用户'0714'的信息传播。根据当前关注网络拓扑，能否确认从'0302'到'0714'存在至少一条有效传播路径？",
+        "question": "The security team of a certain social media platform has found that the user '0302' is suspected to belong to a group of fake accounts. It is necessary to verify whether this account indirectly manipulates or influences the information dissemination of user '0714' through multiple layers of follow relationships. Based on the current follower network topology, can we confirm that there is at least one valid dissemination path from '0302' to '0714'?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在虚假账号检测中，发现用户0302在三天内集中关注了数百个陌生账号，安全团队怀疑该账号试图通过多层转发关系向营销号0714输送流量。请根据关注关系数据确认，是否存在从0302到0714的可达路径？",
+        "question": "In the detection of fake accounts, it was found that user 0302 concentrated on following hundreds of unfamiliar accounts within three days. The security team suspects that this account is attempting to direct traffic to marketing account 0714 through multiple layers of forwarding relationships. Please confirm based on the following relationship data whether there is a reachable path from 0302 to 0714.",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台发现账号0302存在大量单向关注异常行为，疑似虚假账号。调查需确认其是否通过多层中间账号间接关联到活跃用户0714，从而伪造社交影响力。当前关注网络中能否找到从0302到0714的可行路径？",
+        "question": "A certain social media platform has identified a significant amount of one-way follow behavior associated with account 0302, which is suspected to be a fake account. An investigation is needed to confirm whether it is indirectly linked to the active user 0714 through multiple intermediary accounts, thus fabricating social influence. Is there a feasible path that can be found within the current follow network from 0302 to 0714?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在调查虚假账号“0302”时，安全团队发现其可能通过伪造关注链接触真实用户“0714”进行信息操纵。若仅基于关注关系，能否确认从“0302”到“0714”存在至少一条有效路径？",
+        "question": "During the investigation of the false account \"0302,\" the security team discovered that it might be manipulating information by forging follow links to the real user \"0714.\" Based solely on the follow relationship, can we confirm that there is at least one valid path from \"0302\" to \"0714\"?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台安全团队发现虚假账号'0302'疑似通过多层转发传播虚假信息，需确认其关注链路是否能直接或间接触达高风险账号'0714'，是否存在此类关联路径？",
+        "question": "The security team of a certain social media platform has discovered that the fake account '0302' is suspected of spreading false information through multiple layers of forwarding. It is necessary to confirm whether its follow chain can directly or indirectly reach the high-risk account '0714' and whether there are any associated pathways.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在虚假账号检测中，发现疑似水军账号'0302'频繁创建异常关注链，请确认该账号是否能够通过单向关注路径触达被保护账号'0714'，以判断是否存在潜在恶意操控行为？",
+        "question": "In the detection of fake accounts, it has been noted that the suspected \"water army\" account '0302' frequently creates abnormal follow chains. Please confirm whether this account can reach the protected account '0714' through a one-way follow path, in order to determine if there are potential malicious manipulation behaviors.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在虚假账号检测中，安全团队怀疑账号'0302'通过虚假关注链操控账号'0714'的活跃行为。若仅基于关注关系，能否确认从'0302'到'0714'存在至少一条单向传播路径？",
+        "question": "In the detection of fake accounts, the security team suspects that account '0302' manipulated the activity of account '0714' through a fake follower chain. Based solely on the follower relationship, can we confirm that there is at least one unidirectional propagation path from '0302' to '0714'?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "平台近期打击虚假账号时，发现可疑账号0302频繁关注新注册用户，而用户0714被举报存在群发营销信息行为。为确认这两个异常账号是否存在操控关联，需要核查从0302到0714是否具有单向关注路径？",
+        "question": "Recently, the platform discovered during a crackdown on fake accounts that the suspicious account 0302 frequently follows newly registered users, while user 0714 has been reported for sending bulk marketing messages. To verify whether these two abnormal accounts are related, it is necessary to check if there is a one-way follow path from 0302 to 0714.",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台的安全团队发现用户'0302'近期突然密集关注多个新注册账号，怀疑其可能是虚假账号的操控者。已知恶意账号'0714'涉及非法信息传播，请通过关注关系分析确认：是否存在一条从'0302'通过间接关注链最终连接到'0714'的路径？",
+        "question": "The security team of a certain social platform has discovered that user '0302' has recently been following multiple newly registered accounts in quick succession, raising suspicions that they may be the operator of fake accounts. It is known that the malicious account '0714' is involved in the dissemination of illegal information. Please analyze the relationship through following connections to confirm whether there is a path that connects '0302' to '0714' via an indirect following chain.",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在虚假账号排查中，发现账号'0302'存在异常关注行为。安全团队需要确认该账号是否通过单向关注链条与营销黑产账号'0714'产生关联，从而判定其是否参与传播恶意内容。当前需验证：从节点0302出发，能否沿着关注关系路径抵达节点0714？",
+        "question": "During the investigation of fake accounts, abnormal follow behavior was found for the account '0302'. The security team needs to confirm whether this account is linked to the marketing black market account '0714' through a unidirectional follow chain in order to determine if it has participated in spreading malicious content. Currently, it is necessary to verify: starting from node '0302', can we reach node '0714' along the follow relationship path?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台安全团队发现账号'0302'近期突然大量关注陌生用户，随后账号'0714'出现异常登录行为。为确认这两个可疑账号是否存在关联，需要核查关注关系网络中是否存从'0302'到'0714'的可达路径？",
+        "question": "The security team of a certain social media platform discovered that the account '0302' recently started following a large number of unfamiliar users, and subsequently, the account '0714' exhibited abnormal login behavior. To confirm whether there is any association between these two suspicious accounts, it is necessary to check if there exists a reachable path from '0302' to '0714' within the following relationship network.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台安全团队发现账号‘0302’被判定为虚假账号，现需核查其是否通过单向关注链路关联到另一被标记的异常账号‘0714’。请问从‘0302’到‘0714’是否存在至少一条有效关注路径？",
+        "question": "The security team of a certain social media platform has determined that the account '0302' is a false account. They now need to verify whether it is linked to another flagged abnormal account '0714' through a one-way follow connection. Is there at least one valid follow path from '0302' to '0714'?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在调查某虚假账号群组时，发现账号0302疑似通过多层转发关联操控信息扩散。若仅基于关注链路，能否确认该账号存在通向目标账号0714的传播路径以支持协同造假假设？",
+        "question": "When investigating a group of fraudulent accounts, it was found that account 0302 is suspected of spreading information through multi-layer forwarding and associated manipulation. Based solely on the attention links, can we confirm that there is a propagation path from this account to the target account 0714 to support the hypothesis of collaborative fraud?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台在虚假账号排查中发现，可疑主账号'0302'通过单向关注链操控下游账号进行恶意活动。现需验证该账号是否与目标账号'0714'存在直接或间接的关注路径，以判定其是否属于同一操控网络。当前数据中能否确认从'0302'到'0714'的传播链路存在？",
+        "question": "A certain social media platform found during its investigation of fake accounts that the suspicious main account '0302' was manipulating downstream accounts to engage in malicious activities through a one-way follow chain. It is now necessary to verify whether this account has a direct or indirect follow path to the target account '0714' in order to determine if they belong to the same manipulation network. Can the current data confirm the existence of a transmission link from '0302' to '0714'?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在监测虚假账号异常关注行为时，发现可疑账号'0302'近期活动频繁，需确认其是否通过多层转发或间接关注关系关联到目标账号'0714'，当前网络中是否存在这样的传播路径？",
+        "question": "When monitoring abnormal attention behaviors of fake accounts, it was found that the suspicious account '0302' has been very active recently. We need to confirm whether it is connected to the target account '0714' through multiple layers of forwarding or indirect relationships. Is there currently such a transmission path in the network?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台安全团队发现用户'0302'存在异常行为，疑似虚假账号，需确认该账号是否通过单向关注关系与已被标记的恶意账号'0714'形成传播链路。请问当前网络数据中是否存在从0302到0714的连通路径？",
+        "question": "The security team of a certain social platform has discovered that user '0302' exhibits abnormal behavior, suspected to be a false account. It is necessary to confirm whether this account has formed a transmission link with the marked malicious account '0714' through a one-way follow relationship. Is there currently a connection path in the network data from 0302 to 0714?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在调查某社交网络虚假账号操控信息传播的案例中，需确认嫌疑账号0302是否能通过单向关注链触达账号0714，从而证明两者存在违规联动关系。请问当前网络中是否存在这样的传播路径？",
+        "question": "In the investigation of a case involving the manipulation of information dissemination by fake accounts on a social network, it is necessary to confirm whether the suspect account 0302 can reach account 0714 through a one-way following chain, thereby demonstrating the existence of a violation-linked relationship between the two accounts. Is there currently such a dissemination path in the network?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在虚假账号检测中，调查人员发现账号0302存在异常关注行为，需确认该账号是否通过转发或间接关注路径连接到已被封禁的营销号0714，以判定其是否属于同一团伙操控？",
+        "question": "In the detection of fake accounts, investigators found abnormal following behavior associated with account 0302. It is necessary to confirm whether this account is connected to the banned marketing account 0714 through forwarding or indirect following channels, in order to determine if they are controlled by the same group.",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在近期虚假账号检测中，发现账号0302可能通过多层转发操控信息流。若0714是被举报的水军账号，能否确认0302到0714存在关注路径，从而判定关联性？",
+        "question": "In the recent detection of fake accounts, it has been found that account 0302 may manipulate the information flow through multi-layer forwarding. If 0714 is a reported bot account, can we confirm a follow path from 0302 to 0714 in order to establish a correlation?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在调查一起虚假账号传播虚假信息的案件时，发现编号0302的嫌疑账号可能存在通过多层转发操控舆论的行为。现需确认该账号是否直接或间接关注过编号0714的受害者账号，从而形成信息传播链路，该路径是否存在？",
+        "question": "During the investigation of a case involving a fake account spreading false information, it was found that the suspect account numbered 0302 may be involved in manipulating public opinion through multi-layered forwarding. It is now necessary to verify whether this account has directly or indirectly followed the victim account numbered 0714, thereby creating an information dissemination chain. Is such a path present?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台安全团队发现疑似虚假账号\"0302\"，需调查其是否通过多层转发操控账号\"0714\"。若仅分析关注关系，当前网络中能否确认从\"0302\"到\"0714\"存在单向传播路径？",
+        "question": "The security team of a certain social media platform has discovered a suspected fake account \"0302\" and needs to investigate whether it is manipulating account \"0714\" through multi-layer forwarding. If we only analyze the following relationships, can we confirm whether there is a unidirectional propagation path from \"0302\" to \"0714\" in the current network?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在虚假账号检测中，发现账号0302存在异常关注行为，需确认其是否通过单向关注链与已知封禁账号0714产生关联，从而判定其风险性。请问系统中是否存在从0302到0714的关联路径？",
+        "question": "In the fake account detection process, it has been found that account 0302 exhibits abnormal following behavior. It is necessary to confirm whether it is associated with the known banned account 0714 through a one-way following chain, in order to assess its risk level. Is there an existing connection path from 0302 to 0714 in the system?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在虚假账号检测中，发现疑似机器人账号\"0302\"存在异常关注行为，需确认其是否通过单向关注链路间接触达被保护用户\"0714\"，从而实施信息渗透。当前关注关系网络中是否存在这样的传播路径？",
+        "question": "In the detection of fake accounts, abnormal following behavior was found from the suspected bot account \"0302.\" It needs to be confirmed whether it indirectly reached the protected user \"0714\" through a one-way following chain, thereby implementing information infiltration. Is there such a transmission path in the current follow relationship network?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "平台检测到账号'0302'疑似为虚假身份注册，调查发现其可能通过多层关注链操控信息扩散至账号'0714'以实施欺诈。为验证该账号是否具备定向传播能力，需确认从'0302'到'0714'是否存在至少一条有效关注路径？",
+        "question": "The platform has detected that the account '0302' is suspected of being registered with a false identity. Investigations have found that it may manipulate information to spread to account '0714' through a multi-layered attention chain in order to commit fraud. To verify whether this account has the capability for targeted dissemination, it is necessary to confirm whether there is at least one valid attention path from '0302' to '0714'.",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "平台监测到账号0302可能属于某个虚假账号群组，需要确认该账号是否通过关注关系与另一个可疑账号0714存在连接路径，能否从关注网络中验证这一关联？",
+        "question": "The platform has detected that account 0302 may belong to a group of fake accounts. We need to confirm whether this account is connected to another suspicious account, 0714, through a following relationship. Can we verify this connection from the following network?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "安全团队在调查一起虚假账号操控案件时，发现可疑账号'0302'存在异常关注行为。现需确认该账号是否通过多层关注链路与被标记的营销傀儡账号'0714'存在操控关联，请问系统中能否从节点'0302'追溯到节点'0714'？",
+        "question": "The security team, while investigating a case of fake account manipulation, discovered that the suspicious account '0302' exhibited abnormal following behavior. We now need to confirm whether this account is linked to the flagged marketing puppet account '0714' through a multi-layer following chain. Can the system trace back from node '0302' to node '0714'?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "平台发现虚假账号'0302'存在密集关注行为，疑似操控傀儡账号刷量。为追溯其操纵链路，需核查该账户能否通过单向关注关系触达被异常推广的营销大V'0714'，请问两者之间是否存在连通路径？",
+        "question": "The platform has discovered that the fake account '0302' is exhibiting concentrated follow behavior, suspected of manipulating a puppet account to inflate metrics. To trace its manipulation chain, it is necessary to verify whether this account can reach the unusually promoted marketing influencer '0714' through a one-way follow relationship. Is there a connection path between the two?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "安全团队在调查虚假账号时，发现疑似水军核心账号'0302'存在异常关注模式。现需确认该账号是否通过单向关注链路与营销诈骗账号'0714'形成潜在操控路径，请验证从节点0302到0714是否存在至少一条有效传播路径？",
+        "question": "The security team discovered an unusual following pattern associated with the suspected core account '0302' while investigating fake accounts. It is now necessary to confirm whether this account has a potential manipulation path through a one-way following link to the marketing scam account '0714'. Please verify if there is at least one effective communication path from node 0302 to 0714.",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在虚假账号检测任务中，调查员发现编号0302的账号存在异常关注行为，需确认其是否通过单向关注链与被标记的虚假主账号0714存在间接关联。根据当前网络关系，能否从0302出发追踪到0714？",
+        "question": "In the task of detecting fake accounts, the investigator found that account number 0302 exhibited abnormal following behavior. It is necessary to confirm whether it has an indirect connection to the marked fake main account 0714 through a one-way following chain. Based on the current online relationships, is it possible to trace from 0302 to 0714?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台安全团队发现虚假账号'0302'频繁关注异常用户，现需追溯其是否通过多层关注关系间接触达高风险账号'0714'以实施欺诈。请问仅基于单向关注链路，能否确认从'0302'到'0714'存在传播路径？",
+        "question": "The security team of a certain social media platform has discovered that the fake account '0302' frequently follows abnormal users. They need to investigate whether it indirectly reached the high-risk account '0714' through multiple layers of follow relationships to carry out fraud. Can it be confirmed that there is a transmission path from '0302' to '0714' based solely on a one-way follow chain?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台调查发现虚假账号常通过多层关注关系联动传播信息，现需核查编号0302的疑似账号是否可能通过单向关注链触达编号0714的账号，从而判定两者是否存在协同操控行为。请问当前网络中能否确认存在从0302到0714的可达路径？",
+        "question": "A survey conducted by a social media platform found that fake accounts often disseminate information through multiple layers of following relationships. It is now necessary to check whether the suspected account numbered 0302 can reach account numbered 0714 through a unidirectional following chain, in order to determine whether there is any collaborative manipulation between the two accounts. Is it currently possible to confirm the existence of a reachable path from 0302 to 0714 within the network?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在虚假账号检测中，需要确认可疑账号'0302'是否通过多层转发或关注关系将信息传播至目标账号'0714'，是否存在此类单向传播路径？",
+        "question": "In the detection of fake accounts, it is necessary to confirm whether the suspicious account '0302' has disseminated information to the target account '0714' through multi-layer forwarding or following relationships. Is there such a one-way transmission path?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在虚假账号检测中，发现账号0302存在异常关注行为，需确认其是否通过多层转发路径与目标账号0714连通，从而判定该账号是否属于利用关注链路进行垃圾信息传播的机器人网络成员？",
+        "question": "In the detection of fake accounts, it was found that account 0302 exhibits abnormal following behavior. It is necessary to verify whether it is connected to the target account 0714 through a multi-layer forwarding path, in order to determine if this account is a member of a bot network that uses following links for the dissemination of spam information.",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台检测到账号0302近期大量关注陌生账号，安全团队怀疑其为虚假账号操控节点，需确认该账号是否通过单向关注链路与已被封禁的虚假账号0714存在关联。请问从节点0302出发能否到达节点0714？",
+        "question": "Translation: A certain social media platform has detected that account 0302 has recently followed a large number of unfamiliar accounts. The security team suspects that it may be a manipulation node for fake accounts. It is necessary to confirm whether this account has a connection via a one-way following chain with the banned fake account 0714. Could you please confirm if it's possible to reach node 0714 from node 0302?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "平台发现账号0302涉嫌操控虚假信息扩散，调查其是否通过单向关注链接触达目标账号0714，从而形成传播路径。请问当前网络中是否存在从0302到0714的可达路径？",
+        "question": "The platform has discovered that account 0302 is suspected of manipulating the spread of false information and is investigating whether it has reached the target account 0714 through a one-way follow link, thus forming a communication path. Could you please confirm if there is currently a reachable path from 0302 to 0714 in the network?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台的安全团队发现用户'0302'存在异常行为，怀疑其为虚假账号，需核查该账号是否通过关注链间接关联到目标用户'0714'以判断是否存在操控行为。请验证从'0302'到'0714'的路径是否存在？",
+        "question": "The security team of a certain social media platform discovered that user '0302' is exhibiting abnormal behavior and suspects it to be a fake account. They need to verify whether this account is indirectly connected to the target user '0714' through a following chain in order to determine if any manipulation is taking place. Please check if a path exists from '0302' to '0714'.",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "安全团队发现账号“0302”存在异常关注行为，疑似虚假账号通过伪造关注链操控流量。现需核实该账号是否能够通过单向关注关系触达被异常引流的主账号“0714”，从而判定其违规行为。请问从“0302”到“0714”是否存在单向连接路径？",
+        "question": "The security team has detected abnormal follow behavior associated with the account \"0302,\" suspected to be a fake account manipulating traffic through a forged follow chain. It is now necessary to verify whether this account can reach the main account \"0714\" through a one-way follow relationship, in order to determine any violations. Is there a one-way connection path from \"0302\" to \"0714\"?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台安全团队发现账号\"0302\"存在异常行为，疑似虚假账号。经调查，该账号近期突然大量单向关注多个新注册用户，且部分被关注账号与传播不实信息的终端账号\"0714\"存在关联。为验证其操控链条，需确认从账号\"0302\"出发是否能通过单向关注路径触达终端账号\"0714\"？",
+        "question": "The security team of a certain social platform discovered unusual behavior from the account \"0302,\" which is suspected to be a fake account. After investigation, it was found that this account recently started to follow a large number of newly registered users in a one-way manner, and some of the followed accounts are associated with the terminal account \"0714,\" which spreads false information. To verify its manipulation chain, it is necessary to confirm whether it is possible to reach the terminal account \"0714\" through a one-way following path starting from the account \"0302.\"",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在调查某虚假账号的传播路径时，发现其注册编号为0302的初始账号通过多层关注关系扩散信息。安全团队需要验证该账号是否与异常活动节点0714存在关联链路，能否确认两者之间存在单向关注路径？",
+        "question": "During the investigation of the dissemination path of a certain fake account, it was found that the initial account with registration number 0302 spread information through multiple layers of follow relationships. The security team needs to verify whether this account is linked to the anomaly activity node 0714 and if it can be confirmed that there is a one-way follow path between the two.",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在监测虚假账号集群时，发现可疑账号'0302'可能通过多层转发操控舆论，需核查其是否能够通过单向关注链路最终触达被操纵账号'0714'，从而确认该虚假网络的核心传播链。请问从'0302'到'0714'是否存在至少一条有效路径？",
+        "question": "When monitoring clusters of fake accounts, a suspicious account '0302' is found that may manipulate public opinion through multiple layers of forwarding. It is necessary to verify whether it can ultimately reach the manipulated account '0714' through a one-way follow link, in order to confirm the core dissemination chain of this fake network. Is there at least one valid path from '0302' to '0714'?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某社交平台安全团队发现虚假账号'0302'近期异常活跃，需确认该账号是否通过关注链间接关联到已被封禁的账号'0714'，以此判断虚假网络是否存在扩散风险。请问从'0302'到'0714'的传播路径是否成立？",
+        "question": "The security team of a certain social media platform has discovered that the fake account '0302' has been unusually active recently. They need to confirm whether this account is indirectly associated with the banned account '0714' through a follow chain, in order to assess whether there is a risk of the fake network spreading. Could you please confirm if the transmission path from '0302' to '0714' is valid?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "平台监测到编号0302的疑似虚假账号近期密集关注了一批异常账户，调查人员需要确认该账号是否可能通过单向关注链间接操纵被举报的营销号0714。根据当前关注关系网络，能否证实存在从0302到0714的传播路径？",
+        "question": "The platform has detected that the suspected fake account numbered 0302 has recently been intensely focusing on a batch of abnormal accounts. Investigators need to confirm whether this account may have indirectly manipulated the reported marketing account 0714 through a one-way follow chain. Based on the current follow relationship network, can it be verified if there is a transmission path from 0302 to 0714?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台监测到用户0302存在异常关注行为，其部分关注对象涉嫌虚假账号。调查需确认该账号是否通过单向关注链路与高危欺诈账号0714存在关联。请问当前网络中从0302到0714是否存在可达路径？",
+        "question": "Translation: A certain social media platform has detected abnormal following behavior from user 0302, with some of the accounts being followed suspected to be false accounts. An investigation is needed to confirm whether this account has a one-way following link associated with the high-risk fraudulent account 0714. Is there currently a reachable path from 0302 to 0714 in the network?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台安全团队发现用户'0302'存在大量异常关注行为，怀疑其为虚假账号操控节点。经调查，其可能通过多层关联间接关注被封禁的恶意账号'0714'。请验证是否存从'0302'到'0714'通过关注关系形成的路径，以确认该虚假账号是否与黑产网络存在控制链路？",
+        "question": "The security team of a certain social media platform discovered that user '0302' exhibited a large amount of abnormal follow behavior, suspecting it to be a node controlled by a fake account. After investigation, it is possible that this user has indirectly followed the banned malicious account '0714' through multiple layers of connections. Please verify whether there is a path formed by the follow relationships from '0302' to '0714' to confirm if this fake account has a control link with the underground industry network.",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在虚假账号调查中，可疑账户“0302”被监测到存在异常关注行为。安全团队需要验证该账号是否能通过单向关注链路触达近期被举报造谣的用户“0714”，从而确认其传播链条的完整性。请问系统中是否存在从“0302”到“0714”的完整传播路径？",
+        "question": "In the investigation of fake accounts, the suspicious account \"0302\" has been detected exhibiting abnormal following behavior. The security team needs to verify whether this account can reach the recently reported user \"0714,\" who is accused of spreading rumors, through a one-way following link, in order to confirm the integrity of the transmission chain. Is there a complete transmission path from \"0302\" to \"0714\" in the system?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在调查涉嫌虚假账号‘0302’时，发现其可能通过多层虚假关注关系向目标账号‘0714’传递垃圾信息。为验证这一操控链是否成立，能否确认从‘0302’到‘0714’存在至少一条单向关注路径？",
+        "question": "During the investigation of the suspected fake account ‘0302’, it was found that it might be transmitting spam messages to the target account ‘0714’ through multiple layers of fake follower relationships. To verify whether this manipulation chain holds, can we confirm if there is at least one one-way follower path from ‘0302’ to ‘0714’?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台安全团队发现账号0302存在异常关注行为，怀疑是虚假账号操控网络的一部分。现需确认该账号能否通过单向关注链触达已被封禁的营销号0714，从而判定其是否参与违规传播链条。请问当前网络中是否存在从节点0302到0714的可行路径？",
+        "question": "The security team of a certain social media platform has discovered abnormal follow behavior associated with account 0302 and suspects that it may be part of a network operated by fake accounts. They now need to confirm whether this account can reach the banned marketing account 0714 through a one-way follow chain, in order to determine if it is involved in the illegal dissemination chain. Is there a viable path in the current network from node 0302 to 0714?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台安全团队发现账号0302涉嫌伪造身份，在追查其关联网络时，注意到其部分关注行为疑似指向营销号0714。现需验证这两个可疑账号之间是否存在单向信息传播路径，能否确认从0302出发能通过关注链路抵达0714？",
+        "question": "The security team of a certain social platform has discovered that account 0302 is suspected of identity forgery. While investigating its associated network, they noticed that some of its following behavior appears to indicate a connection to marketing account 0714. It is now necessary to verify whether there exists a one-way information flow between these two suspicious accounts, specifically if it can be confirmed that one can reach 0714 through the following chain starting from 0302.",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "平台监测到疑似虚假账号'0302'存在异常关注行为，安全团队需要核实该账号是否通过单向关注链与用户'0714'相连，从而判定其是否试图伪装成正常用户进行传播。当前网络中是否存在从'0302'到'0714'的可达路径？",
+        "question": "The platform has detected abnormal following behavior from a suspected fake account '0302'. The security team needs to verify whether this account is connected to user '0714' through a one-way follow chain in order to determine if it is attempting to disguise itself as a normal user for dissemination purposes. Is there a reachable path from '0302' to '0714' in the current network?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在虚假账号排查中，发现账号0302存在异常关注行为，需确认其是否通过单向关注链与目标账号0714产生关联。请问当前社交网络数据中，能否从0302节点通过关注路径抵达0714节点？",
+        "question": "During the investigation of fake accounts, it was found that account 0302 exhibits abnormal following behavior. We need to confirm whether it is connected to the target account 0714 through a one-way following chain. Can the current social network data show if it is possible to reach node 0714 from node 0302 through the following path?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在虚假账号调查中，检测到账号'0302'存在异常行为特征，现需核查该账号是否通过关注链路关联到已被封禁的头部营销账号'0714'。根据关注关系数据，能否确认从节点'0302'到节点'0714'存在至少一条有效传播路径？",
+        "question": "In the investigation of fake accounts, abnormal behavioral characteristics have been detected for account '0302'. It is now necessary to verify whether this account is linked to the banned top marketing account '0714' through a follow chain. Based on the follow relationship data, can it be confirmed that there is at least one valid transmission path from node '0302' to node '0714'?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "安全团队正在调查某虚假账号网络，发现可疑账号'0302'存在异常密集关注行为。请验证该账号是否可能通过关注链间接操控或关联到被举报的诈骗账号'0714'？",
+        "question": "The security team is investigating a network of fraudulent accounts and has discovered that the suspicious account '0302' is exhibiting unusually high engagement behavior. Please verify whether this account could potentially manipulate or be linked to the reported scam account '0714' through a following chain.",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在最近的虚假账号打击行动中，安全团队怀疑用户0302通过多层关注关系将流量导向已知的虚假营销号0714。请确认是否存在从0302到0714的关注路径，以判断其是否属于同一操纵网络？",
+        "question": "In the recent crackdown on fake accounts, the security team suspects that user 0302 is directing traffic to the known fake marketing account 0714 through multiple layers of follower relationships. Please confirm whether there is a following path from 0302 to 0714 in order to determine if they belong to the same manipulation network.",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在虚假账号检测任务中，调查人员发现账号0302疑似通过伪造关注链路与传播恶意链接的账号0714产生关联。为确认该异常行为，需要核查社交网络中是否存在从0302出发最终能抵达0714的关注路径？",
+        "question": "In the task of detecting fake accounts, investigators found that account 0302 is suspected of being associated with account 0714, which spreads malicious links, through a forged follower network. To confirm this abnormal behavior, it is necessary to check whether there exists a follower path in the social network that starts from 0302 and can eventually reach 0714.",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在调查虚假账号\"0302\"时，发现其可能通过多层关注关系将垃圾信息传递给用户\"0714\"。根据当前社交网络的关注链数据，能否确认存在从该虚假账号到目标用户的传播路径？",
+        "question": "When investigating the fake account \"0302,\" it was discovered that it may be passing spam information to the user \"0714\" through multiple layers of follow relationships. Based on the current follow chain data of the social network, can we confirm the existence of a transmission path from this fake account to the target user?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台安全团队发现账号'0302'存在异常行为，疑似虚假账号操控信息传播。现需核查该账号是否通过单向关注链接触达高活跃账号'0714'，从而判断其是否参与恶意影响力扩散。请问当前网络数据中是否存在从'0302'到'0714'的可达路径？",
+        "question": "The security team of a certain social platform has discovered abnormal behavior associated with the account '0302', which is suspected to be a fake account manipulating information dissemination. We need to verify whether this account reached the highly active account '0714' through a one-way follow link, in order to determine if it is involved in malicious influence dissemination. Is there currently a reachable path from '0302' to '0714' in the available network data?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "平台监测到编号0302的账号疑似虚假营销号，其发布内容通过多层转发触达了大量用户。现需核查该账号是否通过关注关系网络间接影响到了编号0714的真实用户，能否确认从0302到0714存在至少一条有效传播路径？",
+        "question": "The platform has detected that account number 0302 is suspected of being a false marketing account, as its published content has reached a large number of users through multiple layers of forwarding. We now need to verify whether this account has indirectly influenced real users of account number 0714 through the relationship network. Can we confirm that there is at least one valid communication path from 0302 to 0714?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在虚假账号排查专项行动中，发现可疑账号'0302'存在异常关注行为。经初步调查，该账号可能通过多级跳转操控营销僵尸账号'0714'，请验证从'0302'到'0714'是否存在单向传播路径以确认关联性？",
+        "question": "In the special operation to investigate fake accounts, a suspicious account '0302' was found to exhibit abnormal follow behavior. Preliminary investigations suggest that this account may be manipulating the marketing zombie account '0714' through multiple levels of redirects. Please verify whether there is a one-way transmission path from '0302' to '0714' to confirm the correlation.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台安全团队发现用户'0302'存在异常发帖行为，怀疑其为虚假账号操控者。现需确认该账号是否通过关注链与已被标记的虚假账号'0714'存在潜在关联，以便决定是否进行封禁处理。请问当前网络中是否存在从'0302'到'0714'的可达路径？",
+        "question": "The security team of a certain social media platform has discovered abnormal posting behavior from user '0302' and suspects that it may be operated by a fake account controller. It is now necessary to confirm whether there exists a potential link between this account and the already flagged fake account '0714' through a follower chain, in order to decide whether to take action for banning. Is there currently a reachable path from '0302' to '0714' in the network?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络的推广活动中，为了确定是否将用户'0302'选为种子用户以最大化影响力覆盖到用户群体G，需要确认从'0302'到目标用户'0714'是否存在单向关注传播路径。当前网络中能否通过关注链确保信息从'0302'直接或间接触达'0714'？",
+        "question": "In the promotional activities on social networks, in order to determine whether to select user '0302' as a seed user to maximize the impact on user group G, it is necessary to confirm whether there is a one-way followship propagation path from '0302' to the target user '0714'. Can we ensure that information reaches '0714' directly or indirectly through the follow chain in the current network?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台计划测试用户'0302'作为信息源的影响力传播范围，需确认其发布的内容能否通过单向关注链触达用户'0714'，以评估潜在的信息扩散效果。当前网络中是否存在从'0302'到'0714'的传播路径？",
+        "question": "A certain social media platform plans to test the influence and dissemination range of user '0302' as an information source. It needs to confirm whether the content published by '0302' can reach user '0714' through a one-way follow chain, to evaluate the potential information diffusion effect. Is there currently a transmission path from '0302' to '0714' in the network?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某平台计划通过影响力最大化策略精准推送热点内容，需确认从核心用户'0302'出发，是否至少存在一条有效的信息传播路径能够最终覆盖目标用户'0714'？",
+        "question": "A certain platform plans to precisely push trending content through an influence maximization strategy. It needs to confirm whether there is at least one valid information dissemination path starting from the core user '0302' that can ultimately reach the target user '0714'.",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台的市场团队计划借助用户0302的影响力进行活动推广，需确认其关注关系链是否能自然扩散至目标用户0714。根据当前网络结构，是否存在从节点0302到0714的单向传播路径？",
+        "question": "The marketing team of a certain social media platform plans to leverage the influence of user 0302 for promotional activities and needs to confirm whether their relationship chain can naturally extend to the target user 0714. Based on the current network structure, is there a one-way dissemination path from node 0302 to 0714?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交媒体平台正在评估信息传播路径的有效性，若用户'0302'发布重要公告，能否通过关注链的自然扩散触达核心用户'07114'？请确认该公告理论上是否存在从'0302'到'07114'的完整传播链路。",
+        "question": "A certain social media platform is evaluating the effectiveness of information dissemination paths. If user '0302' publishes an important announcement, can it reach the core user '07114' through the natural spread of the following chain? Please confirm whether, theoretically, there exists a complete dissemination pathway from '0302' to '07114'.",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某社交平台正在评估信息扩散效率，品牌方计划通过关键用户0302的影响力触达潜在客户0714。若仅考虑单向关注关系，能否确认从节点0302出发的传播链是否能覆盖节点0714？",
+        "question": "A certain social media platform is evaluating the efficiency of information diffusion. The brand intends to reach potential customer 0714 through the influence of key user 0302. If we only consider one-way follower relationships, can we confirm whether the communication chain starting from node 0302 can cover node 0714?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在社交平台的推广活动中，若选择用户0302作为初始传播节点，其关注链能否触达影响力排名前10的0714大V？需确认是否存在从0302到0714的完整传播路径以确保信息扩散效果。",
+        "question": "In the promotional activities on social media platforms, if user 0302 is chosen as the initial dissemination node, can their following chain reach the influencer 0714, who ranks in the top 10 in terms of influence? It is necessary to verify whether there is a complete dissemination path from 0302 to 0714 to ensure the effectiveness of information diffusion.",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "市场团队希望借助用户0302的影响力将新活动扩散至用户0714，是否需要引入额外的关键节点，还是现有关注网络已存在连接路径？",
+        "question": "The marketing team hopes to leverage the influence of user 0302 to spread the new campaign to user 0714. Should we introduce additional key nodes, or do existing connections in the current network already provide a path?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台正在策划一场公益活动，希望通过用户0302的关注网络触达0714所在的青年志愿者群体。请问是否存在从0302到0714的传播路径，这将直接影响是否将其纳入初始影响力种子名单？",
+        "question": "A certain social media platform is planning a public welfare event and hopes to reach the youth volunteer group associated with user 0714 through the connections of user 0302. Is there a communication path from 0302 to 0714? This will directly impact whether user 0714 will be included in the initial influence seed list.",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为确保新产品的推广效果，我们计划让用户0302作为初始传播者。请问在该策略下，信息能否通过关注链触达用户0714？",
+        "question": "To ensure the effectiveness of the new product's promotion, we plan to let user 0302 serve as the initial communicator. Under this strategy, can the information reach user 0714 through the follower chain?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台正在评估核心用户的影响力传播范围，若选定用户'0302'作为初始传播节点，其关注链条是否有可能通过多层转发触达平台认证的头部创作者'0714'，从而验证该用户是否属于关键传播枢纽？",
+        "question": "A certain social media platform is assessing the influence and reach of its core users. If user '0302' is selected as the initial dissemination node, is it possible for their follower chain to reach the top creator '0714', who is certified by the platform, through multi-layer forwarding? This would help verify whether this user is a key dissemination hub.",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某品牌希望借助用户'0302'的影响力发起营销活动，若需确保信息能通过关注链传播至核心用户'0714'的社群，当前社交网络中是否存在从'0302'到'0714'的传播路径？",
+        "question": "A certain brand hopes to leverage the influence of user '0302' to launch a marketing campaign. If it is necessary to ensure that information can be disseminated through the attention chain to the core user '0714' community, does there currently exist a communication path from '0302' to '0714' in the current social network?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台的市场团队计划通过影响力最大化策略推广新活动，他们希望确认若选择用户'0302'作为初始传播节点，能否通过关注链的扩散路径最终触达关键人物'0714'。当前网络中是否存在这样的有效传播路径？",
+        "question": "The marketing team of a certain social media platform plans to promote a new activity using an influence maximization strategy. They want to confirm whether selecting user '0302' as the initial dissemination node can ultimately reach the key individual '0714' through the diffusion path of the follower chain. Is there an effective dissemination path in the current network that allows for this?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在某个社交平台的影响力推广活动中，若希望利用用户'0302'的关注链扩散信息，能否通过其直接或间接的关注关系触达目标用户'0714'，从而验证该节点是否具备投放资源的潜力？",
+        "question": "In an influence promotion campaign on a certain social platform, if we wish to use the follower chain of user '0302' to disseminate information, can we reach the target user '0714' through their direct or indirect connections? Thus, can we verify whether this node has the potential for resource investment?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交媒体影响力推广中，若选定用户'0302'作为核心传播节点，能否通过其关注链条确保信息能触达用户'0714'？请验证该传播路径的存在性。",
+        "question": "In the promotion of social media influence, if user '0302' is chosen as the core传播节点 (communication node), can we ensure that the information can reach user '0714' through its following chain? Please verify the existence of this communication path.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某社交平台计划通过关键传播者扩大信息覆盖范围。若要确保用户0714能被影响，是否需要将用户0302纳入种子节点，即当前网络中是否存在从0302到0714的关注路径？",
+        "question": "A certain social media platform plans to expand its information reach through key influencers. To ensure that user 0714 can be influenced, is it necessary to include user 0302 as a seed node? Is there currently a follower path from 0302 to 0714 in the network?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某社交平台策划一场推广活动，希望通过用户间的自然关注链触达目标用户0714。若初始传播节点设为0302，能否确认通过现有关注关系网络，该活动信息最终可以扩散至0714？这关系到是否需要额外激活关键用户来确保影响力覆盖。",
+        "question": "A social media platform is planning a promotional campaign and aims to reach the target user 0714 through a natural attention chain among users. If the initial spread node is set to 0302, can we confirm whether the event information can ultimately reach 0714 through the existing follower relationship network? This concerns whether it is necessary to additionally activate key users to ensure the coverage of influence.",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某品牌计划通过用户0302发起产品推广活动，希望借助其社交影响力触达用户0714以扩大覆盖范围。当前网络中是否存在从用户0302到用户0714的关注路径，从而支持该传播策略的有效性？",
+        "question": "A certain brand plans to initiate a product promotion activity through user 0302, hoping to leverage their social influence to reach user 0714 and expand its coverage. Is there currently a following pathway in the network from user 0302 to user 0714 that supports the effectiveness of this communication strategy?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络中，平台计划通过激活关键用户来最大化信息传播范围。若选定用户'0302'作为初始传播者之一，能否确保其发布的内容可以通过关注链路触达用户'0714'？这将直接影响该用户是否被纳入影响力核心圈层。",
+        "question": "In social networks, the platform plans to maximize the range of information dissemination by activating key users. If user '0302' is selected as one of the initial disseminators, can we ensure that the content they publish can reach user '0714' through the following connections? This will directly affect whether that user is included in the core influential circle.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某品牌计划通过社交网络进行新品推广，若选择用户'0302'作为初始传播节点，其发布的内容是否能通过关注关系链触达目标客户'0714'，从而验证该种子用户的影响力辐射范围是否覆盖关键人群？",
+        "question": "A certain brand plans to promote a new product through social networks. If user '0302' is chosen as the initial diffusion node, will the content they publish be able to reach the target customer '0714' through the network of followers? This will help verify whether the influence of this seed user covers the key demographics.",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交媒体平台的市场团队计划通过用户'0302'的影响力推广新产品，需确认其发布的帖子能否通过关注关系链自然触达目标用户'0714'。根据当前关注网络，是否存在从'0302'到'0714'的传播路径，使其能够作为初始传播者覆盖该用户？",
+        "question": "The marketing team of a certain social media platform plans to promote a new product through the influence of user '0302'. They need to verify if the posts made by this user can naturally reach the target user '0714' via their follower relationship chain. Based on the current following network, is there a communication path from '0302' to '0714' that would allow '0302' to serve as an initial promoter for reaching this user?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某品牌计划通过关键用户0302的影响力推动新品传播，需确认其关注网络是否能直接或间接触达目标客户0714以评估推广效果。当前社交网络中是否存在从0302到0714的可达路径？",
+        "question": "A certain brand plans to leverage the influence of key user 0302 to promote the dissemination of new products and needs to confirm whether their social network can directly or indirectly reach target customer 0714 to evaluate the effectiveness of the promotion. Is there a reachable path from 0302 to 0714 in the current social network?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "市场部门计划通过高影响力用户扩散新活动，若选定用户'0302'作为初始传播者，能否确认其关注链路最终能触达用户'0714'，从而验证该传播路径的可行性？",
+        "question": "The marketing department plans to spread the new campaign through high-impact users. If user '0302' is selected as the initial disseminator, can we confirm that their social connections will ultimately reach user '0714' in order to verify the feasibility of this dissemination path?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某品牌计划通过社交网络发起营销活动，为确保信息从核心用户'0302'扩散至潜在客户'0714'，是否需要将后者纳入初始传播节点？请验证当前关注网络中是否存在从前者到后者的可达路径。",
+        "question": "A certain brand plans to launch a marketing campaign through social networks. To ensure that information spreads from the core user '0302' to the potential customer '0714', is it necessary to include the latter as an initial dissemination node? Please verify if there is a reachable path from the former to the latter in the current attention network.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某平台计划通过核心用户的影响力扩散推广活动，若选定用户'0302'作为初始传播源，能否确认其关注链中存在一条有效路径触达目标用户'0714'，从而验证该策略的可行性？",
+        "question": "The platform plans to promote the activity through the influence of core users. If user '0302' is selected as the initial source of dissemination, can we confirm that there is an effective path in their attention chain to reach the target user '0714', thereby verifying the feasibility of this strategy?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在社交网络中开展品牌活动时，为了确保信息传播覆盖面最大化，需要验证用户0302是否能通过单向关注关系链（例如粉丝转发路径）直接或间接影响用户0714。请问该传播链路在现有关注网络中是否存在？",
+        "question": "When conducting brand activities on social networks, in order to maximize the coverage of information dissemination, it is necessary to verify whether user 0302 can directly or indirectly influence user 0714 through a one-way following relationship chain (e.g., fan reposting path). Could you please confirm if this communication link exists in the current following network?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，某品牌计划选择用户0302作为营销种子节点，希望通过其关注链触达潜在客户0714。为确保传播效率，需要确认是否存在一条从0302到0714的路径，从而验证该节点能否通过自然传播覆盖目标用户。当前能否通过路径存在性测试达成这一验证目标？",
+        "question": "In the social network, a brand plans to choose user 0302 as a marketing seed node, hoping to reach potential customer 0714 through its follower chain. To ensure transmission efficiency, it is necessary to confirm whether there is a path from 0302 to 0714, thereby verifying whether this node can cover the target user through natural propagation. Can this verification goal be achieved through path existence testing?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在评估社交网络影响力传播效果时，若希望确认用户0302能否通过其直接或间接的关注链路触达用户0714，从而判断该用户是否具备成为关键传播节点的潜力，当前网络中是否存在这样的信息扩散路径？",
+        "question": "When evaluating the effectiveness of influence dissemination in social networks, if we want to confirm whether user 0302 can reach user 0714 through their direct or indirect connections, in order to determine whether this user has the potential to become a key dissemination node, does such an information diffusion path exist in the current network?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "市场团队计划通过用户0302的影响力推广新品，需确认其关注网络是否能直接触达关键用户0714以评估传播效果。当前社交网络中是否存在从0302到0714的有效传播路径？",
+        "question": "The marketing team plans to promote the new product through the influence of user 0302 and needs to confirm whether their network can directly reach key user 0714 to assess the impact of the communication. Is there an effective communication path from 0302 to 0714 in the current social network?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在影响力最大化策略中，需要确认关键用户的信息传播能力。若选定用户'0302'作为初始传播源，是否能通过现有关注链路径，使其发布的内容触达用户'0714'？这将直接影响该用户是否被纳入候选影响力节点池。",
+        "question": "In the strategy of maximizing influence, it is necessary to confirm the information dissemination ability of key users. If we select user '0302' as the initial传播 source, can the content they publish reach user '0714' through the existing follower chain? This will directly affect whether this user is included in the pool of candidate influence nodes.",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台正在评估一项营销活动的传播路径，关键意见领袖'0302'发起的内容是否能通过用户间的单向关注链，自然触达目标用户'0714'？请确认该传播链路是否存在，这将决定是否需要调整影响力辐射策略。",
+        "question": "A certain social platform is evaluating the communication path of a marketing campaign to determine whether the content initiated by key opinion leader '0302' can naturally reach the target user '0714' through a one-way following chain among users. Please confirm whether this communication chain exists, as it will determine whether there is a need to adjust the influence radiation strategy.",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在推广活动中，若选择用户0302作为关键传播节点，能否确认其影响力传播链能够通过关注关系最终触达目标用户0714？",
+        "question": "In the promotional campaign, if user 0302 is chosen as a key dissemination node, can we confirm that their influence propagation chain can ultimately reach the target user 0714 through the relationship of followers?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在制定影响力最大化策略时，若需激活关键传播节点，需核查用户'0302'是否能通过关注链路间接影响用户'0714'，该路径是否存在？",
+        "question": "When formulating strategies to maximize impact, if it is necessary to activate key communication nodes, it is important to verify whether user '0302' can indirectly influence user '0714' through the attention link. Does this path exist?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某品牌计划通过用户'0302'发起一场推广活动，希望借助其关注链触达核心用户'0714'以最大化传播效果。请问在当前社交网络中，是否存在一条从'0302'到'0714'的关注路径可确保活动信息直接或间接覆盖目标用户？",
+        "question": "A certain brand plans to initiate a promotional campaign through user '0302', hoping to leverage their connections to reach the core user '0714' in order to maximize the spread of the message. Is there currently a follower path in the social network from '0302' to '0714' that can ensure the campaign information directly or indirectly covers the target user?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台希望借助关键传播节点扩大信息覆盖面，现需确认用户'0302'是否能通过其关注网络间接影响用户'0714'。是否存在这样的传播路径？",
+        "question": "A certain social platform hopes to expand its information coverage by leveraging key传播节点. It is now necessary to confirm whether user '0302' can indirectly influence user '0714' through their network of followers. Is there such a传播路径?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台计划通过影响力最大化策略定位信息传播起点，若选择用户0302作为初始扩散源，能否通过关注关系链路触达具有高传播潜力的用户0714？",
+        "question": "A social media platform plans to identify the starting point for information dissemination through an influence maximization strategy. If user 0302 is chosen as the initial diffusion source, will it be possible to reach user 0714, who has high dissemination potential, through the follower relationship network?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交媒体影响力最大化策略中，若希望用户0302作为初始传播者，能否通过其关注网络的扩散路径触达用户0714？请确认这两点间是否存在有效的信息传播链路。",
+        "question": "In the strategy of maximizing social media influence, if we want user 0302 to act as the initial spreader, is it possible to reach user 0714 through the diffusion path of their network of followers? Please confirm whether there is an effective information transmission linkage between these two users.",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在某个社交平台的营销活动中，运营团队希望通过关键用户的影响力触达目标受众。若选定用户'0302'作为初始传播源，能否通过现有的关注链路将信息最终传递至用户'0714'，从而验证该影响力扩散路径的可行性？",
+        "question": "In a marketing campaign on a social media platform, the operations team hopes to reach the target audience through the influence of key users. If user '0302' is selected as the initial source of communication, can the information ultimately be transferred to user '0714' through the existing follower connections, thereby verifying the feasibility of this influence diffusion pathway?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在策划一场基于社交网络的营销活动时，我们希望验证用户0302是否能够通过其直接或间接的关注关系触达关键用户0714，从而确认该用户作为初始传播节点的有效性。当前关注网络中是否存在这种潜在的信息扩散路径？",
+        "question": "When planning a marketing campaign based on social networks, we aim to verify whether user 0302 can reach key user 0714 through their direct or indirect connections, thereby confirming the effectiveness of this user as an initial传播节点. Is there a potential information diffusion path in the current network of connections?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某社交网络的影响力传播策略时，若需要通过关键用户实现信息扩散，能否确定用户'0302'发布的内容经过单向关注链后，最终可以抵达核心用户'0714'的可见范围？",
+        "question": "When analyzing the influence propagation strategy of a certain social network, if it is necessary to achieve information diffusion through key users, can it be determined whether the content published by user '0302' can ultimately reach the visible range of the core user '0714' after passing through a one-way attention chain?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台的新功能推广活动中，我们计划将核心传播者'0302'发布的动态作为初始扩散点。为确保活动效果，需要确认该用户的关注链是否能最终触达拥有百万粉丝的大V用户'0714'。请问是否存在这样的传播路径？",
+        "question": "In the promotion of new features on social media platforms, we plan to use the posts of our core influencer '0302' as the initial diffusion point. To ensure the effectiveness of the campaign, it is necessary to confirm whether the follower chain of this user can ultimately reach the million-follower influencer '0714'. Is there such a communication pathway?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某品牌计划通过微博大V‘0302’发起营销活动，希望借助关注链触达核心用户‘0714’。当前需要确认：是否存在从‘0302’到‘0714’的影响力传播路径？",
+        "question": "A certain brand plans to launch a marketing campaign through Weibo influencer '0302' and hopes to reach core users '0714' through a network of followers. We currently need to confirm: Is there an influential communication path from '0302' to '0714'?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台开展影响力最大化推广活动，需确认用户0302若被选为初始传播源，其发布的资讯能否通过单向关注关系网络最终抵达用户0714，以评估该节点在本次活动的潜在覆盖范围？",
+        "question": "A certain social media platform is launching an influence maximization promotion campaign. It is necessary to confirm whether the information posted by user 0302, if selected as the initial传播 source, can ultimately reach user 0714 through a one-way following relationship network, in order to assess the potential coverage of that node in this campaign.",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某营销团队计划通过关键传播节点扩大活动影响力，需确认用户'0302'是否能通过关注链直接或间接触达用户'0714'，从而判断是否需要调整种子用户策略。当前关注网络中是否存在这样的传播路径？",
+        "question": "A marketing team plans to expand the influence of their campaign through key communication nodes. They need to confirm whether user '0302' can reach user '0714' directly or indirectly through the attention chain, in order to determine if there is a need to adjust the seed user strategy. Is there currently such a communication path in the existing attention network?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某平台计划通过用户'0302'的影响力扩散重要公告，需确认其关注关系链是否能直接或间接触达核心用户'0714'以最大化传播效果。当前网络中是否存在这样的信息传播通路？",
+        "question": "A certain platform plans to disseminate an important announcement through the influence of user '0302'. It is necessary to confirm whether their network of connections can directly or indirectly reach the core user '0714' in order to maximize the communication effect. Is there currently such a channel for information dissemination in the network?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在推广新产品时，市场团队希望借助用户'0302'作为初始传播源，通过其关注链实现影响力最大化。请问根据当前社交网络关系，能否确认从用户'0302'发出的信息传播路径最终能触达重点目标用户'0714'？（True/False）",
+        "question": "When promoting a new product, the marketing team hopes to leverage user '0302' as the initial source of communication to maximize influence through their network of followers. Can we confirm that the information disseminated from user '0302' can ultimately reach the key target user '0714' based on the current social network relationships? (True/False)",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交媒体营销中，为了评估用户0302是否具备成为高影响力种子用户的潜力，需要确认其发布的内容能否通过关注转发链路最终触达用户0714。请问当前网络结构中是否存在这样的传播路径？",
+        "question": "In social media marketing, to assess whether user 0302 has the potential to become a high-influence seed user, it is necessary to confirm whether the content they publish can ultimately reach user 0714 through the chain of follows and shares. Is there currently a传播路径 (propagation path) in the existing network structure that allows for this?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在某个社交平台的营销活动中，运营团队计划通过关键用户的影响力扩散信息。若选定用户'0302'作为初始传播源，能否通过现有单向关注关系触达高价值用户'0714'？请确认该影响力链路是否存在。",
+        "question": "In a marketing campaign on a certain social media platform, the operations team plans to spread information through the influence of key users. If user '0302' is selected as the initial source of communication, is it possible to reach the high-value user '0714' through existing one-way follow relationships? Please confirm whether this influence pathway exists.",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在评估环保话题的传播效能，运营团队发现核心倡导者账号（0302）的帖文需触达关键意见领袖（0714）才能形成跨圈层效应。若仅通过单向关注链路传播，当前关系网络中是否存在从0302到0714的影响力渗透路径？",
+        "question": "A certain social media platform is evaluating the传播效能 of environmental topics. The operations team has found that posts from a key advocate account (0302) need to reach a key opinion leader (0714) in order to create a cross-tier effect. If the information is spread solely through a one-way following chain, is there an existing influence penetration path from 0302 to 0714 within the current relational network?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在评估用户'0302'作为潜在影响力节点，能否通过其关注链条将信息扩散至用户'0714'，从而支持精准营销策略。请问根据当前网络结构，该用户是否具备直接或间接触达目标用户的能力？",
+        "question": "A social media platform is evaluating user '0302' as a potential influencer node to see if they can disseminate information to user '0714' through their network connections, thereby supporting targeted marketing strategies. Based on the current network structure, does this user have the ability to reach the target user directly or indirectly?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某品牌计划通过核心用户'0302'的影响力扩散促销活动，需评估其关注网络能否触达目标用户'0714'。当前社交网络中是否存在从'0302'到'0714'的有效传播路径？",
+        "question": "A certain brand plans to leverage the influence of core user '0302' to spread a promotional campaign and needs to assess whether the attention network can reach the target user '0714'. Is there an effective communication path in the current social network from '0302' to '0714'?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某公司计划通过用户'0302'发起产品推广活动，希望其发布的信息能触达潜在客户'0714'以最大化影响力。能否确认在该社交网络中，从'0302'到'0714'存在单向关注路径？",
+        "question": "A company plans to launch a product promotion campaign through user '0302', hoping that the information they post will reach potential customer '0714' to maximize impact. Could you please confirm whether there is a one-way following path from '0302' to '0714' in that social network?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在推广某新功能的影响力最大化策略中，若选定用户'0302'作为初始传播者，能否通过现有的单向关注链路触达用户'0714'，从而确认是否需要将'0714'直接纳入首批种子用户名单？",
+        "question": "In the strategy for maximizing the influence of promoting a new feature, if user '0302' is selected as the initial propagator, can we reach user '0714' through the existing unidirectional follow chain, thereby confirming whether '0714' should be directly included in the first batch of seed usernames?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某公司计划通过用户0302进行新产品推广，希望其影响力能通过关注链间接触达用户0714所在的兴趣社群。请问当前网络中是否存在从0302到0714的有效关注路径以确保信息可达？",
+        "question": "A certain company plans to promote a new product through user 0302, hoping that its influence can reach the interest community of user 0714 through the attention chain. Is there currently an effective attention path in the network from 0302 to 0714 to ensure that the information is reachable?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络中实施影响力最大化策略时，若希望用户'0302'的信息能通过关注关系间接触达关键目标用户'0714'，是否可确认当前关注网络中至少存在一条从'0302'到'0714'的有效传播路径？这将直接影响是否需要调整初始种子节点的资源分配策略。",
+        "question": "When implementing an influence maximization strategy in a social network, if we want the information from user '0302' to reach the key target user '0714' indirectly through their follow relationships, can we confirm that there is at least one effective dissemination path from '0302' to '0714' within the current follow network? This will directly affect whether there is a need to adjust the resource allocation strategy for the initial seed nodes.",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台的市场团队计划将用户0302纳入影响力最大化的种子节点候选名单，以推广一项新活动。为确保该用户能有效触达目标用户0714，需要确认是否存在一条关注路径使得0302发布的内容可通过转发链间接被0714接收。当前网络中是否存在这样的传播路径？",
+        "question": "The marketing team of a certain social media platform plans to include user 0302 in the candidate list of seed nodes for maximizing influence in order to promote a new campaign. To ensure that this user can effectively reach the target user 0714, it is necessary to confirm whether there exists a path of connections allowing content posted by 0302 to be indirectly received by 0714 through a chain of shares. Is there currently such a传播路径 in the network?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络推广活动中，运营团队希望借助用户'0302'的影响力触达目标用户'0714'。已知信息传播遵循单向关注链路，能否确认从'0302'出发，通过其粉丝网络的逐层扩散，最终覆盖到用户'0714'的传播路径存在？",
+        "question": "In the social network promotion campaign, the operation team hopes to reach the target user '0714' by leveraging the influence of user '0302'. Given that information dissemination follows a one-way following chain, can we confirm whether a communication path exists from '0302' that ultimately reaches user '0714' through the layer-by-layer diffusion of its fan network?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某平台计划通过关键用户推动热点话题传播，选取用户0302作为初始扩散源。为确保影响力最大化，需确认其关注网络能否直接或间接触达核心用户0714，从而评估话题潜在扩散范围。当前网络中是否存在从0302到0714的有效信息传播路径？",
+        "question": "A certain platform plans to promote the dissemination of trending topics through key users, selecting user 0302 as the initial diffusion source. To maximize the impact, it is necessary to confirm whether the network of user 0302 can directly or indirectly reach the core user 0714, thereby assessing the potential spread of the topic. Is there an effective information transmission path from 0302 to 0714 in the current network?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在测试影响力最大化策略，计划通过种子用户'0302'推送重要信息。若希望该信息能通过关注链最终触达核心用户'0714'以形成传播杠杆，当前网络关注关系中是否存在这种单向影响力传导的可能性？",
+        "question": "A certain social media platform is testing a strategy for maximizing influence, planning to push important information through a seed user '0302'. If it is desired for this information to reach the core user '0714' through the follower chain in order to create a dissemination leverage, is there currently a possibility of such one-way influence transmission existing within the current network of follower relationships?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台计划通过用户'0302'的影响力发起一场推广活动，需要确认其关注网络是否能自然扩散至目标用户'0714'，从而评估是否需要额外资源介入。请问仅基于现有单向关注关系，该活动的信息传播路径是否可能触达目标用户？",
+        "question": "A certain social media platform plans to initiate a promotional campaign leveraging the influence of user '0302'. They need to confirm whether the follower network of this user can naturally extend to the target user '0714', in order to evaluate whether additional resources are needed for intervention. Based solely on the existing one-way follower relationship, is it possible for the information dissemination path of this campaign to reach the target user?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在Twitter社交网络的关注关系演化分析中，经过三个季度的用户新增关注行为后，当前是否存在从用户0302到用户0714的潜在信息传播路径，即前者发布的内容能否通过关注链被后者触达？",
+        "question": "In the analysis of the evolution of follower relationships on the Twitter social network, after three quarters of new user follow behaviors, is there currently a potential information dissemination path from user 0302 to user 0714? In other words, can the content published by the former be reached by the latter through the follow chain?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台近期的社区裂变分析中，核心用户'0302'通过三次传播事件逐步扩展关注链，请问当前网络拓扑中该用户的影响力传播路径是否已延伸至下半年崛起的垂直领域头部账号'0714'？",
+        "question": "In a recent community fragmentation analysis on social media platforms, the core user '0302' has gradually expanded their follower chain through three dissemination events. Could you please clarify whether the influence propagation path of this user has extended to the leading vertical account '0714', which has risen in prominence in the second half of the year?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在微博平台的第三季度关注网络演化中，某品牌账号‘0302’发起的促销活动信息是否能通过用户间的连续转发触达潜在客户‘0714’？",
+        "question": "In the third quarter of network evolution on the Weibo platform, can the promotional activity information initiated by the brand account '0302' reach potential customer '0714' through continuous retweets among users?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在分析社交网络用户关注关系的动态演化时，发现近期有大量新用户加入并产生关注行为。请验证当前网络中，用户'0302'通过单向关注链能否触达用户'0714'，即两者是否存在信息传播路径？",
+        "question": "In analyzing the dynamic evolution of user attention relationships in social networks, it has been observed that a large number of new users have recently joined and engaged in following behaviors. Please verify whether user '0302' can reach user '0714' through a one-way following chain in the current network, specifically if there exists a path for information dissemination between the two users.",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在微博平台的社交网络演化过程中，用户'0302'在初期仅关注了少数好友，随着时间推移，平台用户基数快速增长并形成多层关注链。当前需确认是否存在从'0302'通过任意间接关注关系触达新晋网红用户'0714'的路径？",
+        "question": "In the process of social network evolution on the Weibo platform, the user '0302' initially only followed a few friends. As time passed, the user base on the platform grew rapidly, forming a multi-layered following chain. It is now necessary to confirm whether there exists a path from '0302' to reach the newly popular user '0714' through any indirect following relationships.",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台近期的用户迁移事件中，部分关注关系发生变动。已知用户'0302'在过去三个月内新增了多个关注，而用户'0714'的粉丝列表出现动态调整。当前需要确认：从用户'0302'出发，是否仍存在一条有效关注路径能够触达用户'07114'？",
+        "question": "In the recent user migration events on social platforms, there have been changes in some follow relationships. It is known that user '0302' has gained multiple followers in the past three months, while user '0714' has undergone dynamic adjustments in their fan list. It is currently necessary to confirm: starting from user '0302', is there still a valid follow path that can reach user '0714'?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台用户激增导致关注关系动态重组后，近期系统检测到节点'0302'到节点'0714'之间是否仍存在有效的信息传播通路？",
+        "question": "After the surge in users on the social platform led to a reorganization of attention relationships, has the system recently detected any effective information transmission pathways between node '0302' and node '0714'?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交平台近期的用户增长与关注关系动态演化过程中，平台运营方需要验证用户'0302'是否仍能通过关注链间接触达用户'0714'以维持信息传播通道，当前网络中是否存在这样的有效路径？",
+        "question": "In the recent evolution of user growth and follow relationships on social platforms, the platform operators need to verify whether user '0302' can still indirectly reach user '0714' through the follow chain to maintain the information dissemination channel. Is there currently an effective path in the network that allows this?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台近期的关注关系动态调整时，我们发现用户'0302'曾多次新增跨领域关注对象。根据当前网络演化数据，能否确认该用户通过关注链的延伸最终与用户'0714'建立了至少一条单向信息传播路径？",
+        "question": "In analyzing the recent adjustments in the following relationships on a certain social media platform, we found that user '0302' has frequently added cross-domain follow targets. Based on the current network evolution data, can we confirm whether this user has established at least one unidirectional information dissemination path to user '0714' through the extension of their following chain?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在社交网络中，用户'0302'近期注册后关注了一批老用户，而用户'0714'是平台早期核心成员。根据关注关系的动态演化，能否通过现有关注链路确认新用户'0302'的信息流最终能触达元老用户'0714'？",
+        "question": "In the social network, user '0302' recently registered and followed a group of long-time users, while user '0714' is an early core member of the platform. Based on the dynamic evolution of the following relationships, is it possible to confirm whether the information flow of the new user '0302' can ultimately reach the veteran user '0714' through the existing following connections?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交平台的动态关注网络演化过程中，用户'0302'近期频繁扩展关注列表以提升影响力。现需验证其当前关注路径是否已覆盖到关键用户'0714'，即是否存在从'0302'出发、通过单向关注关系间接触达'0714'的传播链路？",
+        "question": "In the process of the dynamic evolution of the social platform's follower network, user '0302' has recently been frequently expanding their following list to enhance influence. It is now necessary to verify whether their current following path has covered the key user '0714', specifically if there exists a communication chain that indirectly reaches '0714' through a unidirectional following relationship starting from '0302'.",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某社交平台近期新增大量用户节点后，经网络演化分析，需确认早期用户'0302'是否仍能通过间接关注链触达新晋网红用户'0714'？",
+        "question": "After a recent influx of new user nodes on a certain social media platform, network evolution analysis needs to confirm whether the early user '0302' can still reach the newly popular influencer '0714' through an indirect attention chain.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台在近期调整推荐算法后，部分用户因内容偏好变化取消了关注。经数据快照对比，节点'0302'在调整后仍保持活跃，但部分原有关注链断裂。请分析当前网络结构中，节点'0302'是否还能通过现存关注关系触达节点'0714'，无论是否存在中间跳转？",
+        "question": "After a recent adjustment of the recommendation algorithm on a certain social media platform, some users have unfollowed due to changes in content preferences. A comparison of data snapshots shows that node '0302' remains active after the adjustment, but some existing follow relationships have been disrupted. Please analyze whether node '0302' can still reach node '0714' through the existing follow relationships in the current network structure, regardless of whether there are intermediate hops.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台近期进行用户关注关系演化分析时，发现用户'0302'新增了跨领域关注行为。基于当前关注网络的拓扑结构，能否确认该用户发布的内容可以通过关注链传播至用户'0714'的订阅流中？",
+        "question": "Recently, a social media platform conducted an analysis of the evolution of user-following relationships and found that user '0302' has added cross-domain following behavior. Based on the current topology of the following network, can we confirm that the content published by this user can be transmitted to the subscription feed of user '0714' through the following chain?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交媒体平台的用户关注关系动态演化中，节点'0302'因发布某热点话题引发连锁关注，而节点'0714'是后续加入该话题的新用户。根据当前网络结构，能否确认从'0302'到'0714'存在至少一条通过转发或直接关注形成的传播路径？",
+        "question": "In the dynamic evolution of user attention relationships on social media platforms, node '0302' triggered a chain of attention by posting about a hot topic, while node '0714' is a new user who joined this topic later. Based on the current network structure, can we confirm that there exists at least one传播路径through retweets or direct follows from '0302' to '0714'?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络用户规模激增后，分析平台需要确认早期用户'0302'是否能够通过后续新增的关注关系链条间接触达活跃用户'0714'，这是否意味着两节点间存在至少一条有效的信息传播路径？",
+        "question": "After the surge in the user base of social networks, the analysis platform needs to confirm whether the early user '0302' can indirectly reach the active user '0714' through the subsequent newly added follower relationships. Does this mean there is at least one effective information dissemination path between the two nodes?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台近期的网络结构调整后，原先通过中间用户间接关注的用户0302能否通过现有关注链路触达新晋热门用户0714？请确认两者之间是否存在有效的单向信息传播路径。",
+        "question": "After the recent structural adjustments on the social platform, can user 0302, who previously followed user 0714 indirectly through intermediate users, reach the newly popular user 0714 through the existing following links? Please confirm whether there is an effective one-way information transmission path between the two.",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络演化分析中，某平台发现用户'0302'上半年通过内容创作积累了初期粉丝，而用户'0714'下半年因热点事件快速涨粉。现需确认平台算法更新后，'0302'是否仍存在通过关注链向'0714'扩散影响力的可能性？",
+        "question": "In the analysis of social network evolution, a certain platform found that user '0302' accumulated initial followers through content creation in the first half of the year, while user '0714' experienced rapid follower growth in the second half due to trending events. It is now necessary to confirm whether, after the platform's algorithm update, user '0302' still has the potential to influence user '0714' through a following chain.",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在平台近期的社群结构演化过程中，用户'0302'因内容偏好迁移逐渐脱离原圈层，当前其关注网络是否仍存在通过跨圈层转发路径触达用户'0714'的可能性？",
+        "question": "In the recent evolution of the community structure on the platform, user '0302' has gradually moved away from their original circle due to a shift in content preferences. Currently, is there still a possibility for user '0714' to be reached through cross-circle forwarding paths?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台近期的用户增长分析中，发现大量新用户通过“推荐关注”功能建立关系链。若节点'0302'在三个月前已注册并关注了初始种子用户，请问当前网络演化状态下，该用户能否通过单向关注链路触达周年庆活动节点'0714'？",
+        "question": "In a recent user growth analysis on social media platforms, it was found that a large number of new users are establishing connections through the \"recommended follow\" feature. If node '0302' registered and followed the initial seed user three months ago, can this user currently reach the anniversary event node '0714' through a unidirectional following chain given the current state of network evolution?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台过去半年因推荐算法调整，用户的关注关系网络发生显著变化。经最新数据抓取，需确认当前版本中，用户'0302'是否仍能通过单向关注链间接联系到用户'0714'，以评估功能迭代对核心节点可达性的影响？",
+        "question": "In the past six months, a certain social platform has experienced significant changes in the user connection network due to adjustments in its recommendation algorithm. Based on the latest data retrieval, we need to confirm whether user '0302' can still indirectly reach user '0714' through a unidirectional follow chain in the current version, in order to evaluate the impact of functional iterations on the accessibility of core nodes.",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台用户关注关系的最新演变中，我们需要确认用户‘0302’发布的内容是否可能通过关注链间接触达用户‘0714’，即两者之间是否存在单向传播路径？",
+        "question": "In the latest evolution of user relationship dynamics on social media platforms, we need to confirm whether the content posted by user '0302' could potentially reach user '0714' indirectly through the follower chain, namely, if there exists a unidirectional transmission path between the two.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在平台近半年的社交网络演变中，用户'0302'因内容创作积累了初期粉丝，但随着用户关系动态调整，是否存在至少一条通过关注链使其发布的内容能间接触达新晋用户'0714'？",
+        "question": "In the evolution of the platform's social network over the past six months, user '0302' has gained some initial followers through content creation. However, as user relationships dynamically adjust, is there at least one connection through which the content posted by user '0302' can indirectly reach the new user '0714'?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在某个社交平台的最新关注关系网络中，经过过去三个月的动态演化，用户'0302'是否能够通过单向关注链触达到用户'0714'？该路径验证需反映当前实际存在的关注流向。",
+        "question": "In the latest follower relationship network on a certain social media platform, after three months of dynamic evolution, can user '0302' reach user '0714' through a one-way follower chain? This path verification needs to reflect the current actual follower direction.",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台用户关注行为演化时，发现用户0302在五月新增了多个关注。根据最新的关注关系网络，能否确认从0302出发，通过其关注的用户及其后续关注链条，最终能触达用户0714？",
+        "question": "In analyzing the evolution of user attention behavior on a certain social platform, it was found that user 0302 added multiple follows in May. Based on the latest follow relationship network, is it possible to confirm whether user 0714 can be reached starting from 0302 through the users they follow and the subsequent follow chains?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台近期因用户兴趣迁移出现关注关系动态变化，用户'0302'在三个月内新增了多个垂直领域的关键节点关注。从当前网络状态分析，能否确认其关注链条已延伸至用户'0714'？",
+        "question": "Recently, a certain social media platform has experienced dynamic changes in follower relationships due to shifts in user interests. User '0302' has added several key nodes in various vertical fields over the past three months. Based on the current network status analysis, can we confirm if their follower chain has extended to user '0714'?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在平台近期的用户增长活动中，新用户的关注行为是否形成了从资深用户'0302'到新兴内容创作者'0714'的间接联系链路？需根据过去半年的动态关注关系数据确认是否存在这样的传播通道。",
+        "question": "In the recent user growth activities on the platform, has the engagement behavior of new users formed an indirect connection pathway from seasoned user '0302' to emerging content creator '0714'? We need to verify the existence of such a dissemination channel based on the dynamic follow relationship data from the past six months.",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "经过第二季度的用户增长活动后，当前社交网络中用户ID '0302'发布的动态能否通过关注链触达用户ID '0714'？请确认是否存在有效传播路径。",
+        "question": "After the user growth activities in the second quarter, can the posts made by user ID '0302' in the current social network reach user ID '0714' through the following chain? Please confirm if there is an effective transmission path.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某社交平台近期用户量激增，运营团队需分析用户关注网络的演化情况。根据当前关注关系，能否确认用户'0302'是否可能通过转发链或间接关注触达用户'0714'？",
+        "question": "A certain social media platform has recently experienced a surge in user numbers, and the operations team needs to analyze the evolution of user connection networks. Based on the current following relationships, can we confirm whether user '0302' could potentially reach user '0714' through a forwarding chain or indirect following?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在第三季度的社交网络结构调整后，用户'0302'发布的动态是否有可能通过关注链被用户'0714'接收到？平台需验证两账号间是否存在有效信息传播路径以优化推荐算法。",
+        "question": "After the adjustment of the social network structure in the third quarter, is it possible for user '0302' to have their posts received by user '0714' through the following chain? The platform needs to verify whether there is an effective information dissemination path between the two accounts to optimize the recommendation algorithm.",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台近期的关注关系动态调整中，用户'0302'新增了多名行业领袖的关注，而用户'0714'取消了部分早期关注对象。根据当前网络结构，能否确认从'0302'到'0714'存在单向关注链？",
+        "question": "In the recent adjustment of relationships on the social platform, user '0302' has added several industry leaders to their following list, while user '0714' has unfollowed some earlier followed accounts. Based on the current network structure, can it be confirmed whether there is a one-way follow chain from '0302' to '0714'?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，用户0302在平台初期关注了少量好友，随着时间推移，这些好友又逐步扩展了自己的社交圈。经过半年自然演化，当前关注关系网络中是否存在从用户0302到用户0714的信息传播路径？",
+        "question": "In the social network, user 0302 initially followed a small number of friends when the platform was launched. Over time, these friends gradually expanded their social circles. After six months of natural evolution, is there currently an information transmission path from user 0302 to user 0714 in the existing relationship network?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在社交平台演化过程中，用户‘0302’因停用导致关注关系冻结。若后续其他用户调整关注形成新链路，当前网络中是否仍存在从‘0302’到‘0714’的可达关注路径？",
+        "question": "Translation: During the evolution of the social platform, user '0302' has their follow relationship frozen due to account deactivation. If other users adjust their followings to form new connections, will there still be a reachable follow path from '0302' to '0714' in the current network?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在社交平台近期的关注关系动态调整后，用户'0302'于重大事件期间发起的话题传播链，是否仍存在途径使其内容能够触达用户'0714'的社交主页？",
+        "question": "After the recent adjustments in the relationship dynamics on the social platform, is there still a way for the topic propagation chain initiated by user '0302' during significant events to reach user '0714's social homepage?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台近期的用户关注关系动态变化中，某舆情事件导致用户0302的粉丝圈层发生迁移。结合当前最新的单向关注拓扑结构，能否确认从用户0302出发，通过任意层级的关注跳转最终触达用户0714？",
+        "question": "In the recent dynamic changes of user follow relationships on social media platforms, a certain public opinion event has led to a migration of the fan circle of user 0302. Given the current latest one-way follow topology, is it possible to confirm whether, starting from user 0302, it is possible to reach user 0714 through any level of follow transitions?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台近期的用户关注关系动态调整后，需要确认用户'0302'发布的内容是否可能通过单向关注链传播至用户'0714'。当前网络中是否存在这样的传播路径？",
+        "question": "After the recent adjustment of user attention relationships on the social platform, it is necessary to confirm whether the content posted by user '0302' can be propagated to user '0714' through a one-way following chain. Is there currently a propagation path in the network that supports this?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络演化过程中，用户'0302'近期新增了关注节点，而用户'0714'的部分粉丝节点因活跃度下降取消了关注。请确认当前网络状态下，是否存在从'0302'到'0714'的间接关注路径？",
+        "question": "In the process of the evolution of the social network, user '0302' has recently added a new following node, while some of user '0714's followers have unfollowed due to decreased activity. Please confirm whether there exists an indirect following path from '0302' to '0714' in the current network state.",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在微博平台的社交网络演化分析中，用户'0302'在初始关注了多位头部博主，后续新增了若干跨领域关注链。根据当前网络结构的最新快照，是否可以确认从'0302'到数码圈新晋网红'0714'存在单向关注路径？（注：不考虑内容互动，仅验证关注关系连通性）",
+        "question": "In the analysis of social network evolution on the Weibo platform, user '0302' initially followed several top influencers and later added several cross-domain follow chains. Based on the latest snapshot of the current network structure, can we confirm the existence of a unidirectional follow path from '0302' to the emerging digital influencer '0714'? (Note: Content interaction is not considered, only the connectivity of the follow relationship is validated.)",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台在用户增长活动中，用户'0302'的关注行为随时间逐步扩展，而'0714'是近期涌现的活跃节点。运营团队需验证当前网络演化后，'0302'是否可能通过关注链（如关注其关注者、或关注者的关注者等）最终触达'0714'，以便评估活动对长尾用户连接的促进作用。请问存在这种路径吗？",
+        "question": "Translation: In a user growth initiative on a social media platform, user '0302' has gradually expanded their follow behavior over time, while '0714' has emerged as an active node recently. The operations team needs to verify whether, after the current network evolution, '0302' can potentially reach '0714' through a following chain (such as by following their followers or the followers of their followers, etc.) in order to assess the impact of the initiative on connecting long-tail users. Is such a path possible?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台数据显示，用户'0302'在早期曾关注过一批意见领袖账号，经过多次关注关系变更后，平台运营需要确认该用户的行为轨迹是否仍能通过关注链间接触达后来崛起的明星用户'0714'，请问当前关注网络中是否存在这样的传播路径？",
+        "question": "According to data from a certain social media platform, user '0302' initially followed a group of opinion leader accounts. After several changes in their follow relationships, the platform operations team needs to confirm whether the behavioral trajectory of this user can still reach the rising star user '0714' indirectly through the follow chain. Is there currently such a propagation path in the existing follow network?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某社交平台的用户关注网络演化时，发现用户'0302'在第二季度新增了密集关注链，而用户'0714'是同期核心节点。第三季度网络结构调整后，能否从'0302'的当前关注关系中找到一条有效路径触达'0714'？",
+        "question": "In analyzing the evolution of the user follow network on a certain social media platform, it was found that user '0302' formed a dense follow chain in the second quarter, while user '0714' was a core node during the same period. After the network structure was adjusted in the third quarter, is it possible to find an effective path to reach '0714' from the current follow relationships of '0302'?",
+        "label": "Path_Existence",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某短视频平台近期因热门话题引发用户关注链扩散，部分用户新增了跨圈层互动。现需确认，在最新关系网络中，用户'0302'是否可通过单向关注链路间接连接到用户'0714'？",
+        "question": "The short video platform has recently attracted user attention due to trending topics, leading to the spread of attention chains, and some users have engaged in cross-circle interactions. It is now necessary to confirm whether, in the latest relationship network, user '0302' can be indirectly connected to user '0714' through a unidirectional attention chain.",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在社交平台X的季度关系更新后，用户‘0302’因内容偏好变化取消了对部分账户的关注，同时新增了若干兴趣领域相关账户。请验证当前关注网络中，是否存在从该用户出发最终能触达用户‘0714’的传播链条？",
+        "question": "After the quarterly relationship update on the social platform X, user '0302' unfollowed some accounts due to changes in content preferences, while also following several accounts related to new areas of interest. Please verify if there exists a communication chain in the current following network that can reach user '0714' starting from this user.",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络近期的用户关注关系动态演化中，用户'0302'因内容偏好变化调整了关注列表，当前能否通过其调整后的关注链路径触达影响力节点'0714'？",
+        "question": "In the recent dynamic evolution of user-following relationships on social networks, user '0302' adjusted their following list due to changes in content preferences. Is it currently possible to reach the influential node '0714' through the adjusted following chain of user '0302'?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交媒体平台经过半年的用户增长与关注关系动态调整后，运营团队需确认当前网络中早期用户'0302'是否仍存在通过单向关注链触达新晋热门用户'0714'的可能性，这种路径连通性是否依然成立？",
+        "question": "After six months of user growth and dynamic adjustments in the relationships on a certain social media platform, the operations team needs to confirm whether the early user '0302' still has the possibility of reaching the newly trending user '0714' through a one-way follow chain. Is this path connectivity still valid?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在社交平台近期的用户关注链演化分析中，发现用户'0302'因某热点事件新增了多条跨圈层关注，而用户'0714'在同一时期成为新晋头部博主。请验证当前网络状态中，是否存在从'0302'出发、通过单向关注关系最终可抵达'0714'的传播链路？",
+        "question": "In a recent analysis of user attention chain evolution on social media platforms, it was found that user '0302' has gained multiple cross-community follows due to a trending event, while user '0714' has emerged as a new top influencer during the same period. Please verify whether there currently exists a propagation path that starts from '0302' and can ultimately reach '0714' through unidirectional following relationships.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台近半年的关注关系演化中，用户'0302'多次调整关注列表。根据当前关注链路，运营团队需要确认该用户发布的动态是否可能通过间接关注链路触达用户'0714'，是否存在这样的信息传播路径？",
+        "question": "In the evolution of the follow relationships on the social platform over the past six months, user '0302' has made multiple adjustments to their follow list. Based on the current follow connections, the operations team needs to confirm whether the activities posted by this user could potentially reach user '0714' through indirect follow connections, and whether such a pathway for information dissemination exists.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络动态演化过程中，某热点事件后用户关注关系发生调整。当前需验证事件传播链路，能否确认存在从核心用户0302出发，通过后续新增或保留的关注链最终触达用户0714的路径？",
+        "question": "In the dynamic evolution process of social networks, user attention relationships are adjusted following a certain trending event. Currently, it is necessary to verify the event propagation pathway and determine whether there is a confirmed route that starts from the core user 0302 and ultimately reaches user 0714 through the subsequent new or retained attention links.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交媒体平台最近的用户关注关系动态调整后，某品牌需要确认核心用户0302发布的活动信息能否通过关注链触达新晋网红0714。根据当前网络拓扑，是否存在至少一条有效的信息传播路径？",
+        "question": "Translation: \n\nAfter the recent adjustments in user attention relationships on social media platforms, a certain brand needs to verify whether the activity information posted by core user 0302 can reach the new influencer 0714 through the attention chain. Based on the current network topology, is there at least one effective information transmission path?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台半年内的关注关系动态变化时，发现用户'0302'早期关注了多位内容创作者，而近期热门用户'0714'被多个中层节点关注。请验证当前网络结构中，用户'0302'能否通过关注链的间接传递关系触达用户'0714'？",
+        "question": "In analyzing the dynamic changes in follower relationships on a certain social media platform over a six-month period, it was found that user '0302' initially followed multiple content creators, while the recently popular user '0714' is being followed by several mid-tier nodes. Please verify whether user '0302' can reach user '0714' through indirect connections in the current network structure via the follower chain.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台近期的热点事件传播分析中，某舆情报告显示用户'0302'转发了争议内容后，是否可能通过单向关注链（如A→B→C的传导模式）最终触达用户'0714'，从而形成信息扩散路径？",
+        "question": "In the recent analysis of trending events on social media platforms, a certain public opinion report indicates that after the user '0302' shared controversial content, is it possible for it to eventually reach user '0714' through a one-way following chain (such as the transmission model A→B→C), thereby forming an information diffusion path?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台近一个月用户关注关系的动态变化时，发现用户'0302'因参与热点事件新增了多条关注链。请问当前网络状态中，该用户能否通过单向关注路径触达用户'0714'？",
+        "question": "In analyzing the dynamic changes in user follower relationships on a certain social media platform over the past month, it was found that user '0302' added several new follow connections due to participation in trending events. Could you tell me if, in the current network state, this user can reach user '0714' through a one-way follow path?",
+        "label": "Path_Existence",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在第三季度社交网络关注关系调整后，用户'0302'新增了对部分KOL的关注，但部分老用户取消了对其的追踪。请根据当前网络结构判断，用户'0302'是否仍有可能通过关注链路触达用户'0714'？",
+        "question": "After adjustments to social network relationships in the third quarter, user '0302' has newly followed some KOLs, while some old users have unfollowed them. Based on the current network structure, can you determine whether user '0302' still has the possibility to reach user '0714' through the following links?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台分析用户关系演化时发现，用户'0302'近期新增了多位关注对象。基于当前关注网络，能否确认存在从'0302'到'0714'的信息传播路径？",
+        "question": "When analyzing user relationship evolution on a certain social platform, it was discovered that user '0302' has recently added multiple new followers. Based on the current follower network, can we confirm whether there is an information diffusion path from '0302' to '0714'?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台近期调整了推荐算法，导致部分用户的关注关系发生变化。已知原有网络中用户'0302'可通过多层转发触达'0714'，经过这次动态演化后，平台需要确认这两个账号之间是否仍存在有效的信息传播路径？",
+        "question": "A certain social media platform has recently adjusted its recommendation algorithm, resulting in changes to the follow relationships of some users. It is known that in the original network, user '0302' could reach '0714' through multiple layers of forwarding. After this dynamic evolution, the platform needs to confirm whether there still exists an effective information transmission path between these two accounts.",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某微博平台用户关注网络的演化时，若某次大型线上活动后用户新增了大量关注关系，当前网络中是否存在从用户'0302'到用户'0714'的间接关注链？",
+        "question": "When analyzing the evolution of user follow networks on a certain microblogging platform, if a large online event leads to a significant increase in new follow relationships among users, is there an indirect follow chain from user '0302' to user '0714' in the current network?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台在6月新增大量关注关系，用户0302在此期间单向关注了5位新用户，而用户0714的部分关注者已取消关注。请结合当前网络结构判断，是否存在一条从0302出发通过单向关注链最终抵达0714的有效路径？",
+        "question": "On a certain social platform, a large number of follow relationships were added in June. During this period, user 0302 unidirectionally followed 5 new users, while some of the followers of user 0714 have unfollowed. Based on the current network structure, can you determine if there exists a valid path that starts from 0302, follows the unidirectional follow chain, and ultimately reaches 0714?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在某个社交平台的发展过程中，用户关注网络随时间不断演化。假设早期版本中用户'0302'主动关注了多名活跃用户，而新版本上线后部分用户转向关注新入驻的'0714'节点。根据当前全量关注关系数据，能否确认存在从'0302'到'0714'的单向关注链？",
+        "question": "During the development of a certain social media platform, user attention on the network has evolved over time. Assume that in the early version, user '0302' actively followed several active users, while after the new version was launched, some users shifted their attention to the newly joined node '0714'. Based on the current complete set of follow relationship data, can we confirm the existence of a one-way follow chain from '0302' to '0714'?",
+        "label": "Path_Existence",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台近期的用户关注网络演化时，发现节点'0302'在系统推荐算法优化后新增了多条跨圈层关注边，而节点'0714'作为新兴内容创作者快速积累了粉丝。请问当前网络拓扑中是否存在从'0302'到'0714'的信息传播基础路径？",
+        "question": "In analyzing the recent evolution of the user attention network on a certain social media platform, it was found that node '0302' has gained multiple cross-layer attention connections after the optimization of the system's recommendation algorithm, while node '0714', as an emerging content creator, has rapidly accumulated followers. Is there currently a fundamental path for information dissemination from '0302' to '0714' in the existing network topology?",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络近期的关注关系演化中，用户0302在平台推广活动后新增了多层关注链。若当前所有关注关系均为活跃状态，是否可以确认存在从0302到0714的信息传播路径？",
+        "question": "In the recent evolution of attention relationships on social networks, user 0302 has added multiple layers of follow chains after a promotional event on the platform. If all current follow relationships are active, can we confirm the existence of an information dissemination path from 0302 to 0714?",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络演化分析中，用户0302曾是最早一批关注音乐创作者的节点，随着平台内容生态扩展，其初始关注链上的用户是否通过后续衍生关系，最终与0714节点产生间接关注路径？请确认两者当前是否存在单向可达性。",
+        "question": "In the analysis of social network evolution, user 0302 was one of the earliest nodes to follow music creators. As the content ecosystem of the platform expanded, did the users on its initial follow chain develop indirect pathways to node 0714 through subsequent derived relationships? Please confirm whether there is currently unidirectional reachability between the two.",
+        "label": "Path_Existence",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在近三个月平台关注关系动态调整后，某舆情分析师需确认用户'0302'发布的重要公告能否通过转发链路触达核心节点'0714'，当前网络拓扑中是否存在此类信息传播路径？",
+        "question": "In the past three months, after the platform adjusted the dynamics of relationship focus, a certain public opinion analyst needs to confirm whether the important announcement posted by user '0302' can reach the core node '0714' through the forwarding link. Is there such an information transmission path in the current network topology?",
+        "label": "Path_Existence",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在近期的用户增长活动中，某社交平台通过算法推荐引导新用户关注老用户，导致关注关系网络发生动态变化。基于当前关注链路数据，是否可以确认存在从早期核心用户'0302'到近期高活跃用户'0714'的间接关注路径？该结果将影响平台对信息流传播效率的评估。",
+        "question": "In a recent user growth campaign, a certain social platform guided new users to follow older users through algorithmic recommendations, resulting in dynamic changes in the following relationship network. Based on the current following linkage data, can we confirm the existence of an indirect following path from the early core user '0302' to the recently highly active user '0714'? This result will impact the platform's assessment of information flow dissemination efficiency.",
+        "label": "Path_Existence",
+        "true_count": 17,
+        "weak_count": 1
+    }
+]

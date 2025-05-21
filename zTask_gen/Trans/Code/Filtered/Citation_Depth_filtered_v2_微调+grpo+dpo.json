@@ -1,0 +1,146 @@
+[
+    {
+        "origin_question": "请计算论文引文网络中节点编号'0302'的文章通过引用关系所能触及的最长引用链深度，以评估其学术影响力的传播范围。",
+        "question": "Please calculate the longest citation chain depth that the article with node number '0302' can reach through citation relationships in the paper citation network, in order to assess the range of its academic influence dissemination.",
+        "label": "Citation_Depth",
+        "type": "学术影响力追踪",
+        "true_count": 8,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，节点编号'0302'的文章通过直接和间接引用形成了多级影响链，请计算其学术影响力所能到达的最大引用深度。",
+        "question": "In the citation network of the paper, the article with node number '0302' forms a multi-level influence chain through direct and indirect citations. Please calculate the maximum citation depth that its academic impact can reach.",
+        "label": "Citation_Depth",
+        "type": "学术影响力追踪",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若要追溯编号'0302'的学术成果影响力辐射层级，其通过直接或间接引用关系形成的最长引用链深度是多少？请基于纯引用路径计算该数值。",
+        "question": "In the citation network of academic papers, what is the maximum citation chain depth of the academic achievement identified by the number '0302' in terms of its influence, formed through direct or indirect citation relationships? Please calculate this value based on pure citation paths.",
+        "label": "Citation_Depth",
+        "type": "学术影响力追踪",
+        "true_count": 8,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，请计算节点'0302'的引用深度，即从该节点出发通过单向引用关系形成的多级引用链中，最长一条链路所包含的层级总数。",
+        "question": "In the citation network of the paper, please calculate the citation depth of node '0302', which is the total number of levels contained in the longest citation chain formed by unidirectional citation relations starting from that node.",
+        "label": "Citation_Depth",
+        "type": "学术影响力追踪",
+        "true_count": 5,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，节点编号'0302'的文章通过引用链逐层影响后续研究，其学术影响力的最大传递深度需要被量化，请计算该文章引用关系能到达的最长引用链深度值。",
+        "question": "In the citation network of the paper, the article with node number '0302' influences subsequent research layer by layer through citation chains. The maximum transmission depth of its academic influence needs to be quantified. Please calculate the longest citation chain depth that the citation relationship of this article can reach.",
+        "label": "Citation_Depth",
+        "type": "学术影响力追踪",
+        "true_count": 6,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若要量化文章编号0302的学术影响力渗透深度，应如何计算其引文链的最大层级数？即从该文章出发，通过直接或间接引用形成的多级路径中最长的递推层数。",
+        "question": "In the citation network of academic papers, how should we calculate the maximum hierarchical levels of the citation chain to quantify the academic influence depth of article number 0302? That is, what is the longest recursive hierarchy in the multi-level paths formed by direct or indirect citations starting from that article?",
+        "label": "Citation_Depth",
+        "type": "学术影响力追踪",
+        "true_count": 6,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若要量化节点编号'0302'的学术影响纵向延伸范围，需计算其直接或间接引用的文章形成的引用链最大深度，该数值如何通过Citation Depth算法确定？",
+        "question": "In the citation network of academic papers, to quantify the vertical extension of academic influence of the node labeled '0302', it is necessary to calculate the maximum depth of the citation chain formed by the articles that directly or indirectly cite it. How is this value determined using the Citation Depth algorithm?",
+        "label": "Citation_Depth",
+        "type": "学术影响力追踪",
+        "true_count": 1,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，为评估学术影响力的纵向传递深度，请计算节点编号'0302'的文章通过逐级引用关系所能触达的最长引用链深度值。",
+        "question": "In the citation network of papers, to assess the longitudinal transmission depth of academic influence, please calculate the maximum citation chain depth that the article with node ID '0302' can reach through hierarchical citation relationships.",
+        "label": "Citation_Depth",
+        "type": "学术影响力追踪",
+        "true_count": 7,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，为了追踪学术影响力的传播深度，需要计算论文编号'0302'通过逐层引用所能触达的最深学术影响层级，即其引用链的最大深度是多少？",
+        "question": "In the paper citation network, in order to track the depth of the dissemination of academic influence, it is necessary to calculate the deepest academic influence level that paper number '0302' can reach through layer-by-layer citations, specifically, what is the maximum depth of its citation chain?",
+        "label": "Citation_Depth",
+        "type": "学术影响力追踪",
+        "true_count": 7,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，节点编号'0302'的文章通过逐层引用其他文献形成的链条最长能达到多少层？请计算其最大引用深度以量化其学术影响力的历史溯源范围。",
+        "question": "In the citation network of the paper, what is the maximum citation depth that the article with node number '0302' can reach through layer-by-layer citations of other literature? Please calculate its maximum citation depth to quantify the historical trace range of its academic influence.",
+        "label": "Citation_Depth",
+        "type": "学术影响力追踪",
+        "true_count": 7,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，请计算编号为'0302'的论文通过逐级引用其他文献所形成的引用链最大深度，以此评估该研究在学术领域中的纵向影响力穿透层级。",
+        "question": "In the citation network of the paper, please calculate the maximum depth of the citation chain formed by the paper numbered '0302' through逐级引用other literature, in order to assess the longitudinal impact of the research in the academic field.",
+        "label": "Citation_Depth",
+        "type": "学术影响力追踪",
+        "true_count": 5,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，计算节点编号'0302'的文章通过逐层引用关系所能触达的最远引用层级数，以此量化其学术影响力的纵向延伸程度。",
+        "question": "In the citation network of academic papers, the farthest level of citation that can be reached by the article with node number '0302' through layer-by-layer citation relationships is calculated to quantify the extent of its academic influence in a vertical dimension.",
+        "label": "Citation_Depth",
+        "type": "学术影响力追踪",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析论文引文网络时，若某篇文献的学术影响力可通过其直接或间接引用的文献层级延伸，现需计算节点编号'0302'的文章通过引用链能触达的最深层级数，以此衡量其影响力传递的最远距离。应如何确定这一引用深度？",
+        "question": "When analyzing citation networks of academic papers, if the academic influence of a particular document can extend through the hierarchy of its directly or indirectly cited references, it is now necessary to calculate the deepest level that the article with node number '0302' can reach through its citation chain, in order to measure the farthest distance of its influence transmission. How should this citation depth be determined?",
+        "label": "Citation_Depth",
+        "type": "学术影响力追踪",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，为评估学术影响力的纵向渗透程度，请计算编号'0302'的文献通过逐层引用关系所能抵达的最长引用链深度，该数值结果应为？",
+        "question": "In the citation network of academic papers, to assess the extent of vertical penetration for academic influence, please calculate the longest citation chain depth that literature numbered '0302' can reach through layer-by-layer citation relationships. What should the numerical result be?",
+        "label": "Citation_Depth",
+        "type": "学术影响力追踪",
+        "true_count": 8,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，节点编号'0302'的文章通过引用形成的学术影响链条最深可达多少层？请计算其引用链的最大深度以量化该研究的纵向影响力延续范围。",
+        "question": "In the citation network of the paper, how many layers can the academic influence chain formed by the article with node number '0302' reach at most through citations? Please calculate the maximum depth of its citation chain to quantify the longitudinal impact continuity of the research.",
+        "label": "Citation_Depth",
+        "type": "学术影响力追踪",
+        "true_count": 6,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，节点编号'0302'的学术影响力通过引用关系逐层传递，请计算该文章引用链的最大深度，即其间接引用的文献层级中最深可达多少层？",
+        "question": "In the citation network of the paper, the academic influence of the node numbered '0302' is transmitted layer by layer through citation relationships. Please calculate the maximum depth of the citation chain for this article, which is the deepest level of literature that can be indirectly cited.",
+        "label": "Citation_Depth",
+        "type": "学术影响力追踪",
+        "true_count": 6,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，为了评估学术影响力的纵向渗透范围，请计算编号'0302'的文章通过逐级引用关系所能触达的最长引用链深度值。",
+        "question": "In the citation network of academic papers, in order to assess the vertical penetration range of academic influence, please calculate the longest citation chain depth value that the article numbered '0302' can reach through incremental citation relationships.",
+        "label": "Citation_Depth",
+        "type": "学术影响力追踪",
+        "true_count": 7,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若要追溯节点编号'0302'的文章通过直接或间接引用其他文献形成的最长引用链深度，应当如何计算该文章引用链的最大深度？",
+        "question": "To calculate the maximum depth of the citation chain formed by the article with node number '0302' in the citation network of the paper, including both direct and indirect citations to other literature, how should the maximum depth of the citation chain for this article be determined?",
+        "label": "Citation_Depth",
+        "type": "学术影响力追踪",
+        "true_count": 6,
+        "weak_count": 0
+    }
+]

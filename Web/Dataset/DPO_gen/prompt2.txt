@@ -1,0 +1,13 @@
+I need you to generate a positive sample for this question. The format should remain consistent with the original format of "Thought" and "API_Name," but ensure that the reasoning in the response is correct. The PageRank API is required but it is out of tool set. So the answer should be None. Here's what I need:
+
+Example:
+Question: How significant is page 94205 in the network based on its PageRank?
+Wrong Answer:
+Thought: To find the significance of page 94205 with PageRank, I will use the 'shortest_path' Tool. This tool will help me to compute the shortest paths in the graph.
+Tool_name: shortest_path
+
+Right Answer:
+Thought: To find the significance of page 94205 in the network based on its PageRank, I will use the tool that calculates the PageRank of a node in the graph.
+Tool_name: None
+
+Note: Your output should only include Thought and Tool_name. Do not include anything else.

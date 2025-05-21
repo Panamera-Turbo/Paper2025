@@ -1,0 +1,6 @@
+Check if this API is not suitable for this task. First, carefully analyze the algorithm corresponding to the question and compare it with the currently selected API to determine if they are consistent. 
+Note: Do not assume that the API is unrelated to the task simply because of differences in wording.
+The answer should be True or False.
+The answer format is:
+Suitable_analysis:
+Answer:

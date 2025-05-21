@@ -1,0 +1,34 @@
+[
+    {
+        "origin_question": "A tourist plans to design a circular travel route within the current network, requiring that no road is traversed more than once after departing from the starting point and eventually returning to it. Does a route plan that satisfies these conditions exist?",
+        "question": "A tourist plans to design a circular travel route within the current network, requiring that no road is traversed more than once after departing from the starting point and eventually returning to it. Does a route plan that satisfies these conditions exist?",
+        "label": "Euler_Path",
+        "type": "旅游行程规划",
+        "true_count": 2,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "Does the current network of all scenic roads form a circular route that allows tourists to visit all attractions without repeating any section and return to the starting point?",
+        "question": "Does the current network of all scenic roads form a circular route that allows tourists to visit all attractions without repeating any section and return to the starting point?",
+        "label": "Euler_Path",
+        "type": "旅游行程规划",
+        "true_count": 1,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "When planning a travel route, is it possible to find a circular path that allows tourists to pass through each segment of the current network without repetition and eventually return to the starting point? Does this indicate whether the current network has a feasible travel solution that meets the above conditions?",
+        "question": "When planning a travel route, is it possible to find a circular path that allows tourists to pass through each segment of the current network without repetition and eventually return to the starting point? Does this indicate whether the current network has a feasible travel solution that meets the above conditions?",
+        "label": "Euler_Path",
+        "type": "旅游行程规划",
+        "true_count": 1,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "When planning a travel route, is it possible to design a loop that does not repeat any roads, covers all areas of the current network, and ensures a return to the starting point?",
+        "question": "When planning a travel route, is it possible to design a loop that does not repeat any roads, covers all areas of the current network, and ensures a return to the starting point?",
+        "label": "Euler_Path",
+        "type": "旅游行程规划",
+        "true_count": 3,
+        "weak_count": 0
+    }
+]

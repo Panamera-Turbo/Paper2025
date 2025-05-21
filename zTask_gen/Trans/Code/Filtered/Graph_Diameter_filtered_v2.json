@@ -1,0 +1,658 @@
+[
+    {
+        "origin_question": "某旅游公司计划推出单日最长游览路线，需确定景点网络中两处最远地点的最短路径长度。计算该数值以评估行程时间是否合理？",
+        "question": "A travel company plans to launch the longest single-day tour route and needs to determine the shortest path length between the two farthest points in the sightseeing network. Calculate this value to assess whether the travel time is reasonable.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 14,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某旅游城市的主要景点通过双向观光巴士线路连接，游客希望规划一条途经最远两地的最短路线以高效游览。若各景点视为节点，巴士线路为边，不考虑实际距离只考虑连接关系，应如何计算该交通网络的最大直径数值？",
+        "question": "The main attractions in a certain tourist city are connected by a bidirectional sightseeing bus route. Tourists hope to plan the shortest route that passes through the two most distant locations for efficient sightseeing. If each attraction is considered a node and the bus routes are the edges, and if we do not consider the actual distances but only the connectivity, how should we calculate the maximum diameter value of this transportation network?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 11,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市交通网络由多个景点之间的双向道路连接构成，现需为自驾游客规划行程时评估最长可能行驶路线。已知任意两景点间可选择最短路径通行，请计算当前路网中距离最远的两处景点之间的最短路径长度，以便确定行程最大耗时。",
+        "question": "The transportation network of a certain tourist city consists of bidirectional roads connecting multiple attractions. We need to evaluate the longest possible driving route when planning itineraries for self-driving tourists. It is known that there is a shortest path available between any two attractions. Please calculate the shortest path length between the two attractions that are the farthest apart in the current road network, in order to determine the maximum travel time.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市旅游部门计划优化景区接驳车路线，所有景点通过双向道路连接。为保障游客行程效率，需确定任意两个景点间单程行驶的最长可能距离，请问该交通网络的最大直径是多少？",
+        "question": "The tourism department of a certain city plans to optimize the shuttle bus routes to tourist attractions, connecting all scenic spots through two-way roads. To ensure the efficiency of tourists' itineraries, it is necessary to determine the longest possible one-way distance between any two attractions. What is the maximum diameter of this transportation network?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市交通网络串联了多个旅游景点，游客希望规划单日最长的自驾行程，要求路线必须沿现有道路不绕路。若要找到两景点间最短路径距离最大的组合，该数值是多少？",
+        "question": "Translate to English: A city's transportation network connects multiple tourist attractions. Tourists wish to plan the longest possible one-day self-driving itinerary, with the requirement that the route must follow existing roads and not take detours. If we want to find the combination of two attractions that has the greatest shortest path distance between them, what is that value?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 12,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市群中各景点通过双向道路连接，游客每天只能沿道路移动一个节点。若要规划一次尽可能长的单日行程，需提前确定任意两景点间的最短路径长度最大值。请计算该交通网络中景点间的最远通行距离需要多少天？",
+        "question": "In a certain tourist city cluster, attractions are connected by bidirectional roads, and tourists can only move one node along the roads each day. To plan the longest possible single-day itinerary, it is necessary to determine the maximum shortest path length between any two attractions in advance. Please calculate how many days it would take to cover the longest travel distance between attractions in this transportation network.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 11,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游公司计划设计一条覆盖所有景点的环线观光巴士路线，为确保行程效率，需确定两个最远景点之间的最短通行距离作为路线规划基准。请问这条环线的最长基准距离是多少？",
+        "question": "A travel company plans to design a circular sightseeing bus route that covers all attractions. To ensure efficiency in the itinerary, they need to determine the shortest traveling distance between the two most distant attractions as a basis for route planning. What is the longest baseline distance for this circular route?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游公司计划设计一条单日最远跨城观光路线，游客需从任意起点到终点始终沿最短路径行驶。当前公路网中能满足这种条件的最长行程需要经过多少段道路？",
+        "question": "A travel company plans to design a one-day long-distance cross-city sightseeing route. Tourists must travel from any starting point to the destination along the shortest path. How many road segments are required for the longest journey that meets this condition in the current road network?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 11,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游公司计划为游客设计环岛观光路线，需确定所有景点之间最短行车路径的最大距离，以确保最远两景点间的直达车程不超过游客体验上限，应计算的数值是多少？",
+        "question": "A travel company plans to design an island sightseeing route for tourists and needs to determine the maximum distance of the shortest driving paths between all attractions. This is to ensure that the direct travel time between the two most distant attractions does not exceed the experience limit for tourists. What value needs to be calculated?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 12,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游公司计划设计一条覆盖多个景点的巴士观光路线，已知各景点之间的双向道路连接情况。为了确保行程时间预估准确，需要找出网络中任意两个景点间最短路径的最大长度。请计算该交通网络中最远两个景点间的最短路径长度，以便确定行程的最大时间消耗。",
+        "question": "A travel company plans to design a bus sightseeing route covering multiple attractions, given the bidirectional road connections between the attractions. To ensure accurate time estimates for the itinerary, it is necessary to identify the maximum length of the shortest paths between any two attractions in the network. Please calculate the shortest path length between the two most distant attractions in this transportation network to determine the maximum time consumption for the journey.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 13,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市景区分布图中，各景点通过双向观光车道连接。若游客希望规划一条尽可能长的单程自驾路线，起点和终点为任意两景点，需计算所有可能路线中最大的行驶距离是多少？",
+        "question": "Translate to English: In the distribution map of attractions in a certain tourist city, various sites are connected by bi-directional sightseeing roads. If a visitor wants to plan the longest possible one-way self-driving route, starting and ending at any two attractions, how do you calculate the maximum driving distance among all possible routes?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市景点之间的道路均为双向通行，游客希望规划一条单日行程，使得从某一景点出发到另一景点的驾车时间最长。假设各景点间行驶时间相同，请计算该交通网络中需要规划的最长单日行程时间所对应的数值。",
+        "question": "In a certain tourist city, the roads between attractions are all two-way. Tourists wish to plan a one-day itinerary such that the driving time from one attraction to another is maximized. Assuming that the travel time between attractions is the same, please calculate the value corresponding to the longest single-day itinerary time that needs to be planned in this transportation network.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某旅游公司计划为游客设计一条单日游览线路，要求从任意景点出发并返回，且途中经过的道路数最多。已知各景点间通过双向道路连接，计算他们单日行程可能的最大距离？",
+        "question": "A travel company plans to design a one-day tour route for tourists, requiring them to depart from any scenic spot and return while maximizing the number of roads traversed along the way. Given that the scenic spots are connected by bidirectional roads, calculate the maximum possible distance for their one-day journey.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市旅游局计划为游客推荐最远景点组合的游览路线，所有景点间道路均为双向且通行时间相同。为确保行程规划合理，需要确定任意两个景点间最长可能耗时，应如何计算这一最大时长？",
+        "question": "The tourism bureau of a certain city plans to recommend a sightseeing route that combines the most distant attractions for visitors. All roads between the attractions are bidirectional and have the same travel time. To ensure that the itinerary is planned reasonably, it is necessary to determine the longest possible travel time between any two attractions. How should this maximum duration be calculated?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某旅游公司计划为游客设计一条最长自驾路线，要求从任意景点出发并最终返回，途中每段道路耗时相同。若仅考虑景点间的连通性，计算完成最长行程所需的最少天数是多少？",
+        "question": "A travel company plans to design the longest self-driving route for tourists, which requires starting from any attraction and ultimately returning, with each segment of the journey taking the same amount of time. If we only consider the connectivity between attractions, what is the minimum number of days required to complete the longest trip?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市的路网中，多个景点通过双向道路相连。为帮助游客合理规划最长行程路线，现需确定任意两景点间需要经过最多道路的通行方案，这种最长通行方案对应的最少道路数是多少？",
+        "question": "In a travel city with a road network, multiple attractions are connected by bidirectional roads. To assist tourists in planning the longest possible travel routes, it is necessary to determine the maximum number of roads that need to be traversed between any two attractions. What is the minimum number of roads corresponding to this longest travel scheme?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 12,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某游客计划游览所有景区，希望了解任意两个景点之间通行所需最少道路段数的最大值，以便为可能的最长单程路线预留充足时间，应计算该数值为多少？",
+        "question": "A tourist plans to visit all attractions and would like to know the maximum number of road segments required for travel between any two attractions. This is to ensure ample time is reserved for the potentially longest one-way route. What should this value be?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游公司计划为游客设计一条覆盖多个景点的最长一日游路线，假设每段道路行驶时间相同，计算游客可能经历的两个景点之间的最长最短路径距离，以确定行程最大跨度。",
+        "question": "A travel company plans to design the longest one-day tour route for tourists, covering multiple attractions. Assuming that the travel time on each segment of the road is the same, the company will calculate the longest shortest path distance between any two attractions that tourists may experience, in order to determine the maximum span of the itinerary.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 11,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "旅游规划师需要确定某地区最长直达观光路线，以便安排单日往返行程。计算该交通网络中两景点之间的最大可能距离。",
+        "question": "The travel planner needs to identify the longest direct sightseeing route in a certain area in order to arrange a one-day round trip itinerary. Calculate the maximum possible distance between two attractions in the transportation network.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市各景点间的道路均为双向通行，规划行程时需要确保任意两个景点之间的行驶时间最短。现需评估该交通网络的最长通行时间，应如何计算任意两景点间可能存在的最大行驶时间？",
+        "question": "In a certain tourist city, the roads between various attractions allow for two-way traffic. When planning an itinerary, it's essential to ensure that the travel time between any two attractions is minimized. Now, it is necessary to assess the longest possible travel time within this transportation network. How can we calculate the potential maximum travel time between any two attractions?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某游客计划在多个旅游城市间自驾游览，希望找到两座城市间的最长最短驾驶路线作为单日行程极限。请问该交通网络中满足条件的最长路线需要经过多少段道路？",
+        "question": "A certain tourist plans to drive through multiple tourist cities and hopes to find the longest and shortest driving routes between two cities as the limit for a daily itinerary. How many segments of road does the longest route that meets the criteria in this transportation network need to pass through?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某旅游公司计划设计一条覆盖多个景点的自驾观光路线，为确保游客能在一天内完成行程，需找到两个景点间的最长驾驶时间作为参考。已知景点间道路均为双向且连通，应计算哪两个景点之间的最短路径最长，以确定整个路网的最大行程时间？",
+        "question": "A travel company plans to design a self-driving sightseeing route that covers multiple attractions. To ensure that visitors can complete their journey in one day, it needs to find the longest driving time between any two attractions as a reference. Given that the roads between the attractions are all bidirectional and connected, it is necessary to calculate which two attractions have the longest shortest path between them in order to determine the maximum travel time for the entire road network.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 11,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅行社规划景区间观光路线时，为确保最长单程耗时不超过游客承受范围，需提前测算所有景点对之间的最远通行距离。已知景点通过双向道路连接，请计算该交通网络的最大可能行程距离？",
+        "question": "Translation: \n\nWhen a travel agency plans sightseeing routes between scenic spots, in order to ensure that the longest one-way travel time does not exceed the range that tourists can tolerate, it is necessary to calculate in advance the maximum travel distance between all scenic spots. Given that the scenic spots are connected by bidirectional roads, please calculate the maximum possible travel distance of this transportation network.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市有多个景点通过双向道路连接，游客希望规划一条最长行程，从任意景点出发到另一景点结束，且确保每次移动都选择最短道路。计算该交通网络中可能出现的最长行程需要经过多少段道路？",
+        "question": "In a certain tourist city, multiple attractions are connected by bidirectional roads. Tourists wish to plan the longest trip, starting from any attraction and ending at another, ensuring that each move selects the shortest road. How many road segments need to be traversed to calculate the longest trip that can occur in this transportation network?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 13,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某旅游区的景点之间由双向观光车道连接，游客希望规划尽可能多游览景点的行程。为确保全天安排合理，需预先计算任意两景点间最长可能行驶时间，该交通网络的最大行程时间是多少？",
+        "question": "The attractions in a certain tourist area are connected by bidirectional sightseeing roads, and tourists hope to plan an itinerary that allows them to visit as many attractions as possible. To ensure that the day's schedule is reasonable, it is necessary to pre-calculate the longest possible travel time between any two attractions. What is the maximum travel time for this transportation network?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游公司计划设计一条串联多个景点的环线观光路线，游客希望在一次行程中尽可能游览更多不同景点且不走回头路。若景点之间的双向道路连接关系已知，计算从任意景点出发到达另一个最远景点所需经过的最少路段数量。",
+        "question": "A tourism company plans to design a circular sightseeing route that connects multiple attractions. Tourists hope to visit as many different attractions as possible in one trip without retracing their steps. Given the known bidirectional road connections between attractions, calculate the minimum number of segments required to travel from any attraction to the farthest attraction.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市有多个景点通过双向道路连接，游客希望规划一条尽可能游览更多地方的行程。若景点间移动时间相同，计算游客可能经历的两景点间最长最短行程所需的移动次数，以预估最大行程耗时。",
+        "question": "A certain tourist city has multiple attractions connected by bidirectional roads, and visitors wish to plan an itinerary that allows them to visit as many places as possible. If the travel time between attractions is the same, calculate the number of moves required for tourists to experience the longest and shortest itineraries between two attractions in order to estimate the maximum travel time.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 11,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游公司规划跨市景点串联路线，假设每段道路行驶时间相同，游客希望单日行程不超过最长往返时间。现需确定任意两个景点间的最长可能行程，以便调整发车间隔。请问该交通网络中两地最远需要多少行驶时间？",
+        "question": "Translation failed",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 13,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某市旅游局计划为自驾游客推荐一条最长观光路线，游客希望从任意景点出发并到达另一景点时，尽可能经历最远的行驶距离。计算该交通网络中两景点间可能存在的最大最短路径长度是多少？",
+        "question": "The tourism bureau of a certain city plans to recommend the longest sightseeing route for self-driving tourists. When visitors want to start from any attraction and reach another attraction, they hope to experience the longest possible driving distance. Calculate the maximum shortest path length that may exist between two attractions in this transportation network.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市旅游局计划为游客推荐最长观光路线，需确定所有景点间最短路径的最大值以评估交通网络覆盖范围，请计算该市旅游景点交通网中任意两景点之间的最长最短路径长度？",
+        "question": "The tourism bureau of a certain city plans to recommend the longest sightseeing route for visitors, which requires determining the maximum of the shortest paths between all attractions to assess the coverage of the transportation network. Could you please calculate the length of the longest shortest path between any two attractions in the city's transportation network?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 14,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市的国家公园共有多个景点，游客希望规划一条尽可能长的单日观光路线（景点间通过双向步道连接且不走重复道路）。若路线起点与终点为最远两景点，计算该行程规划的最大可能距离数值是多少？",
+        "question": "Translate to English: A national park in a certain tourist city has multiple attractions, and visitors hope to plan the longest possible day trip route (with attractions connected by bidirectional trails, avoiding repeated paths). If the starting and ending points of the route are the two most distant attractions, what is the maximum possible distance value for this itinerary planning?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在旅游旺季，某景区需要为游客规划单日行程路线，若景点之间的道路通行时间均相等，计算游客从任意景点出发可能经历的两个最远景点之间的最短通行时间，以便确定最长游览路线的合理时长？",
+        "question": "During the peak tourist season, a scenic area needs to plan a one-day itinerary for visitors. If the travel time between attractions is equal, calculate the shortest travel time between the two farthest attractions that a visitor might encounter when departing from any attraction, in order to determine a reasonable duration for the longest tour route.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 13,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游公司计划推出覆盖所有景点的观光巴士线路，为确保行程效率，需确定任意两景点间巴士行驶所需停靠站数的最大值。作为行程规划师，请计算游客在任意两个景点间可能经历的最长单程交通时间（以途经站点数为单位）。",
+        "question": "A certain travel company plans to launch sightseeing bus routes covering all attractions. To ensure the efficiency of the itinerary, it is necessary to determine the maximum number of bus stops required between any two attractions. As a trip planner, please calculate the longest one-way travel time that tourists may experience between any two attractions (measured in terms of the number of stops encountered).",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市景点间通过双向道路连接，游客计划从某景点出发，以最短路径游览尽可能多的景点。现需评估该交通网络中最远两景点间的最短路径长度，以便规划最长行程。请计算该网络的最大可能直径数值。",
+        "question": "The attractions in a certain tourist city are connected by bidirectional roads. Tourists plan to start from a certain attraction and visit as many attractions as possible using the shortest route. It is now necessary to evaluate the shortest path length between the two farthest attractions in this transportation network, in order to plan the longest journey. Please calculate the maximum possible diameter value of this network.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 14,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市景点间道路均为相同行驶时间的双向车道，游客中心需预计算行程中最远两景点之间的最短路径耗时，以便提供时间参考。请问该交通网络中单程最长可能行驶时间是多少？",
+        "question": "In a certain tourist city, the roads between attractions are all bidirectional lanes with the same travel time. The visitor center needs to pre-calculate the shortest travel time between the most distant two attractions in the itinerary in order to provide a time reference. What is the longest possible one-way travel time in this transportation network?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某旅游区的多个景点通过双向道路连接。假设游客在每个路段耗时相同，为合理规划行程时间上限，需要计算任意两景点间最短路程的最大值。请问该交通网络的最大行程时间是多少？",
+        "question": "The various attractions in a tourist area are connected by bidirectional roads. Assuming that tourists spend the same amount of time on each segment, in order to reasonably plan the time limit for the itinerary, it is necessary to calculate the maximum of the shortest distances between any two attractions. What is the maximum travel time for this transportation network?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为确保游客能合理规划单日行程，需计算该交通网络中两景点间最长的最短路径距离，该数值代表行程时间的理论上限，请问这个最大距离是多少？",
+        "question": "To ensure that visitors can reasonably plan their one-day itinerary, it is necessary to calculate the longest shortest path distance between two attractions in the transportation network. This value represents the theoretical upper limit of travel time. What is this maximum distance?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游区各景点通过双向道路连接，现需规划一条最远距离的自驾路线以覆盖所有可能景点，计算该交通网络中任意两景点间最长行驶距离的数值。",
+        "question": "The attractions in a certain tourism area are interconnected by two-way roads. A self-driving route needs to be planned to cover all possible attractions while maximizing the longest distance between any two attractions in this transportation network. Please calculate the value of the longest driving distance between any two attractions.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 14,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在规划旅游大巴路线时，若每个景点间的双向道路通行耗时相同，现需确定所有景点间最长可能行程所对应的最少通行时间，应计算该交通网络中哪两个景点间的最短路径最大？",
+        "question": "When planning the route for a tourist bus, if the travel time on the bidirectional roads between each attraction is the same, it is necessary to determine the minimum travel time corresponding to the longest possible journey between all attractions. This requires calculating which two attractions in the transportation network have the maximum shortest path between them.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 11,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某游客希望设计一条尽可能长的自驾观光路线以游览不同景点，已知景点间的双向道路连接情况，计算该交通网络中任意两景点间最长可行路径对应的距离数值。",
+        "question": "A certain tourist wishes to design the longest possible self-driving sightseeing route to visit various attractions. Given the bidirectional road connections between the attractions, calculate the distance value corresponding to the longest feasible path between any two attractions in this transportation network.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市各景点通过双向道路连通，游客中心需预判极端情况下的最长行程耗时。若将每个景点视为节点，道路为边，请计算该交通网络中任意两景点间最长可能行驶时间对应的数值。",
+        "question": "In a certain tourist city, various attractions are connected by bidirectional roads, and the visitor center needs to anticipate the longest travel time in extreme situations. If we consider each attraction as a node and the roads as edges, please calculate the value corresponding to the longest possible travel time between any two attractions in this transportation network.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在旅游旺季，交通部门需要预估景点间最远行程时间以便发布旅行提示。已知各景点通过双向道路相连，若每段道路行驶时间相同，计算该交通网络中任意两个景点之间需要的最长单程行驶时间，以帮助游客合理预留行程时间。",
+        "question": "During the peak tourist season, transportation departments need to estimate the maximum travel time between the farthest attractions in order to issue travel advisories. Given that the attractions are connected by bidirectional roads and the travel time on each segment of the road is the same, calculate the longest single journey time required between any two attractions in this transportation network to help tourists allocate their travel time appropriately.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在规划旅游路线时，若需确定任意两景点间最短路径的最大长度，以评估最长单程行程时间，应计算该交通网络的什么数值？",
+        "question": "When planning a travel route, if it is necessary to determine the maximum length of the shortest path between any two attractions in order to assess the longest one-way travel time, what value should be calculated for that transportation network?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 12,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市各景点通过双向道路相连，规划部门需要确定游客单日行程可能的最大游览距离（相邻景点间距离相同），以便设计推荐路线。若以景点为节点，道路为边，当前交通网络的最大直径是多少？",
+        "question": "In a certain tourist city, various attractions are connected by two-way roads. The planning department needs to determine the maximum possible sightseeing distance for visitors in a single day (the distance between adjacent attractions is the same) in order to design recommended routes. If we consider attractions as nodes and roads as edges, what is the maximum diameter of the current transportation network?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 14,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游区道路网络连接了多个景点，游客在规划行程时需要了解景点之间的最远距离，以便安排合理的交通时间。请问该交通网络中任意两个景点之间的最短路径最大是多少？",
+        "question": "The road network in a certain tourist area connects multiple attractions. When planning their itinerary, tourists need to know the maximum shortest distance between attractions in order to arrange reasonable travel times. What is the maximum shortest path between any two attractions in this transportation network?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市旅游局计划优化景区接驳路线，已知各景点间道路均为双向通行且行驶时间相同，现需评估最长行程时间以调度观光车，计算该交通网络中任意两景点间需行驶的最大最少时间？",
+        "question": "The tourism bureau of a certain city plans to optimize the shuttle routes for scenic spots. It is known that the roads between various attractions are all two-way with the same travel time. Now, there is a need to assess the longest travel time to schedule sightseeing buses and calculate the maximum shortest travel time required to travel between any two attractions in this transportation network.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 13,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游公司计划在景区内规划接驳车路线，已知各景点通过双向道路连接。为确保车辆调度效率，需找到最远两个景点间的最少通行路段数，计算该交通网络的最大可能行驶区间是多少？",
+        "question": "A tourism company plans to design shuttle bus routes within a scenic area, where various attractions are connected by bidirectional roads. To ensure vehicle dispatch efficiency, it is necessary to find the minimum number of passage segments between the two most distant attractions. How can we calculate the maximum possible driving range of this transportation network?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 14,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市有多个景点通过双向道路连接，游客希望规划一条尽可能长的行程路线，但要求每段行程必须选择最短路径。请问该交通网络中两景点间最长行程需要经过的最少道路段数是多少？",
+        "question": "In a certain tourist city, multiple attractions are connected by bidirectional roads. Tourists wish to plan an itinerary that is as long as possible, but each segment of the journey must follow the shortest path. What is the minimum number of road segments that need to be traversed for the longest journey between two attractions in this traffic network?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市景点间由双向观光道路连接，游客希望从某一景点出发不重复游览的情况下，规划单日最长行程。若每段道路游览耗时相同，计算该城市景点网络中最长可能路线的总耗时？",
+        "question": "In a certain tourist city, the attractions are connected by bidirectional sightseeing roads. Tourists wish to plan the longest possible single-day itinerary without revisiting any attraction, starting from a specific attraction. If each segment of the road takes the same amount of time to explore, how can we calculate the total travel time for the longest possible route in the city's network of attractions?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某国家公园的景点间道路均为双向通行，游客中心需规划最长游览路线作为特色行程。请计算该交通网络的最大直径，以确定两入口间游览路线的最远可能距离。",
+        "question": "The roads between attractions in a certain national park allow for bidirectional traffic, and the visitor center needs to plan the longest sightseeing route as a featured itinerary. Please calculate the maximum diameter of this transportation network to determine the furthest possible distance between the two entrances along the sightseeing route.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市景区道路网络由多个景点双向连通，为预估游客从任意景点出发到达最远目的地所需的最短时间，需计算该网络的最大行程距离。请问这一最大距离对应的数值是多少？",
+        "question": "The road network of a tourist city is bidirectionally connected by multiple attractions. To estimate the shortest time required for tourists to reach the farthest destination from any attraction, it is necessary to calculate the maximum travel distance of this network. What is the value of this maximum distance?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某游客计划从任意一个景点出发，沿道路每天游览一个相邻景点且不重复访问，为确保能规划出覆盖所有景点的最长行程，需要计算行程中可能出现的两个景点间最大移动天数是多少？",
+        "question": "A tourist plans to start from any attraction and visit one adjacent attraction each day along the road, without repeating visits. To ensure a long itinerary that covers all attractions, it is necessary to calculate the maximum number of days of travel that could occur between any two attractions during the trip.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游公司计划为游客规划一条单日最远行程路线，要求路线中不重复经过同一景点。假设景点之间的双向道路均可通行，且行驶时间与道路数量成正比。请计算当前交通网络中，两个景点之间可能存在的最长最短路径长度，以确定单日行程的最大可能距离。",
+        "question": "A travel company plans to design a one-day itinerary for tourists that features the longest possible route without visiting the same attraction more than once. Assuming that the bidirectional roads between attractions are all accessible, and the travel time is proportional to the number of roads, please calculate the longest shortest path length that may exist between two attractions in the current traffic network to determine the maximum possible distance for a one-day trip.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某旅游城市有多个景点通过双向道路相连，游客希望从任意两个景点间规划尽可能丰富的行程。若每段道路的行驶时间相同，且行程总距离由途经的道路数量决定，计算该交通网络的最大可能行程距离。",
+        "question": "In a certain tourist city, there are multiple attractions connected by bidirectional roads, and visitors hope to plan the most diverse itinerary possible between any two attractions. If the travel time on each road is the same and the total distance of the itinerary is determined by the number of roads traversed, calculate the maximum possible itinerary distance for this transportation network.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游公司规划跨区域景点直通车线路，为确保游客在任何两个景点间的单程行驶时间都能被准确预估，需要确定交通网络中相距最远的两个景点之间最短路径的行车时长。请计算该网络中最长可能出现的单程车程时间。",
+        "question": "A tourism company is planning direct bus routes connecting attractions across regions. To ensure that the one-way travel time between any two attractions can be accurately estimated, it is necessary to determine the driving time of the shortest path between the two most distant attractions in the transportation network. Please calculate the longest possible one-way travel time in this network.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 13,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市旅游局计划推出跨区域旅游专线，游客希望找到两景点间的最短通行路线长度最大值，以便规划最长观光行程。计算该交通网络中任意两个景点间最短路径的最大可能长度值是多少？",
+        "question": "The tourism bureau of a certain city plans to launch cross-regional tourism routes. Tourists hope to find the maximum length of the shortest travel route between two attractions in order to plan the longest sightseeing itinerary. What is the maximum possible length of the shortest path between any two attractions in this transportation network?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 14,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在某个旅游区的景点交通网络中，所有双向道路的行驶时间相同。若游客希望规划一条尽可能长的单程游览路线，且中途不重复经过任何景点，那么该路线的最大可能行驶时间是多少？",
+        "question": "In a tourist area’s attraction transportation network, all bidirectional roads have the same travel time. If tourists want to plan a one-way sightseeing route that is as long as possible without passing any attraction more than once, what is the maximum possible travel time for that route?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某市旅游区景点由双向步道连接，游客希望规划单日最长的直达游览路线（不绕远路）。若要找到需要经过最多步道段数的两个景点间路线，计算整个网络中这种最长直达路线包含的步道段数。",
+        "question": "The tourist attractions in a certain city's tourism area are connected by bidirectional paths. Tourists wish to plan the longest direct sightseeing route within a single day (without taking detours). To find the route between two attractions that requires traversing the maximum number of path segments, calculate the number of path segments included in this longest direct route within the entire network.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市景点之间的道路均为双向通行，游客希望规划尽可能覆盖更多景点的行程。若游览车需要确保能在任意两景点间的最短路径行驶，计算该交通网络中任意两景点间最短路径的最大长度，以便确定游览车的最长单程时间？",
+        "question": "In a certain tourist city, the roads between attractions are all bidirectional, and tourists hope to plan itineraries that cover as many attractions as possible. If the tour bus needs to ensure that it can travel along the shortest path between any two attractions, calculate the maximum length of the shortest path between any two attractions in this transportation network in order to determine the longest one-way time for the tour bus.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游公司规划跨省自驾路线时，需确保最远行程段不超过路网极限距离。已知各省会城市间道路均为双向通行，若仅考虑城市节点间最短路径，计算整张交通网中任意两城市间最长的单程驾驶距离？",
+        "question": "When a travel company plans a cross-province self-drive route, it needs to ensure that the longest segment of the journey does not exceed the maximum distance of the road network. Given that all roads between provincial capitals are bidirectional, if we only consider the shortest paths between city nodes, how do we calculate the longest one-way driving distance between any two cities in the entire transportation network?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在规划跨省自驾游路线时，需要确定任意两个景点之间的最长行驶时间，该时间的计算依据的最长可能路径长度是多少？",
+        "question": "When planning a cross-province self-driving travel route, it is necessary to determine the longest driving time between any two attractions. What is the maximum possible path length on which this time calculation is based?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "游客计划从任意景点出发自驾游览所有景点，为确保合理规划行程时长，需计算该网络中任意两景点间最长可能的最短路径长度。请问该交通网络的最大行程距离是多少？",
+        "question": "The tourist plans to start from any attraction and drive to visit all the attractions. To ensure reasonable planning of the travel duration, it is necessary to calculate the longest possible shortest path length between any two attractions in this network. What is the maximum travel distance of this transportation network?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 13,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市旅游景点通过双向道路连接成网，游客希望规划一条最长游览路线，但要求每段行程都选择最短路径行驶。计算该交通网络中两个景点间可能存在的最大最短路径长度是多少？",
+        "question": "Translate to English: \n\nThe tourist attractions in a certain city are connected in a network through two-way roads. Tourists hope to plan the longest sightseeing route, but require that each segment of the journey follows the shortest path. Calculate the maximum length of the shortest path that may exist between two attractions in this transportation network.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 13,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某旅游公司计划为游客设计一条覆盖所有景点的环线观光路线，为确保观光车单程行驶距离能满足所有可能的最远景点间通行需求，需要计算当前交通网络中两个景点之间的最长最短路径长度，请问该数值是多少？",
+        "question": "A certain travel company plans to design a circular sightseeing route covering all attractions for tourists. To ensure that the sightseeing bus's one-way travel distance can meet the demands of all possible longest distances between attractions, it needs to calculate the longest shortest path length between any two attractions in the current traffic network. What is that value?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某景区道路网络连接了多个热门景点，游客希望设计一条单日游览路线，使得起点到终点的路径尽可能长且不重复使用道路。为预估行程最大耗时，需计算该网络中任意两景点间的最长最短路径长度，请问这个数值是多少？",
+        "question": "The road network of a certain scenic area connects multiple popular attractions. Tourists wish to design a one-day tour route that maximizes the length of the path from the starting point to the endpoint without reusing any roads. To estimate the maximum possible travel time, it is necessary to calculate the length of the longest shortest path between any two attractions in this network. What is that value?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游公司计划为游客设计一条最长的不重复观光路线，路线需从某一城市出发并最终到达另一城市。假设所有城市间的双向道路均可通行且无需考虑距离，仅根据连通性计算整个交通网络中可规划的最长行程需要经过多少段道路？",
+        "question": "A certain travel company plans to design the longest non-repeating sightseeing route for tourists, starting from one city and ultimately reaching another city. Assuming that all bidirectional roads between cities are accessible and that distance is not a factor, how many segments of road are required for the longest route that can be planned based solely on connectivity within the entire transportation network?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市景点之间通过双向道路连接，游客希望规划一条尽可能高效的行程路线，若要在单日内游览全部景点，计算从某一景点出发到另一景点可能经历的最长必要通行路段数量（相邻景点间移动计为1个路段）。",
+        "question": "In a certain tourist city, attractions are connected by bidirectional roads. Tourists wish to plan the most efficient itinerary possible. If they are to visit all attractions within a single day, calculate the maximum necessary number of road segments that a tourist might encounter when traveling from one attraction to another (moving between adjacent attractions counts as one road segment).",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 13,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在旅游行程规划中，若游客希望避免中转次数过多的路线，需计算当前交通网络中任意两景点间的最短路径，其最大中转次数是多少？",
+        "question": "In travel itinerary planning, if tourists wish to avoid routes with excessive transfers, what is the maximum number of transfers that need to be calculated for the shortest path between any two attractions in the current transportation network?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 10,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某旅游城市景点之间通过双向观光道路连接，游客计划设计一条单日行程，要求不重复游览同一景点且尽可能游览更多景点。现需确定任意两景点间最长可能行程的距离，以便安排车辆续航，请计算该交通网络的最大通行距离数值。",
+        "question": "In a certain tourist city, the attractions are connected by a two-way sightseeing road. Tourists plan to design a one-day itinerary, which requires visiting each attraction only once while maximizing the number of attractions visited. It is necessary to determine the longest possible distance for any two attractions in order to arrange the vehicle's range. Please calculate the maximum travel distance value of this transportation network.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 14,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市有多个景点通过双向道路连接，游客希望规划一条尽可能长的行程路线，但要求每段路必须选择两地间的最短道路。为确保行程时间充足，需计算所有景点间最短路径中的最大距离数值是多少？",
+        "question": "In a certain tourist city, multiple attractions are connected by bidirectional roads. Tourists wish to plan an itinerary that is as long as possible, but each segment of the road must follow the shortest path between two locations. To ensure that there is enough time for the trip, it is necessary to calculate the maximum distance among the shortest paths between all attractions.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅行社计划推出覆盖所有景点的多日游项目，游客每天从某一景点出发，沿道路直达另一景点游览。若每段道路需花费1天时间，且行程总天数由最长单程决定，那么为合理安排日程，应计算该交通网络中哪两个景点间的最长单程天数是多少？",
+        "question": "A travel agency plans to launch a multi-day tour project that covers all attractions. Tourists will depart from one attraction each day and travel directly to another attraction along the roads. If each segment of the road takes one day, and the total number of days for the trip is determined by the longest one-way journey, then to arrange the itinerary reasonably, it is necessary to calculate the longest one-way travel time between which two attractions in this transportation network.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某景区公路连接多个景点，游客希望规划单日自驾的最长路线，要求两地间必须通过最短路径行驶。计算可安排的最长可能行驶时间对应的两景点间最短路径长度。",
+        "question": "Translate to English: \n\nA scenic area's road connects multiple attractions. Tourists wish to plan the longest possible driving route for a single day, with the requirement that travel between two locations must follow the shortest path. Calculate the shortest path length between the two attractions that corresponds to the longest possible driving time that can be arranged.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 13,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市景点通过双向道路连接。旅行社计划设计一条最长观光路线，游客每天沿最短路径前往新景点。计算整个网络中两景点间最长的行程所需天数。",
+        "question": "A tourist city is connected by bidirectional roads to its attractions. The travel agency plans to design the longest sightseeing route, with tourists traveling along the shortest path to new attractions each day. Calculate the number of days required for the longest journey between two attractions in the entire network.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 14,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在规划某旅游区景点间的自驾路线时，若所有道路均可双向通行且不考虑拥堵，计算该区域两景点间最长可能直达行驶距离，以确定观光巴士的单程时间上限。",
+        "question": "When planning the self-driving route between attractions in a tourist area, if all roads are bidirectional and congestion is not considered, calculate the longest possible direct driving distance between two attractions in the area to determine the upper limit for the one-way travel time for the sightseeing bus.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市旅游区的景点由双向道路连接，游客希望规划一条覆盖所有景点的观光路线。为确保行程时间合理，需计算所有景点间最短路径的最大值，该数值代表游览中最远两处景点间的最少通行时间。请问应如何计算这一数值？",
+        "question": "Translation: The attractions in a tourist area of a certain city are connected by bidirectional roads, and visitors hope to plan a sightseeing route that covers all attractions. To ensure a reasonable travel time, it is necessary to calculate the maximum value of the shortest paths between all attractions, which represents the minimum travel time between the two farthest points during the tour. How should this value be calculated?",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 11,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市各景点通过双向观光车线路连接，游客希望规划一条尽可能长的游览路线，要求每个景点只经过一次且路线不重复。若每段观光车行程需花费1天时间，计算游客需要至少多少天才能完成最长的可能游览路线？",
+        "question": "In a certain tourist city, various attractions are connected by a bidirectional sightseeing bus route. Tourists hope to plan a sightseeing route that is as long as possible, with the requirement that each attraction is visited only once and that the route does not repeat. If each segment of the sightseeing bus journey takes 1 day, calculate the minimum number of days the tourists need to complete the longest possible sightseeing route.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游城市各景点通过双向观光巴士线路连接，游客希望规划一条尽可能长的行程路线，要求不重复游览同一景点。若每条线路耗时1天，计算整个旅游交通网络中任意两景点间最长不重复路线所需的最少天数。",
+        "question": "In a certain tourist city, various attractions are connected by a two-way sightseeing bus route. Tourists wish to plan an itinerary that is as long as possible, with the requirement of not visiting the same attraction more than once. If each route takes 1 day, calculate the minimum number of days required to traverse the longest route without repetition between any two attractions in the entire tourist transportation network.",
+        "label": "Graph_Diameter",
+        "type": "旅游行程规划",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某区域物流枢纽网络包含多个配送中心，双向道路连接各节点。为确保跨区域货物运输效率，需找到整个网络中运输距离最长的两个站点之间的最短路径长度。请计算该网络的最大直径，为优化区域物流调度方案提供依据。",
+        "question": "The logistics hub network in a certain area consists of multiple distribution centers, with bidirectional roads connecting each node. To ensure the efficiency of cross-regional goods transportation, it is necessary to find the shortest path length between the two stations that are the farthest apart in the entire network. Please calculate the maximum diameter of this network to provide a basis for optimizing regional logistics scheduling plans.",
+        "label": "Graph_Diameter",
+        "type": "物流配送优化",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某物流公司需要优化城市配送网络，现分析各集散中心之间的双向道路连接情况。若配送车辆在两个中心间行驶需耗时30分钟且速度恒定，请计算该网络的最大可能配送间隔时间（以小时为单位）。",
+        "question": "A logistics company needs to optimize its urban delivery network, and is currently analyzing the bidirectional road connections between various distribution centers. If the delivery vehicles take 30 minutes to travel between two centers at a constant speed, please calculate the maximum possible delivery interval time for this network (in hours).",
+        "label": "Graph_Diameter",
+        "type": "物流配送优化",
+        "true_count": 14,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某物流公司计划优化区域配送路线，需确定所有中转站点间最短通行路径的最大长度，以评估极端情况下的运输时效瓶颈。请计算该交通网络的最大可能直径数值？",
+        "question": "A logistics company plans to optimize regional delivery routes and needs to determine the maximum length of the shortest paths between all transfer stations in order to assess potential bottlenecks in transportation efficiency under extreme conditions. Please calculate the maximum possible diameter of this transportation network.",
+        "label": "Graph_Diameter",
+        "type": "物流配送优化",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为确保物流车辆调度效率最大化，需计算当前交通网络中任意两个配送中心之间最短路径的最大长度，以确定最长可能运输路线。该网络的最大通行距离是多少？",
+        "question": "To maximize the efficiency of logistics vehicle scheduling, it is necessary to calculate the maximum length of the shortest path between any two distribution centers in the current traffic network to determine the longest possible transportation route. What is the maximum passing distance of this network?",
+        "label": "Graph_Diameter",
+        "type": "物流配送优化",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某物流公司需优化跨区域配送路线，所有配送中心由双向道路连通。为确保车辆调度方案覆盖最长运输时间，需计算当前交通网络中任意两中心间的最大可能行驶距离数值。",
+        "question": "A logistics company needs to optimize cross-regional delivery routes, with all distribution centers interconnected by two-way roads. To ensure that the vehicle scheduling plan covers the longest transportation time, it is necessary to calculate the maximum possible driving distance between any two centers in the current transportation network.",
+        "label": "Graph_Diameter",
+        "type": "物流配送优化",
+        "true_count": 15,
+        "weak_count": 0
+    }
+]

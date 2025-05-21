@@ -1,0 +1,42 @@
+[
+    {
+        "origin_question": "某旅游区景点间道路网络即将部分维修，若封闭节点'0302'直达'0714'的当前路线，游客是否必须绕行其他景点才能抵达目的地（即该道路是否为不可替代的关键连接）？请判断移除这条边是否会破坏两景点间的连通性。",
+        "question": "The road network between attractions in a certain tourist area is about to undergo partial repairs. If the current route from node '0302' to '0714' is closed, must tourists detour through other attractions to reach their destination (i.e., is this road an irreplaceable key connection)? Please assess whether removing this edge would disrupt the connectivity between the two attractions.",
+        "label": "Bridge",
+        "type": "旅游行程规划",
+        "true_count": 1,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游区规划直达观光路线时，连接樱花观景台“0302”与温泉中心“0714”的主干道突发塌方需封闭，若此道路被移除，两地游客是否将无法通过任何其他路径往返，必须完全绕行外围区域？请判断该道路是否为桥（即删除后会使网络连通组件增加的关键边）。",
+        "question": "When planning a direct sightseeing route in a certain tourist area, a main road connecting the cherry blossom viewing platform \"0302\" and the hot spring center \"0714\" suddenly collapsed and needs to be closed. If this road is removed, will tourists between the two locations be unable to travel back and forth by any other routes and must completely detour around the outer area? Please determine whether this road is a bridge (i.e., a critical edge whose removal would increase the number of connected components in the network).",
+        "label": "Bridge",
+        "type": "旅游行程规划",
+        "true_count": 1,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某旅游区道路规划中，从\"翠湖湿地\"（节点0302）到\"古驿文化村\"（节点0714）的直连道路因维修需临时封闭。若该道路封闭后，会导致两个景点间至少一条替代路线失效，使得整个景区路网被分割成无法互通的区域吗？请判断这条道路是否为保障路网连通性的关键桥梁。",
+        "question": "In the road planning of a certain tourist area, the direct road from \"Cuihu Wetland\" (Node 0302) to \"Gu Yi Cultural Village\" (Node 0714) needs to be temporarily closed for maintenance. If this road is closed, will it cause at least one alternative route between the two attractions to become ineffective, thereby splitting the entire scenic area road network into non-interconnected regions? Please determine if this road is a key bridge to ensure the connectivity of the road network.",
+        "label": "Bridge",
+        "type": "旅游行程规划",
+        "true_count": 1,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在规划海岛旅游路线时，若连接景点\"珊瑚观景台\"(节点0302)和\"落日灯塔\"(节点0714)的唯一沿海公路因施工关闭，是否会导致这两个景点与其他区域形成孤岛？即该道路是否为关键通道，一旦中断将迫使游客必须绕行内陆复杂路网？",
+        "question": "When planning a coastal island tourism route, if the only coastal road connecting the attractions \"Coral Viewing Platform\" (Node 0302) and \"Sunset Lighthouse\" (Node 0714) is closed for construction, will this result in these two attractions becoming isolated from other areas? Specifically, is this road a critical passageway such that its disruption would force tourists to detour through a complex inland road network?",
+        "label": "Bridge",
+        "type": "旅游行程规划",
+        "true_count": 2,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在旅游行程规划中，若连接“古风小镇”(0302)和“湖畔观景台”(0714)的唯一道路因施工封闭，是否会导致这两个景点之间无法通过其他路线绕行，从而破坏整个交通网络的连通性？这条道路是否为桥？",
+        "question": "In travel itinerary planning, if the only road connecting \"Ancient Town\" (0302) and \"Lakeside Viewing Platform\" (0714) is closed due to construction, will it result in the inability to reroute between these two attractions, thereby disrupting the connectivity of the entire transportation network? Is this road a bridge?",
+        "label": "Bridge",
+        "type": "旅游行程规划",
+        "true_count": 2,
+        "weak_count": 0
+    }
+]

@@ -1,0 +1,1610 @@
+[
+    {
+        "origin_question": "在社交平台的社群挖掘任务中，为确定用户'0302'在兴趣网络中的潜在推荐优先级，需统计该用户主动关注他人和被动被关注的连接总数，该数值反映了其在当前社群中的枢纽价值，请计算该用户的总关联度数值。",
+        "question": "In the task of community mining on social platforms, to determine the potential recommendation priority of user '0302' in the interest network, it is necessary to count the total number of connections the user actively follows and the connections they passively receive. This value reflects their hub value within the current community. Please calculate the user's total relevance score.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台中，用户0302所在的兴趣社群需要评估其成员活跃度，以便推荐给新用户加入。已知该用户关注和被关注的关系已映射为网络结构，请计算该用户在当前社群中的直接互动连接总数（即主动关注他人与被他人关注的总人数）。",
+        "question": "In the social platform, the interest community that user 0302 belongs to needs to evaluate the activity level of its members in order to recommend it to new users for joining. It is known that the relationship of following and being followed by this user has been mapped as a network structure. Please calculate the total number of direct interaction connections for this user in the current community (i.e., the total number of people they actively follow and the total number of people who follow them).",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络中，用户'0302'所在的兴趣社群需筛选高互动成员进行潜在好友推荐，若推荐策略基于用户近期被关注和主动关注的总连接数，请计算该用户的当前总关注数（包含出方向与入方向）。",
+        "question": "In the social network, the interest community that user '0302' belongs to needs to filter highly interactive members for potential friend recommendations. If the recommendation strategy is based on the total number of recent connections the user has gained and actively followed, please calculate the user's current total number of followings (including outgoing and incoming connections).",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为了优化用户'0302'的社群推荐策略，需计算其在当前社交网络中被其他用户关注（入度）和主动关注他人（出度）的关系总数，该数值是多少？",
+        "question": "To optimize the community recommendation strategy for the user '0302', it is necessary to calculate the total number of relationships in the current social network where this user is followed by other users (in-degree) and actively follows others (out-degree). What is this value?",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络中，平台计划向用户0302推荐可能感兴趣的社群。为了评估其连接活跃度，需要统计该用户当前的所有关注与被关注关系的总数。请问用户0302的度是多少？",
+        "question": "In the social network, the platform plans to recommend possible interests to user 0302 based on communities. To assess their connection activity, it is necessary to count the total number of all the follow and follow-back relationships of this user. What is the degree of user 0302?",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为优化某社交平台的社群划分及用户推荐策略，需评估核心用户'0302'的连接活跃度，请计算该用户当前所有直接关注与被关注的关联总数。",
+        "question": "To optimize the community division and user recommendation strategy of a certain social platform, it is necessary to evaluate the connection activity of the core user '0302'. Please calculate the total number of direct connections of this user, both followed and following.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交平台中，用户0302所在的兴趣社群正尝试通过分析关注关系优化用户推荐策略。若该用户被其他用户关注或主动关注的次数总和反映了其社群活跃度，请计算用户0302当前的社群互动总频次。",
+        "question": "In social platforms, the interest community that user 0302 belongs to is trying to optimize the user recommendation strategy by analyzing attention relationships. If the total number of times this user is followed by or actively follows other users reflects their community activity, please calculate the current total interaction frequency of user 0302 within the community.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，用户0302的粉丝和关注总数是社群发现和推荐策略的重要依据。若该用户被新算法标记为潜在核心节点候选，请计算其直接社交连接总量，以确认是否达到成为社群枢纽的基准值？",
+        "question": "In social networks, the total number of followers and followings of user 0302 serves as an important basis for community discovery and recommendation strategies. If this user is flagged by a new algorithm as a potential core node candidate, please calculate the total number of their direct social connections to determine whether it meets the benchmark for becoming a community hub.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台分析用户社群结构时，需评估用户'0302'的关注与被关注总次数以确定其影响力，便于进行精准推荐，请计算该用户的总连接数。",
+        "question": "When analyzing the user community structure on a certain social platform, it is necessary to assess the total number of followers and followings of user '0302' in order to determine their influence, facilitating accurate recommendations. Please calculate the total number of connections for this user.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为优化用户推荐策略，平台需识别核心互动成员。已知用户ID '0302'在社群中频繁建立连接，请计算其关注与被关注关系的总和，以判定是否纳入优先推荐名单。",
+        "question": "To optimize the user recommendation strategy, the platform needs to identify core interactive members. It is known that the user ID '0302' frequently establishes connections within the community. Please calculate the total sum of their following and follower relationships to determine whether they should be included in the priority recommendation list.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某兴趣社群的用户推荐效果时，发现用户0302既是摄影圈的核心成员又常被旅行爱好者关注，请问该用户当前的总关注关联次数是多少？",
+        "question": "In analyzing the user recommendation effect of a particular interest community, it was found that user 0302 is both a core member of the photography circle and is frequently followed by travel enthusiasts. Could you please tell me what the total number of connection counts for this user is at present?",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台“LinkCircle”的社群分析中，为识别用户'0302'在兴趣小组中的潜在推荐价值，需统计其主动关注他人和被动被他人关注的总关联数。请问该用户当前的连接总数是多少？",
+        "question": "In the community analysis of the social platform \"LinkCircle,\" to identify the potential recommendation value of user '0302' in interest groups, it is necessary to calculate the total number of connections that user has made by actively following others and passively being followed by others. Could you please let me know the current total number of connections for this user?",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台为优化兴趣社群推荐策略，需分析核心用户'0302'的连接活跃度。当前需计算该用户所有直接关注他人和被他人关注的关联总数，以此判断其在社群中的枢纽影响力值是多少？",
+        "question": "To optimize the recommendation strategy for interest communities, a certain social platform needs to analyze the connection activity level of the core user '0302'. Currently, it is necessary to calculate the total number of direct connections that this user has, including both the users they follow and the users who follow them. This will help determine the user's central influence value within the community.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "为提升社群推荐精准度，系统需评估用户'0302'在关注网络中的活跃连接数，即其关注他人和被关注的总次数。当前该用户的度数总和是多少？",
+        "question": "To improve the accuracy of community recommendations, the system needs to assess user '0302's active connection count within the attention network, specifically the total number of times they follow others and are followed by others. What is the current total degree of this user?",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，用户'0302'的社群影响力与其关注关系紧密相关。为优化用户推荐策略，需统计其当前总共建立的双向关联数（包括关注他人和被他人关注），请计算该用户的实际关联总数是多少？",
+        "question": "In social networks, the community influence of user '0302' is closely related to their connections. To optimize user recommendation strategies, it is necessary to calculate the total number of bidirectional connections (including the people they follow and those who follow them). Please calculate the actual total number of connections for this user.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为提升社群推荐精准度，需筛选具有高互动潜力的核心用户。请计算用户0302在关注网络中的总连接数（被关注和主动关注之和），以评估其是否应纳入推荐候选池。",
+        "question": "To improve the accuracy of community recommendations, it is necessary to filter core users with high interaction potential. Please calculate the total number of connections for user 0302 in the follower network (the sum of followers and active following) to assess whether they should be included in the recommendation candidate pool.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台某兴趣社群分析中，用户\"0302\"被标记为潜在推荐对象。若用户影响力由主动关注和被动关注的总关联数决定，请计算该节点当前在社群网络中的总连接数，以确定其用户推荐优先级顺序。",
+        "question": "In an analysis of a certain interest community on a social platform, the user \"0302\" has been identified as a potential recommendation target. If the user's influence is determined by the total number of connections from active and passive follows, please calculate the total number of connections this node currently has in the community network in order to determine its user recommendation priority order.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台的读书社群中，系统需根据关注关系推荐活跃成员，用户0302的互动强度由其主动关注他人和受关注次数共同决定。请计算该用户当前总关联连接数是多少？",
+        "question": "In the reading community of social platforms, the system needs to recommend active members based on relationships. The interaction intensity of user 0302 is determined by the number of people they actively follow and the number of times they are followed. Please calculate the current total number of associated connections for this user.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在研究用户社群结构以优化推荐策略，发现用户'0302'的关注关系可能关联多个兴趣小组。若其总互动频次需通过直接关联数衡量，请计算该用户的关注与被关注总数量。",
+        "question": "A certain social media platform is studying the user community structure to optimize its recommendation strategy. It has found that user '0302' may be associated with multiple interest groups through their relationships. If the total interaction frequency needs to be measured by the number of direct connections, please calculate the total number of followers and followings for this user.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台的社群挖掘与好友推荐策略中，为评估用户'0302'的社交活跃度，需统计该账号主动关注他人和被他人关注的总次数，请计算该用户当前的全部关注关系数量总和。",
+        "question": "In the community mining and friend recommendation strategy of social platforms, to assess the social activity of user '0302', it is necessary to count the total number of times this account actively follows others and is followed by others. Please calculate the total number of all follow relationships for this user.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台进行社群划分时需评估用户互动频率，用户'0302'的关注与被关注行为直接影响其所在社群的推荐权重。请计算该用户当前总关联边数，以确定其在核心推荐列表中的优先级。",
+        "question": "When a social platform organizes communities, it is necessary to assess user interaction frequency. The follow and follower behavior of user '0302' directly impacts the recommendation weight of the community they belong to. Please calculate the current total number of associated edges for this user to determine their priority in the core recommendation list.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络中，平台计划为摄影爱好者社群推荐潜在核心成员，需优先评估用户关联紧密度。已知用户'0302'近期发布多组热门作品，其直接关注他人和被他人关注的关系数量总和是多少？",
+        "question": "In the social network, the platform plans to recommend potential core members for the photography enthusiasts community, and it needs to prioritize assessing user connection density. It is known that user '0302' has recently published multiple popular works. What is the total number of direct connections that user '0302' has, including the number of people they follow and the number of followers?",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在微博社群分析中，用户'0302'的粉丝数与其关注人数总和将影响好友推荐权重。若要通过其社交活跃度匹配同圈层用户，请计算该账号当前被多少用户单向关注（入度）以及主动关注了多少用户（出度）的总数量。",
+        "question": "In the analysis of Weibo communities, the total number of followers and the number of users followed by the user '0302' will affect the weighting for friend recommendations. To match users within the same community based on social activity, please calculate the total number of users who currently follow this account unidirectionally (in-degree) and the total number of users it actively follows (out-degree).",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 15,
+        "weak_count": 4
+    },
+    {
+        "origin_question": "在社群分析中，用户0302的互动频率可能影响推荐权重。若其关注他人和被关注的次数总和达到阈值，系统将标记为高活跃节点。当前需验证该用户的总关联次数是否满足条件，请计算其所有直接关注关系的数量总和。",
+        "question": "In community analysis, the interaction frequency of user 0302 may influence the recommendation weight. If the total number of times they follow others and are followed reaches a threshold, the system will label them as a highly active node. We currently need to verify whether the total number of interactions for this user meets the criteria, so please calculate the total number of all their direct connections.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，用户'0302'的活跃度直接影响好友推荐效果。为优化社群发现算法，需计算该用户的社交影响力总分（即关注他人和被关注的总次数），以便精准推荐潜在好友。请问当前网络中此用户的影响力总分是多少？",
+        "question": "In social networks, the activity level of user '0302' directly affects the effectiveness of friend recommendations. To optimize the community discovery algorithm, it is necessary to calculate the user's total social influence score (i.e., the total number of times they follow others and are followed), in order to accurately recommend potential friends. What is the current total influence score of this user in the network?",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化兴趣社群推荐系统时，需要评估用户'0302'的社交活跃度以确定其枢纽影响力，请计算该用户的直接关联总数量。",
+        "question": "When optimizing the interest community recommendation system, it is necessary to evaluate the social activity level of user '0302' to determine their hub influence. Please calculate the total number of direct connections for this user.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台中，为识别用户0302所属的核心社群并优化其好友推荐权重，需评估该用户的直接互动活跃度。请计算用户0302当前关注与被关注的关系总数以确定其网络影响力。",
+        "question": "In social media platforms, in order to identify the core community to which user 0302 belongs and optimize the weight of friend recommendations, it is necessary to assess the user's direct interaction activity level. Please calculate the total number of relationships that user 0302 currently has in terms of followers and following to determine their network influence.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台计划通过用户关注关系挖掘潜在社群结构，并为高连接度用户推荐可能认识的朋友。请计算用户ID为0302当前关注和被关注的总连接数，以确定其是否具备作为社群枢纽节点的资格？",
+        "question": "A certain social media platform plans to explore potential community structures through user follow relationships and recommend possible friends to users with high connectivity. Please calculate the total number of connections for user ID 0302, including both followers and followings, to determine whether they qualify as a community hub node.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在短视频平台的社交圈中，用户'0302'的关注数和被关注数总和是多少？该数据用于识别高互动用户并推荐给相似兴趣社群的新用户。",
+        "question": "In the social circle of short video platforms, what is the total sum of the number of followers and the number of people followed by the user '0302'? This data is used to identify highly interactive users and recommend them to new users in similar interest communities.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交媒体平台中，为识别潜在兴趣社群并优化用户推荐策略，需统计用户ID为0302的关注他人数量（出度）和粉丝数量（入度）总和。请问该用户当前的总社交连接数是多少？",
+        "question": "In social media platforms, to identify potential interest communities and optimize user recommendation strategies, it is necessary to calculate the total number of social connections for user ID 0302, which includes the number of people they follow (out-degree) and the number of their followers (in-degree). What is the current total number of social connections for this user?",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台近期社群分析中，为精准识别兴趣圈层核心成员并优化好友推荐策略，需要统计用户ID为0302的账号在关注网络中的总关联强度。请计算该账号当前被其他用户关注和主动关注他人的关系总数，用于判定其是否具备跨社群传播的关键节点价值。",
+        "question": "In a recent community analysis on social media platforms, to accurately identify the core members of interest groups and optimize friend recommendation strategies, it is necessary to calculate the total connection strength of the account with user ID 0302 within its following network. Please assess the total number of relationships where this account is currently followed by other users and actively follows others, in order to determine its value as a key node for cross-community communication.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台分析中，用户'0302'所在的兴趣社群正进行潜在好友推荐，需优先评估其直接互动覆盖范围。请计算该用户关注与被关注的总连接数，以确定其在社群中的核心活跃度指标？",
+        "question": "In the analysis of social platforms, the interest community that user '0302' belongs to is currently conducting potential friend recommendations, and it is necessary to prioritize the evaluation of their direct interaction coverage. Please calculate the total number of connections the user has in terms of followers and following to determine their core activity metric within the community.",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，用户0302的活跃度和影响力是社群挖掘的关键指标。为了评估其作为潜在推荐候选人的优先级，需要计算该用户当前总关联数，即被多少人关注以及主动关注他人的总和。请问该用户的总关联数是多少？",
+        "question": "In social networks, the activity and influence of user 0302 are key indicators for community mining. To assess their priority as a potential recommendation candidate, it is necessary to calculate the user's current total connection count, which is the sum of how many people follow them and how many people they actively follow. What is the total connection count for this user?",
+        "label": "Degree_Count",
+        "type": "社群发现与用户推荐",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某微博用户'0302'的信息传播路径时，若需要评估其作为传播枢纽的影响力，应当如何计算该用户当前关注他人和被他人关注的关系总数？",
+        "question": "When analyzing the information dissemination path of a specific Weibo user '0302', if we need to assess their influence as a communication hub, how should we calculate the total number of relationships that this user currently follows and is followed by others?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 16,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在分析某社交平台的信息传播路径时，发现用户'0302'可能处于关键传播枢纽位置。请计算该用户当前被多少用户直接关注（入度），以及主动关注了多少用户（出度），两者的总和是多少？",
+        "question": "When analyzing the information dissemination pathways on a certain social media platform, it was found that user '0302' may be in a key dissemination hub position. Please calculate how many users are currently following this user (in-degree), how many users this user is actively following (out-degree), and what is the total of the two?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某条热门微博的传播路径时，发现用户'0302'既是多个转发链路的起点，又被部分关键节点直接引用。请计算该用户在当前传播网络中的直接联系数量，以确定其影响力扩散范围。",
+        "question": "When analyzing the dissemination path of a popular Weibo post, it was found that user '0302' serves as both the starting point for multiple forwarding chains and is directly cited by several key nodes. Please calculate the number of direct connections that this user has in the current dissemination network to determine the scope of their influence.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台的信息传播路径时，发现用户ID'0302'发布的帖子被多次扩散。若要确定该用户直接影响的信息收发节点规模，需计算其直接关注或被他关注的用户数量总和。请返回该用户当前连接关系的总度数。",
+        "question": "When analyzing the information dissemination paths on a certain social media platform, it was found that the posts from user ID '0302' were spread multiple times. To determine the scale of information transmission nodes directly influenced by this user, it is necessary to calculate the total number of users that this user directly follows or who directly follow him. Please return the total degree of the current connection relationship of this user.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析微博平台的信息传播路径时，关键用户的影响力常通过其直接关联的账号数量体现。请计算用户'0302'的关注者数量加上其主动关注的用户总数，以确定该节点在当前社交网络中的直接连接规模。",
+        "question": "In analyzing the information dissemination pathways on the Weibo platform, the influence of key users is often reflected in the number of accounts they are directly connected to. Please calculate the number of followers of user '0302' plus the total number of users they actively follow to determine the scale of direct connections for this node in the current social network.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在分析某热点事件的信息传播路径，发现用户'0302'是多个关键传播链的交汇点。若每条传播链由关注关系驱动，请计算该用户当前在传播网络中直接关联的关注与被关注账户总数？",
+        "question": "A certain social media platform is analyzing the information dissemination path of a trending event and has found that user '0302' is a hub for multiple key dissemination chains. If each dissemination chain is driven by follow relationships, please calculate the total number of accounts directly connected to this user in terms of both following and being followed.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某短视频平台的社交网络信息传播路径时，发现用户'0302'的原创内容被多次转发扩散。若每条转发关系对应一次连接，请计算该节点当前在关注网络中的总连接次数（包括主动关注他人和被他人关注）？",
+        "question": "When analyzing the information dissemination paths on a certain short video platform's social network, it was found that user '0302's original content has been forwarded multiple times. If each forwarding relationship corresponds to one connection, please calculate the total number of connections for this node in the attention network (including actively following others and being followed by others).",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，用户'0302'发布的一条热点内容通过关注链被多次转发扩散。若要分析该用户的信息传播基础能力，需计算其直接关注与被关注的总关联数量。请问用户'0302'当前的关注关系总数是多少？",
+        "question": "In the social network, a hot content posted by the user '0302' has been repeatedly shared through a chain of followers. To analyze the user's basic ability to disseminate information, it is necessary to calculate the total number of direct follow and follower connections. What is the current total number of follow relationships for user '0302'?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在微博平台分析某热点事件传播路径时，发现用户'0302'既是被多次转发的信息源，又主动转发了其他核心节点的内容。若要评估该节点在传播链中的直接连接强度，需计算其当前关注和被关注的总人数是多少？",
+        "question": "When analyzing the dissemination path of a certain hot event on the Weibo platform, it was found that user '0302' is both a source of information that has been widely reposted and has actively reposted content from other core nodes. To assess the direct connection strength of this node in the dissemination chain, it is necessary to calculate the total number of users it currently follows and the total number of users that follow it.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 15,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在分析某社交平台的信息传播路径时，发现用户'0302'是某热点话题的初始传播者。若每条直接关注关系都可能成为信息扩散通道，请计算该用户节点当前的直接传播关联数总和，以量化其作为传播源的潜在覆盖能力。",
+        "question": "In analyzing the information dissemination paths on a certain social media platform, it was found that user '0302' is the initial disseminator of a trending topic. Since each direct following relationship can potentially become a channel for information diffusion, please calculate the total number of direct dissemination connections for this user node to quantify its potential coverage capability as a source of dissemination.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交网络的信息传播效率时，研究员发现用户'0302'的信息扩散速度异常显著。请计算该用户节点的直接传播影响范围（关注他人和被他人关注的总人数），以验证其是否为关键传播枢纽。",
+        "question": "In analyzing the information dissemination efficiency of a certain social network, researchers found that user '0302' exhibited an exceptionally significant information diffusion speed. Please calculate the direct传播 influence range of this user node (the total number of people they follow and the total number of people who follow them) to verify whether they are a key dissemination hub.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某微博用户的信息传播路径时，发现用户‘0302’处于扩散网络的核心位置。请计算该用户当前的总关注关系数（包括他主动关注的用户和关注他的用户总数）。",
+        "question": "When analyzing the information dissemination path of a certain Weibo user, it was found that the user '0302' is in a core position within the diffusion network. Please calculate the total number of relationships that this user currently has (including the total number of users that he actively follows and users that follow him).",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台通过分析用户关注链路评估信息传播效率，节点'0302'的关注与被关注数量直接影响其信息触达范围。请计算该节点的直接关联用户总数。",
+        "question": "A certain social media platform assesses the efficiency of information dissemination by analyzing user follow chains. The number of followers and those followed by node '0302' directly affects its information reach. Please calculate the total number of directly associated users for this node.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台正在追溯一则热点谣言的扩散路径，初步分析发现用户'0302'可能处于传播交叉点，请计算该用户当前直接参与信息交互的关联数量（关注他人和被他人关注的总和）。",
+        "question": "A certain social media platform is tracing the spread path of a trending rumor. Preliminary analysis has found that user '0302' may be at a point of intersection in the dissemination. Please calculate the total number of connections that this user is currently directly involved in information interaction (the sum of people they follow and those who follow them).",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析微博用户“0302”的信息传播路径时，若需评估其内容扩散潜力，需计算该节点直接关联的用户总数（包括主动关注和被动关注关系），请问当前网络中这一数值是多少？",
+        "question": "When analyzing the information dissemination path of the Weibo user \"0302,\" if we need to assess its content dissemination potential, we should calculate the total number of users directly associated with this node (including both active and passive follow relationships). What is this value in the current network?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交媒体平台正在分析一条热点新闻的传播路径，用户‘0302’被认为是潜在的关键节点。若要评估其直接参与传播的关联强度，需统计该用户当前被多少用户关注以及他主动关注了多少用户。这两部分数值的总和是多少？",
+        "question": "A certain social media platform is analyzing the dissemination path of a trending news story, and user '0302' is considered a potential key node. To assess the strength of their direct participation in the dissemination, it is necessary to calculate how many users currently follow this user and how many users they actively follow. What is the total sum of these two figures?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 16,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在分析某条热门话题的传播路径时，发现节点'0302'是多个关键转发链的交汇点。若需评估其直接参与信息扩散的活跃程度，请计算该节点的直接关注与被关注关系的总连接数。",
+        "question": "When analyzing the传播路径 of a trending topic, it was found that node '0302' is the intersection point of several key forwarding chains. To assess its activity level in directly participating in information diffusion, please calculate the total number of direct connections in terms of following and being followed for that node.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某微博热门话题的信息扩散路径时，用户'0302'既转发了其他用户的推文，也被部分用户直接转发。请问该节点在整个传播网络中的直接关联次数总和是多少？",
+        "question": "In analyzing the information diffusion paths of a popular topic on Weibo, user '0302' not only retweeted posts from other users but was also directly retweeted by some users. How many times is this node directly connected in the entire diffusion network?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台信息传播路径时，发现用户'0302'处于多个话题扩散的交汇点。若每条关注关系代表一次传播接力，请计算该节点直接参与传播链路的总连接数（被转发和主动转发的次数之和）。",
+        "question": "When analyzing the information dissemination pathways on a certain social media platform, it was found that user '0302' is at the intersection of multiple topic discussions. If each follow relationship represents a relay of information dissemination, please calculate the total number of connections that this node directly participates in within the dissemination chains (the sum of both received and actively forwarded messages).",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在微博平台的某次热点事件传播分析中，用户ID为0302的账号被发现处于多条转发链交汇点。若每条转发代表一次关注关系传递，请计算该节点当前被直接关联的上下游传播通道总数。",
+        "question": "In an analysis of the dissemination of a trending event on the Weibo platform, an account with the user ID 0302 was found to be at the intersection of multiple retweet chains. If each retweet represents a transfer of a following relationship, please calculate the total number of upstream and downstream communication channels directly associated with this node.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在微博平台的信息传播路径分析中，用户‘0302’的原创内容被多个节点转发形成扩散链。若要量化该用户的直接传播影响力，需计算其主动关注他人和被动被他人关注的总关联数量是多少？",
+        "question": "In the analysis of information dissemination pathways on the Weibo platform, the original content of user '0302' was forwarded by multiple nodes, forming a diffusion chain. To quantify the direct influence of this user in spreading information, it is necessary to calculate the total number of connections, including both the number of active followers they have and the number of passive followers they receive from others.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某社交平台信息传播路径时，需确定用户'0302'的直接连接总数以评估其影响力，该节点的关注与被关注关系总和是多少？",
+        "question": "When analyzing the information dissemination path on a certain social platform, it is necessary to determine the total number of direct connections of user '0302' in order to assess their influence. What is the total sum of followers and followings for this node?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台信息传播路径时，若需评估用户'0302'作为潜在扩散枢纽的影响力，其当前直接建立的全部关注关系（包括主动关注和被动被关注）总共有多少条？",
+        "question": "In analyzing the information dissemination pathways on a certain social platform, if we need to assess the influence of user '0302' as a potential diffusion hub, how many total direct follower relationships (including both active follows and passive follows) does he currently have?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台的信息传播路径时，发现用户'0302'发布的动态被多次通过关注链转发。请计算该用户节点在当前网络中直接关联的互动关系总数（包括其主动关注和被动被关注的数量），以评估其在传播中的枢纽强度。",
+        "question": "When analyzing the information dissemination paths on a certain social media platform, it was found that the user '0302' has had their posts repeatedly forwarded through the follower chain. Please calculate the total number of interactive relationships that this user node is directly associated with in the current network (including both the number of users they actively follow and the number of users who passively follow them) to assess their centrality in the dissemination process.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 17,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "某社交平台正在分析信息扩散路径的关键节点，已知用户之间的关注关系构成传播网络。若要评估用户'0302'在信息传播中的直接连接规模，需统计其主动关注和被动关注的总人数。请问该用户当前的度是多少？",
+        "question": "A certain social media platform is analyzing the key nodes in the information diffusion path, where the attention relationships between users form a propagation network. To evaluate user '0302's direct connection scale in information dissemination, it is necessary to count the total number of users they actively follow and those who passively follow them. What is the current degree of this user?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某条信息传播路径时，需确定关键用户'0302'的总连接活跃度（主动关注他人和被他人关注的次数总和），请计算该节点当前在传播网络中的总关联次数。",
+        "question": "When analyzing a specific information dissemination path, it is necessary to determine the total connectivity activity of the key user '0302' (the sum of the number of times they actively follow others and the number of times they are followed by others). Please calculate the total number of interactions for this node in the dissemination network.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台信息传播路径时，需要评估核心用户的连接活跃度，请计算用户'0302'的关注与被关注关系总数。",
+        "question": "In analyzing the information dissemination paths on a certain social platform, it is necessary to evaluate the connection activity of core users. Please calculate the total number of following and follower relationships for user '0302'.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某社交媒体平台分析信息扩散路径时，发现用户'0302'的帖子通过关注关系传播。若每条转发行为对应一条有向边，请计算该用户当前直接参与传播链路的总连接次数（主动转发+被他人转发）。",
+        "question": "When analyzing the information diffusion path on a certain social media platform, it was found that user '0302's posts spread through follow relationships. If each forwarding action corresponds to a directed edge, please calculate the total number of connections that this user is currently directly involved in the diffusion chain (active forwards + forwards by others).",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台信息传播路径时，用户'0302'作为关键节点，其关注他人的数量加上被他人关注的数量总和是多少？",
+        "question": "In analyzing the information dissemination path of a certain social platform, what is the total sum of the number of people user '0302' follows and the number of people who follow user '0302'?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 16,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在分析某社交平台的信息传播路径时，发现用户'0302'的内容被多次跨层扩散。若要评估其直接连接规模对传播效率的影响，请计算该用户在当前关注网络中的总连接数（主动关注他人和被动被关注次数的总和）。",
+        "question": "When analyzing the information dissemination pathways on a certain social platform, it was found that the content of user '0302' was repeatedly disseminated across multiple layers. To assess the impact of their direct connection scale on dissemination efficiency, please calculate the total number of connections this user has in the current following network (the sum of actively following others and being passively followed).",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台的信息传播路径时，发现用户'0302'的原创内容被高频次转发。若传播范围仅由该用户直接关注和直接关注TA的节点决定，当前网络中该节点的直接关联关系总数是多少？",
+        "question": "When analyzing the information dissemination paths on a certain social platform, it was found that the original content of user '0302' was frequently reposted. If the scope of dissemination is determined only by the nodes that this user directly follows and those who directly follow them, what is the total number of direct connections of this node in the current network?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交网络信息传播路径时，发现用户'0302'是某热点话题的关键传播节点，请计算该用户直接参与转发和接收消息的关联用户总数（包括主动关注和被关注的对象）以评估其传播影响力。",
+        "question": "In analyzing the information dissemination path of a certain social network, it was found that user '0302' is a key propagation node for a trending topic. Please calculate the total number of associated users that this user directly interacts with in terms of forwarding and receiving messages (including both actively followed and followers) to assess their influence in spreading the information.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某条热门话题的传播路径时，发现用户'0302'处于多个转发链交叉点。请问该用户当前通过直接关注与被关注建立的社交联系总共有多少次？",
+        "question": "When analyzing the communication pathways of a trending topic, it was discovered that user '0302' is at the intersection of multiple retweet chains. May I ask how many social connections this user currently has through direct followership and being followed?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交媒体信息传播路径时，关键节点用户'0302'的直接关联账户总数是多少？包括被该用户关注和关注该用户的全部关联关系。",
+        "question": "When analyzing the information dissemination path of a certain social media platform, what is the total number of directly associated accounts for the key node user '0302'? This includes all associated relationships of accounts that follow this user and accounts that are followed by this user.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在微博平台的社交网络分析中，为了评估用户'0302'的信息传播路径覆盖范围，需统计其直接关联的关注关系总数（包括被其他用户关注和主动关注他人的数量）。请计算该用户当前的总关注数。",
+        "question": "In the social network analysis on the Weibo platform, in order to evaluate the coverage of the information dissemination path of user '0302', it is necessary to count the total number of direct connections in their following relationships (including the number of users who follow them and the number of users they actively follow). Please calculate the total number of users that this user currently follows.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在微博平台的信息传播分析中，节点'0302'被识别为某热门话题的初始传播源。若信息通过直接关注关系扩散，需计算该节点当前直接关联的用户总数（包含关注者和被关注者），以量化其传播核心程度。",
+        "question": "In the analysis of information dissemination on the Weibo platform, node '0302' is identified as the initial source of a certain trending topic. If the information spreads through direct follower relationships, it is necessary to calculate the total number of users directly associated with this node (including followers and those being followed) to quantify its core degree of dissemination.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某社交平台的信息传播路径时，发现用户‘0302’发布的帖子被多次转发并触达不同社群。若每条转发路径均通过用户间的关注关系传递，请计算该用户节点当前直接参与的所有关注与被关注连接总数。",
+        "question": "When analyzing the information dissemination paths on a certain social media platform, it was found that a user '0302' posted content that was forwarded multiple times and reached different communities. If each forwarding path is transmitted through the mutual following relationships between users, please calculate the total number of all follow and follower connections that this user node is currently directly involved in.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某条谣言传播路径时，发现用户'0302'既是信息转发者又是被@对象。请计算该节点直接影响的信息传播者数量总和（包含主动传播和被动接收的完整链路数）。",
+        "question": "When analyzing the spread path of a certain rumor, it was found that user '0302' is both an information disseminator and the recipient of an @mention. Please calculate the total number of direct influence information spreaders for that node (including both active disseminators and the complete passive reception link counts).",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台信息传播路径时，发现用户'0302'多次出现在关键转发链路中，现需量化其网络连接强度，请计算该用户当前被其他节点关注及主动关注他人的总次数。",
+        "question": "When analyzing the information dissemination path on a certain social platform, it was found that user '0302' appears multiple times in key forwarding links. We now need to quantify their network connectivity strength by calculating the total number of times this user is currently followed by other nodes and the number of times they actively follow others.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 15,
+        "weak_count": 4
+    },
+    {
+        "origin_question": "在分析某社交网络的信息传播路径时，若用户'0302'的节点既可能作为信息源被其他用户关注，又可能主动转发信息给其他用户，计算该节点的直接关联连接总数以评估其传播枢纽强度。",
+        "question": "When analyzing the information dissemination pathways in a certain social network, if user '0302' may serve as an information source that is followed by other users and may also actively forward information to other users, calculate the total number of direct connections associated with that node to assess its centrality in the dissemination process.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台信息扩散效率时，发现用户'0302'的帖子传播层级异常。为评估其网络影响力，需要计算该用户节点的直接关联关系总量（包含主动关注和被动被关注），该数值对应图结构中哪个关键指标？",
+        "question": "In analyzing the information diffusion efficiency on a certain social media platform, it was found that the post of user '0302' had an abnormal propagation level. To assess their network influence, it is necessary to calculate the total amount of direct associations of this user node (including active follows and passive follows). Which key metric in the graph structure does this value correspond to?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析社交网络中某热门话题的信息传播路径时，发现用户'0302'频繁参与转发和评论。请计算该节点当前的出度（主动关注）与入度（被关注）总和，以判断其在信息扩散网络中的核心程度。",
+        "question": "In analyzing the information dissemination path of a popular topic in social networks, it was found that user '0302' frequently participates in retweets and comments. Please calculate the total out-degree (actively followed) and in-degree (being followed) of this node to assess its core degree in the information diffusion network.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 17,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在分析某社交网络的信息传播路径时，发现节点'0302'多次出现在关键转发链中。若要量化该节点的信息枢纽能力，需计算其当前被多少用户直接关注，同时主动关注了多少用户，两者相加的总值是多少？",
+        "question": "In analyzing the information dissemination paths of a certain social network, it was found that the node '0302' appears multiple times in key forwarding chains. To quantify the information hub capability of this node, it is necessary to calculate how many users currently follow it directly, as well as how many users it actively follows. What is the total value of these two figures combined?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析微博平台的信息传播路径时，发现用户'0302'处于多条关键转发链的交汇点。若要量化其直接关联的传播通道数量，需计算该用户当前被多少其他用户关注，并主动关注了多少用户，两者的总和具体是多少？",
+        "question": "In analyzing the information dissemination pathways on the Weibo platform, it was found that user '0302' is at the intersection of multiple key retweet chains. To quantify the number of directly associated communication channels, it is necessary to calculate how many other users currently follow this user and how many users they are actively following. What is the total sum of these two numbers?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某热点事件传播路径分析中，用户'0302'被标记为关键传播节点，请计算该用户通过关注关系直接触达的社交关联总数（主动关注他人和被动被关注的数量之和）。",
+        "question": "In the analysis of the dissemination path of a certain hot event, user '0302' is identified as a key dissemination node. Please calculate the total number of social connections that this user directly reaches through their follow relationships (the sum of the number of people they actively follow and the number of people who passively follow them).",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某社交网络的信息传播路径时，发现用户'0302'被标记为潜在核心传播节点。若每条直接关注关系代表一次信息触达机会，请计算该用户当前通过直接关注与被关注建立的传播通道总数。",
+        "question": "In analyzing the information dissemination paths of a certain social network, it was found that user '0302' is marked as a potential core dissemination node. If each direct follow relationship represents an opportunity for information reach, please calculate the total number of dissemination channels that the user currently has through direct follows and being followed.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在微博平台分析某热点事件的传播路径时，发现用户'0302'是关键扩散节点。计算该用户当前主动关注他人和被动被关注的关系总数，以确定其在传播链中的连接强度。",
+        "question": "When analyzing the传播路径 of a certain trending event on the Weibo platform, it was found that user '0302' is a key diffusion node. The total number of relationships in which this user is actively following others and passively being followed is calculated to determine their connection strength within the diffusion chain.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台信息传播路径时，需要确定用户'0302'作为关键节点的直接关联联系数量，即该用户关注他人和被他人关注的总人数是多少？",
+        "question": "When analyzing the information dissemination path on a certain social platform, it is necessary to determine the number of direct connections of user '0302' as a key node, that is, what is the total number of people this user follows and the number of people who follow this user?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某社交平台信息传播路径时，发现用户0302的帖子被多次跨层转发。若仅考虑直接关注关系，该用户当前在传播网络中总共直接连接了多少个用户（包括主动关注和被关注的）？",
+        "question": "When analyzing the information dissemination path on a certain social media platform, it was found that user 0302's posts were forwarded multiple times across different layers. If we only consider direct follow relationships, how many users does this user currently have direct connections with in the dissemination network (including those being followed and those who follow them)?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台的信息传播路径时，若节点'0302'是某热门话题的扩散起点，需要统计其直接关联的交互用户总量（包括主动关注和被关注）以量化传播影响力，当前网络中该节点的度具体数值是多少？",
+        "question": "In analyzing the information dissemination path of a certain social platform, if node '0302' is the starting point for the spread of a popular topic, we need to count the total number of directly associated interactive users (including those who actively follow and those who are followed) to quantify its influence on dissemination. What is the specific degree value of this node in the current network?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某次舆情事件中，节点'0302'被标记为信息扩散的关键枢纽，若要量化其直接传播影响力，需计算该节点当前被多少用户直接关注以及其主动关注了多少用户，请问两者总和是多少？",
+        "question": "In a certain public opinion event, node '0302' was marked as a key hub for information diffusion. To quantify its direct spreading influence, we need to calculate how many users are currently directly following this node and how many users it actively follows. What is the total sum of the two?",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析微博平台信息传播路径时，需确定用户'0302'的关注数和被关注数总和以评估其影响力，请计算该节点的总连接次数。",
+        "question": "When analyzing the information dissemination paths on the Weibo platform, it is necessary to determine the total number of followers and followed accounts for user '0302' in order to assess their influence. Please calculate the total connection count for this node.",
+        "label": "Degree_Count",
+        "type": "信息传播路径分析",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台安全团队发现用户ID为0302的账号存在异常行为模式，初步怀疑是批量注册的虚假账号。已知虚假账号通常具有异常高或异常低的社交关联度，请计算该账号当前总关联连接数（关注他人和粉丝数的总和）以辅助判断。",
+        "question": "The security team of a certain social media platform has discovered abnormal behavior patterns for the account with user ID 0302, and initially suspects it to be a batch-registered fake account. It is known that fake accounts typically exhibit an unusually high or unusually low social connectivity. Please calculate the current total number of connections for this account (the sum of the number of people it follows and its followers) to assist in the assessment.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 17,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "某社交平台安全团队在排查虚假账号时，发现账号'0302'存在异常高频的主动关注及被低活跃账号集中关注行为。请计算该节点当前的出度和入度总和，作为判断其是否为操控性虚假账号的关键依据。",
+        "question": "The security team of a certain social platform discovered during an investigation of fake accounts that the account '0302' exhibited an unusually high frequency of active following and was subject to concentrated attention from low-activity accounts. Please calculate the current total of outgoing and incoming connections for this account, as it serves as a key criterion for determining whether it is a manipulated fake account.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 16,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "某社交平台安全团队在排查虚假账号时，发现用户'0302'的关注与被关注行为存在异常波动。请计算该用户节点在关系网络中的总连接数量（出边和入边之和），以辅助判断其是否为批量注册的机器账号。",
+        "question": "The security team of a certain social media platform discovered abnormal fluctuations in the follow and follower behavior of the user '0302' while investigating fake accounts. Please calculate the total number of connections for this user node in the relationship network (the sum of outgoing and incoming edges) to assist in determining whether it is a machine account registered in bulk.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在筛查虚假账号，发现异常账号通常存在关注数过高或互动极低的特点。现需核查用户ID为'0302'的账号是否存在异常，请计算该账号当前的总关注关联数（主动关注和被动关注的总和），若数值显著偏离正常区间则标记为可疑账号。",
+        "question": "A certain social platform is screening for fake accounts and has found that abnormal accounts typically exhibit characteristics such as an excessively high number of followers or very low interaction rates. We need to verify whether the account with user ID '0302' is abnormal by calculating its current total number of follow associations (the sum of active and passive followers). If the value significantly deviates from the normal range, it will be marked as a suspicious account.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台安全团队发现账号0302被标记为可疑，因其关注行为异常——短时间内大量关注他人但几乎无互动。请计算该节点的总连接数（出方向和入方向之和），作为判断其是否为虚假账号的关键指标之一。",
+        "question": "The security team of a certain social media platform discovered that account 0302 was flagged as suspicious due to its unusual following behavior—following a large number of users in a short period of time with almost no interaction. Please calculate the total number of connections for this account (the sum of outbound and inbound connections) as one of the key indicators to determine whether it is a fake account.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台通过监测发现账号0302可能存在虚假行为，系统标记其关注关系存在异常波动。作为分析员，请计算该账号当前的总关注互动数（即主动关注他人和被他人关注的数量总和），以辅助判定其是否为机器人账号。",
+        "question": "A certain social media platform has detected potential fraudulent behavior from account 0302 through monitoring, as the system has flagged abnormal fluctuations in its following relationships. As an analyst, please calculate the current total interaction count for this account (which is the sum of the number of accounts it actively follows and the number of accounts that follow it) to assist in determining whether it is a bot account.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台近期发现一批虚假账号，这些账号通常具有异常关注行为。安全团队怀疑用户ID为'0302'的账号存在刷量嫌疑，需计算其主动关注他人和被他人关注的总关联次数，作为判定依据。请问该账号当前的总关联次数是多少？",
+        "question": "A certain social media platform recently discovered a batch of fake accounts, which typically exhibit abnormal follower behavior. The security team suspects that the account with the user ID '0302' is involved in inflated follower counts and needs to calculate the total number of connections—both in terms of actively following others and being followed by others—as a basis for judgment. Could you please tell me the current total number of connections for this account?",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在检测社交平台虚假账号时，发现编号'0302'的账号存在异常关注行为——短时间内被大量低活跃账户关注，同时主动关注了多个冷门僵尸号。请计算该账号当前关注与被关注关系的总关联数，辅助判定其是否为虚假账号。",
+        "question": "When detecting fake accounts on social media platforms, it was found that account number '0302' exhibited abnormal follow behavior—being followed by a large number of low-activity accounts within a short period and actively following several obscure zombie accounts. Please calculate the total number of connections in the current follow and follower relationship of this account to assist in determining whether it is a fake account.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在虚假账号检测任务中，发现用户'0302'同时存在大量主动关注和异常被关注行为。若其主动关注数与被关注数的总和超过阈值，则判定为可疑账号。请计算该用户当前的关注与被关注总数总和。",
+        "question": "In the task of detecting fake accounts, it was found that user '0302' exhibited a large number of both active following and abnormal being followed behaviors. If the sum of the number of accounts they actively follow and the number of accounts that follow them exceeds a certain threshold, the account is deemed suspicious. Please calculate the current total sum of followers and followings for this user.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台近期发现虚假账号通过异常关注行为扩散虚假信息。管理员怀疑节点'0302'存在大量异常关注与被关注记录，需快速验证其可疑性。请根据当前网络的关注关系，计算节点'0302'的出度和入度总和，以判定其是否具备典型虚假账号的高连接特征。",
+        "question": "A certain social media platform recently discovered that fake accounts are spreading false information through unusual following behaviors. The administrators suspect that node '0302' has a significant number of abnormal follow and follow-back records, and need to quickly verify its suspiciousness. Please calculate the total out-degree and in-degree of node '0302' based on the current network's following relationships to determine whether it possesses the high connectivity characteristics typical of fake accounts.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台近期发现用户ID 0302存在异常关注行为，初步怀疑是虚假账号。该账号被系统标记后，需立即核查其当前总互动数（主动关注他人+被粉丝关注的总量），请计算该节点的度值以协助判定。",
+        "question": "A certain social platform has recently discovered abnormal following behavior associated with user ID 0302 and initially suspects it to be a fake account. After the account was flagged by the system, it is necessary to immediately verify the current total interaction count (the sum of active followings and the number of followers). Please calculate the degree value of this node to assist in the assessment.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台识别虚假账号时，发现部分账号会通过异常关注行为规避检测。已知账号'0302'存在可疑的密集关注和被动关注模式，平台需计算其总关联数作为判定依据。当前网络中，该账号的直接关注与被关注关系总数是多少？",
+        "question": "When identifying fake accounts on a certain social media platform, it was discovered that some accounts were evading detection through abnormal following behaviors. It is known that the account '0302' exhibits suspicious patterns of intense following and passive following. The platform needs to calculate its total number of associations as a criterion for judgment. What is the total number of direct following and being followed relationships for this account in the current network?",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "平台近期发现用户ID'0302'存在异常关注行为，可能涉及虚假账号伪造社交活跃度。现需核查该用户的所有直接关联关系总数（包括主动关注他人和被他人关注的次数），请计算其当前总连接数以辅助判定风险等级。",
+        "question": "The platform has recently discovered abnormal attention behavior associated with user ID '0302', which may involve fake accounts manipulating social activity. We need to verify the total number of all direct connections related to this user (including the number of users they actively follow and the number of users who follow them). Please calculate their current total connection count to assist in determining the risk level.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "平台近期发现虚假账号常通过异常关注行为扩散，为分析用户'0302'是否存在此类特征，请计算该账号当前所有直接关注关系（包含主动关注和被动被关注）的总数量，以判断其行为是否符合典型虚假账号模式。",
+        "question": "The platform has recently found that fraudulent accounts often spread through abnormal following behavior. To analyze whether the user '0302' exhibits such characteristics, please calculate the total number of all direct follow relationships for this account (including both active and passive follows) to determine if its behavior aligns with typical patterns of fraudulent accounts.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台近期发现一批疑似机器人账号，这些账号通常通过异常关注模式扩散虚假信息。已知监测系统标记了用户ID '0302'存在高频单向关注行为，请计算该账号当前的全部关联连接数（包括主动关注和被动被关注），作为判定其是否为机器人的关键指标之一。",
+        "question": "A certain social media platform recently discovered a batch of suspected bot accounts, which typically spread false information through abnormal following patterns. It is known that the monitoring system has flagged the user ID '0302' for exhibiting high-frequency one-way follow behavior. Please calculate the total number of associated connections for this account (including active follows and passive follows) as one of the key metrics to determine whether it is a bot.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台检测到账号ID为'0302'的用户存在异常关注行为，其关注数与被关注数的总和远超出正常用户波动范围。为判定该账号是否为伪造身份的机器人，请计算该节点当前所有关联边的数量总和。",
+        "question": "A certain social media platform has detected abnormal following behavior for the user with account ID '0302'. The total of their following and follower counts far exceeds the normal fluctuation range for typical users. To determine whether this account is a bot with a fake identity, please calculate the total number of all associated edges for this node.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台在筛查虚假账号时，发现账号0302存在异常关注行为。若仅基于关注关系网络，请计算该账号当前的关注数与被关注数总和，以此判断其是否符合自动注册机器人特征。",
+        "question": "During the screening process for fake accounts on a certain social platform, it was discovered that account 0302 exhibited abnormal follow behavior. If we consider only the network of follow relationships, please calculate the total sum of the current number of accounts it follows and the number of accounts that follow it in order to determine whether it meets the characteristics of an automatically registered bot.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "平台近期发现用户'0302'的账号存在异常关注行为，其关注和被关注模式不符合真人社交特征，疑似为批量注册的机器账号。请计算该节点的总连接数（出边和入边之和），以辅助判断其是否为虚假账号。",
+        "question": "The platform recently discovered abnormal following behavior in user '0302'. The pattern of accounts they follow and those that follow them does not conform to characteristics of real human interactions, and it is suspected to be a machine account registered in bulk. Please calculate the total number of connections for this node (the sum of out-degrees and in-degrees) to help assess whether it is a fake account.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在虚假账号排查中，安全团队发现用户ID为0302的账号存在异常关注行为。若每个单向关注关系均视为一次连接，请计算该账号当前在社交网络中主动关注和被关注的总连接数量，以判断其是否符合机器人账号的密集连接特征。",
+        "question": "During the investigation of fake accounts, the security team discovered that the account with user ID 0302 exhibited abnormal following behavior. If each one-way follow relationship is considered as a connection, please calculate the total number of active connections the account currently has in the social network, both in terms of following others and being followed, to determine whether it meets the characteristics of a bot account with dense connections.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台发现一批虚假账号通常存在异常关注行为，例如短时间内大量单向关注他人或几乎无互动。现需核查账号ID'0302'是否存在此类特征，请通过其关注和粉丝数据计算该账号当前的总连接数（关注数+被关注数）以辅助判断。",
+        "question": "A certain social media platform has identified a group of fake accounts that typically exhibit unusual following behaviors, such as following a large number of others in a short period or having almost no interaction. We need to verify whether account ID '0302' displays such characteristics. Please calculate the total number of connections for this account (following count + followers count) based on its following and follower data to assist in the assessment.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某社交平台在清理虚假账号时发现，异常账号通常存在关注数或粉丝数的极端特征。现需核查节点'0302'是否为可疑账号，请计算该账号当前的总关注关系数量（主动关注他人与被他人关注的总和）。",
+        "question": "Translation: During the process of cleaning up fake accounts, a certain social platform found that abnormal accounts typically exhibit extreme characteristics in terms of the number of accounts they follow or the number of followers they have. We now need to verify whether the account at node '0302' is suspicious. Please calculate the total number of follow relationships for this account (the sum of accounts it actively follows and the number of followers it has).",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "社交平台监测发现账号0302存在异常关注行为，其关注数与被关注数的总和远高于正常用户，疑似虚假账号。请计算该节点的总连接数，以协助判定是否需要冻结此账户。",
+        "question": "The monitoring of the social media platform has detected unusual following behavior from account 0302, with the total number of accounts it follows and the number of accounts following it being significantly higher than that of normal users, raising suspicions that it may be a fake account. Please calculate the total connections of this account to assist in determining whether it should be suspended.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台安全团队发现，虚假账号常通过异常关注行为扩散信息。现需核查用户ID为0302的账号是否属于此类情况，请计算该节点的总连接数（被关注数和主动关注数之和），以评估其行为是否符合正常用户模式。",
+        "question": "The security team of a certain social media platform has found that fake accounts often spread information through abnormal follow behaviors. We now need to verify whether the account with user ID 0302 falls into this category. Please calculate the total connections for this node (the sum of followers and followings) to assess whether its behavior aligns with that of a normal user.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络中，虚假账号常通过异常关注行为传播信息。现需核查账号'0302'的可疑性，请计算其所有直接关联的边数量（被关注和主动关注的总数）以判断是否符合机器人账号特征。",
+        "question": "In social networks, fake accounts often spread information through abnormal following behaviors. We now need to verify the suspicion of account '0302'; please calculate the total number of all directly associated edges (the total number of followers and actively followed accounts) to determine if it exhibits characteristics of a bot account.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台安全团队发现部分虚假账号存在异常关注模式，需快速筛查可疑节点。若当前网络中节点'0302'被判定为需重点核查对象，请根据其所有关注与被关注关系，计算该节点的总连接数（出度+入度）以辅助判定是否为虚假账号。",
+        "question": "The security team of a certain social media platform has discovered that some fake accounts exhibit abnormal following patterns, and there is a need to quickly screen for suspicious nodes. If the current node '0302' in the network is determined to be a key target for inspection, please calculate the total number of connections (out-degree + in-degree) for this node based on all its following and followers relationships to assist in determining whether it is a fake account.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某社交平台检测到用户ID为0302的账号存在异常行为，初步怀疑是虚假账号。虚假账号的特征之一是与正常用户的关注互动模式存在显著差异，例如总连接数异常偏高或偏低。请通过该节点的关注关系数据，计算其总连接数（出边和入边的数量之和），为判定提供依据。",
+        "question": "A certain social media platform detected abnormal behavior from the account with user ID 0302 and initially suspects it to be a fake account. One characteristic of fake accounts is a significant difference in their interaction patterns with normal users, such as an unusually high or low total connection count. Please calculate the total connection count (the sum of outgoing and incoming edges) using the follower relationship data from this node to provide a basis for judgment.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在排查虚假账号，系统检测到账号'0302'存在异常关注行为——短时间内单向关注了大量新注册用户，但几乎未被其他账号回关。请计算该节点的总连接数（出边和入边之和），以辅助判断其是否为机器人操控的虚假账号。",
+        "question": "A certain social media platform is investigating fake accounts. The system has detected abnormal following behavior for the account '0302'—it has followed a large number of newly registered users in a short period of time, but has received very few reciprocal follows from other accounts. Please calculate the total connection count for this account (the sum of outgoing and incoming edges) to help determine whether it is a fake account operated by a bot.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台安全团队发现账号ID'0302'存在异常关注行为，初步判断可能是批量注册的虚假账号。已知虚假账号通常通过异常高频率的主动关注或被动关注形成聚集，请计算该账号当前的总关注关系数量（主动关注他人和被他人关注的总和），作为虚假身份核查的关键指标。",
+        "question": "The security team of a certain social media platform has detected abnormal following behavior associated with the account ID '0302' and has initially concluded that it may be a batch-registered fake account. It is known that fake accounts usually form clusters through an unusually high frequency of active following or passive following. Please calculate the current total number of following relationships for this account (the sum of actively following others and being followed by others) as a key indicator for verifying its fake identity.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台安全团队发现虚假账号通常存在关注数异常的特征，例如短时间内大量建立单向关联。已知编号'0302'的账号被标记为可疑目标，请计算该节点当前总关联数（被关注和主动关注的数量总和）以辅助判定其风险等级。",
+        "question": "The security team of a certain social media platform has found that fake accounts typically exhibit abnormal characteristics in their follower counts, such as establishing a large number of one-sided connections in a short period of time. An account labeled '0302' has been marked as a suspicious target. Please calculate the current total number of connections for this account (the sum of followers and actively following) to assist in determining its risk level.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "安全团队发现虚假账号常通过异常关注行为扩散信息，现需核查用户ID为0302的关注活跃度，请计算该用户当前的全部关注关系数量（主动关注他人和被人关注的总和）以评估其账户风险等级？",
+        "question": "The security team has found that fake accounts often spread information through abnormal following behavior. We need to verify the activity level of user ID 0302. Please calculate the total number of all following relationships for this user (the sum of those they actively follow and those who follow them) to assess the risk level of their account.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台的安全团队发现账号0302可能存在虚假行为，初步判断其关注和粉丝数量存在异常波动。请根据当前网络关系数据，计算该账号的总互动次数（主动关注他人和被动被关注的总次数），以辅助核实其是否为机器账号。",
+        "question": "The security team of a certain social media platform has discovered that account 0302 may be exhibiting fraudulent behavior, as there appears to be unusual fluctuations in its following and follower counts. Please calculate the total interaction count for this account (the sum of actively following others and passively being followed) based on the current network relationship data, to assist in verifying whether it is a bot account.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台通过分析用户关注关系检测虚假账号时，系统标记了用户ID为'0302'的可疑账户。已知虚假账号常通过异常关注数规避风控，请计算该节点的总关注关系数量（被关注和主动关注的总和），以辅助判定其风险等级。",
+        "question": "A certain social media platform detected a suspicious account with user ID '0302' by analyzing user follow relationships to identify fake accounts. It is known that fake accounts often try to evade risk control by having an abnormal number of follows. Please calculate the total number of follow relationships for this node (the sum of followers and following) to assist in determining its risk level.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在虚假账号检测任务中，用户'0302'被标记为可疑账号。已知虚假账号常通过异常关注数提高活跃度，请计算该账号当前的总连接数（被关注和主动关注的数量总和），以判断其是否符合异常模式。",
+        "question": "In the task of detecting fake accounts, user '0302' has been flagged as a suspicious account. It is known that fake accounts often increase their activity through an abnormal number of followers. Please calculate the total number of connections for this account (the sum of followers and actively followed accounts) to determine whether it exhibits an abnormal pattern.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在虚假账号检测中，异常账户常因关注关系数量显著偏离真实用户而被识别。现需核查节点'0302'是否为可疑账号，请计算该节点当前的关注与被关注关系总数（即出度与入度之和），以判断其互动行为是否符合正常用户特征。",
+        "question": "In false account detection, abnormal accounts are often identified due to a significant deviation in the number of following and follower relationships compared to real users. We now need to verify whether node '0302' is a suspicious account. Please calculate the total number of following and follower relationships for this node (i.e., the sum of out-degree and in-degree) to determine whether its interaction behavior aligns with that of normal users.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台虚假账号检测中，安全团队发现用户'0302'同时存在大量单向关注和极低互动。请计算该账号当前的总关注连接数（出度与入度之和），以判断其是否为机器操控账号。",
+        "question": "In the detection of fake accounts on social media platforms, the security team found that the user '0302' has a large number of one-way follows and extremely low interaction. Please calculate the total number of connections for this account (the sum of outdegree and indegree) to determine if it is a bot-controlled account.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台近期通过算法筛查虚假账号，发现用户ID'0302'同时被大量新注册空壳账号关注，且其主动关注列表中存在异常高频跳转行为。请结合该节点的双向连接情况，计算其当前总关联的边数量以辅助判定风险等级。",
+        "question": "A certain social media platform recently screened for fake accounts through algorithms and found that user ID '0302' was simultaneously followed by a large number of newly registered shell accounts. Additionally, there was an unusually high frequency of jump behavior in its active following list. Please consider the bidirectional connection situation of this node and calculate the total number of associated edges to assist in determining the risk level.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台近期发现部分虚假账号通过异常关注行为伪造活跃度。已知账号'0302'被标记为可疑目标，需快速计算该账号的关注与被关注关系总数以辅助判定。当前网络中，账号'0302'的度（出度与入度总和）是多少？",
+        "question": "Translation: A certain social media platform recently discovered that some fake accounts are fabricating activity through abnormal following behaviors. The account '0302' has been identified as a suspicious target, and it is necessary to quickly calculate the total number of its following and follower relationships to assist in the assessment. What is the degree (total out-degree and in-degree) of account '0302' in the current network?",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台安全团队发现用户ID为0302的账号可能存在虚假行为，初步分析需核查其关注关系的活跃程度。请计算该账号当前的全部直接关注关系数量（包括主动关注和被他人关注的总和），以辅助判断其是否属于异常账号。",
+        "question": "The security team of a certain social media platform has found that the account with user ID 0302 may be engaged in fraudulent behavior. A preliminary analysis requires verifying the activity level of its follow relationships. Please calculate the total number of direct follow relationships of this account (including both those it actively follows and those that follow it) to assist in determining whether it is an abnormal account.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台安全团队发现用户ID为‘0302’的账号存在异常关注行为，虚假账号常通过大量单向关注制造虚假活跃度。请计算该节点当前所有直接关注关系的总数量（包含主动关注和被动被关注），作为判定其是否违规的关键指标。",
+        "question": "The security team of a certain social media platform has discovered abnormal follow behaviors from the account with user ID '0302'. Fake accounts often create false activity by following many users in a one-way manner. Please calculate the total number of direct follow relationships for this account (including active follows and passive follows) as a key indicator to determine whether it has violated any rules.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台通过分析用户关注关系检测虚假账号，发现用户ID为'0302'的账号被系统标记为可疑，因其关注和被关注数量可能存在异常。请计算该节点当前总连接数（关注+被关注）以验证其可疑程度。",
+        "question": "A certain social media platform detected fake accounts by analyzing user follow relationships. It found that the user with ID '0302' was flagged as suspicious by the system due to potential anomalies in the number of accounts they follow and that follow them. Please calculate the total number of connections for this user (follows + followers) to verify their level of suspicion.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在识别虚假账号，发现异常用户通常具有异常高的关注互动量。为辅助判断账号'0302'是否涉嫌伪造，请计算该用户当前的全部关注关系数量（主动关注他人和被人关注的总和）。",
+        "question": "A certain social media platform is identifying fake accounts and has found that unusual users often have an abnormally high level of engagement in terms of follow interactions. To assist in determining whether account '0302' is potentially fraudulent, please calculate the total number of current follow relationships for this user (the sum of actively following others and being followed by others).",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在检测社交网络中的虚假账号时，系统发现账号0302存在异常关注行为——其单向关注或被关注数量远超正常用户阈值。请计算该节点的总连接数（即出度和入度的总和）以辅助判定是否为机器账号。",
+        "question": "When detecting fake accounts on social networks, the system found that account 0302 exhibited abnormal following behavior—its number of one-way follows or being followed significantly exceeds the normal user threshold. Please calculate the total number of connections for this node (i.e., the sum of out-degree and in-degree) to assist in determining whether it is a bot account.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台检测虚假账号时，发现异常账号往往存在极端关注/被关注行为（如突然大量单向关注他人或零互动高粉丝）。若节点'0302'被标记为可疑账号，请根据其所有关注与被关注关系，计算该节点的总连接数（即主动关注和被动关注的总和），用于判定是否符合异常模式。",
+        "question": "When a certain social media platform detects fake accounts, it often finds that abnormal accounts exhibit extreme behaviors in terms of following or being followed (such as suddenly following a large number of people in one direction or having a high number of followers with zero interactions). If the node '0302' is marked as a suspicious account, please calculate the total number of connections for this node based on all its following and follower relationships (i.e., the sum of active and passive followings) to determine whether it meets the criteria for abnormal behavior.",
+        "label": "Degree_Count",
+        "type": "虚假账号检测",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络影响力分析中，为筛选出潜在的核心用户实施推广策略，需计算用户ID为'0302'的总关注互动量（包含其主动关注和被动被关注的所有关联数量总和）。该用户当前的全局连接活跃度数值是多少？",
+        "question": "In the analysis of social network influence, to identify potential core users for implementing promotional strategies, it is necessary to calculate the total interaction volume of the user with ID '0302' (including the sum of all associated numbers of both active follows and passive follows). What is the current global connection activity level of this user?",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络影响力推廣计划中，平台需根据节点总互动量筛选种子用户。请计算节点'0302'当前的出度与入度之和的总值。",
+        "question": "In the social network influence promotion plan, the platform needs to filter seed users based on the total interaction volume of nodes. Please calculate the total sum of the out-degree and in-degree for node '0302'.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台计划针对特定用户群体推广公益项目，需根据用户的影响力选择最佳初始传播者。已知用户'0302'被列为候选之一，请计算其直接关联的关注与被关注数量总和，以确定其在当前网络中的潜在覆盖范围。",
+        "question": "A certain social media platform plans to promote a public welfare project targeting a specific user group and needs to select the best initial spreader based on users' influence. User '0302' has been identified as one of the candidates. Please calculate the total number of followers and followings directly associated with this user to determine their potential reach in the current network.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台计划通过分析用户的影响力来推广新功能，选取总关注关系数（关注他人和被关注数之和）最高的用户作为首批体验官。请计算用户'0302'的关注数与粉丝数总和，以评估其当前网络影响力。",
+        "question": "A certain social media platform plans to promote new features by analyzing user influence and will select users with the highest total follower count (the sum of the number of users they follow and the number of their followers) as the first batch of experience officers. Please calculate the total number of follows and followers for user '0302' to assess their current network influence.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在平台近期的影响力评估中，候选用户'0302'的关注和粉丝总量直接影响其能否入选推广种子名单，请计算该用户当前所有直接社交关系的总数量。",
+        "question": "In the platform's recent influence assessment, the total number of followers and fans of the candidate user '0302' directly affects their eligibility for inclusion in the promotional seed list. Please calculate the total number of direct social connections for this user.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中实施影响力最大化策略时，通常需评估候选节点的直接关联用户数量以筛选高传播潜力个体。请问节点'0302'当前的关注与被关注关系总数是多少？",
+        "question": "When implementing influence maximization strategies in social networks, it is usually necessary to evaluate the number of directly connected users of candidate nodes to filter individuals with high传播潜力. May I ask what the total number of followings and followers is for node '0302'?",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 15,
+        "weak_count": 5
+    },
+    {
+        "origin_question": "在微博平台中，为筛选潜在的高影响力用户进行推广活动，需统计用户'0302'被其他用户提及的次数及其主动互动的账户总数。请计算该节点当前直接关联的边数总和。",
+        "question": "In the Weibo platform, to promote activities targeting potential high-influence users, it is necessary to count the number of times user '0302' has been mentioned by other users and the total number of accounts that have interacted with them. Please calculate the total number of edges directly associated with this node.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在某社交平台的影响力评估中，关键用户通常通过连接数衡量传播潜力。请计算用户节点'0302'的总连接数（被关注和主动关注的数量之和），以此判断其是否适合作为初始传播节点。",
+        "question": "In the influence assessment on a certain social media platform, key users are typically measured in terms of their potential for spread based on their number of connections. Please calculate the total number of connections for user node '0302' (the sum of followers and those the user actively follows) to determine whether it is suitable as an initial spread node.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台计划通过影响力最大化策略筛选核心用户，现需评估节点'0302'在关注网络中的枢纽作用。请计算该节点的直接关注与被关注关系数量总和，以确定其是否具备高传播潜力。",
+        "question": "A social media platform plans to select core users through an influence maximization strategy and needs to evaluate the centrality of node '0302' in the attention network. Please calculate the total number of direct attention relationships (both following and being followed) for this node to determine if it has high dissemination potential.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在测试影响力最大化策略，计划优先向关注关系广泛的用户推送活动内容。已知用户'0302'与其他用户存在单向关注互动，请计算其作为潜在种子节点的连接活跃度（即总关注关系数），以评估其传播潜力。",
+        "question": "A social platform is testing a strategy for maximizing influence, planning to prioritize pushing activity content to users with extensive follow relationships. It is known that user '0302' has unidirectional follow interactions with other users. Please calculate the connection activity level of this user as a potential seed node (i.e., total number of follow relationships) to assess its dissemination potential.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某社交平台需挑选最具影响力的用户进行信息推广，根据影响力最大化策略，候选用户的影响力与其总关注数密切相关。请问节点'0302'当前的出度（主动关注他人）和入度（被他人关注）总和是多少？",
+        "question": "Translation: A certain social platform needs to select the most influential users for information promotion. According to the influence maximization strategy, the influence of candidate users is closely related to their total number of followers. May I ask what is the current out-degree (the number of people they actively follow) and in-degree (the number of people following them) total for node '0302'?",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台为实施影响力最大化策略，需评估候选用户'0302'的传播潜力。若其关注他人和被他人关注的总互动数为关键指标，请计算该节点的当前总关联数。",
+        "question": "To implement a strategy for maximizing influence, a certain social platform needs to assess the传播潜力 of candidate user '0302'. If the total number of interactions in terms of following others and being followed by others is a key metric, please calculate the current total number of connections for this user.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在推广新功能时，团队需要优先邀请高连接用户作为初始传播节点以最大化覆盖范围。已知用户'0302'的关注关系反映其信息扩散潜力，计算该用户的当前总连接数（被关注与主动关注的数量总和），从而确定其是否纳入首轮推广名单。",
+        "question": "When promoting new features, the team needs to prioritize inviting highly connected users as initial dissemination nodes to maximize coverage. The follower relationship of user '0302' reflects their information diffusion potential. We need to calculate the user's current total number of connections (the sum of followers and actively following) to determine whether they should be included in the first round of promotional invitations.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交平台的影响力分析中，团队计划通过用户连接数筛选潜在传播者。若需优先评估用户'0302'的直接社交影响力，请计算该用户当前关注和粉丝数量的总和。",
+        "question": "In the analysis of influence on social platforms, the team plans to filter potential communicators based on the number of user connections. To prioritize the assessment of user '0302's direct social influence, please calculate the total number of followers and following for that user.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交媒体影响力最大化策略中，某平台通过分析用户关注网络筛选关键传播节点。已知节点'0302'的直接影响范围由其关注和被关注关系总数决定，请计算该节点的总连接数（出度与入度之和）以评估其基础传播潜力。",
+        "question": "In the strategy to maximize social media influence, a certain platform selects key dissemination nodes by analyzing users' attention networks. The direct influence range of the known node '0302' is determined by the total number of its followers and the number of accounts it follows. Please calculate the total number of connections for this node (the sum of out-degree and in-degree) to assess its basic dissemination potential.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在微博平台的用户影响力评估中，某品牌计划根据用户关注关系的活跃度筛选推广合作对象。若用户'0302'的综合影响力由其主动关注他人和获得他人关注的总关联数决定，请计算该用户当前在社交网络中的总连接数量。",
+        "question": "In the evaluation of user influence on the Weibo platform, a certain brand plans to select promotional partners based on the activity level of user follow relationships. If the overall influence of user '0302' is determined by the total number of connections from actively following others and being followed by others, please calculate the total number of connections that this user currently has in the social network.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在评估用户影响力以优化信息推送策略，现需筛选出潜在高传播力的节点进行资源倾斜。请计算用户ID为'0302'的当前总连接数（关注他人和被他人关注的总次数），确定其是否进入下一轮影响力候选名单。",
+        "question": "A certain social platform is evaluating user influence to optimize information push strategies, and now needs to identify potential high-impact nodes for resource allocation. Please calculate the current total number of connections for user ID '0302' (the total number of times they are following others and being followed by others) and determine whether they qualify for the next round of influence candidates.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络影响力最大化策略中，候选影响者节点'0302'的传播能力需优先评估。若其关注他人和被他人关注的交互总量反映传播潜力，请计算该节点的出度与入度之和。",
+        "question": "In the strategy for maximizing influence on social networks, the spreading capability of the candidate influencer node '0302' should be prioritized for assessment. If the total interaction of the node's followers and the people it follows reflects its spreading potential, please calculate the sum of the outbound and inbound connections of that node.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台计划通过影响力分析筛选关键用户进行活动推广，候选用户'0302'的总互动连接数（被其他用户关注及主动关注他人的数量总和）是多少？需以此评估其信息传播覆盖能力。",
+        "question": "A certain social media platform plans to identify key users for activity promotion through influence analysis. What is the total number of interactions and connections for candidate user '0302' (the sum of the number of followers and the number of users they actively follow)? This is needed to assess their information dissemination coverage capacity.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 16,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在社交网络中筛选潜在意见领袖时，通常需要评估用户的关注互动总量。请计算用户ID '0302'的当前总关注关系数（被关注和主动关注的总和），以判断其是否适合加入影响力培养名单。",
+        "question": "When screening potential opinion leaders in social networks, it is usually necessary to evaluate the total interaction of users' followings. Please calculate the current total number of following relationships for user ID '0302' (the sum of followers and active followings) to determine if they are suitable for inclusion in the influencer development list.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中实施影响力最大化策略时，需优先评估核心节点的连接活跃度。请计算用户ID为'0302'的账号当前被其他用户关注的数量（入度）和主动关注他人的数量（出度）之和，以确定其网络枢纽价值。",
+        "question": "When implementing influence maximization strategies in social networks, it is important to prioritize the assessment of the connection activity of core nodes. Please calculate the current number of users following the account with user ID '0302' (in-degree) and the number of users that account actively follows (out-degree), and sum these values to determine its network hub value.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在微博平台的影响力评估中，候选用户'0302'的关注与被关注总数是衡量其传播潜力的关键指标，请问该节点的总连接数是多少？",
+        "question": "In the influence assessment on the Weibo platform, the total number of followers and following for the candidate user '0302' is a key indicator of its dissemination potential. Could you please tell me the total number of connections for this node?",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台的影响力最大化策略中，团队需要优先评估用户'0302'是否适合作为信息扩散的种子节点。已知该用户的关注行为直接影响传播范围，请计算其所有直接关联的社交关系总量（包含主动关注和被动关注）。",
+        "question": "In the strategy to maximize influence on social platforms, the team needs to prioritize assessing whether user '0302' is suitable as a seed node for information diffusion. It is known that this user's following behavior directly affects the reach of dissemination. Please calculate the total number of all directly associated social connections (including active follows and passive follows).",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在评估用户'0302'作为信息传播枢纽的影响力，若其总关注关系数（被关注数+主动关注数）越高，则越可能被选为推广活动的种子用户。请计算该用户当前的总关注关系数，以确定其传播优先级。",
+        "question": "A certain social media platform is evaluating the influence of user '0302' as an information dissemination hub. The higher the total number of their follower relationships (the number of followers + the number of accounts they follow), the more likely they are to be selected as a seed user for promotional activities. Please calculate the current total number of follower relationships for this user to determine their priority for dissemination.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在社交网络影响力最大化策略中，候选用户的连接广度直接影响信息传播潜力。现需评估节点'0302'作为传播枢纽的可能性，请计算该节点当前被其他用户关注的数量（入度）与主动关注他人的数量（出度）之和。",
+        "question": "In the strategy for maximizing influence on social networks, the breadth of connections of candidate users directly affects their potential for information propagation. We now need to assess the likelihood of node '0302' functioning as a dissemination hub. Please calculate the sum of the number of users currently following this node (in-degree) and the number of users this node is actively following (out-degree).",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络的影响力最大化策略中，我们需要筛选出连接数最高的核心节点作为初始传播种子。已知节点间存在单向关注关系，请计算节点'0302'的出度和入度之和，确定其是否具备成为核心传播者的基础条件。",
+        "question": "In the strategy of maximizing influence in social networks, we need to select the core nodes with the highest number of connections as initial diffusion seeds. Given that there is a unidirectional follow relationship between nodes, please calculate the out-degree and in-degree sum of node '0302' to determine whether it meets the basic conditions to become a core disseminator.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在社交媒体影响力分析中，若要通过用户直接关联规模评估传播潜力，请计算用户ID为0302的账号在社交网络中总共存在的关注与被关注关系数量，以此判断其是否属于潜在的高效传播节点。",
+        "question": "In the analysis of social media influence, to assess the communication potential through the direct association scale of users, please calculate the total number of follow and follower relationships for the account with user ID 0302 in the social network. This will help determine whether it belongs to potential high-efficiency communication nodes.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在评估用户影响力以选择新一轮品牌合作活动的代言人，已知用户之间的单向关注关系构成网络结构，请计算节点'0302'的总关注关系数（被关注和主动关注的数量之和），作为衡量其传播覆盖能力的关键指标。",
+        "question": "A certain social media platform is evaluating user influence to select spokespersons for a new round of brand collaboration activities. It is known that the unidirectional following relationships among users form a network structure. Please calculate the total number of following relationships for node '0302' (the sum of the number of followers and the number of users it actively follows), as it serves as a key metric for measuring its communication coverage capability.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，某公司计划通过高连接用户进行新产品的初始推广，若认为用户的影响力与其总关注关系数正相关，请计算节点'0302'的出度与入度之和以评估其传播潜力。",
+        "question": "In the social network, a certain company plans to initially promote a new product through users with high connections. If it is believed that a user's influence is positively correlated with the total number of their connections, please calculate the sum of the out-degree and in-degree of node '0302' to assess its potential for spreading the message.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台影响力最大化策略中，需快速筛选具有广泛传播潜力的用户。若用户'0302'的关注行为直接影响信息扩散范围，其当前被多少用户直接关联（包括主动关注和被动被关注）？",
+        "question": "In the strategy for maximizing influence on social media platforms, it is necessary to quickly identify users with extensive dissemination potential. If user '0302's following behavior directly affects the scope of information diffusion, how many users are currently directly connected to them (including active followers and passive followers)?",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台的市场团队计划通过提升高连接用户的影响力来优化信息传播效率，用户'0302'被初步选为潜在推广节点。请计算该用户当前的总连接数（被关注和主动关注的数量总和），以判断其是否满足基础筛选条件。",
+        "question": "The marketing team of a certain social media platform plans to optimize information dissemination efficiency by enhancing the influence of highly connected users. User '0302' has been initially selected as a potential promotion node. Please calculate the user's current total number of connections (the sum of followers and follows) to determine whether it meets the basic screening criteria.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络影响力最大化策略中，通常需要优先选择高连接度的用户作为种子节点。已知当前网络中存在通过关注关系形成的传播链路，请计算节点'0302'的出度和入度总和，以确定其作为潜在传播者的总连接数。",
+        "question": "In the strategy of maximizing influence in social networks, it is usually necessary to prioritize selecting high-connectivity users as seed nodes. Given that there are propagation links formed through follower relationships in the current network, please calculate the total out-degree and in-degree of node '0302' to determine its total connectivity as a potential propagator.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中筛选潜在的高影响力用户时，发现用户'0302'的关注行为可能反映其传播潜力。若需通过基础连接活跃度评估其影响力，应如何计算该节点当前在关注网络中的总关联边数？",
+        "question": "When screening potential high-impact users in social networks, it is found that the follow behavior of user '0302' may reflect its dissemination potential. If we need to assess its influence through basic connection activity, how should we calculate the total number of associated edges for this node in the follow network?",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台的影响力评估中，某用户（ID:0302）被列为潜在传播节点候选。若影响力最大化策略要求优先选择与最多用户存在直接双向关注的节点，请计算该用户当前被其他用户关注和主动关注的连接总数。",
+        "question": "In the assessment of influence on social platforms, a certain user (ID:0302) has been identified as a potential dissemination node candidate. If the influence maximization strategy prioritizes selecting nodes that have mutual direct attention from the maximum number of users, please calculate the total number of connections that this user currently has in terms of being followed by other users and actively following them.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台正在筛选影响力推广活动的种子用户，候选节点'0302'的传播能力需通过其直接关联的活跃连接数评估。请计算该用户节点的总关注关系数（包含主动关注和被动关注），以确定是否纳入优先投放名单。",
+        "question": "A certain social platform is screening seed users for its influencer promotion activities. The communication ability of candidate node '0302' needs to be assessed based on the number of active connections directly associated with it. Please calculate the total number of follow relationships for this user node (including active and passive follows) to determine whether it should be included in the priority promotion list.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台的影响力推广计划中，候选种子用户的影响力需通过其直接社交关系总量评估。若节点'0302'作为候选者，其被关注和主动关注的连接总数是多少？",
+        "question": "In the social media influence promotion plan, the influence of candidate seed users needs to be assessed based on the total number of their direct social connections. If node '0302' is a candidate, what is the total number of connections it has, including both followers and those it actively follows?",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中实施影响力最大化策略时，关键用户识别常基于其社交活跃度。已知用户'0302'的关注与被关注关系已映射为有向边，请计算该用户当前直接关联的社交连接总数（包含出方向和入方向的关系数量），以此评估其传播潜力。",
+        "question": "When implementing influence maximization strategies in social networks, key user identification is often based on their social activity. The following relationships of user '0302', represented as directed edges, need to be considered. Please calculate the total number of direct social connections currently associated with this user (including both outgoing and incoming relationships) to assess their propagation potential.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，某品牌计划通过影响力最大化策略选择初始传播用户，若用户'0302'的关注与被关注总数直接影响其信息扩散潜力，请计算该节点的总关注数（出度与入度之和）以评估其作为初始传播者的优先级。",
+        "question": "In the social network, a certain brand plans to select initial传播者 (initial传播者) through an influence maximization strategy. If the total number of followings and followers of user '0302' directly affects its information diffusion potential, please calculate the total number of followers (the sum of out-degree and in-degree) for this node to assess its priority as an initial传播者.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在筛选潜在的高影响力用户，用于推广新功能活动。已知用户'0302'的关注和被关注关系构成其传播潜力，请计算该用户在当前网络中直接关联的关注关系总数，作为评估其节点影响力的核心指标。",
+        "question": "A certain social media platform is screening potential high-impact users to promote a new feature campaign. The user's attention and follower relationships make up their dissemination potential. Please calculate the total number of direct follower relationships associated with user '0302' in the current network, which will serve as a core metric for assessing the user's influence within the network.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台为优化信息流推荐策略，计划基于用户关注关系识别影响力核心节点。若当前网络中以被关注数衡量传播潜力，请计算用户'0302'的总关注数（主动关注他人和被动被关注的数量之和），以确定其是否纳入首批核心用户名单。",
+        "question": "A certain social platform plans to optimize its information flow recommendation strategy by identifying core influential nodes based on user follow relationships. If we measure dissemination potential by the number of follows in the current network, please calculate the total number of follows for user '0302' (the sum of actively following others and passively being followed) to determine whether they should be included in the first batch of core usernames.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在影响力最大化策略中，我们需要筛选社交网络中传播潜力最高的核心节点。已知用户'0302'是候选者之一，请计算其直接关联的社交关系总数（包含主动关注他人和被他人关注的次数总和）以评估其基础影响力。",
+        "question": "In the strategy of maximizing influence, we need to identify the core nodes in the social network with the highest potential for dissemination. It is known that user '0302' is one of the candidates. Please calculate the total number of its directly associated social relationships (including the total number of times it actively follows others and is followed by others) to assess its base influence.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台影响力分析中，候选种子用户'0302'的总连接数（被关注和主动关注的数量总和）直接影响传播范围。请计算该节点当前作为潜在传播种子时的总连接强度值，用于评估其初始扩散潜力。",
+        "question": "In the analysis of influence on social media platforms, the total number of connections of the candidate seed user '0302' (the sum of followers and those followed) directly affects the spread of information. Please calculate the total connection strength value of this node when considered as a potential传播种子, in order to assess its initial diffusion potential.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络影响力最大化策略中，候选节点'0302'的关注与被关注数量总和被视为传播潜力指标，请问该节点的总度数是多少？",
+        "question": "In the strategy for maximizing influence on social networks, the sum of the number of followers and the number of followings for the candidate node '0302' is considered as the indicator of its传播潜力. Could you please tell me what the total degree of this node is?",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台的市场部门计划为新产品推广筛选潜在的高影响力用户，其中节点'0302'因近期互动活跃被列为候选。若平台认为用户的直接关注关系总和能反映其传播潜力，请计算该节点当前的入站和出站关注总数，作为推荐决策的核心指标。",
+        "question": "The marketing department of a certain social media platform plans to select potential high-impact users for the promotion of a new product, with node '0302' being listed as a candidate due to its recent active interactions. If the platform believes that the total number of direct follow relationships of the user can reflect their dissemination potential, please calculate the current total number of inbound and outbound follows for this node, serving as a core indicator for the recommendation decision.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络中，平台计划通过推荐高影响力用户来扩大活动覆盖范围。影响力评估的核心指标之一是节点的总连接数，即出度与入度之和。请问需要计算节点'0302'的哪个指标？",
+        "question": "In social networks, the platform plans to expand the reach of activities by recommending high-influence users. One of the core indicators of influence assessment is the total number of connections of a node, which is the sum of out-degree and in-degree. May I ask which indicator needs to be calculated for node '0302'?",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交媒体平台正在评估用户影响力以优化推广资源分配，根据关注关系的活跃度分析，请计算用户'0302'的直接交互总连接数（被关注和主动关注的数量之和），从而判断其在当前网络中的潜在覆盖范围。",
+        "question": "A certain social media platform is evaluating user influence to optimize the allocation of promotional resources. Based on the activity level of follower relationships, please calculate the total number of direct interactions for user '0302' (the sum of the number of followers and the number of actively followed users) in order to determine its potential reach within the current network.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某社交平台正在研究信息扩散的关键枢纽，节点影响力由关注关系的活跃程度决定。若要评估用户'0302'在当前网络中的直接传播范围，应计算其所有关注和被关注连接的总数是多少？",
+        "question": "A certain social platform is studying key hubs of information diffusion, where the influence of a node is determined by the level of activity in its following relationships. To assess the direct spread of user '0302' in the current network, what is the total number of all the connections of users that '0302' follows and those that follow '0302'?",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中启动一项影响力扩散活动时，需优先筛选与用户'0302'存在直接关注关系的账号总数（包括其关注者和被关注者），以评估其作为初始传播节点的潜在覆盖规模。当前需计算该用户节点的连接总量是多少？",
+        "question": "When launching an influence diffusion campaign on social networks, it is important to first filter the total number of accounts that have a direct follow relationship with user '0302' (including both followers and followees) to evaluate its potential coverage as an initial传播 node. Currently, we need to calculate the total number of connections for this user node.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在影响力最大化策略中，候选人的传播潜力由其总关注关系数量决定。请计算用户'0302'的出度和入度总和，以评估其核心程度。",
+        "question": "In the strategy of maximizing influence, a candidate's communication potential is determined by the total number of attention relationships. Please calculate the combined out-degree and in-degree of user '0302' to assess its core level.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台“星联社区”评估影响力最大化候选用户时，用户‘0302’的总关注关系数是多少？请计算其被关注和主动关注他人的总数。",
+        "question": "Translate to English: When evaluating candidates for maximizing influence on the social platform \"StarLink Community,\" what is the total number of connections for user '0302'? Please calculate the total number of followers and the number of people they actively follow.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交平台的影响力推广活动中，平台需要根据用户的总互动连接数（被关注数+主动关注数）筛选潜在影响力节点，请计算用户'0302'当前的关注关系总和以确定其是否符合候选标准。",
+        "question": "In the influence promotion activities on social media platforms, the platform needs to filter potential influential nodes based on the total number of user interactions (number of followers + number of actively followed users). Please calculate the total number of follower relationships for user '0302' to determine if they meet the candidate criteria.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在优化推荐算法，需要优先识别高互动用户作为潜在传播节点。已知用户间关注关系构成网络，请计算用户'0302'的关注与被关注总数，判断其是否符合影响力候选人的基础筛选标准（总度数≥50）？",
+        "question": "A certain social platform is optimizing its recommendation algorithm and needs to prioritize identifying high-interaction users as potential dissemination nodes. Given that the relationship between users is represented as a network, please calculate the total number of users that '0302' follows and is followed by. Determine if it meets the basic screening criteria for influence candidates (total degree ≥ 50).",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "市场部计划通过关注关系扩散新品活动信息，为选择影响力最大的初始传播用户，需计算关键节点用户'0302'的总连接数（被关注和主动关注数量之和）作为评估依据，该用户当前的实际总连接数是多少？",
+        "question": "The marketing department plans to focus on the dissemination of new product activity information by paying attention to relationship expansion. To select the most influential initial dissemination users, it is necessary to calculate the total number of connections for the key node user '0302' (the sum of the number of followers and the number of users the individual is actively following) as an evaluation criterion. What is the current actual total number of connections for this user?",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交媒体平台影响力分析中，若需筛选潜在高影响力用户来扩大信息传播覆盖，请计算用户ID为'0302'的关注他人次数与被他人关注次数的总和。该节点的总连接数是多少？",
+        "question": "In the analysis of influence on social media platforms, to identify potential high-impact users for expanding information dissemination, please calculate the sum of the number of users with ID '0302' that he follows and the number of users that follow him. What is the total connection count for this node?",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络中，平台计划选取影响力核心用户进行推广活动，用户'0302'被列为候选节点之一。若要量化其直接关联的活跃连接规模，需统计该用户当前的所有关注与被关注关系总数，请问该数值是多少？",
+        "question": "In the social network, the platform plans to select influential core users for promotional activities, and user '0302' has been listed as one of the candidate nodes. To quantify the scale of its directly associated active connections, it is necessary to count the total number of current followers and followees for this user. What is that value?",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在推广新功能时，为评估用户'0302'能否作为初始传播者，需量化其社交影响力，请计算该用户当前总关注关系数（主动关注他人和被他人关注的总次数）。",
+        "question": "When promoting a new feature, in order to evaluate whether user '0302' can serve as an initial disseminator, it is necessary to quantify their social influence. Please calculate the user's current total number of follow relationships (the total number of times they actively follow others and are followed by others).",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中实施影响力最大化策略时，通常需要优先考虑与更多用户建立双向连接的节点。已知平台正在评估用户‘0302’作为信息传播种子节点的潜力，请计算该用户当前所有直接关联的关注关系数量（包含被关注和主动关注的情况）。",
+        "question": "When implementing influence maximization strategies in social networks, it is generally necessary to prioritize nodes that establish bidirectional connections with more users. The platform is currently assessing the potential of user '0302' as a seed node for information dissemination. Please calculate the total number of direct connections (including both followed and following relationships) that this user currently has.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台正在筛选信息传播的核心用户，依据是用户被关注和主动关注他人的综合活跃度。若候选用户'0302'需通过总关联频次评估影响力，其当前关注关系的总数是多少？",
+        "question": "A certain social platform is screening core users for information dissemination based on the combined activity level of users who are followed and those who actively follow others. If the candidate user '0302' needs to assess their influence through the total frequency of connections, what is the total number of current follow relationships they have?",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络中，为确定用户'0302'是否适合作为影响力扩散的关键枢纽，需统计其直接关联的用户总数量（包括主动关注和被关注）。请计算该节点的出度与入度之和。",
+        "question": "In the social network, to determine whether the user '0302' is suitable as a key hub for influence diffusion, it is necessary to count the total number of users directly associated with them (including actively following and being followed). Please calculate the sum of the out-degree and in-degree of this node.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台计划通过影响力最大化策略选择种子用户推广新产品，已知用户间关注关系构成有向图。若平台优先考虑用户节点的总连接活跃度（被关注数和主动关注数之和），请计算用户'0302'当前对应的总连接数，以便评估其传播潜力。",
+        "question": "A certain social platform plans to select seed users to promote a new product using a strategy focused on maximizing influence. It is known that the relationships among users constitute a directed graph. If the platform prioritizes the total connection activity of user nodes (the sum of the number of followers and the number of users they actively follow), please calculate the current total connection count for user '0302' in order to assess their potential for spreading influence.",
+        "label": "Degree_Count",
+        "type": "影响力最大化策略",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络用户增长趋势分析中，早期用户'0302'作为平台推广种子用户，现需评估其当前网络影响力。当新用户涌入导致关注关系动态调整后，该节点在最新快照中被直接关注和主动关注的关联总数是多少？",
+        "question": "In the analysis of user growth trends on social networks, the early user '0302' served as a seed user for platform promotion. It is now necessary to assess their current network influence. After new users' influx leads to dynamic adjustments in attention relationships, what is the total number of connections that this node has in the latest snapshot, including both direct and active followers?",
+        "label": "Degree_Count",
+        "type": "社交网络演化分析",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某社交平台在经历用户快速增长阶段后，用户'0302'的关注与被关注关系发生了动态调整。结合其近期互动数据，计算该用户当前直接关联的社交连接总数（主动关注他人和被动被关注的总量），以反映其在网络中的活跃程度。",
+        "question": "After experiencing a rapid growth phase in user numbers, the social relationship concerning user '0302' on a certain social platform has undergone dynamic adjustments. By analyzing the recent interaction data of this user, we can calculate the total number of direct social connections they currently have (the sum of the users they actively follow and those who passively follow them) to reflect their level of activity within the network.",
+        "label": "Degree_Count",
+        "type": "社交网络演化分析",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台在合并两个历史版本的用户关系数据时，发现用户‘0302’在两次迁移中关注关系被完整保留。若当前网络中该用户所有双向关注记录均视为有效，请计算用户‘0302’在迁移后的总连接数。",
+        "question": "A social platform discovered that the user relationship data for user '0302' was fully preserved during the merging of two historical versions. If all mutual follow records of this user in the current network are considered valid, please calculate the total number of connections for user '0302' after the migration.",
+        "label": "Degree_Count",
+        "type": "社交网络演化分析",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某微博用户（节点'0302'）在平台推广期间新增了多个关注对象，同时部分原有粉丝取消关注。当前网络中该节点的总关注关系数量是多少？",
+        "question": "A certain Weibo user (node '0302') has added multiple new followings during the promotional period, while some existing followers have unfollowed. What is the current total number of follow relationships for this node in the network?",
+        "label": "Degree_Count",
+        "type": "社交网络演化分析",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交网络平台的三周年活动后，用户'0302'因频繁互动导致其关注关系动态变化。运营团队需评估该用户当前的影响力，请计算其关注与被关注关系数量的总和。",
+        "question": "After the third anniversary event on the social networking platform, user '0302' experienced changes in their follower and following dynamics due to frequent interactions. The operations team needs to assess the current influence of this user. Please calculate the total sum of their following and follower relationships.",
+        "label": "Degree_Count",
+        "type": "社交网络演化分析",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在社交平台近期的用户活跃度评估中，节点'0302'被标记为潜在核心用户，需统计其当前的社交互动总频次（包括主动关注他人和被动被他人关注的总次数），该数值应为多少？",
+        "question": "In a recent assessment of user activity on social media platforms, node '0302' has been identified as a potential core user. We need to calculate their total current social interactions (including both active following of others and passive being followed by others). What should this value be?",
+        "label": "Degree_Count",
+        "type": "社交网络演化分析",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络用户增长期，节点'0302'因内容活跃度波动导致关注关系动态变化，现需分析其近期网络影响力，计算该节点当前直接关联的边总数（关注与被关注之和）。",
+        "question": "During the user growth period of the social network, node '0302' experienced dynamic changes in its follow relationships due to fluctuations in content activity. It is now necessary to analyze its recent network influence and calculate the total number of edges directly associated with this node (the sum of follows and followers).",
+        "label": "Degree_Count",
+        "type": "社交网络演化分析",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在平台用户激增的过去三个月里，节点'0302'的关注和被关注关系频繁变动，现需评估其社交活跃度，请计算该节点当前所有直接关联的关注与被关注连接总数。",
+        "question": "In the past three months of rapid user growth on the platform, the following and follower relationships of node '0302' have been frequently changing. We need to assess its social activity, so please calculate the total number of all direct following and follower connections for this node.",
+        "label": "Degree_Count",
+        "type": "社交网络演化分析",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社交网络演化分析中，某平台新增用户后，节点'0302'的关注关系发生变化。请计算当前节点'0302'的关注他人和被关注的总次数，从而评估其在网络中的活跃度。",
+        "question": "In the analysis of social network evolution, after the addition of new users on a certain platform, the follower relationship of node '0302' has changed. Please calculate the total number of times node '0302' follows others and is followed by others, in order to assess its activity level within the network.",
+        "label": "Degree_Count",
+        "type": "社交网络演化分析",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "随着社交网络近期的用户增长，节点'0302'的关注与被关注关系因新用户加入发生了变化。此时，该节点的出度与入度总和是多少？",
+        "question": "With the recent growth in users on social networks, the follow and follower relationships of node '0302' have changed due to the addition of new users. At this time, what is the sum of the out-degree and in-degree of this node?",
+        "label": "Degree_Count",
+        "type": "社交网络演化分析",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台进行数据迁移时，旧系统中用户'0302'的关注关系可能因网络演化出现冗余或丢失。现需根据新系统的最新关注数据，计算该用户节点的总连接数（被其他用户关注和主动关注他人的数量总和），以验证迁移后的网络完整性。请返回该节点的度数值。",
+        "question": "During the data migration of a social platform, the follow relationships of user '0302' in the old system may have become redundant or lost due to network evolution. We now need to calculate the total connection count for this user node based on the latest follow data from the new system (the sum of the number of users following him and the number of users he actively follows) to verify the integrity of the network after migration. Please return the degree value for this node.",
+        "label": "Degree_Count",
+        "type": "社交网络演化分析",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在微博平台中，用户'0302'近期因内容创作活跃度波动引发关注，现需评估其当前网络影响力。若将关注与被关注视为互动关系，请计算该用户节点当前的总互动连接数。",
+        "question": "In the Weibo platform, user '0302' has recently attracted attention due to fluctuations in content creation activity, and it is now necessary to assess their current online influence. If we consider followers and followings as an interactive relationship, please calculate the total number of interactive connections for this user node at present.",
+        "label": "Degree_Count",
+        "type": "社交网络演化分析",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台进行季度用户活跃度分析时，发现节点0302的关注动态呈现明显波动。经历本月新增关注和取关事件后，该用户当前直接建立的双向社交关联总数是多少？",
+        "question": "When a certain social media platform conducted a quarterly analysis of user activity, it found that the follow dynamics of node 0302 exhibited noticeable fluctuations. After experiencing new follow and unfollow events this month, what is the current total number of direct bidirectional social connections established by this user?",
+        "label": "Degree_Count",
+        "type": "社交网络演化分析",
+        "true_count": 16,
+        "weak_count": 0
+    }
+]

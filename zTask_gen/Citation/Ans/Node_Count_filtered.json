@@ -1,0 +1,1042 @@
+[
+    {
+        "origin_question": "为追踪某研究领域的学术影响力，需汇总所有被核心文献直接或间接引用的论文，请问该引文网络中涉及的文献总数是多少？",
+        "question": "To track the academic influence in a specific research field, it is necessary to compile all papers that are directly or indirectly cited by core literature. Could you please tell me the total number of documents involved in this citation network?",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为追踪某学术领域核心理论的传播影响力，需统计构建其论文引文网络时收录的所有基础文献数量，请问该网络中共有多少篇独立研究论文？",
+        "question": "To track the dissemination influence of core theories in a certain academic field, it is necessary to count the total number of foundational documents included when constructing its paper citation network. May I ask how many independent research papers are included in this network?",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，为了追踪某领域核心成果的学术影响力，需要计算该网络中总共有多少篇学术论文？",
+        "question": "In the citation network of academic papers, in order to track the academic impact of the core achievements in a certain field, it is necessary to calculate how many academic papers are there in total within that network.",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，某学术领域的核心原创论文及其直接引用的所有文献共同反映了该领域的学术影响力扩散范围，计算这些文献的总数量。",
+        "question": "In the citation network of academic papers, the core original papers of a certain academic field and all the references directly cited by them collectively reflect the scope of academic influence diffusion in that field. The total number of these references is calculated.",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某学术机构希望评估一个论文引文网络中核心研究成果的辐射范围，该网络包含某领域开创性论文及其所有直接或间接引用文献，需计算当前网络中涉及的研究成果总量是多少？",
+        "question": "An academic institution wishes to assess the scope of core research outcomes in a citation network of papers. This network includes pioneering papers in a specific field and all directly or indirectly cited literature. It is necessary to calculate the total amount of research outcomes involved in the current network.",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为了追踪某领域学术影响力的覆盖范围，需要计算该论文引文网络中所有文献节点的总数量，其中包含被引用的论文和主动引用的论文，请问当前网络中共有多少篇不同的学术成果？",
+        "question": "To track the coverage of academic influence in a certain field, it is necessary to calculate the total number of literature nodes in the citation network of the paper, which includes both the cited papers and the actively citing papers. How many different academic contributions are there in the current network?",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在追踪某领域奠基性论文的学术影响力时，其引文网络中共有多少篇论文？",
+        "question": "When tracing the academic impact of foundational papers in a particular field, how many papers are there in their citation network?",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为评估某研究领域内学术影响力的传播范围，需统计该论文引文网络中所有直接或间接关联的文献总量，请问共有多少篇独立论文参与构成了这一引用关系网络？",
+        "question": "To assess the scope of academic influence in a particular research field, it is necessary to tally the total number of all directly or indirectly related literature within the citation network of the paper. May I ask how many independent papers contribute to this citation relationship network?",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在计算生物学领域的重要文献构成的论文引文网络中，若要评估该领域核心学术成果的传播广度，需要统计的论文总数量是多少？",
+        "question": "In the citation network of important literature in the field of computational biology, how many total papers need to be counted in order to assess the breadth of dissemination of core academic achievements in the field?",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，某学术领域的影响力追踪需统计所有相关文献的总数，包括直接引用和间接关联的论文，请计算该网络中共有多少篇文献？",
+        "question": "In the citation network of a paper, tracking the influence of a particular academic field requires counting the total number of all relevant documents, including both directly cited and indirectly related papers. Please calculate how many documents are in this network.",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在追踪某领域核心论文的学术影响力扩散路径时，需要确定该引文网络中所有参与引用传播的文献总量，请问共有多少篇论文被纳入该传播网络？",
+        "question": "When tracing the dissemination path of academic influence for core papers in a particular field, it is necessary to determine the total number of documents involved in the citation propagation within that citation network. Could you please tell me how many papers are included in this dissemination network?",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为追踪某研究领域的学术影响力发展，需分析其论文引文网络中所有文献的覆盖范围。请计算该网络中共包含多少篇不同的论文？",
+        "question": "To track the development of academic influence in a certain research field, it is necessary to analyze the coverage of all literature in its citation network. Please calculate the total number of different papers included in that network.",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为追踪某领域学术影响力的核心文献群规模，需计算该论文引文网络中所有节点的数量，请问共有多少篇论文参与构成该引用关系网络？",
+        "question": "To track the size of the core literature group that reflects the academic influence in a specific field, it is necessary to calculate the number of all nodes in the citation network of the paper. How many papers in total are involved in constructing this citation relationship network?",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为了追踪某位学者核心研究的学术影响力，需要计算其所有原创论文及其直接或间接引用的文献构成的引文网络中总共有多少篇论文？",
+        "question": "In order to track the academic impact of a scholar's core research, it is necessary to calculate the total number of papers in the citation network formed by all their original papers and the works that cite them directly or indirectly.",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为追踪某领域核心研究的学术影响力，需计算该论文引文网络中涵盖的所有论文总数，请问共有多少篇独立文献？",
+        "question": "To track the academic impact of core research in a particular field, it is necessary to calculate the total number of papers included in the citation network of the study. May I ask how many independent papers are there in total?",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在追踪某篇开创性论文的学术影响力时，需要计算其引文网络中所有直接引用和间接引用的文献总量。已知该文献及其所有被引论文构成单向引用网络，请统计该网络中涉及的全部学术成果数量？",
+        "question": "When tracking the academic impact of a pioneering paper, it is necessary to calculate the total number of all directly and indirectly cited works in its citation network. Given that the paper and all its cited works form a one-way citation network, please count the total number of academic achievements involved in this network.",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了追踪某篇开创性论文的学术影响力扩散范围，需要计算该论文引文网络中所有节点的总数量，请问当前网络中涵盖了多少篇相关文献？",
+        "question": "To track the academic impact and diffusion range of a landmark paper, it is necessary to calculate the total number of nodes in the citation network of that paper. Could you please tell me how many relevant publications are currently included in the network?",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，某领域奠基性论文通过直接和间接引用关系影响了多少篇不同的学术成果？请计算该引文网络所涵盖的文献总量。",
+        "question": "In the citation network of academic papers, how many different scholarly works have been influenced by foundational papers in a certain field through direct and indirect citation relationships? Please calculate the total number of documents encompassed by this citation network.",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 15,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在论文引文网络中，若要追踪某领域核心成果的学术影响力传播范围，需要计算当前引文关系网络中涉及的所有原始文献和衍生文献的总数量是多少？",
+        "question": "In the citation network of a paper, to track the dissemination range of the academic impact of core achievements in a certain field, it is necessary to calculate the total number of all original and derivative literature involved in the current citation relationship network.",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，某篇奠基性论文被后续研究广泛引用，若要全面评估该论文的学术影响力辐射范围，需要计算其引文网络中涉及的所有研究成果数量（包含原始论文本身），应如何确定总数量？",
+        "question": "In the citation network of academic papers, if a foundational paper is widely cited by subsequent studies, to comprehensively assess the academic impact and reach of that paper, it is necessary to calculate the total number of research outputs involved in its citation network (including the original paper itself). How should the total number be determined?",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在追踪人工智能领域奠基性论文的学术影响力时，需要确定其引文网络覆盖的全部研究成果范围。请计算该论文引文网络中涉及的所有关联文献总量？",
+        "question": "When tracking the academic impact of foundational papers in the field of artificial intelligence, it is necessary to determine the complete range of research results covered by their citation networks. Could you please calculate the total amount of all related literature involved in the citation network of that paper?",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在学术影响力追踪研究中，某篇核心论文被引用了5次，而引用它的每篇论文又分别被其他论文引用了3次。若引文网络呈树状结构无环且无重复引用，请问该奠基性论文的学术影响范围共涵盖多少篇文献？",
+        "question": "In the study of tracking academic influence, a certain core paper has been cited 5 times, and each of the papers that cited it has been cited 3 times by other papers. If the citation network is tree-structured, acyclic, and has no duplicate citations, how many pieces of literature does the academic impact of this foundational paper cover in total?",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某领域核心论文的学术影响力时，若已知其引文网络包含起始文献及其所有直接引用和间接引用的论文，如何准确计算该领域当前研究文献的总量？",
+        "question": "When analyzing the academic impact of core papers in a particular field, if the citation network is known to include the original papers as well as all their direct and indirect citations, how can one accurately calculate the total volume of current research literature in that field?",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某研究机构欲通过论文引文网络追踪其核心团队在基因编辑领域的学术影响力扩散范围，若该网络完整收录了团队论文及其所有直接、间接被引文献，请计算该学术影响力覆盖网络中的独立文献总量。",
+        "question": "A research institution aims to track the diffusion range of academic influence of its core team in the field of gene editing through a citation network of papers. If this network comprehensively includes the team's publications along with all their directly and indirectly cited literature, please calculate the total number of independent documents in this academic influence coverage network.",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在追踪某领域核心学术成果的影响力时，需要统计所有直接或间接产生引证关联的文献数量，请计算该引文网络中涵盖的学术文献总量？",
+        "question": "When tracking the impact of core academic成果 in a specific field, it is necessary to count the total number of academic publications that directly or indirectly generate citation relationships. Please calculate the total amount of academic literature covered in this citation network.",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，某领域奠基性论文通过直接和间接引用关系影响了后续研究，若要全面评估该核心文献的学术辐射范围，需要统计其引文网络中包含的所有关联文献数量，请计算该网络中的总文献数。",
+        "question": "In the citation network of a paper, foundational papers in a certain field influence subsequent research through direct and indirect citation relationships. To comprehensively assess the academic impact of these core documents, it is necessary to count the total number of related documents included in their citation network. Please calculate the total number of documents in this network.",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "<think>\n好的，我需要帮用户生成一个符合要求的论文引文网络相关的问题。首先，用户强调问题要围绕学术影响力追踪，所以得考虑引用关系如何反映影响力。节点计数算法就是统计所有节点数量，所以问题应该让计算整个网络中的论文总数。\n\n接下来，要确保问题自然，不绕弯。比如，直接问“计算该学术网络中所有论文的总数”可能太直白，需要更场景化。比如，评估某个领域的影响力，可能需要知道有多少论文被纳入研究范围，",
+        "question": "Sure, here's the translation:\n\n<think>\nAlright, I need to help the user generate a question related to citation networks that meets their requirements. First, the user emphasizes that the question should revolve around tracking academic impact, so we need to consider how citation relationships reflect that impact. A node count algorithm involves counting all the nodes, so the question should focus on calculating the total number of papers within the entire network.\n\nNext, we need to ensure that the question sounds natural and is not overly straightforward. For example, asking directly \"Calculate the total number of papers in this academic network\" might be too blunt. Instead, it could be framed in a more contextualized way, such as evaluating the impact in a specific field, which may require knowing how many papers are included in the scope of the research.",
+        "label": "Node_Count",
+        "type": "学术影响力追踪",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在预测跨学科研究趋势时，若将计算机视觉与合成生物学交叉领域的核心文献构建为引文网络，其中节点代表具有跨学科属性的关键论文，边表示领域间的知识迁移路径，请计算该网络中所有参与跨学科知识融合的研究载体数量。",
+        "question": "When predicting trends in interdisciplinary research, if we construct a citation network of core literature in the intersection of computer vision and synthetic biology, where nodes represent key papers with interdisciplinary attributes and edges indicate knowledge transfer paths between fields, please calculate the number of research entities involved in interdisciplinary knowledge integration within that network.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在生物信息学与计算语言学的跨学科融合趋势研究中，我们收集了涉及基因序列分析算法和自然语言处理模型的相互引用文献。若要评估该领域知识聚合的广度，需要计算当前文献引用网络中总共包含多少篇独特的研究论文？",
+        "question": "In the study of the interdisciplinary integration trends between bioinformatics and computational linguistics, we have collected mutual citation literature involving gene sequence analysis algorithms and natural language processing models. To assess the breadth of knowledge aggregation in this field, how many unique research papers are included in the total citation network of current literature?",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某跨学科研究团队通过论文引文网络预测计算机科学与生物医学的交叉领域发展趋势，已知引用关系覆盖了两大学科近五年发表的文献，请问当前网络中总共有多少篇独立论文被纳入分析？",
+        "question": "A certain interdisciplinary research team predicts the development trend of the intersection between computer science and biomedicine through citation networks of papers. It is known that the citation relationships cover the literature published in the two major disciplines over the past five years. How many independent papers in total have been included in the current network analysis?",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在生物信息学与计算语言学的跨学科融合趋势研究中，我们收集了涉及基因序列分析算法和自然语言处理模型的相互引用文献。若要评估该交叉领域当前研究规模，需要计算这个双向知识流动网络中总共涉及多少篇独特的研究论文？",
+        "question": "In the study of the interdisciplinary integration trend between bioinformatics and computational linguistics, we collected mutual citation literature involving gene sequence analysis algorithms and natural language processing models. To evaluate the current research magnitude in this cross-disciplinary field, how many unique research papers are involved in this bidirectional knowledge flow network?",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在跨学科研究预测项目中，若需分析某篇核心论文通过直接引用和间接引用形成的整个学术影响网络，请计算该引文网络中涉及的所有独特论文数量总和是多少？",
+        "question": "In the interdisciplinary research prediction project, if we need to analyze the entire academic influence network formed by direct and indirect citations of a core paper, please calculate the total number of unique papers involved in this citation network.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在跨学科研究趋势预测中，若某新兴交叉领域的核心文献网络包含计算机、生物医学和材料学领域的相互引用论文，计算该知识聚合网络中所有基础研究文献的总量。",
+        "question": "In forecasting interdisciplinary research trends, if the core literature network of an emerging cross-disciplinary field contains papers that cite each other from the fields of computer science, biomedicine, and materials science, calculate the total amount of foundational research literature within that knowledge aggregation network.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在预测跨学科研究趋势时，某团队整合了生物信息学与深度学习的论文引用网络，其中包含核心文献及其跨领域引用关系，请计算该网络中所有关联研究文献的总量。",
+        "question": "In predicting interdisciplinary research trends, a certain team integrated the citation network of papers in bioinformatics and deep learning, which includes core literature and its cross-domain citation relationships. Please calculate the total number of all related research papers in this network.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在生物信息学与材料科学的跨学科合作趋势预测中，研究人员需要统计涉及基因编辑技术和纳米材料应用的所有关联论文数量。已知论文间存在单向引用关系，请计算该引文网络中涵盖的所有研究文献的总量。",
+        "question": "In predicting the trend of interdisciplinary collaboration between bioinformatics and materials science, researchers need to statistically analyze all relevant papers involving gene editing technologies and the application of nanomaterials. Given that there is a unidirectional citation relationship among the papers, please calculate the total amount of research literature covered in this citation network.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在预测跨学科研究趋势时，某机构需要统计计算机科学与生物学交叉领域内所有相互引用的核心文献数量，这些文献通过引用关系形成了紧密的知识网络，请计算该网络中基础研究论文的总量。",
+        "question": "In predicting trends in interdisciplinary research, an institution needs to statistically calculate the total number of core literature that mutually cites each other within the intersection of computer science and biology. These documents form a closely-knit knowledge network through citation relationships. Please calculate the total amount of fundamental research papers within this network.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在跨学科研究趋势预测中，某融合生物信息学与量子计算的引文网络包含核心文献及其所有直接、间接引用文献，请计算该网络中涉及的研究成果总量以评估该交叉领域的当前规模。",
+        "question": "In the trend prediction of interdisciplinary research, a citation network that integrates bioinformatics and quantum computing includes core literature and all its direct and indirect cited documents. Please calculate the total number of research outputs involved in this network to assess the current scale of this cross-disciplinary field.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在预测跨学科研究趋势时，某机构需要统计计算机科学与生物学交叉领域内所有相互引用的核心文献数量。已知这些论文通过引用关系形成了连通网络，请计算该网络中基础研究论文的总量。",
+        "question": "In predicting interdisciplinary research trends, an organization needs to statistically calculate the total number of core literatures that are mutually cited within the intersection of computer science and biology. It is known that these papers form a connected network through citation relationships. Please calculate the total number of basic research papers in this network.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在预测跨学科研究趋势时，某融合量子计算与分子生物学的联合项目需要统计其知识图谱中所有关联文献数量，包含被核心论文直接引用和通过跨领域桥梁论文间接引用的所有研究著作，请计算该学术网络中的总文献实体数。",
+        "question": "In predicting trends in interdisciplinary research, a joint project that integrates quantum computing and molecular biology needs to count the total number of associated literature in its knowledge graph, including all research works directly cited by core papers and those indirectly cited through interdisciplinary bridging papers. Please calculate the total number of literature entities in this academic network.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "<think>\n好的，我需要帮用户生成一个符合要求的论文引文网络问题。首先，用户要求问题要围绕跨学科研究预测的主题，所以得想到如何将不同领域的论文引用结合起来。比如，可能涉及多个学科之间的引用情况，比如计算机科学和生物医学的结合。\n\n接下来，问题需要检测所有节点的数量，也就是统计整个网络中的论文总数。但用户特别指出，答案必须通过节点计数算法直接得出，不需要考虑其他因素，比如边的信息或者节点的属性。因此，问题应该设计成只需要计算节点总数，而不涉及复杂的路径分析或子图筛选。\n\n然后，要确保问题自然，符合直觉。不能太绕，比如不要说“请计算所有不重复的节点数”，而是用更实际的业务场景。例如",
+        "question": "Sure, here’s the translation:\n\n<think>\nOkay, I need to help the user generate a citation network question for a paper that meets their requirements. First, the user requested that the question revolves around the theme of interdisciplinary research prediction, so we need to think about how to combine citations from different fields. For example, it could involve citation relationships between multiple disciplines, such as the intersection of computer science and biomedicine.\n\nNext, the question must detect the total number of nodes, which means counting the total number of papers in the entire network. However, the user specifically noted that the answer must be derived directly from a node counting algorithm, without considering other factors such as edge information or node attributes. Therefore, the question should be designed to only require calculating the total number of nodes, without involving complex path analysis or subgraph filtering.\n\nThen, we need to ensure that the question is natural and intuitive. It shouldn't be overly complicated; for instance, instead of saying, \"Please calculate the number of all distinct nodes,\" we should use a more practical business scenario. For example,",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在分析生物信息学与纳米材料交叉领域的论文引文网络时，若要预测该跨学科研究的未来发展趋势，首先需要计算当前网络中涉及的所有独立研究论文的总数量是多少？",
+        "question": "When analyzing the citation network of papers in the intersection of bioinformatics and nanomaterials, to predict the future development trends of this interdisciplinary research, it is essential to first calculate the total number of independent research papers involved in the current network.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为分析跨学科研究发展潜力，某文献库整合了神经科学、量子计算和材料工程领域的论文引用网络，其中每篇论文至少引用三个不同学科的研究成果。计算该网络中存在的全部学术文献数量。",
+        "question": "To analyze the potential for interdisciplinary research development, a certain literature database has integrated the citation networks of papers from the fields of neuroscience, quantum computing, and materials engineering, where each paper cites at least three different disciplinary research findings. Calculate the total number of academic documents present in this network.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在预测跨学科研究热点时，若将材料科学与人工智能领域的论文引文网络进行融合，需计算整合后网络中独立文献实体的总量是多少？",
+        "question": "When predicting interdisciplinary research hotspots, if one integrates the citation network of papers in the fields of materials science and artificial intelligence, how much is the total number of independent literature entities in the consolidated network?",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在预测跨学科研究趋势时，某计算机科学团队发现其论文引文网络同时引用了生物医学和材料科学领域的核心文献，请计算该交叉研究网络中所有文献实体的总量。",
+        "question": "In predicting interdisciplinary research trends, a computer science team found that their paper citation network simultaneously referenced core literature from the fields of biomedicine and materials science. Please calculate the total number of literature entities in this cross-disciplinary research network.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在预测跨学科研究热点时，某论文引文网络整合了人工智能与量子物理领域的交叉文献，若每篇被引论文仅计算一次，计算该网络中覆盖的所有基础研究论文的总量。",
+        "question": "In predicting interdisciplinary research hotspots, a certain paper's citation network integrates cross-referenced literature from the fields of artificial intelligence and quantum physics. If each cited paper is counted only once, calculate the total amount of fundamental research papers covered in that network.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在预测跨学科研究趋势时，某机构整合了计算机科学与生物医学领域的论文引用网络，其中每篇论文仅引用同领域或跨领域文献一次，若要分析该知识聚合体的规模，需计算网络中涵盖多少篇独立论文？",
+        "question": "When predicting trends in interdisciplinary research, an institution integrated the citation network of papers from the fields of computer science and biomedical engineering, where each paper only cites literature from the same field or across fields once. To analyze the scale of this knowledge aggregation, how many independent papers are included in the network?",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在跨学科研究趋势预测中，若计算机科学领域的突破性论文同时被生物信息学和材料科学的综述文章引用，而这三个学科的交集论文又共同指向合成生物学新方向，请计算该引用网络中涉及的所有基础研究文献总量。",
+        "question": "In predicting trends in interdisciplinary research, if a groundbreaking paper in the field of computer science is cited by review articles in bioinformatics and materials science, and if the intersection papers of these three disciplines point towards new directions in synthetic biology, please calculate the total number of foundational research publications involved in this citation network.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析计算机科学与生物医学交叉领域的论文引文网络时，为预测跨学科研究趋势，需要计算当前网络中所有参与知识迁移的核心文献总量。请问该引文网络中共包含多少篇独立研究论文？",
+        "question": "In analyzing the citation network of papers in the interdisciplinary field of computer science and biomedicine, it is necessary to calculate the total number of core documents involved in knowledge transfer in the current network in order to predict interdisciplinary research trends. May I ask how many independent research papers are included in this citation network?",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析跨学科研究趋势时，某学术团队需要统计涵盖计算机科学、生物医学和量子物理三个领域的论文引文网络规模。若已知领域间存在相互引用但未与其他学科产生关联，请计算该引文网络中涉及的所有独立研究论文数量。",
+        "question": "In analyzing the trends of interdisciplinary research, a certain academic team needs to quantify the size of the citation network of papers spanning the fields of computer science, biomedical science, and quantum physics. Given that there are mutual citations between these fields but no connections to other disciplines, please calculate the total number of independent research papers involved in this citation network.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在跨学科研究趋势预测中，某论文引文网络同时包含量子计算与生物医药领域的核心文献，其中生物医学论文通过三篇桥梁论文与计算机科学领域形成交叉引用，请计算该融合网络中所有独立研究实体的总数。",
+        "question": "In the prediction of interdisciplinary research trends, a certain paper's citation network includes core literature from both the fields of quantum computing and biomedicine. The biomedicine papers form cross-references with the field of computer science through three bridging papers. Please calculate the total number of independent research entities in this integrated network.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在跨学科研究趋势预测中，某新兴交叉领域的核心论文同时引用了生物信息学与量子计算领域的文献，且被材料科学领域的三篇综述文章共同引用，计算该交叉领域当前在论文引文网络中形成的核心研究集群规模。",
+        "question": "In predicting trends in interdisciplinary research, a key paper in a new emerging intersectional field simultaneously cites literature from both bioinformatics and quantum computing, while also being collectively referenced by three review articles in the field of materials science. Calculate the current scale of the core research cluster formed by this intersectional field within the paper citation network.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在跨学科研究预测中，生物信息学与材料科学的交叉领域论文引文网络里，若需评估该知识图谱的完整覆盖度，应如何计算当前网络中所有关联研究文献的总量？",
+        "question": "In interdisciplinary research forecasting, to assess the completeness of the knowledge graph in the citation network of papers at the intersection of bioinformatics and materials science, how should one calculate the total number of related research documents in the current network?",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为预测未来跨学科研究热点，需要分析同时被计算机科学和生物学领域核心期刊引用的基础文献数量。请计算该跨学科论文引文网络中所有独特文献的总量？",
+        "question": "To predict future interdisciplinary research hotspots, it is necessary to analyze the number of foundational documents that are cited by core journals in both the fields of computer science and biology. Please calculate the total number of unique documents in this interdisciplinary paper citation network.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在跨学科研究趋势预测中，若计算机科学领域的突破性论文同时被生物信息学和材料科学的综述文章引用，而这三个学科的交集论文又共同指向合成生物学新方向，请计算该引用网络中涉及的所有基础研究文献总量。",
+        "question": "In predicting interdisciplinary research trends, if a groundbreaking paper in the field of computer science is cited by review articles in bioinformatics and materials science, and the intersection papers among these three disciplines point towards a new direction in synthetic biology, please calculate the total number of foundational research documents involved in this citation network.",
+        "label": "Node_Count",
+        "type": "跨学科研究预测",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在机器学习领域的论文引文网络中，某篇关于神经网络正则化的奠基性论文被后续238篇研究广泛引用，这些引用文献中又有57篇共同引用了另一篇关于梯度消失问题的开创性论文。请计算该学术网络中涉及神经网络优化理论的核心文献总量。",
+        "question": "In the citation network of machine learning papers, a foundational paper on neural network regularization has been widely cited by 238 subsequent studies. Among these citations, 57 papers have also cited another pioneering paper on the vanishing gradient problem. Please calculate the total number of core literature involved in the theory of neural network optimization within this academic network.",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在蛋白质结构预测领域的突破性论文AlphaFold的引文网络中，核心论文引用了早期冷冻电镜技术研究，同时被后续深度学习改进方法广泛参考。请计算该引文网络中所有论文节点的总数以评估该领域研究规模。",
+        "question": "In the citation network of the groundbreaking paper AlphaFold in the field of protein structure prediction, the core paper cites earlier studies on cryo-electron microscopy techniques and is widely referenced by subsequent deep learning improvement methods. Please calculate the total number of paper nodes in this citation network to assess the scale of research in this field.",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在复杂网络领域关于无标度网络特性的开创性论文及其所有直接间接引用文献构成的论文引文网络中，需要计算该知识图谱中涵盖的学术文献总数量是多少？",
+        "question": "In the field of complex networks, how many total academic papers are included in the citation network formed by the groundbreaking papers on scale-free network characteristics and all their direct and indirect citations in the knowledge graph?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在生物医学领域的论文引文网络中，CRISPR基因编辑技术的关键突破性研究形成了核心知识网络，计算该技术发展过程中所有基础专利文献所覆盖的原始研究论文总数？",
+        "question": "In the citation network of biomedical research papers, key breakthrough studies on CRISPR gene editing technology have formed a core knowledge network. What is the total number of original research papers covered by all foundational patent documents during the development of this technology?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在无标度网络模型的开创性论文及其所有直接和间接引用的文献构成的论文引文网络中，需要计算该网络覆盖的学术文献总量是多少？",
+        "question": "In the citation network composed of the seminal paper on the scale-free network model and all its direct and indirect citations, how much academic literature is covered by this network?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，某权威研究团队的核心论文通过直接引用和间接引用的方式关联了领域内80%的重要文献，若要验证该网络的完整性，应如何计算当前学术网络中实际存在的论文总数？",
+        "question": "In the citation network of academic papers, the core papers from a certain authoritative research team are associated with 80% of the important literature in the field through direct and indirect citations. To verify the integrity of this network, how should one calculate the total number of papers that currently exist in the academic network?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在阿尔茨海默病生物标志物研究的论文引文网络中，权威综述《脑脊液tau蛋白与β淀粉样蛋白的临床价值》被多篇临床研究论文共同引用，现需统计当前网络中所有参与该主题探讨的学术文献总量，应如何计算？",
+        "question": "In the citation network of research papers on Alzheimer's disease biomarkers, the authoritative review \"Clinical Value of Cerebrospinal Fluid Tau Protein and β-Amyloid\" is co-cited by multiple clinical research papers. We now need to calculate the total number of academic literature involved in discussing this topic within the current network. How should this be done?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在基于《Attention Is All You Need》核心论文构建的引文网络中，若将直接引用该论文的文献视为一级节点，引用一级节点的文献作为二级节点，依此类推至五级引用关系，整个引文网络中共包含多少篇学术论文？",
+        "question": "In the citation network built based on the core paper \"Attention Is All You Need,\" if we consider the literature that directly cites this paper as first-level nodes, the literature that cites the first-level nodes as second-level nodes, and so on up to fifth-level citation relationships, how many academic papers are included in the entire citation network?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在COVID-19大流行期间，权威医学期刊《柳叶刀》发表的关于病毒传播模型的系列研究论文构成了引文网络，若想评估该领域核心研究成果的规模，需要计算这个引文网络中涉及的所有基础研究文献和衍生研究的数量总和是多少？",
+        "question": "During the COVID-19 pandemic, a series of research papers on virus transmission models published in the authoritative medical journal The Lancet formed a citation network. To assess the scale of the core research results in this field, it is necessary to calculate the total number of all the foundational research literature and derivative studies involved in this citation network.",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在机器学习领域的论文引文网络中，Transformer架构的奠基性研究《Attention is All You Need》及其衍生成果构成了核心引用链，请计算该主题下所有直接关联的文献节点总量。",
+        "question": "In the citation network of papers in the field of machine learning, the foundational research on the Transformer architecture titled \"Attention is All You Need\" and its derived works constitute the core citation chain. Please calculate the total number of all directly related literature nodes under this topic.",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在量子计算领域，某篇开创性论文提出的拓扑量子位模型被后续327篇研究引用，这些引用文献中又有215篇被更晚的研究所引用。现需要评估该理论体系下的研究总量，应如何计算整个引文网络中的论文总数？",
+        "question": "In the field of quantum computing, a groundbreaking paper proposing a topological qubit model has been cited by 327 subsequent studies. Among these cited references, 215 have been cited by even later research. To assess the overall research volume within this theoretical framework, how should the total number of papers in the entire citation network be calculated?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在生物信息学领域的论文引文网络中，权威文献《基因组序列比对算法》被8篇后续研究引用，这些研究各自又分别引用了3篇同网络中的其他论文，且无重复引用关系。计算该网络中参与核心算法讨论的论文总数量是多少？",
+        "question": "In the citation network of papers in the field of bioinformatics, the authoritative literature \"Genome Sequence Alignment Algorithms\" is cited by 8 subsequent studies. Each of these studies has cited 3 other papers in the same network, with no repeated citations among them. What is the total number of papers involved in the discussion of core algorithms in this network?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，某权威研究领域的高被引论文共同构成了知识扩散的核心枢纽，计算该网络中所有参与形成研究主题基石的论文总数量。",
+        "question": "In the citation network of academic papers, highly cited papers in a particular authoritative research field collectively form the core hub of knowledge diffusion. The total number of papers that contribute to the foundation of the research theme in this network is calculated.",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某权威研究指出量子计算在药物研发中的应用形成了核心论文集群，若将这些相互引用的关键文献视为网络节点，请计算该主题下的研究规模总量。",
+        "question": "An authoritative study indicates that the application of quantum computing in drug development has formed a core cluster of papers. If these key references that cite each other are regarded as network nodes, please calculate the total research scale under this topic.",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析Transformer模型对自然语言处理领域的开创性影响时，研究者需要统计该论文引文网络中所有直接引用原始论文及间接关联的研究文献，请问该学术图谱中共涉及多少篇需要分析的学术论文？",
+        "question": "When analyzing the groundbreaking impact of the Transformer model on the field of natural language processing, researchers need to compile statistics on all the academic papers that directly cite the original paper as well as those that are indirectly related in the citation network of the paper. How many academic papers need to be analyzed in this academic map?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若要统计某领域奠基性研究《神经网络深度学习框架》及其所有直接间接引用文献构成的完整知识图谱规模，应如何计算该学术脉络涉及的论文总量？",
+        "question": "To calculate the total number of papers involved in the academic context of the foundational research in a certain field, \"Deep Learning Frameworks for Neural Networks,\" and the complete knowledge graph composed of all its directly and indirectly cited references within the citation network of the paper, how should the size be determined?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在机器学习领域的论文引文网络中，某权威研究团队发表的Transformer架构奠基性论文，其直接和间接引用的所有文献构成了该领域的核心知识网络。请计算该引文网络中共涉及多少项独立研究成果？",
+        "question": "In the citation network of papers in the field of machine learning, the foundational paper on the Transformer architecture published by a certain authoritative research team, along with all the directly and indirectly cited literature, constitutes the core knowledge network of the field. Please calculate how many independent research results are involved in this citation network.",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，某研究机构希望统计人工智能领域内被超过5篇核心论文共同引用的基础文献及其衍生研究成果构成的网络规模，应如何计算该学术体系包含的文献总量？",
+        "question": "In the citation network of academic papers, a research institution aims to calculate the scale of the network formed by foundational literature and its derived research achievements in the field of artificial intelligence that have been co-cited by more than five core papers. How should the total amount of literature contained in this academic system be calculated?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在机器学习领域的经典论文引文网络中，研究者希望追溯Transformer模型对自然语言处理领域的影响范围。已知核心论文《Attention Is All You Need》及其引用关系构成网络，若要评估该技术脉络的覆盖规模，需要分析整个网络中涉及多少篇学术论文？",
+        "question": "In the classic citation network of machine learning literature, researchers aim to trace the impact of the Transformer model on the field of natural language processing. Given the core paper \"Attention Is All You Need\" and its citation relationships, to assess the scale of coverage for this technological context, how many academic papers need to be analyzed within the entire network?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在人工智能领域的论文引文网络中，某篇开创性论文被领域内所有后续研究作为基础文献引用，计算该学术网络中共涉及多少篇研究文献？",
+        "question": "In the citation network of academic papers in the field of artificial intelligence, a pioneering paper is cited as a foundational reference by all subsequent research in the field. How many research papers are involved in this academic network?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析由高被引论文构成的核心知识传播网络时，如何通过论文间的引用关系计算当前学术领域内所有文献节点的总量？",
+        "question": "In analyzing the core knowledge dissemination network constituted by highly cited papers, how can we calculate the total number of literature nodes within the current academic field through the citation relationships among the papers?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，某人工智能领域的权威研究论文引用了32篇基础理论文献，而这些基础文献又分别被18篇后续应用型论文引用。若该权威论文同时被5篇综述文章共同引用，请计算该权威论文及其关联文献在整个引文网络中的总节点数量。",
+        "question": "In the citation network of research papers, a leading authoritative paper in the field of artificial intelligence cites 32 foundational theoretical documents, which in turn are cited by 18 subsequent application-oriented papers. If this authoritative paper is also co-cited by 5 review articles, please calculate the total number of nodes represented by the authoritative paper and its related documents in the entire citation network.",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析Transformer模型对自然语言处理领域的开创性影响时，研究者需要统计该论文引文网络中所有直接引用原始论文及间接关联的研究文献，请问该学术图谱中共涉及多少篇需要分析的学术论文？",
+        "question": "When analyzing the groundbreaking impact of the Transformer model on the field of natural language processing, researchers need to quantify all the scholarly works directly citing the original paper as well as those indirectly related within the citation network of the paper. Could you please tell me how many academic papers need to be analyzed in this academic map?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，某篇关于深度神经网络架构优化的奠基性论文被领域内大量后续研究引用。已知该论文及其所有直接引用、间接引用的文献构成了领域知识图谱的核心结构，请计算这个核心知识集群包含的论文总数量。",
+        "question": "In the citation network of the paper, a foundational paper on the optimization of deep neural network architectures has been cited by numerous subsequent studies in the field. It is known that this paper, along with all its direct and indirect citations, constitutes the core structure of the knowledge graph in the domain. Please calculate the total number of papers contained in this core knowledge cluster.",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在深度学习模型泛化能力研究的权威论文引文网络中，确定该领域核心成果所涉及的全部学术文献数量？",
+        "question": "In the citation network of authoritative papers on the research of generalization ability in deep learning models, how many academic publications are involved in the core achievements of this field?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在量子计算领域的权威论文引文网络中，若某篇奠基性论文被后续所有相关研究直接或间接引用，请计算该网络中涉及的所有研究文献总数。",
+        "question": "In the authoritative citation network of quantum computing papers, if a foundational paper is directly or indirectly cited by all subsequent related research, please calculate the total number of research papers involved in that network.",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析Transformer模型对自然语言处理领域的开创性影响时，研究者需要统计该论文引文网络中所有直接引用原始论文及间接关联的研究文献，请问该学术图谱中共涉及多少篇需要分析的学术论文？",
+        "question": "In analyzing the groundbreaking impact of the Transformer model on the field of natural language processing, researchers need to compile data on all scholarly papers that directly cite the original paper, as well as those indirectly related to it, within the citation network of this paper. Could you please tell me how many academic papers in total need to be analyzed in this scholarly map?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在蛋白质结构预测领域，AlphaFold的突破性研究引用了大量基础论文，请计算该领域核心知识网络中由AlphaFold原始论文及其直接引用的关键文献所构成的主题网络包含多少节点？",
+        "question": "In the field of protein structure prediction, the groundbreaking research of AlphaFold has cited a large number of foundational papers. Please calculate how many nodes are contained in the thematic network of core knowledge in this field, composed of the original AlphaFold paper and the key literature it directly cites.",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在阿尔茨海默病生物标志物研究的论文引文网络中，权威综述《脑脊液tau蛋白与β淀粉样蛋白的临床价值》被领域内多篇关键文献引用，现需统计当前网络中所有参与该主题研究的论文总量，计算结果应为多少？",
+        "question": "In the citation network of research papers on Alzheimer's disease biomarkers, the authoritative review \"Clinical Value of Cerebrospinal Fluid Tau Protein and β-Amyloid Protein\" has been referenced by multiple key publications in the field. We now need to calculate the total number of papers involved in this research topic within the current network. What should the result be?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在机器学习领域的论文引文网络中，某权威研究团队发现关于支持向量机理论优化的核心论文引用了12篇基础文献，同时被35篇后续研究引用。若这些文献间存在交叉引用关系，请计算该主题研究网络中共涉及多少篇学术论文？",
+        "question": "In the citation network of papers in the field of machine learning, a reputable research team found that the core paper on optimizing support vector machine theory referenced 12 foundational documents and was subsequently cited by 35 follow-up studies. If there are overlapping citation relationships among these documents, please calculate the total number of academic papers involved in this research network on the topic.",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在机器学习领域的权威论文引文网络中，Transformer架构的奠基性研究《Attention Is All You Need》及其衍生模型形成的知识图谱里，计算当前网络覆盖的所有核心研究成果数量？",
+        "question": "In the authoritative citation network of papers in the field of machine learning, how many core research achievements are represented in the knowledge graph formed by the foundational study \"Attention Is All You Need\" and its derivative models in the Transformer architecture?",
+        "label": "Node_Count",
+        "type": "权威论文发现",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的过程中，需要准确掌握学术资源的覆盖范围。现有一个论文引文网络，若某篇核心文献被其他论文多次引用，且这些引用论文又被后续研究持续参考，请计算该网络中共涉及多少篇独特文献，以便评估当前系统的文献收录完整性。",
+        "question": "In the process of optimizing the literature retrieval system, it is essential to accurately grasp the coverage of academic resources. There is currently a citation network of papers, where if a particular core document is cited multiple times by other papers, and those citing papers are continuously referenced in subsequent research, please calculate how many unique documents are involved in this network in order to assess the completeness of the current system's literature collection.",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络优化文献检索系统时，为准确评估索引构建所需存储空间，需要计算当前学术文献相互引用关系中涉及的全部独立论文数量，应如何确定该网络中的文献总量？",
+        "question": "In optimizing the literature retrieval system for citation networks in academic papers, it is necessary to accurately assess the storage space required for index construction. To do this, we need to calculate the total number of independent papers involved in the inter-citation relationships of the current academic literature. How should we determine the total amount of literature in this network?",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某文献检索系统在优化论文推荐功能时，发现引用关系存在孤立节点和重复记录。若论文引文网络中每篇文献仅用唯一ID标识，需计算当前网络中所有文献的数量来重建索引，这个统计结果应该是多少？",
+        "question": "In a certain literature retrieval system, while optimizing the paper recommendation function, it was found that there are isolated nodes and duplicate records in the citation relationship. If each paper in the citation network is identified by a unique ID and it is necessary to calculate the total number of papers in the current network to rebuild the index, what should this statistical result be?",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在文献检索系统优化过程中，某研究团队需要整合两位核心学者的论文引文网络，已知A学者的文献集包含其本人著作及直接引用的文献，B学者的文献集包含其本人著作及被引用的文献，现需计算合并后网络中的总文献数量以评估系统承载量。",
+        "question": "During the optimization process of the literature retrieval system, a research team needs to integrate the citation networks of two core scholars. Scholar A's literature set includes their own works as well as the documents they directly cite, while Scholar B's literature set includes their own works and the documents that cite them. The team now needs to calculate the total number of documents in the merged network to assess the system's capacity.",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的文献覆盖率时，若已知所有论文及其单向引用关系形成的网络，如何计算当前系统收录的唯一学术文献总量？",
+        "question": "Translation: When optimizing the literature coverage of a literature retrieval system, if the network of all papers and their one-way citation relationships is known, how can the total amount of unique academic literature currently included in the system be calculated?",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统时，需要整合某领域内所有直接相关论文及其间接引用的文献，请计算该知识网络中包含的研究成果总数。",
+        "question": "In optimizing the literature retrieval system, it is necessary to integrate all directly related papers and their indirectly cited literature in a specific field. Please calculate the total number of research outcomes included in this knowledge network.",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的存储结构时，为确保跨数据库文献去重效率，需要准确计算当前论文引文网络中存在的独立文献实体总数，请问最终统计结果应为多少？",
+        "question": "When optimizing the storage structure of a literature retrieval system, in order to ensure the efficiency of deduplication across databases, it is necessary to accurately calculate the total number of independent literature entities present in the current citation network of papers. May I ask what the final statistical result should be?",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统时，需要为某领域建立完整的引文索引数据库，现有通过论文间的引用关系构建的文献网络，其中每篇论文仅被录入一次且通过DOI唯一标识，请问需要准备多少个独立存储单元来完整存储所有文献的基本信息？",
+        "question": "When optimizing a literature retrieval system, it is necessary to establish a complete citation index database for a specific field. Currently, a literature network has been constructed based on the citation relationships between papers, where each paper is recorded only once and uniquely identified by its DOI. How many independent storage units are needed to completely store the basic information of all the literature?",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化文献检索系统的索引效率时，需要准确掌握当前论文引文网络中所有独立文献的数量以消除冗余条目，请问应如何计算该网络的学术资源总量？",
+        "question": "To optimize the indexing efficiency of the literature retrieval system, it is necessary to accurately determine the total number of independent literature entries in the current citation network of papers in order to eliminate redundant entries. How should we calculate the total academic resources of this network?",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "<think>\n好的，我需要帮用户生成一个符合要求的图推理问题。首先，用户的需求是关于论文引文网络的节点计数问题，用于检测文献检索系统的优化效果。\n\n根据约束条件，问题必须包含“论文引文网络”，并且要围绕文献检索系统优化的主题。需要自然且符合直觉，不能太绕。答案必须通过节点计数",
+        "question": "Sure, I need to help the user generate a reasoning question that meets the requirements. First, the user's request is about the node counting problem in the citation network of papers, which is used to detect the optimization effect of literature retrieval systems.\n\nBased on the constraints, the question must include \"citation network of papers\" and should center around the theme of optimizing literature retrieval systems. It needs to be natural and intuitive, without being too convoluted. The answer must involve node counting.",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在文献检索系统优化过程中，发现某领域论文存在多版本重复存储现象。现需通过论文间的引用关系网络，计算实际存在的独立文献数量（每篇文献无论被引用多少次均只计1次），应如何确定该学术领域的唯一研究成果总量？",
+        "question": "In the process of optimizing the literature retrieval system, it was found that there is a phenomenon of multiple version duplicates in the papers within a certain field. It is now necessary to calculate the actual number of independent publications (counting each paper only once regardless of how many times it is cited) through the citation relationship network between the papers. How can we determine the total number of unique research outputs in this academic field?",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在文献检索系统优化过程中，为评估数据库完整度，需要计算当前论文引文网络中所有独立文献实体的总量是多少？",
+        "question": "In the process of optimizing the literature retrieval system, to assess the completeness of the database, how much is the total amount of all independent literature entities in the current citation network of the papers?",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化文献检索系统的存储策略时，需根据论文引文网络确定基础数据规模，当前系统中需要建立索引的论文总共有多少篇？",
+        "question": "When optimizing the storage strategy of the literature retrieval system, it is necessary to determine the basic data scale based on the citation network of the papers. How many papers in total need to be indexed in the current system?",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统时，发现某文献集群存在引用关系冗余，现需准确计算当前论文引文网络中所有独立文献的数量（包含被引文献和施引文献），应如何确定该网络包含的唯一学术文献总量？",
+        "question": "When optimizing the literature retrieval system, it was found that there is redundancy in the citation relationships of a specific literature cluster. It is now necessary to accurately calculate the total number of independent documents in the current citation network of papers (including both cited and citing documents). How should we determine the total amount of unique academic literature contained within this network?",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化文献检索系统时，需要统计某研究方向所有直接或间接关联的论文数量，请计算该学术网络中的文献总量。",
+        "question": "When optimizing a literature retrieval system, it is necessary to count the total number of papers directly or indirectly related to a specific research direction. Please calculate the total number of documents in this academic network.",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化文献检索系统时，需要统计某领域内所有直接或间接存在引用关系的论文总数，请计算该论文引文网络中的文献总量。",
+        "question": "In optimizing the literature retrieval system, it is necessary to count the total number of papers within a specific field that have direct or indirect citation relationships. Please calculate the total amount of literature in the citation network of these papers.",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在文献检索系统优化过程中，发现某领域存在多个相互引用的核心文献群组，当需要建立全局索引时，计算该领域所有存在引用关系的学术论文总篇目数量是多少？",
+        "question": "In the process of optimizing the literature retrieval system, it was found that there are multiple core literature groups in a certain field that cite each other. When establishing a global index, how many total academic papers exist in this field with citation relationships?",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化文献检索系统的过程中，需要合并重复论文记录并建立唯一标识，现需统计当前引文网络中去除重复项后的独立文献总量，应如何计算该网络中的有效文献节点数量？",
+        "question": "During the process of optimizing the literature retrieval system, it is necessary to merge duplicate paper records and establish unique identifiers. We now need to calculate the total number of independent literature items in the current citation network after removing duplicates. How should we determine the number of valid literature nodes in this network?",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的过程中，需要整合所有论文数据以建立统一索引，当前引文网络中应被收录的独立论文节点总数是多少？",
+        "question": "In the process of optimizing the literature retrieval system, it is necessary to integrate all paper data to establish a unified index. What is the total number of independent paper nodes that should be included in the current citation network?",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的文献覆盖评估模块时，需要准确统计当前论文引文网络中所有独立文献的数量（包含被引用但未被直接收录的论文），应如何计算系统中的总文献实体数？",
+        "question": "In optimizing the literature coverage evaluation module of the literature retrieval system, it is necessary to accurately count the total number of independent documents in the current citation network (including papers that are cited but not directly indexed). How should the total number of document entities in the system be calculated?",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在文献检索系统优化过程中，为提升索引效率需确定某领域核心文献的引用网络规模，已知该网络包含所有直接引用某奠基论文及被其间接引用的文献，请计算该引文网络中共涉及多少篇学术论文？",
+        "question": "In the process of optimizing the literature retrieval system, to improve indexing efficiency, it is necessary to determine the scale of the citation network of core literature in a certain field. It is known that this network includes all the documents that directly cite a foundational paper, as well as those that are indirectly cited by it. Please calculate the total number of academic papers involved in this citation network.",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在文献检索系统优化过程中，若需要为某新兴学科建立完整的引文索引，请计算该领域核心文献及其所有直接间接引用论文构成的文献网络中共包含多少篇学术论文？",
+        "question": "In the process of optimizing the literature retrieval system, if it is necessary to establish a complete citation index for a new emerging discipline, please calculate the total number of academic papers included in the literature network composed of the core literature in that field and all its directly and indirectly cited papers.",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统时，发现某领域存在未被索引的关联论文孤岛。若当前引文网络已完整收录核心文献及其所有直接间接引用关系，为消除检索盲区，需要计算该网络覆盖的基础研究文献总量是多少？",
+        "question": "When optimizing the literature retrieval system, it was found that certain fields contain unindexed islands of related papers. If the current citation network has already fully indexed the core literature and all its direct and indirect citation relationships, to eliminate blind spots in retrieval, it is necessary to calculate the total amount of foundational research literature covered by this network.",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在文献检索系统升级过程中，需要将三个历史数据库的论文引用关系合并优化。已知原系统A收录早期核心期刊论文，系统B存储近十年会议文献，系统C包含跨学科研究资料，若三个数据库间不存在重复论文，请计算本次整合后平台收录的独立学术文献总量。",
+        "question": "During the upgrade process of the literature retrieval system, it is necessary to merge and optimize the citation relationships of papers from three historical databases. It is known that the original system A includes early core journal articles, system B stores conference papers from the past decade, and system C contains interdisciplinary research materials. If there are no duplicate papers among the three databases, please calculate the total number of independent academic documents included in the integrated platform after this merging process.",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在文献检索系统优化过程中，若某核心论文通过直接和间接引用关系形成的文献网络包含所有关联研究，请计算该网络内涉及的总文献数量。",
+        "question": "In the process of optimizing the literature retrieval system, if a core paper forms a literature network through direct and indirect citation relationships that includes all related studies, please calculate the total number of documents involved in that network.",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化文献检索系统的过程中，为评估文献数据库覆盖范围，需要确定当前论文引文网络中所有文献的总量。请计算该网络包含的独立文献数量是多少？",
+        "question": "In the process of optimizing the literature retrieval system, to assess the coverage of the literature database, it is necessary to determine the total number of documents in the current citation network of papers. Please calculate the number of distinct documents contained in this network.",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，某文献检索系统通过合并重复引用节点进行优化后，需要计算当前网络中唯一文献的总数量是多少？",
+        "question": "In a citation network of academic papers, after a literature retrieval system optimizes by merging duplicate citation nodes, how many unique documents are there in the current network?",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的查全率时，如何准确计算当前引文网络中所有不重复的学术文献数量？",
+        "question": "How can we accurately calculate the number of all unique academic publications in the current citation network when optimizing the recall rate of literature retrieval systems?",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在文献检索系统升级过程中，为合理分配分布式存储资源，需要准确计算当前论文引文网络中所有独立文献实体的总量，请问如何通过图结构分析确定该网络包含的文献总数？",
+        "question": "During the upgrade process of the literature retrieval system, to allocate distributed storage resources reasonably, it is necessary to accurately calculate the total number of independent literature entities in the current citation network. How can we determine the total number of documents contained in this network through graph structure analysis?",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某文献检索系统在整合多个数据库时发现论文引用记录存在冗余，为优化存储效率，需确定当前论文引文网络中实际存在的独立文献数量。请计算该网络去除重复项后的总文献数目？",
+        "question": "A certain literature retrieval system found that there were redundant citation records when integrating multiple databases. To optimize storage efficiency, it is necessary to determine the actual number of independent documents present in the current citation network. Please calculate the total number of documents in the network after removing duplicates.",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化文献检索系统的索引结构时，为准确评估当前论文引文数据库的覆盖范围，需要计算网络中所有独立存在的学术文献节点总数是多少？",
+        "question": "When optimizing the index structure of the literature retrieval system, in order to accurately assess the coverage of the current citation database, it is necessary to calculate the total number of independently existing academic literature nodes in the network.",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在整合多个文献数据库时，系统需要排除重复论文条目以优化检索效率，请计算当前合并后的学术网络中实际存在的唯一研究论文数量。",
+        "question": "When integrating multiple literature databases, the system needs to exclude duplicate paper entries to optimize retrieval efficiency. Please calculate the actual number of unique research papers present in the currently merged academic network.",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化文献检索系统的索引结构时，需要准确计算当前论文引文网络中所有独立文献的数量，请问该学术资源库中共收录了多少篇可被检索到的唯一论文？",
+        "question": "When optimizing the indexing structure of the literature retrieval system, it is necessary to accurately calculate the number of independent articles in the current citation network of papers. Could you please tell me how many unique papers are included in this academic resource database that can be retrieved?",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化跨库文献检索系统时，为评估知识图谱的覆盖完整性，需要计算当前整合后的学术资源网络中去除重复元数据后的独立文献实体总量是多少？",
+        "question": "When optimizing the cross-library literature retrieval system, in order to assess the coverage completeness of the knowledge graph, it is necessary to calculate the total number of independent literature entities in the currently integrated academic resource network after removing duplicate metadata.",
+        "label": "Node_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络分析中，某新兴研究领域的基础性核心文献及其所有直接引用的文献共同构成了该领域的研究前沿集群，请通过图结构计算该前沿集群所涵盖的文献总量。",
+        "question": "In the analysis of citation networks in academic papers, the foundational core literature of an emerging research field, along with all the documents it directly cites, collectively forms the research frontier cluster of that field. Please calculate the total amount of literature encompassed by this frontier cluster using graph structures.",
+        "label": "Node_Count",
+        "type": "研究前沿检测",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为识别某领域研究前沿，需统计核心文献及其直接引用的所有基础研究成果形成的知识集群规模，请计算该引文网络中的总文献数量。",
+        "question": "To identify the research front in a specific field, it is necessary to quantify the size of the knowledge cluster formed by core literature and all foundational research results it directly cites. Please calculate the total number of publications in this citation network.",
+        "label": "Node_Count",
+        "type": "研究前沿检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络分析中，识别研究前沿需要掌握领域内的核心文献规模。请计算当前网络中所有论文节点的总数，为前沿趋势分析提供基础数据。",
+        "question": "In the analysis of citation networks in academic papers, identifying research frontiers requires an understanding of the scale of core literature within the field. Please calculate the total number of paper nodes in the current network to provide foundational data for frontier trend analysis.",
+        "label": "Node_Count",
+        "type": "研究前沿检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为追踪生物医学领域最新研究趋势，需分析近三年高影响力论文形成的引文网络，请计算该网络中所有关联研究文献的总篇数。",
+        "question": "To track the latest research trends in the biomedical field, it is necessary to analyze the citation network formed by high-impact papers from the past three years. Please calculate the total number of related research articles in this network.",
+        "label": "Node_Count",
+        "type": "研究前沿检测",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为评估某新兴领域的研究规模，需统计当前论文引文网络中所有独立文献的基数，请计算该网络包含多少篇具有唯一标识的研究成果？",
+        "question": "To assess the scale of research in a certain emerging field, it is necessary to count the total number of independent literature in the current citation network of papers. Please calculate how many research outputs with unique identifiers are included in this network.",
+        "label": "Node_Count",
+        "type": "研究前沿检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在基因编辑技术前沿研究的论文引文网络中，若某次文献追溯发现存在未被纳入统计的预印本论文节点，请计算当前该领域完整文献集合的总节点数量。",
+        "question": "In the citation network of papers at the forefront of gene editing technology research, if a literature tracing reveals the existence of preprint paper nodes that have not been included in the statistics, please calculate the total number of nodes in the complete literature collection of the current field.",
+        "label": "Node_Count",
+        "type": "研究前沿检测",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "为追踪量子计算领域的最新研究进展，需要统计该领域核心文献引文网络中所有关联论文的总量，请问当前构成这一前沿研究基础的核心文献共有多少篇？",
+        "question": "To track the latest research developments in the field of quantum computing, it is necessary to quantify the total number of related papers within the citation network of core literature in this field. Could you please tell me how many papers currently constitute the core literature that forms the foundation of this cutting-edge research?",
+        "label": "Node_Count",
+        "type": "研究前沿检测",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某领域研究前沿的论文引文网络时，发现高被引文献形成了多个聚类簇。若要准确评估该领域当前活跃的研究规模，应当如何计算参与核心知识传播的所有原始文献总量？",
+        "question": "When analyzing the citation network of papers at the forefront of research in a specific field, it is observed that highly cited literature forms multiple clusters. To accurately assess the current active research scale in this field, how should the total number of original documents involved in the core knowledge dissemination be calculated?",
+        "label": "Node_Count",
+        "type": "研究前沿检测",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析生物医学领域的论文引文网络时，若要通过文献间引用关系追溯该领域研究前沿的演进路径，首先需要确定整个知识网络的基础规模。已知引文数据已构建为有向图结构，请问当前网络中参与构成研究前沿演化链条的全部文献数量是多少？",
+        "question": "In analyzing the citation network of biomedical research papers, when tracing the evolution of the research frontier in the field through the citation relationships among the literature, it is essential to first determine the foundational scale of the entire knowledge network. Given that the citation data has already been constructed as a directed graph structure, how many papers currently participate in forming the evolutionary chain of the research frontier within the network?",
+        "label": "Node_Count",
+        "type": "研究前沿检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，为识别当前研究前沿领域，需要统计近五年内形成的紧密互引文献群中涉及的所有核心论文数量，请计算该研究前沿网络包含的文献总量。",
+        "question": "In the citation network of research papers, to identify the current frontiers of research, it is necessary to count the total number of core papers involved in tightly interconnected groups of literature formed in the past five years. Please calculate the total volume of literature included in this research frontier network.",
+        "label": "Node_Count",
+        "type": "研究前沿检测",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在研究前沿检测任务中，论文引文网络需要建立完整的文献拓扑结构。当分析某领域知识演进路径时，首先需要确认该网络覆盖的文献总量是多少？",
+        "question": "In cutting-edge detection tasks, the paper citation network needs to establish a complete literature topology. When analyzing the evolution path of knowledge in a certain field, it is essential to first determine the total amount of literature covered by that network.",
+        "label": "Node_Count",
+        "type": "研究前沿检测",
+        "true_count": 16,
+        "weak_count": 1
+    }
+]

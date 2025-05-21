@@ -1,0 +1,74 @@
+[
+    {
+        "origin_question": "为提高网页爬虫的索引效率，需根据页面间的共同链接关系优化抓取路径，请计算节点'0302'和'0714'的公共邻居数量以确定潜在的高权重跳转枢纽。",
+        "question": "To improve the indexing efficiency of web crawlers, it is necessary to optimize the crawling path based on the common link relationships between pages. Please calculate the number of public neighbors between nodes '0302' and '0714' to identify potential high-weight jump hubs.",
+        "label": "Common_Neighbors",
+        "type": "网页爬虫优化",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化搜索引擎爬虫的页面索引策略时，发现节点'0302'和'0714'存在潜在的内容关联性。为调整抓取优先级，请根据其超链接拓扑结构，计算这两个页面的共同跳转枢纽数量。",
+        "question": "When optimizing the page indexing strategy for search engine crawlers, it was discovered that nodes '0302' and '0714' have potential content correlation. To adjust the crawling priority, please calculate the number of shared redirect hubs for these two pages based on their hyperlink topology.",
+        "label": "Common_Neighbors",
+        "type": "网页爬虫优化",
+        "true_count": 5,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫抓取策略时，若需判断页面'0302'和'0714'是否共享相同的中转枢纽以减少重复爬取，应如何通过它们的链接结构特征计算共同关联页面数量？",
+        "question": "When optimizing web crawler fetching strategies, if it is necessary to determine whether pages '0302' and '0714' share the same transit hub to reduce duplicate crawling, how can the number of commonly associated pages be calculated through their link structure features?",
+        "label": "Common_Neighbors",
+        "type": "网页爬虫优化",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网站爬虫抓取路径时，分析页面'0302'和'0714'的共同外链有助于识别高价值跳转枢纽，请计算这两个节点的公共邻居数量以确定优先索引策略。",
+        "question": "When optimizing the web crawler's crawl path, analyzing the common external links of pages '0302' and '0714' helps identify high-value redirect hubs. Please calculate the number of common neighbors between these two nodes to determine the priority indexing strategy.",
+        "label": "Common_Neighbors",
+        "type": "网页爬虫优化",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫的缓存策略时，若需要减少重复索引的冗余开销，请计算节点'0302'和'0714'的共同外链数量，以评估其关联页面的复用潜力。",
+        "question": "When optimizing the cache strategy for web crawlers, if the goal is to reduce the redundant costs of duplicate indexing, please calculate the number of shared external links between nodes '0302' and '0714' to assess the reuse potential of their associated pages.",
+        "label": "Common_Neighbors",
+        "type": "网页爬虫优化",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫的抓取效率时，若需评估页面间的链接结构相似性，请计算节点'0302'和'0714'的公共邻居数量，以此判断是否应将其纳入同批次抓取队列。",
+        "question": "When optimizing the crawling efficiency of a web crawler, if it is necessary to assess the similarity of link structures between pages, please calculate the number of common neighbors for nodes '0302' and '0714' to determine whether they should be included in the same batch crawling queue.",
+        "label": "Common_Neighbors",
+        "type": "网页爬虫优化",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫索引策略时，需分析高权重页面的共同链接枢纽。请计算节点'0302'和'0714'的公共邻居数量，以决定是否调整其抓取优先级。",
+        "question": "When optimizing web crawler indexing strategies, it is necessary to analyze the common linking hubs of high-authority pages. Please calculate the number of common neighbors between nodes '0302' and '0714' to decide whether to adjust their crawl priority.",
+        "label": "Common_Neighbors",
+        "type": "网页爬虫优化",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫的抓取路径时，需要分析页面间的外链重叠情况。请计算页面编号0302和0714的共同直接跳转目标页面总数，用于评估优先抓取策略的效率优化空间。",
+        "question": "When optimizing the crawl path of web crawlers, it is necessary to analyze the overlapping external links between pages. Please calculate the total number of common direct target pages for page numbers 0302 and 0714, in order to evaluate the optimization potential for the efficiency of the prioritized crawling strategy.",
+        "label": "Common_Neighbors",
+        "type": "网页爬虫优化",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫的链接抓取策略时，若需评估页面'0302'和'0714'的内容关联紧密度，请基于超链接拓扑关系计算这两个页面同时直接跳转的公共枢纽页面数量。",
+        "question": "When optimizing the link crawling strategy for web crawlers, if it is necessary to evaluate the content relevance between pages '0302' and '0714', please calculate the number of common hub pages that both pages can directly link to, based on the hyperlink topology.",
+        "label": "Common_Neighbors",
+        "type": "网页爬虫优化",
+        "true_count": 8,
+        "weak_count": 0
+    }
+]

@@ -1,0 +1,1738 @@
+[
+    {
+        "origin_question": "为了追踪某领域核心论文的学术影响力，需要统计所有文献间的直接引用次数，请问该引文网络中总共有多少条引用关系？",
+        "question": "In order to track the academic impact of core papers in a certain field, it is necessary to count the direct citation counts among all the literature. How many citation relationships are there in total in this citation network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在构建的论文引文网络中，为评估学术影响力传播范围，需要计算该网络中所有论文之间的引用关系总数是多少？",
+        "question": "In the constructed citation network of papers, to assess the extent of academic influence dissemination, it is necessary to calculate the total number of citation relationships among all papers in the network.",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为了追踪某领域核心研究的学术影响力，需分析其论文引文网络中文献间的引用传播规模。请问当前网络中所有论文的引用行为总共发生了多少次？",
+        "question": "To track the academic impact of core research in a specific field, it is essential to analyze the scale of citation propagation among the literature in its citation network. Could you please tell me how many total citation behaviors have occurred for all the papers in the current network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在论文引文网络中，若要评估某研究领域内学术成果的传播广度，需统计所有文献间的直接引用关系数量。请计算该网络中所有论文的总引用次数，以此衡量学术影响力的扩散规模。",
+        "question": "In a citation network of academic papers, in order to assess the breadth of dissemination of academic achievements within a particular research field, it is necessary to count the number of direct citation relationships among all the documents. Please calculate the total number of citations for all papers in this network to measure the scale of the diffusion of academic influence.",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，为量化领域内学术影响力的传播路径，需要统计所有文献节点间存在的直接引用关系数量，请问该网络中共有多少条这样的单向引用链路？",
+        "question": "In the citation network of academic papers, to quantify the dissemination path of academic influence within the field, it is necessary to count the number of direct citation relationships that exist between all literature nodes. How many such one-way citation links are there in this network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为了评估某领域核心论文的学术影响力扩散范围，需要统计所有文献间直接引用的总次数，请计算该论文引文网络中存在的引用关系总数。",
+        "question": "To assess the academic impact diffusion range of core papers in a certain field, it is necessary to count the total number of direct citations among all literature. Please calculate the total number of citation relationships present in the citation network of these papers.",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为了追踪某领域学术影响力的传播动态，需计算该论文引文网络中所有文献间的直接引用关系总量，请问当前网络中共存在多少次单向引用行为？",
+        "question": "To track the dissemination dynamics of academic influence in a certain field, it is necessary to calculate the total number of direct citation relationships among all the literature in the citation network of a given paper. Could you please tell me how many instances of one-way citations currently exist in the network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若要评估某领域核心研究成果的学术影响力传播范围，需统计所有论文间单向引用关系的总数，请问应如何计算？",
+        "question": "In the citation network of academic papers, to assess the scope of the academic impact of core research outcomes in a certain field, it is necessary to calculate the total number of one-way citation relationships among all papers. How should this be calculated?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，某研究领域核心论文的学术影响力扩散路径需要通过引用关系量化，若要评估该领域所有文献的引用覆盖规模，需要计算该网络中所有论文之间的单向引用关系总数是多少？",
+        "question": "In the citation network of academic papers, the diffusion path of the academic influence of core papers in a specific research field needs to be quantified through citation relationships. To assess the citation coverage of all literature in that field, it is necessary to calculate the total number of unidirectional citation relationships among all papers in the network.",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了追踪某领域核心论文的学术影响力，现需统计论文引文网络中所有直接引用关系的总次数，请问该网络中存在多少次引用行为？",
+        "question": "To track the academic impact of core papers in a specific field, we need to calculate the total number of direct citation relationships in the citation network of these papers. How many instances of citations are present in this network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，为追踪领域内学术影响力的扩散路径，需统计所有文献间的单向引用次数总和，请问该领域总共有多少次知识传递行为发生？",
+        "question": "In the citation network of the paper, to trace the diffusion paths of academic influence within the field, it is necessary to calculate the total number of unidirectional citations among all documents. How many knowledge transfer events have occurred in total within this field?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若某领域的学术影响力传播可视为引用路径的延伸，当前需通过计算总引用次数来评估影响力传播的广度，请问该网络中共存在多少条直接引用关系？",
+        "question": "In the citation network of academic papers, if the dissemination of academic influence in a certain field can be viewed as an extension of citation paths, and the current assessment of the breadth of influence propagation is based on the total citation count, how many direct citation relationships are there in this network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为追踪某研究领域核心成果的学术影响力传播路径，需统计论文引文网络中所有文献间的直接引用次数总和，请问该数值是多少？",
+        "question": "To track the dissemination path of the academic impact of core achievements in a certain research field, it is necessary to calculate the total number of direct citations among all documents in the paper citation network. May I ask what this value is?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为评估某领域内学术影响力的传递规模，需要计算该论文引文网络中所有论文间的引用关系总数是多少？",
+        "question": "To assess the magnitude of academic influence transmission in a certain field, it is necessary to calculate the total number of citation relationships among all papers in the citation network of that paper.",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，为追踪领域奠基性研究的学术影响力传播路径，需要计算该网络中共存在多少条文献间的直接引用关系？",
+        "question": "In the citation network of a paper, to trace the dissemination path of the academic influence of foundational research in the field, it is necessary to calculate how many direct citation relationships exist among the literature in that network.",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为了评估学术交流的活跃程度，需要计算该领域论文引文网络中所有引用关系的总数量，应如何统计？",
+        "question": "To assess the level of academic exchange, it is necessary to calculate the total number of citation relationships in the citation network of papers in that field. How should this be counted?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某领域核心文献的学术影响力传播范围时，如何通过论文引文网络中所有文献间的单向引用关系总数，量化其直接影响的规模？",
+        "question": "When analyzing the dissemination scope of the academic influence of core literature in a certain field, how can the scale of its direct impact be quantified through the total number of unidirectional citation relationships among all the documents in the citation network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为追踪某领域核心论文的学术影响力扩散路径，现需计算该论文引文网络中所有文献间实际发生的单向引用次数总和，请问系统应统计的引用关系总量是多少次？",
+        "question": "To track the diffusion path of the academic influence of core papers in a specific field, we need to calculate the total number of actual unidirectional citations that have occurred among all literature in the citation network of the paper. What is the total number of citation relationships that the system should count?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在追踪某领域学术影响力时，需计算论文引文网络中所有高被引核心文献被引用的总次数，请问该数值是多少？",
+        "question": "When tracking the academic impact in a certain field, it is necessary to calculate the total number of citations for all highly cited core literature in the citation network of papers. What is that figure?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在追踪某领域核心论文的学术影响力时，论文引文网络中所有直接引用关系的总次数是多少？",
+        "question": "When tracking the academic impact of core papers in a certain field, what is the total number of all direct citation relationships in the paper citation network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若需通过学术影响力追踪评估某领域核心文献的传播范围，应如何计算当前网络中所有论文间直接引用关系的总数？",
+        "question": "In a citation network of academic papers, how should one calculate the total number of direct citation relationships among all papers in the current network in order to track and assess the dissemination range of core literature in a particular field through academic influence?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，若要评估某研究领域内的学术影响力动态，需要计算该网络中所有引用关系的总次数，请问当前共有多少次引用行为发生？",
+        "question": "In the citation network of academic papers, to assess the dynamics of academic impact within a specific research field, it is necessary to calculate the total number of citation relations in that network. Could you please tell me the current total number of citation actions that have occurred?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为追踪某领域核心文献的学术影响力，需分析论文引文网络中所有文献间的引用传递次数，请问该网络中共存在多少次直接引用关系？",
+        "question": "To track the academic impact of core literature in a certain field, it is necessary to analyze the number of citation transmissions among all the literature in the citation network. Could you please tell me how many direct citation relationships exist in this network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为追踪某领域核心论文的学术影响力扩散路径，需统计当前论文引文网络中存在的所有引用关系数量，请计算该值。",
+        "question": "To trace the dissemination path of academic influence for core papers in a certain field, it is necessary to count the total number of citation relationships present in the current citation network of the papers. Please calculate this value.",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在追踪某领域学术影响力的研究中，论文引文网络显示核心成果被多篇后继文献引用。若要量化该成果的直接传播范围，需计算其所有引用路径中一次跳转的原始引用关系总数是多少？",
+        "question": "In research tracking the academic influence in a certain field, the citation network of papers shows that core results are cited by multiple subsequent documents. To quantify the direct dissemination scope of these results, it is necessary to calculate the total number of original citation relationships with one-hop citation paths in all the citation pathways.",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若需通过文献间的直接引用关系评估某领域学术成果的整体影响力，应如何计算该网络中所有论文被引用的总次数？",
+        "question": "In a citation network of academic papers, how should one calculate the total number of citations received by all papers in order to assess the overall impact of academic achievements in a particular field through direct citation relationships among the literature?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "为了追踪某领域学术影响力的传播路径，需要计算该论文引文网络中所有论文之间的直接引用总次数，请问这一网络中当前共存在多少条引用关系？",
+        "question": "To track the dissemination path of academic influence in a specific field, it is necessary to calculate the total number of direct citations among all papers in the citation network of that paper. May I ask how many citation relationships currently exist in this network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，若要通过学术影响力追踪领域知识传播路径，需计算所有文献之间形成的单向引用关系数量总和是多少？",
+        "question": "In the citation network of academic papers, to track the knowledge dissemination paths in a field through academic influence, how can we calculate the total number of unidirectional citation relationships formed among all the literature?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，某研究领域的核心论文通过引用关系形成知识传播路径。若要量化该领域学术影响力的扩散规模，应如何计算所有论文之间的直接引用总次数？",
+        "question": "In the citation network of a research paper, core papers in a certain field form knowledge dissemination paths through citation relationships. To quantify the diffusion scale of academic influence in that field, how should the total number of direct citations among all papers be calculated?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在追踪某领域核心论文的学术影响力时，需统计该论文引文网络中所有直接引用的次数总和，以此衡量其知识扩散范围。当前网络中共存在多少次引用关系？",
+        "question": "When tracking the academic influence of core papers in a specific field, it is necessary to sum all the direct citations of that paper in its citation network to measure its knowledge diffusion range. How many citation relationships currently exist in the network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为追踪某领域核心论文的学术影响力传播路径，需在论文引文网络中计算这些文献被其他研究引用的总次数，请问当前网络中共有多少次引用行为发生？",
+        "question": "To track the academic impact dissemination path of core papers in a particular field, it is necessary to calculate the total number of times these documents have been cited by other research in the citation network. May I ask how many citation behaviors have occurred in the current network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若要评估某领域核心文献的学术影响力，需计算这些文献被其他论文引用的总次数。已知核心文献集合为节点，引用关系为有向边，当前网络中所有论文间的直接引用行为共有多少次？",
+        "question": "In the citation network of academic papers, to assess the academic impact of core literature in a particular field, it is necessary to calculate the total number of times these documents are cited by other papers. Given that the core literature set is represented as nodes and the citation relationships as directed edges, how many direct citation actions are there among all papers in the current network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在论文引文网络中，若某领域的核心论文通过引用关系形成学术影响网络，需计算这些论文间直接引用的总次数以衡量影响广度，请问当前网络中所有论文的引用行为共触发了多少次单向引用？",
+        "question": "In the citation network of academic papers, if the core papers in a particular field form an academic influence network through citation relationships, it is necessary to calculate the total number of direct citations among these papers to measure the breadth of influence. How many instances of one-way citations have been triggered by the citation behavior of all papers in the current network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了追踪论文引文网络中学术影响力的传播路径，需要计算当前整个网络中所有论文之间的直接引用关系总数是多少？",
+        "question": "To trace the dissemination path of academic influence in the citation network of papers, it is necessary to calculate the total number of direct citation relationships among all papers in the current network.",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，为量化领域内知识流动强度，需统计所有文献间直接引用行为的总量，请问该领域当前存在的有效引用关系共有多少次？",
+        "question": "In the citation network of the paper, to quantify the intensity of knowledge flow within the field, it is necessary to count the total amount of direct citation behavior among all the literature. May I ask how many effective citation relationships currently exist in this field?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若每篇论文的引用行为代表其学术影响力传递路径，请计算当前网络中所有论文间直接引用关系的总数量，以此衡量学术影响力的扩散广度。",
+        "question": "In the citation network of papers, if the citation behavior of each paper represents the pathway of its academic influence transmission, please calculate the total number of direct citation relationships among all papers in the current network to measure the breadth of academic influence diffusion.",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了量化某领域内知识流动的总体强度，基于论文引文网络的核心文献数据，需要计算所有已发表论文之间存在的单向引用关系总次数是多少？",
+        "question": "To quantify the overall intensity of knowledge flow within a specific field, based on the core literature data from the paper citation network, it is necessary to calculate the total number of unidirectional citation relationships that exist between all published papers.",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若需要评估某研究领域内所有高被引论文的学术影响力，如何计算该领域核心论文集合中存在的直接引用关系的总数量？",
+        "question": "In a citation network of academic papers, if one needs to assess the academic impact of all highly cited papers within a specific research field, how can the total number of direct citation relationships present in the core paper set of that field be calculated?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为了追踪人工智能领域近十年核心研究成果的学术影响力，需要计算该论文引文网络中所有文献之间的直接引用总次数是多少？",
+        "question": "To track the academic impact of core research results in the field of artificial intelligence over the past decade, it is necessary to calculate the total number of direct citations among all the literature in the citation network of the paper.",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为追踪某领域核心文献的学术影响力传播路径，需计算该论文引文网络中所有引用关系的总次数是多少？",
+        "question": "To track the dissemination path of academic influence of core literature in a certain field, it is necessary to calculate the total number of citation relationships in the citation network of that paper.",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在追踪某领域学术影响力的传播范围时，需要计算论文引文网络中所有论文之间的直接引用关系总量，请问该数值是多少？",
+        "question": "When tracking the spread of academic influence in a certain field, it is necessary to calculate the total number of direct citation relationships among all the papers in the citation network. What is that value?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在追踪某领域核心论文的学术影响力覆盖范围时，如何通过论文引文网络中的引用关系总数来量化其直接传播的广度？",
+        "question": "When tracking the academic influence coverage of core papers in a particular field, how can we quantify the breadth of their direct dissemination through the total number of citation relationships in the citation network of the papers?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若要评估某领域核心文献的学术影响力扩散范围，如何计算所有直接引用该系列论文的总次数？",
+        "question": "In the citation network of academic papers, how can we calculate the total number of direct citations for a series of papers in order to assess the diffusion range of their academic impact in a specific field?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为追踪某领域学术影响力的传播路径，需计算该论文引文网络中所有论文之间的直接引用次数总和，请问当前网络中存在的引用关系总数是多少？",
+        "question": "To trace the dissemination path of academic influence in a certain field, it is necessary to calculate the total number of direct citations among all papers in the citation network of that paper. What is the current total number of citation relationships present in the network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析论文引文网络时，若要追踪某领域学术影响力的传播广度，需要计算该网络中所有文献之间的引用总次数是多少？",
+        "question": "When analyzing citation networks of papers, if one wants to track the breadth of academic influence in a particular field, it is necessary to calculate the total number of citations among all the literature in that network.",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在追踪论文引文网络中学术知识传递的总体强度时，需要计算该网络中所有直接引用关系的总次数，这个数值是多少？",
+        "question": "When tracking the overall intensity of academic knowledge transmission in the citation network of papers, it is necessary to calculate the total number of direct citation relationships in that network. What is that value?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为了追踪核心文献的学术影响力，需要计算该论文引文网络中所有直接引用关系的总次数，应如何操作？",
+        "question": "To track the academic impact of core literature, it is necessary to calculate the total number of direct citation relationships within the citation network of the paper. How should one proceed?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了追踪学术影响力的传播范围，需要统计论文引文网络中所有直接引用的总次数，请问该网络中共有多少次引用关系？",
+        "question": "To track the spread of academic impact, it is necessary to calculate the total number of direct citations in the citation network of the paper. Could you please tell me how many citation relationships are there in this network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了追踪某领域核心论文的学术影响力，需统计其论文引文网络中所有文献间的单向引用次数，请问该网络中共有多少条引用关系？",
+        "question": "To track the academic impact of core papers in a specific field, it is necessary to count the number of unidirectional citations among all the literature in their citation network. Can you tell me how many citation relationships are there in that network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了评估某领域核心研究成果的学术影响力扩散范围，在论文引文网络中需要计算所有文献间存在的直接引用关系总数是多少？",
+        "question": "To assess the diffusion range of the academic impact of core research results in a certain field, how many total direct citation relationships exist among all the documents in the citation network of the papers need to be calculated?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在追踪某领域学术影响力的论文引文网络中，若需评估所有文献间的直接引用强度，应当如何计算该网络中实际存在的引用关系总数？",
+        "question": "In a citation network tracking the academic influence within a specific field, how should the total number of actual citation relationships present in the network be calculated in order to assess the direct citation strength among all the literature?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了追踪某领域核心论文的学术影响力传播路径，需计算论文引文网络中所有文献之间的直接引用关系总数，当前网络中共存在多少条这样的单向引用链接？",
+        "question": "To track the academic influence dissemination pathways of core papers in a specific field, it is necessary to calculate the total number of direct citation relationships among all documents in the citation network. How many such one-way citation links currently exist in the network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为追踪某领域核心文献的学术影响力传播路径，需统计论文引文网络中所有论文间的直接引用次数总和。当前网络中这样的单向引用关系共有多少条？",
+        "question": "To track the dissemination path of the academic impact of core literature in a certain field, it is necessary to count the total number of direct citations among all papers in the citation network. How many such unidirectional citation relationships are there in the current network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，若要评估某位学者研究成果的学术影响力，需统计其所有发表论文被其他文献引用的总次数，请问当前网络中此类引用关系的总数是多少？",
+        "question": "In the citation network of academic papers, to assess the academic influence of a scholar's research output, it is necessary to calculate the total number of times all of their published papers have been cited by other literature. Could you please tell me the current total number of such citation relationships in the network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若要评估某核心研究成果的学术影响力扩散范围，需统计其直接关联的所有引用路径次数，请问当前网络中此类直接引用关系的总次数是多少？",
+        "question": "In the citation network of a paper, to evaluate the academic impact diffusion range of a core research achievement, it is necessary to count all the citation paths directly associated with it. May I ask what the total number of such direct citation relationships is in the current network?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了追踪某领域核心论文的学术影响力，需要计算该论文引文网络中所有文献之间存在的直接引用次数总和，请问总共有多少条引用关系？",
+        "question": "To track the academic influence of core papers in a specific field, it is necessary to calculate the total number of direct citations between all the documents in the citation network of that paper. How many citation relationships are there in total?",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为评估某领域学术影响力传播的广度，需统计该论文引文网络中所有文献间的直接引用次数总和，请计算这一数值。",
+        "question": "To assess the breadth of academic influence dissemination in a specific field, it is necessary to calculate the total number of direct citations among all the literature in the citation network of the paper. Please calculate this value.",
+        "label": "Edge_Count",
+        "type": "学术影响力追踪",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，为预测跨学科研究趋势，需统计不同学科论文间的单向引用关系数量。已知网络包含计算机科学、生物学和物理学领域的节点，计算其中任意两个不同学科节点之间的引用边共有多少条？",
+        "question": "In the citation network of papers, to predict interdisciplinary research trends, it is necessary to quantify the number of one-way citation relationships between papers from different fields. Given that the network contains nodes from the fields of computer science, biology, and physics, how many citation edges are there between any two distinct discipline nodes?",
+        "label": "Edge_Count",
+        "type": "跨学科研究预测",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析跨学科研究趋势时，需要统计计算机科学领域论文对生物医学领域文献的单向引用总量。已知两领域论文构成论文引文网络，请计算该跨学科引用关系中的实际发生引用次数。",
+        "question": "When analyzing the trends in interdisciplinary research, it is necessary to statistically compute the total amount of one-way citations from papers in the field of computer science to literature in the field of biomedicine. Given that the papers in both fields form a citation network, please calculate the actual number of citations occurring within this interdisciplinary citation relationship.",
+        "label": "Edge_Count",
+        "type": "跨学科研究预测",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若某跨学科研究领域包含计算机视觉与生物医学的交叉研究，请计算该领域内所有论文之间存在的直接引用关系总数。",
+        "question": "In the citation network of research papers, if a certain interdisciplinary research field includes the intersection of computer vision and biomedical research, please calculate the total number of direct citation relationships among all the papers in that field.",
+        "label": "Edge_Count",
+        "type": "跨学科研究预测",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若需预测跨学科研究的融合趋势，请计算当前所有涉及计算机科学与生物医学交叉领域的论文间存在的直接引用关系总数。",
+        "question": "In the citation network of papers, to predict the convergence trends of interdisciplinary research, please calculate the total number of direct citation relationships among all current papers involving the intersection of computer science and biomedicine.",
+        "label": "Edge_Count",
+        "type": "跨学科研究预测",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若某跨学科研究领域包含计算机视觉与生物医学的交叉研究，请计算该领域内所有论文之间存在的直接引用关系总数。",
+        "question": "In the citation network of academic papers, if a certain interdisciplinary research field includes cross-research between computer vision and biomedical studies, please calculate the total number of direct citation relationships that exist among all the papers in that field.",
+        "label": "Edge_Count",
+        "type": "跨学科研究预测",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，某跨学科研究团队为预测人工智能与生物医学的融合趋势，需要统计近五年内计算机科学领域论文对生物医学期刊的单向引用次数。请计算该交叉领域核心文献间的引用关系总数。",
+        "question": "In the citation network of research papers, a multidisciplinary research team needs to statistically analyze the unidirectional citation counts from computer science papers to biomedical journals in order to predict the integration trends of artificial intelligence and biomedicine. Please calculate the total number of citation relationships among the core literature in this interdisciplinary field over the past five years.",
+        "label": "Edge_Count",
+        "type": "跨学科研究预测",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析论文引文网络的跨学科研究趋势时，若计算机科学领域的论文引用了生物医学领域的论文，同时生物医学领域也有论文反向引用计算机科学领域，这类双向跨学科引用形成的边共有多少条？",
+        "question": "When analyzing the interdisciplinary research trends of citation networks in academic papers, if a paper in the field of computer science cites a paper in the field of biomedical sciences, and at the same time, a paper in biomedical sciences also cites a paper in the field of computer science, how many edges are formed by this type of bidirectional interdisciplinary citation?",
+        "label": "Edge_Count",
+        "type": "跨学科研究预测",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，若跨学科研究热点的形成与学科间引用强度相关，现需统计当前所有直接引用其他学科论文的边数量，以此预测潜在交叉领域趋势，请问应计算的总边数是多少？",
+        "question": "In the citation network of papers, if the formation of interdisciplinary research hotspots is related to the strength of citations between disciplines, it is necessary to count the total number of edges that directly cite papers from other disciplines in order to predict potential trends in cross-disciplinary fields. How many total edges should be calculated?",
+        "label": "Edge_Count",
+        "type": "跨学科研究预测",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为预测跨学科研究趋势，需统计计算机科学与生物学领域论文在引文网络中的相互引用强度，当前网络中这两个学科节点间的单向引用关系总数是多少？",
+        "question": "To predict trends in interdisciplinary research, it is necessary to calculate the mutual citation strength between papers in the fields of computer science and biology within the citation network. What is the current total number of unidirectional citation relationships between the nodes of these two disciplines in the network?",
+        "label": "Edge_Count",
+        "type": "跨学科研究预测",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，研究者希望通过分析跨学科引用趋势预测新兴领域，若每条边代表一篇论文对另一篇的引用，请计算当前网络中所有跨学科潜在合作方向的数量（即总引用关系数）。",
+        "question": "In the citation network of academic papers, researchers aim to predict emerging fields by analyzing interdisciplinary citation trends. If each edge represents a citation from one paper to another, please calculate the total number of potential interdisciplinary collaboration directions in the current network (i.e., the total number of citation relationships).",
+        "label": "Edge_Count",
+        "type": "跨学科研究预测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若某跨学科研究团队整合了计算机科学与生物医学领域的文献，需预测未来合作潜力，现需统计所有论文间的单向引用次数总和。请问当前网络中总共存在多少条引用关系？",
+        "question": "In the citation network of the paper, if a multidisciplinary research team integrates literature from the fields of computer science and biomedicine, and needs to predict future collaboration potential, it is necessary to calculate the total number of one-way citation counts among all papers. May I ask how many citation relationships exist in the current network?",
+        "label": "Edge_Count",
+        "type": "跨学科研究预测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若需预测跨学科研究的热点趋势，需统计不同领域间论文的单向引用强度。现需量化当前网络中所有交叉学科引用的直接关联规模，应计算其中满足引用关系的边总数是多少？",
+        "question": "In the citation network of academic papers, to predict the trending hotspots in interdisciplinary research, it is necessary to statistically analyze the unidirectional citation strength between different fields. Currently, to quantify the scale of direct associations in all interdisciplinary citations within the existing network, we need to calculate the total number of edges that satisfy the citation relationships.",
+        "label": "Edge_Count",
+        "type": "跨学科研究预测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析论文引文网络时，若需预测跨学科研究热点（例如计算机科学与生物医学交叉领域），需统计该子网络内所有论文间的单向引用次数总和。请问当前该交叉领域相关论文构成的子网络中，总引用关系数量是多少？",
+        "question": "When analyzing the citation network of academic papers, if we need to predict interdisciplinary research hotspots (for example, in the intersection of computer science and biomedicine), we must calculate the total number of unidirectional citations among all papers within that subnetwork. Could you please tell me the total number of citation relationships in the current subnetwork composed of papers related to this interdisciplinary field?",
+        "label": "Edge_Count",
+        "type": "跨学科研究预测",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，为预测跨学科合作趋势，需分析计算机科学与生物医学领域间论文的相互引用次数，请计算当前网络中这两个领域间存在的引用关系总数。",
+        "question": "In the citation network of research papers, to predict trends in interdisciplinary collaboration, it is necessary to analyze the number of mutual citations between papers in the fields of computer science and biomedical sciences. Please calculate the total number of citation relationships that currently exist between these two fields in the network.",
+        "label": "Edge_Count",
+        "type": "跨学科研究预测",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在预测跨学科研究趋势时，某机构整合了涉及计算机科学与生物医学的论文引文网络，若需量化不同领域间的知识流动强度，应如何计算当前网络中所有论文间的单向引用关系总数？",
+        "question": "To quantify the intensity of knowledge flow between different fields when predicting interdisciplinary research trends, a certain institution has integrated the citation networks of papers involving computer science and biomedicine. How should one calculate the total number of unidirectional citation relationships among all papers in the current network?",
+        "label": "Edge_Count",
+        "type": "跨学科研究预测",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在构建跨学科研究趋势预测模型时，若将计算机科学论文引用生物医学文献视为知识迁移路径，该论文引文网络中表征跨领域知识流动的有效通道共有多少条？",
+        "question": "When constructing a predictive model for interdisciplinary research trends, if the citations of computer science papers to biomedical literature are considered as a pathway for knowledge transfer, how many effective channels are there in the citation network of this paper that represent the flow of knowledge across fields?",
+        "label": "Edge_Count",
+        "type": "跨学科研究预测",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在跨学科研究预测项目中，若需分析计算机科学和生物学领域论文引文网络的交叉引用强度，应如何计算这两个学科论文节点间所有引用关系的总边数？",
+        "question": "In an interdisciplinary research prediction project, if one needs to analyze the cross-citation strength of the citation networks between the fields of computer science and biology, how should one calculate the total number of citation relationships (edges) between the paper nodes of these two disciplines?",
+        "label": "Edge_Count",
+        "type": "跨学科研究预测",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为预测跨学科研究发展趋势，需分析计算机科学与生物医学工程交叉领域的论文引文网络，其中节点代表论文，箭头表示引用关系。请计算该网络中所有论文间的单向引用总次数。",
+        "question": "To predict the trends in interdisciplinary research development, it is necessary to analyze the citation network of papers in the intersection of computer science and biomedical engineering, where nodes represent papers and arrows indicate citation relationships. Please calculate the total number of one-way citations among all papers in this network.",
+        "label": "Edge_Count",
+        "type": "跨学科研究预测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析论文引文网络以确定某研究领域的核心权威论文时，需要计算该网络中所有引用关系的总次数是多少？",
+        "question": "When analyzing the citation network of papers to identify the core authoritative papers in a research field, how should the total number of citation relationships in that network be calculated?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，如何通过统计所有文献间的单向引用关系数量，确定该领域内被广泛引用的核心文献的总引用次数？",
+        "question": "In a citation network of academic papers, how can we determine the total number of citations for core literature that is widely cited in the field by statistically analyzing the number of one-way citation relationships among all the literature?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，若某研究领域的高被引论文集合中，每篇论文仅引用同集合内其他文献一次且不重复引用，计算这些核心文献间实际形成的单向引用关系总数。",
+        "question": "In the citation network of academic papers, if in a collection of highly cited papers within a certain research field each paper cites only other papers in the same collection once without any repeated citations, calculate the total number of actual unidirectional citation relationships that are formed among these core documents.",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为识别领域内的核心论文，需要统计当前论文引文网络中所有权威文献被其他论文引用的总次数，请计算该网络中共存在多少条此类引用关系？",
+        "question": "To identify the key papers in the field, it is necessary to tally the total number of citations that all authoritative literature in the current citation network has received from other papers. Please calculate how many such citation relationships exist within this network.",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，某领域权威综述论文及其衍生研究的核心文献集合被其他论文直接引用的总次数是多少？",
+        "question": "In the citation network of the paper, what is the total number of direct citations received by the core literature set of authoritative review papers and their derived research in a particular field?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若某领域权威文献的判定标准之一是总被引频次，现需通过全网引用关系验证一篇核心论文的权威性，请计算该网络内所有引用行为的总次数。",
+        "question": "In the citation network of academic papers, if one of the criteria for determining authoritative literature in a certain field is the total citation frequency, we now need to verify the authority of a core paper through the citation relationships across the entire network. Please calculate the total number of citation actions within that network.",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，关于神经网络架构搜索(NAS)领域突破性进展的核心文献，计算该领域权威论文之间形成的单向引用关系总数量。",
+        "question": "In the citation network of academic papers, calculate the total number of one-way citation relationships formed among core literature that represents breakthrough advancements in the field of Neural Architecture Search (NAS).",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析一个论文引文网络以识别领域内权威研究成果时，若需要量化文献间的直接关联强度，应如何计算当前网络中所有论文节点之间单向引用的总次数？",
+        "question": "When analyzing a citation network of a paper to identify authoritative research outcomes in the field, how should one calculate the total number of unidirectional citations among all paper nodes in the current network to quantify the strength of direct associations between the literature?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析量子计算领域的权威论文引文网络时，研究者需要统计所有文献间的单向引用关系总数，以量化该领域核心成果的知识传播强度。请计算该网络中所有论文节点间的引用链路数量。",
+        "question": "In analyzing the citation network of authoritative papers in the field of quantum computing, researchers need to tally the total number of unidirectional citation relationships among all the literature to quantify the knowledge dissemination intensity of key achievements in the field. Please calculate the number of citation links between all paper nodes in this network.",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析计算机视觉领域权威论文的跨学科影响力时，若将每篇论文视为节点，引用关系视为有向连接，请问该论文引文网络中总共存在多少次知识迁移行为？",
+        "question": "When analyzing the interdisciplinary impact of authoritative papers in the field of computer vision, if each paper is considered a node and the citation relationships are viewed as directed connections, how many instances of knowledge transfer occur in the citation network of these papers?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在计算机视觉领域的权威论文引文网络中，核心论文提出的关键算法被后续研究广泛引用。若将每篇论文视为节点，引用关系视为有向边，请计算该网络中共有多少条直接的知识传承路径？",
+        "question": "In the citation network of authoritative papers in the field of computer vision, the key algorithms proposed in core papers are widely referenced by subsequent research. If each paper is regarded as a node and the citation relationships as directed edges, please calculate the total number of direct knowledge transfer paths in this network.",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，某权威研究指出机器学习领域的知识流动呈现星型扩散特征，若要验证该结论是否适用于自然语言处理子领域，需计算该子领域所有论文间直接引用关系的总量是多少？",
+        "question": "In the citation network of academic papers, an authoritative study pointed out that the flow of knowledge in the field of machine learning exhibits a star-like diffusion pattern. To verify whether this conclusion applies to the subfield of natural language processing, it is necessary to calculate the total amount of direct citation relationships among all papers in that subfield.",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，为评估权威研究成果的影响力，需要统计所有基于核心论文发现形成的单向引用链路总数，请问当前网络中存在多少条这样的知识传播路径？",
+        "question": "In the citation network of academic papers, in order to assess the impact of authoritative research findings, it is necessary to count the total number of unidirectional citation links formed based on the discoveries of core papers. Could you please tell me how many such knowledge dissemination pathways currently exist in the network?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在构建人工智能领域的论文引文网络时，为确定领域权威论文需要统计所有论文间的直接引用次数，请计算该网络中总共有多少条引用关系？",
+        "question": "When constructing a citation network of papers in the field of artificial intelligence, to identify authoritative papers in the field, it is necessary to count the total number of direct citations among all papers. Please calculate the total number of citation relationships in this network.",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为评估某领域权威论文群的知识扩散规模，需统计其引文网络中所有论文之间的单向引用关系总数，请计算该数值是多少？",
+        "question": "To assess the scale of knowledge diffusion within a group of authoritative papers in a certain field, it is necessary to count the total number of one-way citation relationships among all papers in its citation network. Can you please calculate this value?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在论文引文网络中，某权威机构发布的年度核心论文集合内，若每篇论文的参考文献都指向该集合内其他成员，现需通过直接引用关系发现关键研究脉络，应如何计算该子网络内所有论文之间的引用次数总和？",
+        "question": "In the citation network of a paper, if each paper in a core collection released by an authoritative organization refers to other members within that collection, and there is a need to discover the key research contexts through direct citation relationships, how should the total number of citations among all papers within this subnet be calculated?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，若需评估某权威奠基性算法文献的知识传播效率，应如何计算其直接引用关系总数以量化基础影响力？",
+        "question": "In the citation network of academic papers, how should one calculate the total number of direct citation relationships to quantify the foundational influence of a certain authoritative seminal algorithm literature when assessing its knowledge dissemination efficiency?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若某领域权威论文集合中每篇论文至少被其他两篇权威论文引用，且不存在相互引用的情况，计算该集合内所有论文之间的单向引用关系总数。",
+        "question": "In a citation network of papers, if each paper in a collection of authoritative papers in a certain field is referenced by at least two other authoritative papers, and there are no mutual citations among them, calculate the total number of unidirectional citation relationships among all the papers in that collection.",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若研究主题\"基因编辑技术\"的权威论文集合通过单向引用形成知识扩散链路，该领域核心文献间的直接引用行为总计发生多少次？",
+        "question": "In the citation network of papers, if the authoritative collection of papers on the research topic \"gene editing technology\" forms a knowledge diffusion chain through one-way citations, how many times does the direct citation behavior among the core literature in this field occur in total?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，若某高被引论文作为知识扩散枢纽被多篇后续研究引用，计算该网络中所有已建立的单向引用关系总数以量化领域内核心成果的传播强度。",
+        "question": "In the citation network of research papers, if a highly cited paper serves as a knowledge diffusion hub and is cited by multiple subsequent studies, the total number of established unidirectional citation relationships in that network can be calculated to quantify the propagation intensity of core contributions within the field.",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，权威综述论文及其引用的核心文献构成的子网络中共存在多少条引用关系？",
+        "question": "How many citation relationships exist in the subnetwork formed by authoritative review papers and their cited core literature within the citation network of academic papers?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若需评估领域内权威研究成果的学术影响力，应如何计算所有核心文献之间直接引用关系的总次数？",
+        "question": "In the citation network of academic papers, how should the total number of direct citation relationships among all core documents be calculated in order to assess the academic influence of authoritative research outcomes within the field?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，所有被领域内权威综述论文引用的文献及其相互引用关系构成核心子网络，计算该子网络中所有直接引用行为的总次数。",
+        "question": "In the citation network of the paper, all the literature cited by authoritative review papers in the field and their mutual citation relationships form a core subnet. The total number of direct citation actions within this subnet is calculated.",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在论文引文网络中，若要确定某领域权威论文的知识传播路径覆盖范围，需计算其引文网络中所有文献节点间存在的直接引用关系总数是多少？",
+        "question": "In the citation network of a paper, to determine the coverage of knowledge dissemination paths for authoritative papers in a particular field, it is necessary to calculate the total number of direct citation relationships that exist among all the literature nodes in its citation network.",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，自然语言处理领域的权威论文构成了核心引用框架，计算该网络中存在多少直接的文献引用关系？",
+        "question": "In the citation network of academic papers, authoritative papers in the field of natural language processing form the core citation framework. How many direct citation relationships exist in this network?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若要分析高被引论文的知识扩散效应，需统计当前所有引用关系的总数，请问共有多少条？",
+        "question": "In the citation network of papers, to analyze the knowledge diffusion effect of highly cited papers, it is necessary to count the total number of current citation relationships. May I ask how many citation relationships there are in total?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，如何计算某领域权威核心论文之间所有单向引用关系的总数量？",
+        "question": "In the citation network of academic papers, how can we calculate the total number of one-way citation relationships among the core authoritative papers in a specific field?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，某领域权威综述论文引用的核心文献群内，所有单向引用关系的总数是多少？",
+        "question": "In the citation network of a paper, what is the total number of unidirectional citation relationships within the core literature group cited by authoritative review papers in a certain field?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在构建的论文引文网络中，若某研究领域内权威文献（如被广泛引用的奠基性论文）与其直接引用的其他论文形成关联，计算该网络中所有引用行为的总次数。",
+        "question": "In the constructed citation network of papers, if authoritative literature in a certain research field (such as widely cited foundational papers) forms connections with other papers they directly cite, calculate the total number of citation behaviors in that network.",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，如何计算某领域权威文献群内部相互引用的总次数？",
+        "question": "How can the total number of citations exchanged among authoritative literature within a specific field be calculated in a citation network?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为确定某领域核心权威论文，需统计其引文网络中所有文献间的单向引用总次数，应如何计算该网络中代表引用行为的连接数量？",
+        "question": "To determine the core authoritative papers in a specific field, it is necessary to calculate the total number of unidirectional citations among all the documents in its citation network. How should the number of connections representing citation behavior in this network be calculated?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若某权威论文被其他文献引用构成研究基础，需统计其直接引用链覆盖的所有边数量，请问当前网络中这类引用关系的总数是多少？",
+        "question": "In the citation network of the paper, if an authoritative paper is cited by other works that form the basis of research, it is necessary to count the total number of edges covered by its direct citation chain. What is the total number of such citation relationships in the current network?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析领域内权威论文的知识传播路径时，需统计论文引文网络中所有文献间的直接引用次数总和，当前网络中共存在多少条引用关系？",
+        "question": "When analyzing the knowledge dissemination paths of authoritative papers in the field, it is necessary to count the total number of direct citation relationships among all the documents in the citation network of the papers. How many citation relationships currently exist in the network?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，某权威研究主题的核心论文集合通过相互引用形成子网络，现需分析该领域知识流动强度，应计算其内部所有直接引用关系的总数是多少？",
+        "question": "In the citation network of academic papers, a core set of papers on a specific authoritative research topic forms a subnet through mutual citations. To analyze the intensity of knowledge flow in this field, it is necessary to calculate the total number of all direct citation relationships within this subset.",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 15,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在论文引文网络中，若需通过引用关系强度定位领域权威论文，应如何计算所有文献间的直接引用次数总和？",
+        "question": "In a citation network, if one needs to locate authoritative papers in a field based on the strength of citation relationships, how should the total number of direct citations between all the literature be calculated?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，某权威研究团队发现领域内最具影响力的15篇核心文献构成互引集群，若要量化该集群内部的知识流动强度，应如何计算所有文献之间直接发生的引用关系总数？",
+        "question": "In the citation network of academic papers, a renowned research team discovered that the 15 most influential core documents in the field form a mutually citing cluster. To quantify the intensity of knowledge flow within this cluster, how should one calculate the total number of direct citation relationships that occur among all the documents?",
+        "label": "Edge_Count",
+        "type": "权威论文发现",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，为了优化文献检索系统的相关性排序算法，需要准确统计学术文献之间的引用关系总量。请计算该网络中所有论文节点之间存在多少条单向引用链接？",
+        "question": "In the citation network of academic papers, to optimize the relevance ranking algorithm of the literature retrieval system, it is necessary to accurately quantify the total number of citation relationships between academic documents. Please calculate how many directed citation links exist between all paper nodes in this network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在文献检索系统优化过程中，为准确评估领域核心文献的关联密度，需要计算当前论文引文网络中所有文献节点之间存在的单向引用关系总数是多少？",
+        "question": "In the process of optimizing the literature retrieval system, to accurately assess the correlation density of core literature in the field, it is necessary to calculate the total number of unidirectional citation relationships that exist between all literature nodes in the current paper citation network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的存储结构时，需要精确计算当前论文引文网络中所有文献间的单向引用关系总数，请问该学术数据库应维护多少条定向引证记录？",
+        "question": "When optimizing the storage structure of a literature retrieval system, it is necessary to accurately calculate the total number of unidirectional citation relationships among all documents in the current citation network. How many directed citation records should this academic database maintain?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "为提高文献检索系统的响应速度，需基于论文引文网络中各文献被引用频次优化缓存权重分配策略。若每条引用关系代表一次动态权重累加，应计算该网络中共有多少次引用行为？",
+        "question": "To improve the response speed of the literature retrieval system, it is necessary to optimize the cache weight allocation strategy based on the citation frequency of each document in the paper citation network. If each citation relationship represents a dynamic weight accumulation, how many total citation actions are there in this network?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的过程中，若需评估论文引文网络中知识传播效率，应如何通过引用关系的总量计算当前系统的信息联通强度？",
+        "question": "In the process of optimizing a literature retrieval system, if it is necessary to assess the efficiency of knowledge dissemination in the citation network of papers, how should the current system's information connectivity strength be calculated based on the total amount of citation relationships?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "为优化文献检索系统的索引更新频率，需根据论文间的直接引用关系调整核心文献识别策略，请计算当前论文引文网络中所有文献产生的引用指向总数。",
+        "question": "To optimize the index update frequency of the literature search system, it is necessary to adjust the core literature identification strategy based on the direct citation relationships between papers. Please calculate the total number of citations generated by all literature in the current citation network of the papers.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为提高文献检索系统的索引更新效率，需根据论文引文网络中文献间的引用强度动态调整缓存策略，请问当前网络中共存在多少条单向引用关系需要被纳入权重计算？",
+        "question": "To improve the efficiency of index updating in the literature retrieval system, it is necessary to dynamically adjust the caching strategy based on the citation intensity between documents in the paper citation network. Could you tell me how many one-way citation relationships currently exist in the network that need to be included in the weight calculation?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在文献检索系统优化过程中，为准确分配索引存储空间，需要计算当前论文引文网络中所有文献之间的直接引用关系总量，请问应统计多少个这样的单向引用关联？",
+        "question": "In the process of optimizing the literature retrieval system, to accurately allocate index storage space, it is necessary to calculate the total number of direct citation relationships among all the documents in the current paper citation network. How many such unidirectional citation associations should be counted?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的引用关系数据库时，需要准确掌握论文间的引用情况，当前论文引文网络中总共存在多少条单向引用关系？",
+        "question": "When optimizing the citation relationship database of literature retrieval systems, it is essential to accurately understand the citation situation among papers. How many one-way citation relationships currently exist in the paper citation network?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化文献检索系统时，需要准确掌握学术论文的引用规模，请计算当前论文引文网络中所有文献产生的总引用次数。",
+        "question": "When optimizing the literature retrieval system, it is essential to accurately understand the scale of citations in academic papers. Please calculate the total number of citations generated by all the literature in the current citation network of papers.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在文献检索系统优化过程中，需要评估学术论文的引用覆盖范围。已知某文献数据库的论文引文网络，其中每篇论文指向其参考文献，请计算该网络中的总引用次数以确定系统索引更新频次。",
+        "question": "In the process of optimizing the literature retrieval system, it is necessary to evaluate the citation coverage of academic papers. Given the citation network of a specific literature database, where each paper points to its references, please calculate the total number of citations in this network to determine the frequency of system index updates.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，为优化文献检索系统的索引效率，需要准确统计所有文献间的直接引用关系数量，请问应如何计算该网络中的关键连接总数？",
+        "question": "In the citation network of a paper, to optimize the indexing efficiency of the literature retrieval system, it is necessary to accurately count the number of direct citation relationships among all the documents. How should the total number of key connections in this network be calculated?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的过程中，需要精确计算当前论文引文网络中所有文献间的单向引用关系总数，请问该学术网络中共存在多少条这样的引用链路？",
+        "question": "In the process of optimizing the literature retrieval system, it is necessary to accurately calculate the total number of one-way citation relationships between all documents in the current paper citation network. May I ask how many such citation links exist in this academic network?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的性能时，需要评估论文引文网络的引用密度。已知系统通过动态索引加速查询，请计算当前网络中所有论文之间的单向引用关系总数以验证索引有效性。",
+        "question": "When optimizing the performance of the literature retrieval system, it is necessary to evaluate the citation density of the paper citation network. It is known that the system accelerates queries through dynamic indexing. Please calculate the total number of unidirectional citation relationships among all papers in the current network to verify the validity of the index.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化文献检索系统的索引构建效率时，需要计算当前论文引文网络中所有存在的直接引用关系总数，以确定索引更新所需处理的最小引用单元数量，请问这个关键数值是多少？",
+        "question": "To optimize the index construction efficiency of the literature retrieval system, it is necessary to calculate the total number of existing direct citation relationships in the current paper citation network to determine the minimum number of citation units that need to be processed for index updates. What is this key value?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化文献检索系统的索引效率时，需明确论文引文网络中引用关系的总规模。若某次系统升级声称能压缩30%冗余引用数据，请先计算当前网络中实际存在的有效引用次数？",
+        "question": "When optimizing the indexing efficiency of the literature retrieval system, it is important to clarify the overall scale of the citation relationships in the paper citation network. If a certain system upgrade claims to reduce redundant citation data by 30%, please first calculate the actual number of valid citations currently present in the network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在文献检索系统优化项目中，为了评估索引更新的效率，需要统计当前论文引文网络中所有文献之间的引用关系总数。请问该网络中共有多少条引用关系？",
+        "question": "In the literature retrieval system optimization project, in order to evaluate the efficiency of index updates, it is necessary to count the total number of citation relationships among all the documents in the current paper citation network. Could you please tell me how many citation relationships are there in this network?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为优化文献检索系统的索引效率，需要准确评估论文间的引用规模。请计算当前网络中所有论文间的引用关系总数，以确定系统资源分配策略。",
+        "question": "To optimize the indexing efficiency of the literature retrieval system, it is necessary to accurately evaluate the scale of citations between papers. Please calculate the total number of citation relationships among all papers in the current network to determine the system's resource allocation strategy.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为优化文献检索系统的索引效率，需统计当前论文引文网络中所有文献间的引用总次数，请计算该网络包含的有效引用关系总数是多少？",
+        "question": "To optimize the indexing efficiency of the literature retrieval system, it is necessary to count the total number of citations among all the documents in the current paper citation network. Please calculate the total number of effective citation relationships contained in this network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的过程中，需要准确掌握论文引文网络的引用规模以评估索引效率，请计算当前网络中所有论文之间的单向引用关系总数。",
+        "question": "In the process of optimizing the literature retrieval system, it is essential to accurately grasp the citation scale of the paper citation network in order to assess the indexing efficiency. Please calculate the total number of unidirectional citation relationships among all papers in the current network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为优化文献检索系统的索引性能，需准确统计当前论文引文网络中所有文献间的单向引用次数。请问该网络中共包含多少次引用关系？",
+        "question": "To optimize the indexing performance of the literature retrieval system, it is necessary to accurately count the number of unidirectional citations between all the documents in the current paper citation network. How many citation relationships are there in this network in total?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为优化文献检索系统的索引效率，需要明确当前论文引文网络中所有引用路径的规模，请计算该网络中论文间单向引用关系的总数量。",
+        "question": "To optimize the indexing efficiency of the literature retrieval system, it is necessary to clarify the scale of all citation paths in the current citation network of papers. Please calculate the total number of unidirectional citation relationships among the papers in this network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为优化文献检索系统的引用追踪效率，需要统计当前论文引文网络中所有文献之间的引用总次数，请计算该数值。",
+        "question": "To optimize the citation tracking efficiency of the literature retrieval system, it is necessary to calculate the total number of citations among all the documents in the current citation network of the paper. Please calculate this value.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化某文献检索系统的推荐算法时，需评估论文间的引用强度作为索引优化依据。当前论文引文网络中所有文献指向其他文献的引用关系总数是多少？",
+        "question": "When optimizing the recommendation algorithm of a literature retrieval system, it is necessary to assess the citation strength among papers as a basis for index optimization. What is the total number of citation relationships in the current citation network of papers, where all papers cite other papers?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化文献检索系统的索引策略时，需基于论文引文网络的引用关系密度调整存储结构，请计算当前网络中所有文献间的直接引用总次数是多少？",
+        "question": "When optimizing the indexing strategy of the literature retrieval system, it is necessary to adjust the storage structure based on the density of citation relationships in the paper citation network. Could you please calculate the total number of direct citations among all the literature in the current network?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化文献检索系统的引用追踪功能时，需要精确统计当前论文引文网络中所有存在的引用路径总数，以验证索引覆盖的完整性。请问该网络中共有多少条实际的文献引用关系？",
+        "question": "In optimizing the citation tracking function of the literature retrieval system, it is necessary to accurately count the total number of existing citation paths in the current paper citation network to verify the completeness of index coverage. Could you please tell me how many actual literature citation relationships there are in this network?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化后的文献检索系统中，论文引文网络通过消除冗余引用提升了效率，请计算当前网络中实际生效的引用关系总数以验证优化效果。",
+        "question": "In the optimized literature retrieval system, the paper citation network enhances efficiency by eliminating redundant citations. Please calculate the total number of effective citation relationships in the current network to validate the optimization results.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化文献检索系统的引用关系索引效率时，需要统计当前论文引文网络中所有文献之间的单向引用次数，请计算该网络中的总引用关系数量。",
+        "question": "When optimizing the citation relation indexing efficiency of the literature retrieval system, it is necessary to count the number of one-way citations among all documents in the current paper citation network. Please calculate the total number of citation relations in that network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "为优化文献检索系统的效率，需评估当前论文引文网络中知识关联的密集程度，请计算该网络中所有论文间的直接引用关系总数。",
+        "question": "To optimize the efficiency of the literature retrieval system, it is necessary to assess the density of knowledge associations in the current citation network of papers. Please calculate the total number of direct citation relationships among all papers in this network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了优化文献检索系统的索引效率，需要准确评估当前论文引文网络中文献间的直接引用规模，请计算该网络中所有论文节点之间存在的单向引用关系总数是多少？",
+        "question": "To optimize the indexing efficiency of the literature retrieval system, it is necessary to accurately assess the scale of direct citation relationships among the literature in the current paper citation network. Please calculate the total number of one-way citation relationships that exist among all the paper nodes in this network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为优化文献检索系统的索引效率，需准确分析论文引文网络中文献间的引用规模，请计算当前网络中所有单向引用关系的总数。",
+        "question": "To optimize the indexing efficiency of the literature retrieval system, it is necessary to accurately analyze the citation scale among the literature in the paper citation network. Please calculate the total number of all one-way citation relationships in the current network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的引用索引效率时，如何计算当前论文引文网络中所有文献之间的引用关系总数？",
+        "question": "When optimizing the citation index efficiency of a literature retrieval system, how can we calculate the total number of citation relationships among all the documents in the current citation network?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的引用关系索引时，需要统计当前论文引文网络中所有论文之间的单向引用总次数，请问该系统的总引用次数是多少？",
+        "question": "In optimizing the citation relationship index of the literature retrieval system, it is necessary to count the total number of one-way citations among all papers in the current citation network. Could you please tell me what the total number of citations in this system is?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的索引结构时，需要计算当前论文引文网络中所有引用关系的总次数，以确定索引更新的频率。请问该网络中共有多少次引用？",
+        "question": "When optimizing the index structure of the literature retrieval system, it is necessary to calculate the total number of citation relationships in the current paper citation network to determine the frequency of index updates. May I ask how many citations are there in this network?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了验证文献检索系统优化后对引用关系的整合准确性，需计算当前论文引文网络中所有论文间的单向引用链接总数量是多少？",
+        "question": "To verify the accuracy of citation integration after optimizing the literature retrieval system, it is necessary to calculate the total number of unidirectional citation links among all papers in the current citation network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的相关文献推荐算法时，需基于论文引文网络中的引用强度调整权重参数，请计算当前网络中所有论文间的单向引用关系总数。",
+        "question": "When optimizing the literature recommendation algorithm for literature retrieval systems, it is necessary to adjust the weight parameters based on the citation strength in the paper citation network. Please calculate the total number of unidirectional citation relationships among all papers in the current network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为优化文献检索系统的引用分析功能，需计算当前论文引文网络中所有文献间的单向引用总次数是多少？",
+        "question": "To optimize the citation analysis function of the literature retrieval system, how many total one-way citations are there among all the documents in the current paper citation network?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为提高文献检索系统的推荐准确性，需统计所有论文间的引用关系以优化相关性算法，请计算当前网络中的总引用次数。",
+        "question": "To improve the recommendation accuracy of the literature retrieval system, it is necessary to analyze the citation relationships among all papers to optimize the relevance algorithm. Please calculate the total number of citations in the current network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化某文献检索系统的论文引文网络时，需通过统计引用关系验证数据完整性，当前网络中所有论文间的单向引用次数总和是多少？",
+        "question": "When optimizing the citation network of a certain literature retrieval system, it is necessary to verify data integrity by statistically analyzing citation relationships. What is the total sum of unidirectional citation counts among all papers in the current network?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化后的文献检索系统中，需要验证论文引文网络中的引用关系是否完整覆盖所有文献，请计算当前网络中所有论文之间的总引用次数以确认是否符合预期？",
+        "question": "In the optimized literature retrieval system, it is necessary to verify whether the citation relationships in the paper citation network completely cover all the literature. Please calculate the total number of citations among all papers in the current network to confirm whether it meets expectations.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了优化文献检索系统的索引结构，系统管理员需要评估当前论文引文网络中所有引用关系的总量，应如何计算？",
+        "question": "To optimize the indexing structure of the literature retrieval system, the system administrator needs to evaluate the total number of citation relationships within the current paper citation network. How should this be calculated?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在文献检索系统优化过程中，为评估论文引用数据的存储规模，需计算当前论文引文网络中所有文献间的单向引用关系总数是多少？",
+        "question": "In the process of optimizing the literature retrieval system, to assess the storage scale of citation data for papers, it is necessary to calculate the total number of unidirectional citation relationships among all documents in the current citation network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化文献检索系统的索引结构时，需要统计论文引文网络中所有文献间的直接引用次数。请计算当前网络中存在的总引用关系数量。",
+        "question": "When optimizing the index structure of the literature retrieval system, it is necessary to count the direct citation counts among all documents in the paper citation network. Please calculate the total number of citation relationships present in the current network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化文献检索系统的索引效率时，需要明确当前论文引文网络中所有引用关系的总量。请计算该网络中由论文节点构成的单向引用链路总数是多少？",
+        "question": "When optimizing the indexing efficiency of a literature retrieval system, it is necessary to ascertain the total number of citation relationships in the current paper citation network. Please calculate the total number of unidirectional citation links composed of paper nodes in this network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为优化文献检索系统的引用追踪性能，需精准统计当前论文引文网络中所有文献间的单向引用关系总数，请计算该网络中共存在多少条直接引用路径？",
+        "question": "To optimize the citation tracking performance of the literature retrieval system, it is necessary to accurately count the total number of unidirectional citation relationships among all documents in the current paper's citation network. Please calculate how many direct citation paths exist in this network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的存储结构时，需要统计当前论文引文网络中所有存在的引用关系总数。若系统要求通过引用数据量来评估索引优化强度，应如何计算该网络中论文间实际发生的有效引用次数？",
+        "question": "When optimizing the storage structure of a literature retrieval system, it is necessary to calculate the total number of citation relationships present in the current paper citation network. If the system requires evaluating the strength of index optimization based on the volume of citation data, how should the actual number of effective citations that occur between papers in this network be calculated?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为优化文献检索系统的覆盖评估，需要计算当前论文引文网络中所有单向引用关系的总数，请问该网络中共有多少次引用行为？",
+        "question": "To optimize the coverage assessment of the literature retrieval system, it is necessary to calculate the total number of unidirectional citation relationships in the current citation network of papers. May I ask how many citation actions there are in this network?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的索引结构时，需要统计论文引文网络中所有文献间的实际引用次数。若某次系统升级后，如何通过现有网络数据快速计算当前平台记录的完整引用关系总数？",
+        "question": "When optimizing the index structure of a literature retrieval system, it is essential to calculate the actual citation counts among all the publications in the citation network. If there is an upgrade to the system, how can we quickly compute the total number of complete citation relationships recorded on the current platform using the existing network data?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化文献检索系统的索引策略时，如何确定论文引文网络中所有文献之间的引用关系总数，以评估当前索引覆盖范围是否符合预期？",
+        "question": "When optimizing the indexing strategy of a literature retrieval system, how can we determine the total number of citation relationships between all documents in the citation network of papers, in order to assess whether the current index coverage meets expectations?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的索引效率时，需统计当前论文引文网络中所有文献间的单向引用次数作为负载评估依据，请计算该网络中的引用关系总量。",
+        "question": "When optimizing the indexing efficiency of the literature retrieval system, it is necessary to count the number of one-way citations between all documents in the current citation network as a basis for load assessment. Please calculate the total citation relationships in this network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的索引结构时，需要明确当前论文引文网络中存在的所有直接引用关系数量，请计算该数值以评估索引更新所需的基础数据规模。",
+        "question": "When optimizing the index structure of the literature retrieval system, it is necessary to clarify the total number of direct citation relationships present in the current paper citation network. Please calculate this value to assess the scale of the underlying data required for index updates.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "为了优化文献检索系统的存储索引结构升级，需要准确计算论文引文网络中当前存在的所有引用关系总数，请给出该网络包含的定向引用总量是多少？",
+        "question": "In order to optimize the storage index structure upgrade of the literature retrieval system, it is necessary to accurately calculate the total number of existing citation relationships in the current citation network of the papers. Could you provide the total amount of directed citations contained in this network?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的引用关系分析模块时，需要计算当前论文引文网络中所有文献之间的单向引用总次数，请问总共有多少条引用关系？",
+        "question": "When optimizing the citation relationship analysis module of the literature retrieval system, it is necessary to calculate the total number of unidirectional citations among all the documents in the current paper citation network. How many citation relationships are there in total?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的索引效率时，需基于论文引文网络计算所有文献间的直接引用关系总量，以评估系统处理动态更新的性能瓶颈。当前网络中单向引用关系的总数是多少？",
+        "question": "When optimizing the indexing efficiency of a literature retrieval system, it is necessary to calculate the total amount of direct citation relationships among all documents based on the citation network of the papers in order to assess the system's performance bottlenecks in handling dynamic updates. What is the current total number of unidirectional citation relationships in the network?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为优化文献检索系统的索引更新效率，需准确统计当前论文引文网络中所有文献间的单向引用次数总和。请问该网络中共存在多少条直接引用关系？",
+        "question": "To optimize the indexing update efficiency of the literature retrieval system, it is necessary to accurately count the total number of unidirectional citations among all documents in the current paper citation network. May I ask how many direct citation relationships exist in this network?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的过程中，需要分析论文引文网络的引用密度以评估信息关联强度，请计算当前网络中所有论文之间实际存在的单向引用关系总数。",
+        "question": "In the process of optimizing the literature retrieval system, it is necessary to analyze the citation density of the paper citation network to assess the strength of information association. Please calculate the total number of actual one-way citation relationships that exist among all papers in the current network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了优化文献检索系统的索引效率，需要精确评估当前论文引文网络中引用关系的规模。请计算该网络中所有论文之间的总引用次数，以确定是否需要调整分布式存储的分片策略。",
+        "question": "In order to optimize the indexing efficiency of the literature retrieval system, it is necessary to accurately assess the scale of citation relationships in the current paper citation network. Please calculate the total number of citations among all the papers in this network to determine whether it is necessary to adjust the sharding strategy of the distributed storage.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为优化文献检索系统的引用关系索引效率，需要准确统计当前论文引文网络中所有单向引用的总数，请计算该网络中的引用关系总数量。",
+        "question": "To optimize the citation relationship indexing efficiency of the literature retrieval system, it is necessary to accurately count the total number of all unidirectional citations in the current paper citation network. Please calculate the total number of citation relationships in this network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的过程中，需要准确统计当前论文引文网络中所有论文间的单向引用次数总和，以评估数据整合效率，请问该网络中共有多少次引用关系？",
+        "question": "In the process of optimizing the literature retrieval system, it is necessary to accurately count the total number of one-way citations among all papers in the current citation network in order to evaluate data integration efficiency. May I ask how many citation relationships are present in this network?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为提升文献检索系统的索引效率，需基于当前论文引文网络中所有文献间的单向引用关系调整数据库结构，请计算该网络中的引用行为总数以确定优化方案的关键参数。",
+        "question": "To enhance the indexing efficiency of the literature retrieval system, it is necessary to adjust the database structure based on the unidirectional citation relationships among all documents in the current paper citation network. Please calculate the total number of citation behaviors in this network to determine the key parameters for the optimization plan.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为了优化文献检索系统的索引效率，需根据论文引文网络中的引用关系调整存储结构，请计算当前网络中所有论文间的单向引用链路总数。",
+        "question": "To optimize the indexing efficiency of the literature retrieval system, it is necessary to adjust the storage structure based on the citation relationships in the paper citation network. Please calculate the total number of one-way citation links among all papers in the current network.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的索引结构时，若需根据论文引文网络的引用密度调整存储策略，应如何计算当前网络中所有引用关系的总数以评估数据关联强度？",
+        "question": "When optimizing the index structure of a literature retrieval system, if it is necessary to adjust the storage strategy based on the citation density of the paper citation network, how should one calculate the total number of citation relationships in the current network to assess data association strength?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的引用关系处理效率时，如何通过当前论文引文网络中所有文献间的单向引用总数评估系统负载？请计算该数值以确定索引数据库的规模需求。",
+        "question": "Translate to English: When optimizing the efficiency of citation relationship processing in literature retrieval systems, how can the system load be assessed through the total number of unidirectional citations among all documents in the current paper citation network? Please calculate this value to determine the scaling requirements for the index database.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化文献检索系统的存储结构时，需消除冗余引用关系。现需验证论文引文网络中实际存在的有效引用数量，请计算当前系统应当维护的单向引用关系总数？",
+        "question": "When optimizing the storage structure of the literature retrieval system, it is necessary to eliminate redundant citation relationships. Now we need to verify the actual number of valid citations present in the citation network of the papers. Please calculate the total number of one-way citation relationships that the current system should maintain.",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化文献检索系统的查询效率时，若需通过分析论文引文网络中引用关系的密集程度来调整数据库索引策略，应如何计算当前网络中所有论文间的单向引用总数？",
+        "question": "To optimize the query efficiency of a literature retrieval system, if it is necessary to adjust the database indexing strategy by analyzing the density of citation relationships in the paper citation network, how should the total number of unidirectional citations among all papers in the current network be calculated?",
+        "label": "Edge_Count",
+        "type": "文献检索系统优化",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "为准确评估人工智能领域研究前沿的知识流动强度，需统计该领域近五年核心论文之间的相互引用次数总和，当前网络中这些引用关系的总数是多少？",
+        "question": "To accurately assess the intensity of knowledge flow at the forefront of research in the field of artificial intelligence, it is necessary to calculate the total number of citations among core papers in this field over the past five years. What is the current total number of these citation relationships in the network?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在论文引文网络中，为识别近期量子计算领域的研究前沿，需统计该领域内所有核心论文之间的相互引用次数。当前共有多少篇论文存在直接引用关系？",
+        "question": "In the citation network of the paper, to identify the recent research frontiers in the field of quantum computing, it is necessary to count the number of citations among all core papers in this field. How many papers currently have direct citation relationships?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，某研究前沿领域的核心文献群内部存在密集引用关系，若需量化该领域知识流动活跃程度，应如何计算其内部所有论文之间的直接引用次数总和？",
+        "question": "In the citation network of academic papers, there exists a dense citation relationship among the core literature group in a certain frontier research area. If we need to quantify the level of knowledge flow in that field, how should we calculate the total number of direct citations among all papers within this core group?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 16,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "为了检测论文引文网络中近五年高被引论文形成的研究前沿领域，需计算这些核心论文之间的直接引用关系总数，请问当前网络中满足条件的边共有多少条？",
+        "question": "To detect the research frontier areas formed by highly cited papers in the citation network over the past five years, it is necessary to calculate the total number of direct citation relationships among these core papers. Could you please tell me how many edges meet the criteria in the current network?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为评估某领域研究前沿的活跃程度，需统计论文引文网络中所有单向引用关系的数量。当前网络中共有多少条引用边？",
+        "question": "To assess the level of activity at the forefront of research in a particular field, it is necessary to count the number of unidirectional citation relationships in the citation network of the papers. How many citation edges are there in the current network?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，某研究前沿的核心论文集群内部存在密集的相互引用，计算该集群中所有论文之间的引用关系总条数。",
+        "question": "In the citation network of academic papers, there exists a dense mutual citation among the core paper cluster of a certain research frontier. Calculate the total number of citation relationships among all the papers within that cluster.",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为准确识别某领域的研究前沿，需量化分析论文间引用活跃程度，当前论文引文网络中所有文献产生的引用关系总数是多少？",
+        "question": "To accurately identify the research frontier in a specific field, it is necessary to quantify the citation activity among papers. What is the total number of citation relationships generated by all the literature in the current citation network of papers?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，某研究前沿领域的核心论文群近期被高频引用的文献之间形成了密集的引用链路，请计算该前沿领域内部所有论文节点间的单向引用边总数，以量化知识传播强度。",
+        "question": "In the citation network of the paper, the core group of papers in a certain cutting-edge research field has recently formed dense citation links among the frequently cited literature. Please calculate the total number of unidirectional citation edges among all paper nodes within this frontier field to quantify the intensity of knowledge dissemination.",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，某新兴研究前沿领域内的所有论文之间存在多少条引用关系，用以评估该领域的知识传播活跃程度？",
+        "question": "In the citation network of academic papers, how many citation relationships exist among all the papers in a new emerging research frontier, in order to assess the level of knowledge dissemination in that field?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，为检测当前研究前沿领域的关键文献群，需统计所有高频互引论文对之间的直接引用次数总和，应如何计算？",
+        "question": "In the citation network of academic papers, to identify the key literature groups in the current frontiers of research, it is necessary to calculate the total number of direct citations between all frequently co-cited papers. How should this be calculated?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，某研究前沿的核心论文群内部存在密集引用，计算这些论文之间所有单向引用的总次数。",
+        "question": "In the citation network of the paper, there exists dense citation among the core papers of a certain research frontier. Calculate the total number of all one-way citations among these papers.",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了检测当前论文引文网络中的研究前沿，需分析近五年发表的论文之间相互引用关系的活跃程度，请计算该时间段内所有引用边的总数量是多少？",
+        "question": "To detect the research frontiers in the current citation network of papers, it is necessary to analyze the activity level of the citation relationships among papers published in the last five years. Could you please calculate the total number of citation edges within this time frame?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，某研究前沿的核心论文群通过密集引用形成知识流动，若需评估该领域的活跃度，应计算其内部所有论文之间的直接引用次数总和是多少？",
+        "question": "In the citation network of academic papers, a core group of seminal papers in a certain research frontier forms a flow of knowledge through dense citations. If we need to assess the activity level of that field, should we calculate the total number of direct citations among all papers within this core group?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 16,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在分析当前研究前沿时，某新兴领域的论文引文网络中，所有引用关系形成的知识流动强度反映了领域活跃度。请计算该网络中论文间实际发生的引用行为总数是多少？",
+        "question": "In analyzing the current research frontier, the intensity of knowledge flow formed by all citation relationships in the citation network of a certain emerging field reflects the activity level of the field. Please calculate the total number of actual citation behaviors that have occurred among the papers in this network.",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，为检测当前研究前沿的活跃程度，需计算该网络中近期高活跃度研究领域内论文间的引用关系总数，这个总数具体是多少？",
+        "question": "In the citation network of academic papers, to assess the level of activity in current research frontiers, the total number of citation relationships among papers in recently high-activity research areas needs to be calculated. What is this total number?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，为识别当前机器学习领域的研究前沿，需统计所有核心文献之间的直接引用关系数量，请计算该领域知识流动路径的总边数是多少？",
+        "question": "In the citation network of research papers, to identify the current research frontiers in the field of machine learning, it is necessary to count the number of direct citation relationships between all core literature. Please calculate the total number of edges that represent the knowledge flow pathways in this field.",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，研究前沿的核心论文群通常具有高频的相互引用行为，若要量化该前沿领域的活跃程度，需计算这些核心论文之间存在的引用关系总数是多少？",
+        "question": "In the citation network of academic papers, the core group of papers at the research frontier typically exhibits a high frequency of mutual citations. To quantify the level of activity in this frontier field, it is necessary to calculate the total number of citation relationships among these core papers.",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为识别当前研究前沿，需分析某领域高被引论文形成的引文网络。请计算该子网络中所有论文间的直接引用关系总数，以量化核心研究成果的交叉引用强度。",
+        "question": "To identify the current research frontier, it is necessary to analyze the citation network formed by highly cited papers in a particular field. Please calculate the total number of direct citation relationships among all papers in this subnetwork to quantify the intensity of cross-citation among core research outcomes.",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若某研究前沿的核心论文集群通过相互引用强度界定，请计算这些论文之间引用关系的总频次以量化其紧密程度。",
+        "question": "In the citation network of a research paper, if the core paper cluster of a certain research frontier is defined by the intensity of mutual citations, please calculate the total frequency of citation relationships among these papers to quantify their closeness.",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，某前沿领域的核心论文群内部存在多少条引用关系，用以衡量该领域知识传播的密集程度？",
+        "question": "In the citation network of academic papers, how many citation relationships exist within the core group of papers in a particular frontier field, in order to measure the intensity of knowledge dissemination in that field?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，为分析近五年内人工智能领域的研究前沿，需统计该领域所有论文间的引用关系次数，请计算当前网络中此类引用边的总数。",
+        "question": "In the citation network of academic papers, to analyze the research frontiers in the field of artificial intelligence over the past five years, it is necessary to count the total number of citation relationships between all papers in this field. Please calculate the total number of such citation edges in the current network.",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为确定当前研究前沿的核心论文群，需分析近三年内高被引论文间的引用活跃度，请计算该时间段内所有论文节点形成的直接引用关系总数。",
+        "question": "To identify the core group of papers at the forefront of current research, it is necessary to analyze the citation activity among highly cited papers from the past three years. Please calculate the total number of direct citation relationships formed by all paper nodes within this time period.",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在研究论文引文网络中，若需识别当前某新兴领域的研究前沿，需统计支撑该领域核心论文群的关键引用关系数量，请问该网络中总共存在多少条直接引用路径用于维持这些核心文献的知识流动？",
+        "question": "In the citation network of research papers, if one needs to identify the research frontiers of a current emerging field, it is necessary to count the number of key citation relationships supporting the core papers in that field. Could you tell me how many direct citation paths exist in this network to maintain the knowledge flow of these core documents?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，为识别近期研究前沿的核心文献簇，需量化领域内知识流动强度，请计算该簇内所有论文间存在的单向引用关系总数。",
+        "question": "In the citation network of papers, to identify the core literature cluster at the forefront of recent research, it is necessary to quantify the intensity of knowledge flow within the field. Please calculate the total number of unidirectional citation relationships among all the papers in this cluster.",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在论文引文网络中，某新兴研究领域的核心文献群内部存在高频引用互动，为量化该方向的知识流动强度，需计算其子网络中所有直接引用关系的总数量。",
+        "question": "In the citation network of academic papers, there exists a high frequency of citation interactions within the core literature group of a particular emerging research field. To quantify the intensity of knowledge flow in this direction, it is necessary to calculate the total number of direct citation relationships within its subnetwork.",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，为识别某研究领域的前沿方向，需统计该领域内所有论文间的直接引用活跃度。请计算该前沿领域中所有论文之间的引用次数总和，以量化其学术关联强度。",
+        "question": "In the citation network of a paper, to identify the frontier directions of a specific research field, it is necessary to calculate the direct citation activity among all papers in that field. Please compute the total number of citations among all papers in this frontier area to quantify their academic关联强度.",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了识别近五年某领域的研究前沿主题，需要统计核心高被引论文群之间的所有直接引用次数，请问该研究前沿主题内存在的引用关系总数是多少？",
+        "question": "To identify the forefront research themes in a specific field over the past five years, it is necessary to count the total number of direct citations among the core high-citation papers. May I ask what the total number of citation relationships within this research forefront theme is?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为了识别当前研究前沿的核心文献群中知识流动的活跃程度，需要计算该论文引文网络中所有节点间的直接引用关系总数是多少？",
+        "question": "To identify the level of knowledge flow among the core literature of the current research frontier, it is necessary to calculate the total number of direct citation relationships among all nodes in the citation network of the paper.",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为追踪某领域研究前沿，需计算核心论文群内所有高被引文献间的引用关系总数，这些高频互引形成的网络链路总量是多少？",
+        "question": "To track the cutting-edge research in a particular field, it is necessary to calculate the total number of citation relationships among all highly cited papers within the core group. What is the total number of network links formed by these frequently mutual citations?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为准确评估某研究领域的发展活跃度，需分析该领域近三年发表的论文在引文网络中形成的相互引用关系，请计算这些核心论文节点之间所有直接引用的边数量总和。",
+        "question": "To accurately assess the development activity of a specific research field, it is necessary to analyze the inter-citation relationships formed by the papers published in that field over the past three years within the citation network. Please calculate the total number of direct citation edges among these core paper nodes.",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了识别当前论文引文网络中的研究前沿，需统计所有高活跃度主题内部的核心论文间引用关系的密集程度，请计算该网络中表征学术关联强度的直接引用行为总数？",
+        "question": "To identify the research frontiers within the current citation network of the paper, it is necessary to statistically analyze the density of citation relationships among core papers within all highly active topics. Please calculate the total number of direct citation actions that represent academic association strength within this network.",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在论文引文网络中，某新兴领域的研究前沿被定义为近期高频互引的论文集群。若要评估该领域内部的知识流动强度，需计算当前网络中所有论文之间单向引用关系的总次数，请问这一指标的具体数值是多少？",
+        "question": "In the citation network of a paper, the research frontier of an emerging field is defined as a cluster of papers that frequently cite each other recently. To assess the intensity of knowledge flow within this field, one needs to calculate the total number of unidirectional citations among all papers in the current network. Could you please provide the specific value of this metric?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，为识别当前研究前沿的核心文献群，需统计其中所有高被引论文之间的相互引用次数。请问该文献群内存在的直接引用关系总数是多少？",
+        "question": "In the citation network of literature, to identify the core group of literature at the current research frontier, it is necessary to count the total number of mutual citations among all highly cited papers. What is the total number of direct citation relationships that exist within this group of literature?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了检测当前论文引文网络中的研究前沿领域，需统计高频关联的核心文献群内部引用强度，请计算该网络中所有直接引用关系的总数量。",
+        "question": "To detect the research frontier areas in the current citation network of the paper, it is necessary to statistically analyze the citation strength within the core literature groups that are frequently associated. Please calculate the total number of all direct citation relationships in this network.",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，为评估生物信息学领域研究前沿的核心文献群规模，需计算该领域近五年所有论文之间的单向引用关系总数，具体数值是多少？",
+        "question": "In the citation network of academic papers, to assess the scale of the core literature group at the forefront of research in the field of bioinformatics, it is necessary to calculate the total number of one-way citation relationships among all papers in the field over the past five years. What is the specific figure?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若某研究前沿领域由最近一年内被高频引用的论文构成，这些论文间形成的直接引用关系总次数是多少？",
+        "question": "In the citation network of academic papers, if a certain research frontier is comprised of papers that have been frequently cited within the past year, what is the total number of direct citation relationships formed among these papers?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为了评估当前研究前沿的活跃程度，需要计算论文引文网络中所有文献之间的引用关系总数量，请问总共有多少条？",
+        "question": "To assess the level of activity in the current research frontier, it is necessary to calculate the total number of citation relationships among all the literature in the paper citation network. May I ask how many citations there are in total?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，为定位当前研究前沿的核心文献群，需量化其内部引用关联强度，请计算该文献群中所有论文之间存在的直接引用边总数是多少？",
+        "question": "In the citation network of the paper, to identify the core literature group at the forefront of current research, it is necessary to quantify the strength of internal citation connections. Please calculate the total number of direct citation edges existing among all the papers in this literature group.",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若要分析基于Transformer的预训练语言模型这一研究前沿的活跃程度，需计算该领域核心论文节点间所有直接引用关系的总和。当前网络中符合条件的引用数量是多少？",
+        "question": "In the citation network of academic papers, to analyze the activity level of research on Transformer-based pre-trained language models, it is necessary to calculate the total number of direct citation relationships among the core paper nodes in this field. What is the current number of eligible citations in the network?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，若要分析近五年内研究前沿的核心论文群，需计算这些论文之间因相互引用形成的所有直接引用关系的总数，请问该研究前沿区域中共包含多少条引用边？",
+        "question": "In the citation network of papers, to analyze the core group of papers at the forefront of research from the past five years, it is necessary to calculate the total number of direct citation relationships formed by mutual citations among these papers. How many citation edges are there in this research frontier area?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在论文引文网络中，研究前沿通常由近期高被引论文及其关联构成。若要量化某领域研究热点的传播强度，需计算该网络中所有论文节点间引用关系的总量，请问应如何直接得出这一指标的具体数值？",
+        "question": "In the citation network of research papers, the research frontier is often composed of recent highly cited papers and their associations. To quantify the propagation intensity of research hotspots in a specific field, it is necessary to calculate the total number of citation relationships among all paper nodes in that network. How can we directly derive the specific numeric value of this indicator?",
+        "label": "Edge_Count",
+        "type": "研究前沿检测",
+        "true_count": 19,
+        "weak_count": 1
+    }
+]

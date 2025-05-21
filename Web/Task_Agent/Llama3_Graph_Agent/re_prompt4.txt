@@ -1,0 +1,6 @@
+For validating your API selection, the validation principles are as follows:
+1.If the tool you invoke cannot directly provide the final result required for the problem after execution, the result is False.
+2.Otherwise, your answer is True.
+The answer format is:
+Thought:
+Answer:

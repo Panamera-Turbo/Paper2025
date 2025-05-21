@@ -1,0 +1,802 @@
+[
+    {
+        "origin_question": "当前网络希望通过分析用户的单向关注关系进行社群划分，从而优化“可能认识的人”推荐策略。若每个连通组件代表一个独立社群，请计算出当前网络中共有多少个需要建立不同推荐策略的基础社群数量？",
+        "question": "The current network hopes to optimize the \"people you may know\" recommendation strategy by analyzing users' one-way follow relationships to divide communities. If each connected component represents an independent community, please calculate the total number of basic communities in the current network that need to establish different recommendation strategies.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请计算出当前社交网络中的连通组件总数，从而识别出潜在的独立社群数量，为未关注的用户推荐策略提供依据？",
+        "question": "Please calculate the total number of connected components in the current social network to identify the potential number of independent communities, providing a basis for recommendation strategies for users who have not followed.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 9,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "请根据当前网络的单向关注关系，计算出连通组件总数，以确定平台中独立社群的数量，从而优化基于社群划分的用户推荐策略。",
+        "question": "Please calculate the total number of connected components based on the one-way follow relationships of the current network to determine the number of independent communities on the platform, thereby optimizing the user recommendation strategy based on community divisions.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请计算出当前社交网络中连通组件的总数，从而识别出潜在的不同用户社群，为尚未关注的同社群用户推荐功能提供数据支持。",
+        "question": "Please calculate the total number of connected components in the current social network to identify potential different user communities and provide data support for recommending users from the same community who have not yet been followed.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为优化当前网络的用户推荐策略，需根据关注关系确定独立社群数量以进行分组推荐，请通过连通组件分析计算出该社交网络中共有多少个互不关联的用户群体？",
+        "question": "To optimize the user recommendation strategy of the current network, it is necessary to determine the number of independent communities based on the relationships of interest for group recommendations. Please calculate the number of unconnected user groups in this social network through connected component analysis.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前网络希望通过分析用户关注关系识别不同社群，从而优化推荐策略以减少跨社群推荐次数，提升推荐准确率。请计算出该网络的社群总数，即连通组件数量。",
+        "question": "The current network aims to identify different communities by analyzing user relationships, thereby optimizing recommendation strategies to reduce cross-community recommendation occurrences and improve recommendation accuracy. Please calculate the total number of communities in the network, that is, the number of connected components.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了优化用户推荐策略，需要分析当前网络中的社群结构。请通过用户的关注关系计算出该网络中存在多少个互不连通的独立群体？",
+        "question": "To optimize the user recommendation strategy, it is necessary to analyze the community structure of the current network. Please calculate how many independent groups exist in this network that are not connected to each other based on the users' following relationships.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络希望通过分析用户关注关系划分独立社群，以便进行精准的社群化内容推荐。若将互相关注的用户群体视为同一连通组件，请计算出该网络中共有多少个互不关联的用户社群？",
+        "question": "The current social network aims to divide independent communities by analyzing user follow relationships in order to make precise community-based content recommendations. If users who follow each other are regarded as the same connected component, please calculate how many unconnected user communities are present in this network.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请计算出当前网络中的连通组件总数，以确定平台中存在多少个独立社群，从而为精准推荐潜在关联用户提供依据。",
+        "question": "Please calculate the total number of connected components in the current network to determine how many independent communities exist within the platform, providing a basis for accurately recommending potential related users.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请计算出当前网络中的连通组件总数，以确定平台中存在多少个互不关联的用户群体，从而为精准化社群发现和跨群体推荐策略提供基础支撑？",
+        "question": "Please calculate the total number of connected components in the current network to determine how many disjoint user groups exist on the platform, thus providing foundational support for precise community discovery and cross-group recommendation strategies.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前网络中存在用户间的单向关注关系，为识别潜在的兴趣社群并优化好友推荐策略，请计算出该社交网络中互不连通的用户社群总数？",
+        "question": "In the current network, there exists a one-way following relationship among users. To identify potential interest communities and optimize friend recommendation strategies, please calculate the total number of unconnected user communities in this social network.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络中用户通过单向关注形成关系链，平台需根据连通社群数量划分兴趣群体以优化推荐策略，请计算出该网络中存在多少个互不连通的用户群体？",
+        "question": "In the current social network, users form relationship chains through unidirectional following. The platform needs to categorize interest groups based on the number of connected communities to optimize recommendation strategies. Please calculate how many mutually disconnected user groups exist in this network?",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前网络调整了用户推荐策略后，希望了解平台中实际存在多少个完全独立的用户社群，以便针对性地优化信息流分发机制，请通过社群发现算法计算出连通组件的总数。",
+        "question": "After adjusting the user recommendation strategy, I hope to understand how many completely independent user communities actually exist on the platform, in order to optimize the information flow distribution mechanism specifically. Please calculate the total number of connected components using a community discovery algorithm.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请计算出当前网络中的连通组件总数，以发现潜在的独立社群并为用户推荐可能感兴趣的关联群体。",
+        "question": "Please calculate the total number of connected components in the current network to identify potential independent communities and recommend related groups that users may be interested in.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 9,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "请根据当前社交网络中用户的单向关注关系，计算出连通组件总数，从而分析平台内存在多少个互不关联的兴趣社群，为优化潜在用户推荐策略提供依据。",
+        "question": "Based on the one-way following relationships of users in the current social network, calculate the total number of connected components to analyze how many unrelated interest communities exist within the platform, providing a basis for optimizing potential user recommendation strategies.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络中，用户间的单向关注关系形成了多个独立群体。为了优化社群发现和用户推荐策略，需要明确当前网络中存在多少个互不连通的用户群体。请根据关注关系数据计算出连通组件总数。",
+        "question": "In the current social network, the one-way following relationships among users have formed multiple independent groups. In order to optimize community discovery and user recommendation strategies, it is necessary to clarify how many disconnected user groups exist in the current network. Please calculate the total number of connected components based on the following relationship data.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前网络希望通过分析用户关注关系识别潜在社群结构，若推荐系统需为每个用户至少推荐一个其他社群成员以促进跨群连接，请计算出最少需要多少条推荐才能覆盖所有独立社群？",
+        "question": "The current network hopes to identify potential community structures by analyzing user interest relationships. If the recommendation system needs to recommend at least one other community member for each user to promote cross-group connections, please calculate the minimum number of recommendations required to cover all independent communities.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 8,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析当前社交网络用户关注关系时，如何通过识别连通组件来划分独立社群，从而优化用户推荐策略以避免跨社群推荐不相关内容？请计算出当前网络的连通组件总数。",
+        "question": "In analyzing the current social network user attention relationships, how can we identify connected components to divide independent communities, thereby optimizing user recommendation strategies to avoid recommending irrelevant content across communities? Please calculate the total number of connected components in the current network.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络希望通过识别用户社群的分布来优化推荐策略，若将单向关注关系视为连接，请计算出该网络的连通组件总数以确定独立社群数量。",
+        "question": "The current social networks aim to optimize recommendation strategies by identifying the distribution of user communities. If we consider one-way follow relationships as connections, please calculate the total number of connected components in the network to determine the number of independent communities.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交平台希望通过分析用户关注关系来划分潜在兴趣社群，从而优化推荐算法。请根据单向关注网络计算出连通组件总数，以确定当前网络中存在多少个独立用户群体。",
+        "question": "Current social platforms aim to divide potential interest communities by analyzing user follow relationships to optimize recommendation algorithms. Please calculate the total number of connected components based on the unidirectional follow network to determine how many independent user groups exist in the current network.",
+        "label": "Connected Components",
+        "type": "社群发现与用户推荐",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络中，信息只能在同一连通组件内传播。请计算出该网络的连通组件总数，以确定一条信息最多能同时扩散到多少个独立群体？",
+        "question": "In the current social network, information can only spread within the same connected component. Please calculate the total number of connected components in the network to determine how many independent groups a piece of information can spread to simultaneously.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请计算出当前网络中的连通组件总数，以评估信息在独立群体间的最大潜在传播范围。",
+        "question": "Please calculate the total number of connected components in the current network to assess the maximum potential spread of information among independent groups.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析当前网络的信息传播效率时，发现若用户群体存在多个互不连通的子社群，信息将无法触达全部成员。请通过关注关系计算出该社交网络的连通组件总数，从而判断信息能否仅通过单次传播覆盖整个网络。",
+        "question": "When analyzing the information dissemination efficiency of the current network, it is found that if there are multiple disconnected sub-communities within the user group, the information will not reach all members. Please calculate the total number of connected components in the social network based on the relationship connections, in order to determine whether the information can cover the entire network through a single transmission.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在当前网络中，若一条信息从任意用户出发只能通过单向关注关系传播，为确保分析信息传播的最大潜在覆盖范围，请计算出该网络中存在多少个互不连通的用户群体？",
+        "question": "In the current network, if a piece of information can only spread from any user through unidirectional follow relationships, to ensure the maximum potential coverage of analyzing information propagation, please calculate how many disconnected user groups exist in this network.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析当前网络的信息传播效率时，若两个用户间至少存在一条单向关注路径则可实现信息触达，请计算出该社交网络中无法通过任何关注链建立连接的独立用户群体总数。",
+        "question": "When analyzing the information dissemination efficiency of the current network, if there is at least one one-way follow path between two users, information can be reached. Please calculate the total number of independent user groups in the social network that cannot establish connections through any follow chain.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在当前社交网络中，信息传播路径的覆盖范围直接影响舆情扩散效率。若两个用户之间存在单向或双向关注链则视为同一传播域，请计算出该网络中共有多少个互不连通的独立传播域？",
+        "question": "In the current social network, the coverage of information dissemination paths directly affects the efficiency of public opinion dissemination. If there is a one-way or two-way attention chain between two users, they are considered to be in the same dissemination domain. Please calculate the total number of mutually disconnected independent dissemination domains in this network.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 9,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析当前网络的信息传播路径时，若信息只能通过用户的单向关注关系逐层扩散，那么该网络中存在多少个完全独立的传播范围？请计算出这些互不连通的群体总数。",
+        "question": "When analyzing the information dissemination paths in the current network, if the information can only spread layer by layer through the users' unidirectional attention relationships, how many completely independent dissemination ranges exist in this network? Please calculate the total number of these disjoint groups.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了分析当前网络中信息传播路径的覆盖范围，需确定信息最多能同时触达多少个互不连通的用户群体，请计算出该社交网络的连通组件总数。",
+        "question": "To analyze the coverage of information dissemination paths in the current network, it is necessary to determine the maximum number of disconnected user groups that information can reach simultaneously. Please calculate the total number of connected components in this social network.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在当前社交网络中，信息只能通过关注关系单向传播。请计算出该网络的连通组件总数，以确定信息最多可以同时覆盖多少个互不连通的用户群体？",
+        "question": "In the current social network, information can only be propagated unidirectionally through the following relationships. Please calculate the total number of connected components in the network to determine how many mutually disconnected user groups the information can cover at most simultaneously.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 8,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了分析当前网络中的信息传播路径，若信息只能在连通组件内部扩散，请计算出该网络中存在多少个互不连通的用户群体以评估信息传播的最大范围？",
+        "question": "To analyze the information dissemination paths in the current network, if the information can only spread within connected components, please calculate how many disconnected user groups exist in the network to assess the maximum range of information dissemination.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在当前社交网络中，信息只能通过单向关注关系传播。若每条传播路径的终点无法反向影响起点，请计算出该网络中存在多少个互不连通的用户群体，即信息无法通过任何路径在这些群体间传递的独立组件数量？",
+        "question": "In the current social network, information can only be disseminated through one-way follow relationships. If the endpoint of each dissemination path cannot inversely influence the starting point, please calculate how many mutually disconnected user groups exist in the network, that is, the number of independent components where information cannot be transmitted between these groups through any path.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 9,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在当前网络中，若信息只能通过关注关系单向传播，为分析信息传播路径的最大潜在影响范围，请计算出该社交网络的连通组件总数。",
+        "question": "In the current network, if information can only be propagated unidirectionally through follow relationships, please calculate the total number of connected components in the social network to analyze the maximum potential impact range of information dissemination.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在当前社交网络中，信息只能通过单向关注关系传播，若要分析某条信息最多可能触达多少个完全无法相互传播的独立用户集群，请计算出代表这些信息孤岛的连通组件总数。",
+        "question": "In the current social network, information can only be disseminated through unidirectional following relationships. To analyze how many independent user clusters, which cannot transmit information to each other, a piece of information could potentially reach, please calculate the total number of connected components that represent these information islands.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 9,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为了分析当前网络中的信息传播范围，需明确信息能通过关注关系自然触达的独立用户集群数量。请计算出该社交网络的连通组件总数以确定存在多少个互不连通的传播孤岛。",
+        "question": "To analyze the scope of information dissemination in the current network, it is necessary to clarify the number of independent user clusters that information can naturally reach through attention relationships. Please calculate the total number of connected components in this social network to determine how many separate information islands exist.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前网络中的信息传播效率受到用户群体间连通性的影响。请计算出连通组件总数，以确定信息可能被限制在多少个无法互通的独立子群体中？",
+        "question": "The efficiency of information dissemination in the current network is affected by the connectivity among user groups. Please calculate the total number of connected components to determine in how many disjoint independent subgroups the information might be restricted.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在当前社交网络中，若信息只能通过关注关系单向传播，请计算出存在多少个互不连通的用户群体，这些群体间的信息无法通过任何路径触达彼此？",
+        "question": "In the current social network, if information can only be disseminated unidirectionally through follower relationships, how many disconnected user groups exist where information cannot reach each other through any path?",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络中，若信息仅能沿关注关系单向传播，若要分析一条信息最多能同时触达多少个彼此完全独立的用户群体，请计算出该网络的连通组件总数。",
+        "question": "In the current social network, if information can only propagate unidirectionally along the following relationships, to analyze how many completely independent user groups a piece of information can reach simultaneously, please calculate the total number of connected components in the network.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了分析当前网络中信息传播的最大潜在范围，需要确定用户群体被划分为多少个独立子群，其中每个子群内的任意用户发布的内容都能通过关注关系链扩散至同子群所有成员。请计算出该网络的连通组件总数。",
+        "question": "To analyze the maximum potential scope of information dissemination in the current network, it is necessary to determine how many independent subgroups the user population is divided into, where any user's content within each subgroup can spread to all members of the same subgroup through the chain of following relationships. Please calculate the total number of connected components in the network.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了分析当前网络中信息传播的最大潜在范围，需要明确信息能够触达的独立用户群体数量。请根据关注关系计算出该社交网络的连通组件总数。",
+        "question": "To analyze the maximum potential range of information dissemination in the current network, it is necessary to clarify the number of independent user groups that can be reached by the information. Please calculate the total number of connected components in the social network based on the relationship of followers.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了评估当前网络的信息传播有效性，需确定用户群体被分割为多少个互不连通的子群。请通过关注关系计算出该网络的连通组件总数。",
+        "question": "In order to evaluate the effectiveness of information dissemination in the current network, it is necessary to determine how many mutually disconnected subgroups the user population is divided into. Please calculate the total number of connected components in the network based on the relationship dynamics.",
+        "label": "Connected Components",
+        "type": "信息传播路径分析",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在虚假账号检测中，发现异常账号常通过批量关注形成独立群组。请计算出当前网络的连通组件总数，以辅助识别可能存在闭环关注的虚假集群。",
+        "question": "In the detection of fraudulent accounts, it is found that abnormal accounts often form independent groups through bulk following. Please calculate the total number of connected components in the current network to assist in identifying potential closed-loop following fraudulent clusters.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络中，部分虚假账号通过互相关注形成孤立群体以逃避检测，请计算出这些潜在虚假网络的数量，即不与其他正常用户产生关注关联的独立集群总数。",
+        "question": "In the current social network, some fake accounts form isolated groups by mutually following each other to evade detection. Please calculate the number of these potential fake networks, which is the total number of independent clusters that do not have follow relationships with other normal users.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在虚假账号检测中，常通过识别异常密集的关注关系群组来定位可疑账号。当前网络中可能存在多个由虚假账号构成的互相关注集群，请计算出该网络的连通组件总数，以辅助识别这类异常群体。",
+        "question": "In false account detection, suspicious accounts are often identified by recognizing groups of abnormally dense mutual follower relationships. There may be multiple clusters of mutual following made up of false accounts in the current network. Please calculate the total number of connected components in this network to assist in identifying such abnormal groups.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了检测当前网络中的虚假账号，通常这些账号会形成孤立的关注群组。请通过计算连通组件总数，判断可能存在多少个虚假账号集群？",
+        "question": "To detect fake accounts in the current network, these accounts typically form isolated groups of followers. Please determine how many clusters of fake accounts may exist by calculating the total number of connected components.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前网络安全团队发现异常账号可能通过互相关注形成独立小群体来逃避检测，请计算出该社交网络的连通组件总数，从而辅助识别潜在虚假账号集群的数量。",
+        "question": "The current cybersecurity team has found that abnormal accounts may form independent small groups through mutual following to evade detection. Please calculate the total number of connected components in this social network to assist in identifying the potential number of fake account clusters.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前网络中存在多个虚假账号群组，这些群组内的账号仅互相单向关注且不与真实用户产生连接。请问通过分析关注关系，应如何计算出这些孤立虚假群组的总数以协助平台清理工作？",
+        "question": "Currently, there are multiple groups of fake accounts in the network, where the accounts only follow each other in a one-way manner and do not connect with real users. How can we calculate the total number of these isolated fake groups through analyzing the follow relationships to assist the platform in its cleanup efforts?",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 6,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "当前社交网络中疑似存在多个虚假账号集群，虚假账号通常形成内部紧密但互不关注外部的孤立群体，而正常用户则呈现广泛连接。请计算出该网络的连通组件总数，以辅助检测虚假账号数量。",
+        "question": "There are suspected multiple clusters of fake accounts in the current social network. Fake accounts typically form isolated groups that are closely connected internally but do not follow each other externally, while normal users show extensive connections. Please calculate the total number of connected components in the network to assist in detecting the number of fake accounts.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在检测当前网络中的虚假账号时，发现虚假账号常通过互相关注形成多个孤立小群体，而正常用户通常属于少数大型连通组件。请计算出当前网络的连通组件总数，为识别异常集群提供依据。",
+        "question": "When detecting fake accounts in the current network, it has been found that fake accounts often form multiple isolated small groups through mutual following, while normal users usually belong to a few large connected components. Please calculate the total number of connected components in the current network to provide a basis for identifying anomalous clusters.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了检测当前网络中的虚假账号，已知虚假账号通常形成互不关联的独立群体。请计算出该网络的连通组件总数，以确定可能存在多少这样的异常账号集群。",
+        "question": "To detect fake accounts in the current network, it is known that fake accounts usually form unconnected independent groups. Please calculate the total number of connected components in the network to determine how many such abnormal account clusters may exist.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了识别当前网络中潜在的虚假账号集群，已知虚假账号通常不会关注真实用户且形成独立闭环群体。请通过连通组件分析计算出当前网络中存在多少个互不关联的虚假账号群组。",
+        "question": "To identify potential clusters of fake accounts in the current network, it is known that fake accounts typically do not follow real users and form independent closed-loop groups. Please calculate the number of unconnected groups of fake accounts present in the current network through connected component analysis.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在检测当前网络中的虚假账号时，发现虚假账号常通过单向关注形成独立闭环集群。若每个互不连通的子图代表一个潜在虚假团伙，请计算出该网络的组件总数以辅助识别异常群体数量。",
+        "question": "When detecting fake accounts in the current network, it was found that fake accounts often form independent closed-loop clusters through unilateral following. If each disconnected subgraph represents a potential fake group, please calculate the total number of components in the network to assist in identifying the number of abnormal groups.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 8,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "当前网络的虚假账号检测团队发现，异常账号集群通常内部关注关系密集但与外部节点几乎无连接。请计算出当前网络的连通组件总数，以辅助判断可能存在多少个独立运作的虚假账号群组。",
+        "question": "The current fake account detection team on the network has discovered that abnormal account clusters typically have dense internal connections but almost no connections to external nodes. Please calculate the total number of connected components in the current network to assist in determining the possible number of independently operating fake account groups.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络中，虚假账号常通过互相关注形成独立小团体以逃避检测，而真实用户群体间存在广泛连接。请计算出该网络的连通组件总数，从而识别出潜在虚假账号集群的数量。",
+        "question": "In the current social network, fake accounts often form independent small groups through mutual following to evade detection, while there are extensive connections among genuine user groups. Please calculate the total number of connected components in the network to identify the number of potential fake account clusters.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 9,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "当前社交网络中，虚假账号通常形成多个互不关注的独立集群。请计算出该网络的连通组件总数，以帮助识别可能存在的虚假账号群组数量。",
+        "question": "In the current social network, fake accounts usually form multiple independent clusters that do not follow each other. Please calculate the total number of connected components in the network to help identify the possible number of fake account groups.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在检测当前网络中的虚假账号时，发现虚假账号集群通常通过单向关注形成孤立子图且不与真实用户连通。请计算出该网络的连通组件总数，以确定可能存在多少个彼此独立的虚假账号群组？",
+        "question": "When detecting fake accounts in the current network, it was found that clusters of fake accounts typically form isolated subgraphs through one-way followings and do not connect with real users. Please calculate the total number of connected components in the network to determine how many potentially independent groups of fake accounts may exist.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在检测当前网络中的虚假账号时，通常虚假账号会形成多个小型紧密关注集群，而真实用户则更多分散在较大的连通组件中。请计算出当前网络的连通组件总数，以判断是否存在异常数量的小型集群。",
+        "question": "When detecting fake accounts in the current network, fake accounts typically form multiple small tightly-knit clusters, while real users are more dispersed within larger connected components. Please calculate the total number of connected components in the current network to determine if there is an abnormal number of small clusters.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在检测当前网络中的虚假账号时，发现异常账号常通过单向关注形成多个孤立小群体。请计算出该网络的连通组件总数，以确定可能存在多少需重点核查的虚假集群。",
+        "question": "When detecting fake accounts in the current network, it is found that abnormal accounts often form multiple isolated subgroups through unidirectional follows. Please calculate the total number of connected components in the network to determine how many suspicious clusters may require further investigation.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在检测当前网络中的虚假账号时，发现虚假账号常通过单向关注形成多个互不连通的密集小群体，而真实用户连接相对分散，请计算出该社交网络的连通组件总数以辅助识别异常集群。",
+        "question": "When detecting fake accounts in the current network, it is found that fake accounts often form multiple densely connected small groups that are not interconnected through one-way follows, while real users have relatively dispersed connections. Please calculate the total number of connected components in this social network to assist in identifying abnormal clusters.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 9,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "当前社交网络中部分账号存在异常关注行为，虚假账号往往通过闭环关注形成独立集群。已知这些集群内部关注关系紧密但与真实用户无连接，请通过计算连通组件的总数判断当前网络中共存在多少个需重点核查的虚假账号群组？",
+        "question": "In the current social network, some accounts exhibit abnormal following behavior, where fake accounts often form independent clusters through closed-loop following. It is known that the internal following relationships within these clusters are close but have no connections with real users. Please determine the total number of connected components to assess how many suspicious groups of fake accounts need to be investigated.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前网络中存在多个疑似虚假账号群组，这些群组内部关注关系紧密但群组间无任何连接。请通过计算连通组件的总数，帮助判断是否存在大量协同作假的虚假账号群组。",
+        "question": "There are several suspected fake account groups in the current network, where the relationships within the groups are closely connected, but there is no connection between the groups. Please help determine whether there are large groups of fake accounts collaborating in fraud by calculating the total number of connected components.",
+        "label": "Connected Components",
+        "type": "虚假账号检测",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在当前网络中，若希望通过影响力最大化策略选择关键用户以提升信息传播范围，需先评估当前网络的连通组件总数作为基准。请计算出该网络中共有多少个连通组件？",
+        "question": "In the current network, if we wish to select key users to maximize influence and enhance the information dissemination range, we need to first assess the total number of connected components in the current network as a baseline. How many connected components are there in this network?",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在影响力最大化策略中，确定初始传播源时需要优先覆盖不同连通区域的代表节点。请根据当前网络的关注关系，计算出连通组件总数以评估最小覆盖范围。",
+        "question": "In the strategy of maximizing influence, when determining the initial diffusion source, priority should be given to covering representative nodes from different connected regions. Please calculate the total number of connected components based on the current network's attention relationships to assess the minimum coverage area.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在影响力最大化策略中，当前网络的结构紧密程度直接影响信息扩散范围。为评估该策略是否有效降低了用户群体间的隔离性，请计算出当前网络的连通组件总数。",
+        "question": "In the strategy of maximizing influence, the structural density of the current network directly affects the range of information diffusion. To evaluate whether this strategy has effectively reduced the isolation between user groups, please calculate the total number of connected components in the current network.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在当前社交网络中，平台为提升信息传播效率实施了影响力最大化策略，部分核心用户被优先推荐以增加关注关系。请计算出策略调整后，整个网络中被不同关注链路连接形成的独立连通组件总数。",
+        "question": "In the current social network, platforms implement influence maximization strategies to enhance the efficiency of information dissemination, with some core users being prioritized for recommendations to increase follower relationships. Please calculate the total number of independent connected components formed by different follower linkages throughout the entire network after the strategy adjustment.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为确保影响力最大化策略有效覆盖当前网络中的所有独立社群，需先确定连通组件数量以规划初始传播节点。请计算出当前网络的连通组件总数。",
+        "question": "To ensure that the strategy for maximizing impact effectively covers all independent communities in the current network, the number of connected components must first be determined in order to plan the initial dissemination nodes. Please calculate the total number of connected components in the current network.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请计算出当前社交网络的连通组件总数，以评估影响力最大化策略是否需要优先连接关键群体间的桥梁节点，从而确保信息传播覆盖更多独立社区。",
+        "question": "Please calculate the total number of connected components in the current social network to assess whether the influence maximization strategy should prioritize connecting bridge nodes between key groups, thereby ensuring that information dissemination covers more independent communities.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在影响力最大化策略中，当前网络的连通组件数量直接影响需要覆盖的初始传播者数量。若每个连通组件至少需1个初始节点来激活整个群体，请计算出当前网络中共有多少个需要被优先覆盖的独立传播单元？",
+        "question": "In the strategy of maximizing influence, the number of connected components in the current network directly affects the number of initial spreaders that need to be covered. If each connected component requires at least one initial node to activate the entire group, please calculate how many independent spreading units in total need to be prioritized for coverage in the current network.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 9,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在影响力最大化策略中，若需评估当前网络的信息传播效率，请计算出其连通组件总数，从而确定至少需要覆盖多少个核心子社区才能触达全网络用户。",
+        "question": "In the strategy of maximizing influence, if you need to assess the information dissemination efficiency of the current network, please calculate the total number of its connected components to determine how many core sub-communities must be covered at a minimum to reach all users in the network.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在影响力最大化策略中，通过关键用户传播信息以提升覆盖范围。请计算出当前网络中连通组件的总数，以评估网络结构的整合效果。",
+        "question": "In the strategy of maximizing influence, information is spread through key users to enhance coverage. Please calculate the total number of connected components in the current network to assess the integration effect of the network structure.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在实施影响力最大化策略时，需要优先选择能将不同连通组件连接起来的用户。请根据当前网络的单向关注关系，计算出连通组件总数以确定潜在的关键传播者数量。",
+        "question": "When implementing a strategy to maximize influence, priority should be given to users who can connect different connected components. Please calculate the total number of connected components based on the current unidirectional following relationships to determine the potential number of key spreaders.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络正在测试一种基于推荐关注的影响力最大化策略，若用户被推荐后会自动关注高影响力节点，这种策略可能通过减少孤立群体来增强网络连接性。请计算出实施该策略后，网络中剩余的连通组件总数是多少？",
+        "question": "The current social network is testing an influence maximization strategy based on recommended follows, where users automatically follow high-influence nodes after being recommended. This strategy may enhance network connectivity by reducing isolated groups. Please calculate the total number of remaining connected components in the network after implementing this strategy.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 9,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在影响力最大化策略中，初始传播者需要覆盖所有独立社群才能实现全域影响，请计算出当前网络中的连通组件总数，以确定至少需要覆盖多少个独立传播源？",
+        "question": "In the strategy of maximizing influence, the initial spreaders need to cover all independent communities to achieve global influence. Please calculate the total number of connected components in the current network to determine how many independent spreaders need to be covered at a minimum.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在实施影响力最大化策略时，为了确保信息能覆盖所有潜在用户群体，需要根据当前网络的连通组件总数确定最少初始传播用户数量。请计算出该社交网络的连通组件总数。",
+        "question": "When implementing a strategy to maximize influence, in order to ensure information can reach all potential user groups, it is necessary to determine the minimum initial number of spreading users based on the total number of connected components in the current network. Please calculate the total number of connected components in this social network.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在当前社交网络中，平台计划通过影响力最大化策略选择关键用户进行信息推广，若这些用户能有效连通不同群体，请计算出实施该策略后整个网络的连通组件总数，以评估是否减少孤立群体并提升传播效率。",
+        "question": "In the current social network, the platform plans to select key users for information promotion through an influence maximization strategy. If these users can effectively connect different groups, please calculate the total number of connected components in the entire network after implementing this strategy to evaluate whether it reduces isolated groups and enhances dissemination efficiency.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请计算出当前社交网络中连通组件的总数，以评估若选择每个组件中最活跃用户作为初始传播者，影响力最大化策略的潜在覆盖范围。",
+        "question": "Please calculate the total number of connected components in the current social network to assess the potential coverage of the influence maximization strategy if the most active users in each component are chosen as initial spreaders.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在制定影响力最大化策略时，若计划在每个连通组件中选择一个关键用户进行推广，请计算出当前网络的连通组件总数，以确定最少需要覆盖的独立群体数量。",
+        "question": "When formulating a strategy to maximize influence, if the plan is to select a key user for promotion in each connected component, please calculate the total number of connected components in the current network to determine the minimum number of independent groups that need to be covered.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在实施影响力最大化策略时，发现当前网络中不同社群的用户关注圈层存在明显区隔。若要确保信息传播覆盖所有潜在群体，请计算出当前网络包含多少个互不连通的独立用户集群？",
+        "question": "When implementing a strategy to maximize influence, it has been found that there are significant divisions in the user attention circles among different communities in the current network. To ensure that information dissemination covers all potential groups, please calculate how many disconnected clusters of independent users are present in the current network.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在影响力最大化策略中，若需通过分割网络结构降低信息传播成本，请计算出移除所有被选为影响力关键节点后，当前网络中剩余的连通组件总数是多少？",
+        "question": "In the strategy for maximizing influence, if we need to reduce the cost of information dissemination by splitting the network structure, please calculate the total number of remaining connected components in the current network after removing all selected critical influence nodes.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在评估影响力最大化策略时，发现当前网络中存在多个互不连通的社群，信息传播可能被结构隔离。请计算出该网络的连通组件总数，以确定至少需要多少初始传播节点才能覆盖所有独立社群？",
+        "question": "When evaluating strategies for maximizing influence, it was found that there are multiple disconnected communities in the current network, and information dissemination may be structurally isolated. Please calculate the total number of connected components in this network to determine the minimum number of initial propagation nodes needed to cover all independent communities.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在实施影响力最大化策略时，若需优先通过关键用户群体提升信息传播范围，当前网络中相互独立的信息扩散区域数量是多少？请根据连通组件计算结果说明该策略需覆盖的最小核心网络单元数。",
+        "question": "When implementing a strategy to maximize impact, if priority is given to enhancing the information dissemination range through key user groups, how many independent information diffusion regions are there in the current network? Please explain the minimum number of core network units that need to be covered by this strategy based on the results of the connected components calculation.",
+        "label": "Connected Components",
+        "type": "影响力最大化策略",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络中，初始阶段用户形成多个独立社群，随着时间推移部分用户开始单向关注其他社群成员，导致社群边界发生变化。请根据最新关注关系计算出网络演化后的连通组件总数。",
+        "question": "In the current social network, users in the initial stage form multiple independent communities. Over time, some users begin to follow members of other communities unidirectionally, causing changes in the community boundaries. Please calculate the total number of connected components after the network evolution based on the latest following relationships.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台近期因热门话题互动，用户关注关系经历了显著变化。请计算当前网络的连通组件总数，以分析网络结构是否呈现更紧密的连接趋势？",
+        "question": "Due to the recent interactions on hot topics on a certain social platform, the relationships among users have undergone significant changes. Please calculate the total number of connected components in the current network to analyze whether the network structure shows a trend of tighter connections.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在某个热点事件后，当前网络中的关注关系激增导致用户群体结构发生显著变化，请计算出事件发生后该社交网络的连通组件总数，分析大规模关注行为对网络凝聚力的影响。",
+        "question": "After a certain hot event, the surge in attention relationships in the current network has caused significant changes in the user group structure. Please calculate the total number of connected components in the social network after the event and analyze the impact of large-scale attention behavior on network cohesion.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析当前社交网络演化时，发现某事件后用户关注关系发生断裂，部分子群形成孤立社区。请计算此时网络中连通组件的总数，以量化评估该事件对网络结构的影响程度。",
+        "question": "When analyzing the evolution of current social networks, it has been found that after a certain event, user attention relationships break down, and some subgroups form isolated communities. Please calculate the total number of connected components in the network at this time to quantitatively assess the impact of this event on the network structure.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络在经历一次大规模用户迁移后，部分原有单向关注关系被自动解除。若迁移事件前后网络节点数量保持不变，请通过连通组件算法计算迁移事件发生后，当前网络中互不连通的用户群体总数是多少？",
+        "question": "After a large-scale user migration in the current social network, some existing unidirectional follow relationships have been automatically removed. If the number of network nodes remains unchanged before and after the migration event, please calculate the total number of user groups that are not mutually connected in the current network after the migration event using the connected components algorithm.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 8,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前网络经过多次用户迁移和关注行为变化后，部分独立社群因跨领域互动形成了新的连接。请计算出最新的连通组件总数，以评估当前网络结构的整合程度。",
+        "question": "After multiple user migrations and changes in attention behaviors, some independent communities have formed new connections due to cross-domain interactions. Please calculate the total number of the latest connected components to assess the integration level of the current network structure.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络在经历用户活跃度下降后，部分长期不登录用户的关注关系被系统自动解除，请计算此时网络中剩余的连通组件总数。",
+        "question": "After experiencing a decline in user activity, current social networks have automatically removed the connections of some long-term inactive users. Please calculate the total number of remaining connected components in the network at this time.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络经过用户激增阶段后，关注关系形成多个单向链路，请根据最新的关注拓扑结构计算出连通组件总数，以判断独立社交群体数量是否因用户增长而显著增加。",
+        "question": "After the surge in users, the current social network has formed multiple one-way links in the attention relationships. Please calculate the total number of connected components based on the latest attention topology to determine whether the number of independent social groups has significantly increased due to user growth.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 8,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析当前网络用户关注关系的动态演变时，发现近期大量用户相互关注后，整个社交网络的连通结构是否更加紧密？请计算出当前的连通组件总数。",
+        "question": "When analyzing the dynamic evolution of the关注关系 among current internet users, it has been observed that after a large number of users begin to mutually follow each other, does the overall connectivity structure of the social network become tighter? Please calculate the total number of connected components currently.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络中，用户初期因兴趣差异形成多个独立社群，随着跨领域关注行为增加，部分社群逐渐合并。请根据最新的关注关系，计算出当前网络的连通组件总数。",
+        "question": "In the current social network, users initially form multiple independent communities due to differences in interests. As cross-domain attention behaviors increase, some communities gradually merge. Please calculate the total number of connected components in the current network based on the latest attention relationships.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在近期用户关注关系动态变化后，部分用户新增了跨圈层关注行为，请根据最新的单向关注图谱计算出当前网络中的连通组件总数。",
+        "question": "After recent user attention to changes in relationship dynamics, some users have added cross-circle following behaviors. Please calculate the total number of connected components in the current network based on the latest unidirectional follow graph.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在用户关注关系动态演化的过程中，近期出现跨社群关注激增现象，请根据当前网络结构计算出连通组件总数。",
+        "question": "During the user's focus on the dynamic evolution of relationships, a recent surge in cross-community attention has emerged. Please calculate the total number of connected components based on the current network structure.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 9,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某次热点事件后，当前网络中多个用户群体发生跨社区关注，原本分离的三个兴趣圈层出现两两重叠。请根据最新的关注关系数据，计算出当前网络中共存在多少个互不连通的用户社群集合？",
+        "question": "After a recent trending event, multiple user groups in the current online network have developed cross-community attention, resulting in overlaps between three originally separate interest circles. Please calculate the number of mutually disconnected user community collections that currently exist in the network based on the latest attention relationship data.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在系统推荐功能上线后，当前网络用户关注关系密度显著增加。请结合历史快照数据，分析当前网络连通组件总数相较于功能上线前减少了多少，以量化评估推荐算法对社交聚合的影响效果。",
+        "question": "After the launch of the system recommendation feature, the density of attention relationships among current online users has significantly increased. Please analyze, using historical snapshot data, how much the total number of network components has decreased compared to before the feature went live, in order to quantitatively assess the impact of the recommendation algorithm on social aggregation.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在用户快速增长期间，当前网络中存在多个兴趣社群，部分用户开始跨社群关注他人。请根据最新的关注关系，计算此时整个社交网络的连通组件总数。",
+        "question": "During the rapid growth of users, there are multiple interest communities in the current network, and some users begin to follow others across communities. Please calculate the total number of connected components in the entire social network based on the latest following relationships.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 8,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析当前社交网络用户关注关系的动态演化时，发现部分长期未登录用户的关注关系会被自动移除。若某日系统清理了所有超过2年未活跃用户的节点及其关联边，请计算出此时网络的连通组件总数。",
+        "question": "When analyzing the dynamic evolution of the attention relationships of current social network users, it was found that the attention relationships of some long-term inactive users are automatically removed. If on a certain day, the system cleans up all nodes and their associated edges of users who have been inactive for over 2 years, please calculate the total number of connected components in the network at that time.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前网络中部分用户因活跃度下降导致关注关系被自动清理，若清理后剩余关注关系形成多个互不连通的子群，请计算出此时网络的连通组件总数。",
+        "question": "In the current network, some users have had their follow relationships automatically cleared due to a decrease in activity. If the remaining follow relationships form multiple disconnected subgroups after the clearing, please calculate the total number of connected components in the network at this time.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络中，用户关注关系在两次大规模取关事件后发生显著变化，部分社群间完全失去间接关注联系。请计算经过这两次网络结构演化后，当前网络中共存在多少个互不连通的用户群体？",
+        "question": "In the current social network, the user attention relationships have significantly changed after two large-scale unfollow events, and some communities have completely lost indirect attention connections. Please calculate how many disconnected user groups currently exist in the network after these two structural evolutions.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络中，用户间的单向关注关系随时间推移不断变化。已知某次新增一批关注关系后，整个网络的连通性发生改变。请计算出当前网络在新增这些关注关系后的连通组件总数。",
+        "question": "In the current social network, the one-way follow relationships between users change over time. After a new batch of follow relationships is added, the connectivity of the entire network changes. Please calculate the total number of connected components in the network after adding these follow relationships.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 10,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前网络在近三个月内新增了大量用户关注关系，请通过连通组件数量变化判断用户群体是否分裂成更多独立小圈子，并计算出当前的连通组件总数。",
+        "question": "In the past three months, the current network has added a large number of user relationships. Please determine whether the user group has split into more independent small circles by observing changes in the number of connected components, and calculate the current total number of connected components.",
+        "label": "Connected Components",
+        "type": "社交网络演化分析",
+        "true_count": 8,
+        "weak_count": 0
+    }
+]

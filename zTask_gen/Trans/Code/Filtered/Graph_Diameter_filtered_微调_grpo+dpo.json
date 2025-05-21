@@ -1,0 +1,314 @@
+[
+    {
+        "origin_question": "某市应急管理部门需要优化救援资源布局，已知主城区交通网络中各应急站点通过双向道路连接。为确保最快响应时间，需找出当前路网中相距最远的两个应急点之间的最短路径长度，从而确定资源储备站的最大覆盖半径。请问该交通网络的最大应急响应直径是多少？",
+        "question": "The emergency management department of a certain city needs to optimize the layout of rescue resources. It is known that each emergency station in the main urban traffic network is connected by bidirectional roads. To ensure the fastest response time, it is necessary to find the shortest path length between the two emergency points that are the farthest apart in the current road network, in order to determine the maximum coverage radius of the resource storage station. What is the maximum emergency response diameter of this traffic network?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市应急管理中心需要评估交通路网的覆盖能力，假设各节点间的通行时间相等，为确保突发事件时救援力量能在最短响应时间内到达最远区域，应计算当前交通网络的最大可能响应距离是多少？",
+        "question": "The Emergency Management Center of a certain city needs to assess the coverage capability of the transportation network. Assuming equal travel times between nodes, in order to ensure that rescue forces can reach the most distant areas in the shortest response time during emergencies, it is necessary to calculate the maximum possible response distance of the current traffic network.",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某城市应急指挥中心需要评估现有路网的最长响应时间，以便优化救援站点布局。已知各区域通过双向道路连接，求该交通网络中相距最远的两区域间最短路径的长度，从而确定应急车辆需保障的最大行程距离。",
+        "question": "The emergency command center of a certain city needs to assess the longest response time of the existing road network in order to optimize the layout of rescue stations. It is known that each area is connected by bidirectional roads. The length of the shortest path between the two most distant areas in this traffic network is to be determined, thereby identifying the maximum travel distance that emergency vehicles need to cover.",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为提升城市火灾应急响应效率，消防部门需掌握管辖区域内最远两站点间的通行距离以优化资源部署，当前交通网络的最大可能应急响应距离是多少？",
+        "question": "To improve the efficiency of urban fire emergency response, fire departments need to understand the travel distance between the two furthest stations within their jurisdiction in order to optimize resource deployment. What is the maximum possible emergency response distance within the current transportation network?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 5,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市应急管理部门需要评估交通网络中最远两个应急物资储备点之间的最短通行距离，以便确定紧急情况下救援队伍的最大覆盖时间。请计算该网络的最大应急响应距离。",
+        "question": "The emergency management department of a certain city needs to assess the shortest travel distance between the two most distant emergency supply storage locations in the transportation network in order to determine the maximum coverage time for rescue teams in emergencies. Please calculate the maximum emergency response distance for this network.",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 2,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为确保城市突发公共事件时应急车辆能在交通网络中最远节点间快速通行，需提前确定最长可能行驶路径。请问当前交通网络的最大通行距离（即最大直径）是多少？",
+        "question": "To ensure that emergency vehicles can quickly travel between the farthest nodes in the traffic network during urban public emergencies, it is necessary to determine the longest possible travel path in advance. What is the current maximum travel distance (i.e., maximum diameter) of the traffic network?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 5,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为提升城市应急车辆调度效率，需确定路网中两节点间最长通行距离以规划最优救援路线。当前交通网络中，应急车辆从最远区域抵达另一区域需经过的最大可能路径长度是多少？",
+        "question": "To improve the efficiency of emergency vehicle dispatch in the city, it is necessary to determine the maximum travel distance between two nodes in the road network to plan the optimal rescue route. What is the maximum possible path length that emergency vehicles need to travel from the farthest area to another area in the current traffic network?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为确保城市突发事故时救援力量能够以最快速度覆盖最远区域，现需基于各区域道路连接情况，计算任意两个区域间通行必须经过的最大道路段数，从而确定应急车辆部署策略。请问该网络的最大通行间隔是多少？",
+        "question": "To ensure that rescue forces can cover the farthest areas at the fastest speed during urban emergencies, it is necessary to calculate the maximum number of road segments that must be passed between any two areas based on the road connections in each region, in order to determine the emergency vehicle deployment strategy. What is the maximum travel interval of this network?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为确保紧急救援车辆能在最短时间内覆盖城市最偏远区域，现需计算当前交通网络中任意两个地点之间的最长最短行驶距离，该应急响应网络的最大可能间隔是多少？",
+        "question": "To ensure that emergency rescue vehicles can cover the most remote areas of the city in the shortest time, it is necessary to calculate the longest shortest driving distance between any two locations in the current traffic network. What is the maximum possible interval of this emergency response network?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为确保突发公共事件时救援力量能最快抵达最远区域，现需计算该城市交通网络中任意两个应急指挥中心之间最短路径的最大长度，该数值是多少？",
+        "question": "To ensure that rescue forces can reach the farthest areas as quickly as possible during emergencies, it is necessary to calculate the maximum length of the shortest path between any two emergency command centers in the city's transportation network. What is this value?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 3,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为优化城市应急路线规划，现需评估当前交通网络中任意两个应急站点之间的最长通行时间。已知道路连接均为双向且通行时间统一，请计算该网络的最大可能响应时间（结果为一个整数分钟数），以确定现有路线是否满足全市快速覆盖需求。",
+        "question": "To optimize the urban emergency route planning, it is necessary to evaluate the longest travel time between any two emergency stations in the current traffic network. Since all road connections are bidirectional and have uniform travel times, please calculate the maximum possible response time of the network (resulting in an integer number of minutes) to determine whether the existing routes meet the city's rapid coverage requirements.",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为优化城市应急车辆调度方案，需计算该交通网络的最大直径，以确定应急车辆从任意区域到最远目的地所需经过的最小路段数。请问该网络的最大直径是多少？",
+        "question": "To optimize the urban emergency vehicle scheduling plan, it is necessary to calculate the maximum diameter of the traffic network to determine the minimum number of road segments that emergency vehicles must pass through from any area to the farthest destination. What is the maximum diameter of the network?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 2,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某市交通网络中的应急设施分布点之间通过双向道路连接，为确保紧急情况下救援力量能最快到达最远节点，需计算所有应急设施间的最长最短路径距离。请问该网络的最大应急响应距离是多少？",
+        "question": "In a city's transportation network, emergency facility distribution points are connected by bidirectional roads. To ensure that rescue teams can reach the farthest nodes as quickly as possible in emergencies, it is necessary to calculate the longest shortest path distance between all emergency facilities. What is the maximum emergency response distance in this network?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 5,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市应急管理局需要评估交通网络中最远两处关键设施的最短通行距离，以确定紧急情况下救援队伍的最大响应时间。请计算该路网中所有节点对之间的最长最短路径长度，从而确定应急调度预案中的最大准备时长阈值。",
+        "question": "The emergency management bureau of a certain city needs to evaluate the shortest travel distance between the two farthest key facilities in the transportation network to determine the maximum response time of rescue teams in emergencies. Please calculate the longest shortest path length between all pairs of nodes in the road network to establish the maximum preparation time threshold in the emergency dispatch plan.",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 5,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市消防部门为优化应急站点布局，需评估交通网络中任意两区域间的最长通行距离。已知区域通过双向道路相连，请计算该网络的最大可能距离，以确定应急车辆能否在15分钟内覆盖最远区域。",
+        "question": "The fire department of a certain city needs to assess the longest travel distance between any two areas in order to optimize the layout of emergency stations. It is known that the areas are connected by bidirectional roads. Please calculate the maximum possible distance in this network to determine whether emergency vehicles can cover the farthest area within 15 minutes.",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 5,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化城市应急交通网络时，需确定两个最远关键设施间的最长最短距离，以便规划应急车辆的最大响应时间。请问该网络的最大直径是多少？",
+        "question": "When optimizing urban emergency transportation networks, it is necessary to determine the longest shortest distance between the two most distant key facilities in order to plan the maximum response time for emergency vehicles. What is the maximum diameter of this network?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在应急救灾场景中，为保障救援车辆最快到达城市最偏远区域，需计算当前交通网络中任意两个救援站点之间最短路径的最大长度，该数值对应的网络直径是多少？",
+        "question": "In emergency response scenarios, to ensure that rescue vehicles can reach the most remote areas of the city as quickly as possible, it is necessary to calculate the maximum length of the shortest path between any two rescue stations in the current traffic network. What is the network diameter corresponding to this value?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为确保城市应急车辆在最短时间内覆盖最远区域的事故点，需计算该交通网络中任意两节点间最短路径的最大长度，从而确定整个应急响应体系的最长准备时间。应如何得出这一关键数值？",
+        "question": "To ensure that emergency vehicles can cover the most distant accident points in the shortest time, it is necessary to calculate the maximum length of the shortest path between any two nodes in the transportation network, in order to determine the longest preparation time of the entire emergency response system. How can this key value be derived?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 1,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市在优化应急车辆部署时，需确保救援中心能在最短时间内到达所有区域。已知各区域道路连接情况，计算应急响应所需覆盖的最大可能距离，以确定最短响应时间的上限。",
+        "question": "In optimizing the deployment of emergency vehicles in a certain city, it is necessary to ensure that the rescue center can reach all areas in the shortest possible time. Given the known road connections between various regions, calculate the maximum possible distance that needs to be covered for emergency response to determine the upper limit of the shortest response time.",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市交通应急指挥中心需要确定紧急救援车辆从最远辖区到达核心枢纽的最短路径长度，以便规划极端情况下的最大响应时间。当前交通网络的最大通行间距应如何计算？",
+        "question": "The traffic emergency command center of a certain city needs to determine the shortest path length for emergency rescue vehicles to reach the core hub from the most remote area, in order to plan the maximum response time in extreme situations. How should the maximum traffic spacing in the current traffic network be calculated?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 2,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为确保城市应急车辆在最短时间内到达最远受灾点，需计算该交通网络中任意两节点间的最长最短路径长度。请问当前网络的最大应急响应距离是多少？",
+        "question": "To ensure that emergency vehicles can reach the furthest disaster points in the shortest time possible, it is necessary to calculate the longest shortest path length between any two nodes in the transportation network. What is the maximum emergency response distance in the current network?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市计划优化消防站布局，需计算现有道路网络中两个最远站点之间的最短路径长度，以确定应急响应的最长所需时间。当前交通网络的最大直径是多少？",
+        "question": "A certain city plans to optimize the layout of fire stations and needs to calculate the shortest path length between the two farthest stations in the existing road network to determine the longest required time for emergency response. What is the maximum diameter of the current traffic network?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市应急管理部门需要评估消防车覆盖能力，确保从任意消防站出发到达最远建筑的最短路径不超过10分钟。若将该交通网络抽象为无向图（节点表示交叉路口，边表示通行耗时相同的道路），请计算该路网中两路口间的最长通行耗时，以判断现有消防站点能否满足全市快速响应需求。",
+        "question": "The emergency management department of a certain city needs to assess the coverage capability of fire trucks, ensuring that the shortest path from any fire station to the farthest building does not exceed 10 minutes. If this traffic network is abstracted as an undirected graph (with nodes representing intersections and edges representing roads with the same travel time), please calculate the longest travel time between any two intersections in this road network to determine whether the existing fire stations can meet the city's rapid response requirements.",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 5,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在城市应急交通规划中，需要确保消防车辆能在最短时间内抵达任意事故点。已知各消防站和道路连接关系构成无向图，请计算该网络中任意两站点间最长最短路径的长度，从而确定应急响应时间的理论上限值。",
+        "question": "In urban emergency transportation planning, it is necessary to ensure that fire trucks can reach any accident point in the shortest possible time. Given that the connections between fire stations and roads form an undirected graph, please calculate the lengths of the longest shortest paths between any two stations in this network, in order to determine the theoretical upper limit of emergency response time.",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为确保城市应急车辆在突发情况下能快速抵达最远区域，需计算当前交通路网中任意两个区域间最短路径的最大长度，该数值代表应急响应时间的理论上限，请计算这一最大距离是多少？",
+        "question": "To ensure that emergency vehicles can quickly reach the furthest areas in the event of an emergency, it is necessary to calculate the maximum length of the shortest path between any two regions in the current transportation network. This value represents the theoretical upper limit of emergency response time. Please calculate what this maximum distance is.",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市应急管理部门计划评估交通网络中最远两处应急设施间的通行时间，以便优化救援资源分布。已知所有应急设施通过双向道路连接，请问该网络的最大应急响应距离（即任意两设施间最短路径的最大长度）是多少？",
+        "question": "The emergency management department of a certain city plans to assess the travel time between the two most distant emergency facilities in the traffic network to optimize the distribution of rescue resources. Given that all emergency facilities are connected by bidirectional roads, what is the maximum emergency response distance of this network (i.e., the maximum length of the shortest path between any two facilities)?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市为优化紧急救援调度，需评估交通网络的最远节点通行时间。若将各路口视为节点，道路视为无向边，请计算当前路网中任意两节点间最短路径的最大长度，以确定应急车辆最长响应耗时。",
+        "question": "A certain city aims to optimize emergency rescue dispatch and needs to evaluate the travel time to the most distant node in the traffic network. By considering each intersection as a node and the roads as undirected edges, please calculate the maximum length of the shortest path between any two nodes in the current road network to determine the longest response time for emergency vehicles.",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在洪涝灾害应急疏散场景中，消防指挥中心需要确定交通网络中最远的两个应急物资储备点之间的最短通行距离，以便规划无人机救援航线。请计算该交通网络的最大应急响应距离，即网络中任意两节点间最短路径长度的最大值。",
+        "question": "In the emergency evacuation scenario of flood disasters, the fire command center needs to determine the shortest travel distance between the two most distant emergency supply storage points in the transportation network in order to plan the drone rescue route. Please calculate the maximum emergency response distance of the transportation network, which is the maximum value of the shortest path length between any two nodes in the network.",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为确保城市应急车辆在交通事故中能快速抵达最远区域，现需评估交通网络中任意两个应急站点之间的最长可能最短路径长度。请计算该网络的最大直径数值，以确定现有道路规划是否满足紧急响应时间要求。",
+        "question": "To ensure that emergency vehicles can quickly reach the farthest areas in the event of a traffic accident, it is necessary to evaluate the longest possible shortest path length between any two emergency stations in the traffic network. Please calculate the maximum diameter of the network to determine whether the existing road planning meets the emergency response time requirements.",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市在规划应急车辆调度路线时，需确保指挥中心到所有区域的最短响应路径中，最远两个区域间的通行时间不超过系统极限。现需计算该交通网络中任意两区域间最短路径的最大长度，这个数值决定了应急响应网络的最大覆盖能力，请问当前交通网络的最大直径是多少？",
+        "question": "In a certain city, when planning the emergency vehicle dispatch routes, it is necessary to ensure that the travel time between the furthest two areas on the shortest response path from the command center to all areas does not exceed the system limit. It is now required to calculate the maximum length of the shortest path between any two areas in this traffic network. This value determines the maximum coverage capability of the emergency response network. What is the maximum diameter of the current traffic network?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 5,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "计算该城市交通网络中任意两个区域间最短路径的最大长度，以确定应急服务车辆从中心调度点到达最远区域所需的最长时间，从而确保所有区域在紧急情况下都能被快速覆盖。",
+        "question": "Calculate the maximum length of the shortest path between any two areas in the city's transportation network to determine the longest time required for emergency service vehicles to reach the farthest area from the central dispatch point, ensuring that all areas can be quickly covered in emergencies.",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市交通局计划优化应急车辆部署，需确定路网中两个应急避难场所之间的最远通行距离，以便调整救援资源分布。请计算该交通网络的最大直径，即任意两节点间最短路径的最大长度。",
+        "question": "The transportation department of a certain city plans to optimize the deployment of emergency vehicles and needs to determine the farthest travel distance between two emergency shelters in the road network to adjust the distribution of rescue resources. Please calculate the maximum diameter of the transportation network, which is the maximum length of the shortest path between any two nodes.",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市交通网络中的节点代表应急服务站，双向道路连接代表通行时间相同。为评估应急响应效率，需计算任意两个服务站之间的最大最短路径长度。请计算该网络的最大直径数值。",
+        "question": "In a city's transportation network, nodes represent emergency service stations, and bidirectional road connections represent equal travel times. To assess emergency response efficiency, it is necessary to calculate the maximum shortest path length between any two service stations. Please calculate the maximum diameter value of this network.",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 2,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市应急管理中心需要评估当前交通路网的最长应急响应时间。已知各区域为节点，双向道路为边构成的连通图。请计算该路网中任意两区域间最短路径的最大长度，以确定紧急救援车辆从最远两点出发所需的最长预估时间。",
+        "question": "The emergency management center of a certain city needs to assess the longest emergency response time in the current traffic network. It is known that the areas are nodes and the bidirectional roads are edges, forming a connected graph. Please calculate the maximum length of the shortest paths between any two areas in the network to determine the longest estimated time required for emergency rescue vehicles departing from the farthest two points.",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某城市交通网络中的节点代表应急物资储备点，双向道路连接各点。为保障突发灾害时物资最快调度，需计算任意两储备点之间的最长最短路径长度，该数值是多少？",
+        "question": "In the transportation network of a certain city, the nodes represent emergency material storage points, and bidirectional roads connect these points. To ensure the fastest dispatch of materials during emergencies, it is necessary to calculate the length of the longest shortest path between any two storage points. What is this value?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市应急管理局需优化急救车辆部署，现需评估交通网络中任意两关键地点之间的最长最短行驶距离，以确保极端情况下应急资源能在最短时间内抵达最远需求点。请问该网络的最大可能行驶距离是多少？",
+        "question": "The Emergency Management Bureau of a certain city needs to optimize the deployment of emergency vehicles. They currently need to assess the longest shortest driving distance between any two key locations in the traffic network to ensure that in extreme situations, emergency resources can reach the farthest demand point in the shortest time. What is the maximum possible driving distance in this network?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市应急管理部门需要评估当前交通网络的最长响应时间，假设应急车辆始终选择最短路径行驶，请计算该网络中任意两个区域之间所需行驶时间的最大值，以确定应急服务覆盖能力的极限情况。",
+        "question": "The emergency management department of a city needs to assess the longest response time of the current traffic network. Assuming emergency vehicles always choose the shortest path, please calculate the maximum travel time required between any two areas in the network to determine the extreme scenario of emergency service coverage capability.",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 2,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某市交通网络连接多个应急响应关键节点，为确保突发事件时救援资源能最快抵达，需计算当前路网中任意两节点间最短路径的最大长度。该数值将决定应急指挥中心的最长响应时间，请问该交通网络的最大直径是多少？",
+        "question": "The transportation network of a certain city connects multiple critical emergency response nodes. To ensure that rescue resources can reach the scene as quickly as possible during emergencies, it is necessary to calculate the maximum length of the shortest path between any two nodes in the current road network. This value will determine the longest response time for the emergency command center. What is the maximum diameter of this transportation network?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某市应急管理中心计划优化救援车辆部署，需确定交通网络中任意两区域间最长最短路径的长度。当前网络的最大直径是多少？",
+        "question": "The emergency management center of a certain city plans to optimize the deployment of rescue vehicles and needs to determine the length of the longest shortest path between any two areas in the traffic network. What is the maximum diameter of the current network?",
+        "label": "Graph_Diameter",
+        "type": "城市应急响应",
+        "true_count": 5,
+        "weak_count": 0
+    }
+]

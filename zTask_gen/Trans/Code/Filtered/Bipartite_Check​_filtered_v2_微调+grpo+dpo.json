@@ -1,0 +1,714 @@
+[
+    {
+        "origin_question": "请判断当前社交网络是否可划分为两个独立群体，使得所有关注关系仅存在于不同群体之间，从而验证用户推荐策略能否基于此社群结构进行精准分群推送。",
+        "question": "Please determine whether the current social network can be divided into two independent groups such that all follow relationships exist only between different groups, thereby verifying whether the user recommendation strategy can achieve precise subgroup push based on this community structure.",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络中存在用户相互关注形成的社群结构，请判断该网络是否可以被划分为两个独立群体，使得所有关注关系仅存在于不同群体之间，从而为跨群体用户推荐策略提供可行性依据。",
+        "question": "In the current social network, there exists a community structure formed by users mutually following each other. Please determine whether this network can be divided into two independent groups such that all follow relationships exist only between different groups, thus providing a feasible basis for cross-group user recommendation strategies.",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 6,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络希望根据用户关注关系，将用户划分为两个互不关注的群体以实现精准推荐，但需确保关注行为仅存在于不同群体之间。请判断该网络结构是否满足二部图条件？",
+        "question": "The current social network aims to divide users into two mutually exclusive groups based on their follow relationships to achieve precise recommendations, but it must ensure that follow behaviors exist only between different groups. Please determine whether this network structure satisfies the conditions of a bipartite graph?",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 6,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络希望通过用户关注关系分析优化社群划分与推荐策略。若平台希望将用户分为两个群体，使得所有关注行为仅发生在不同群体之间（如兴趣小组互不关注），能否基于现有关注网络实现该目标？请判断当前网络是否为二部图结构。",
+        "question": "Current social networks aim to optimize community division and recommendation strategies through the analysis of user attention relationships. If the platform intends to divide users into two groups such that all attention behaviors occur only between different groups (e.g., interest groups do not follow each other), is it possible to achieve this goal based on the existing attention network? Please determine whether the current network is a bipartite graph structure.",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络平台希望根据用户的关注关系，将用户划分为两个不存在内部关注行为的独立社群，以便进行精准的内容推荐。请判断该网络是否满足二部图结构，从而验证这种基于双向隔离的社群划分方案是否合理？",
+        "question": "Current social networking platforms aim to classify users into two independent communities with no internal following behaviors based on their following relationships, in order to provide precise content recommendations. Please assess whether this network satisfies the bipartite graph structure to verify whether this community division scheme based on bidirectional isolation is reasonable.",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 2,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络平台希望根据用户关注关系划分兴趣社群，并实现跨群体推荐。请判断该网络是否满足所有用户仅关注另一群体成员且无内部关注，从而形成稳定的二部图结构？",
+        "question": "Current social network platforms aim to divide interest groups based on user follow relationships and achieve cross-group recommendations. Please determine whether this network satisfies the condition that all users only follow members of another group and have no internal follow relationships, thereby forming a stable bipartite graph structure?",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前网络中，用户群体是否可能被划分为两个互不关注的阵营，使得推荐系统能避免将对立阵营用户相互推荐？请通过二部图检测算法判断该网络结构是否符合此特性，并返回True或False。",
+        "question": "In the current network, is it possible to divide the user group into two mutually disregarded camps, allowing the recommendation system to avoid recommending opposing camp users to each other? Please use a bipartite graph detection algorithm to determine if this network structure meets this characteristic, and return True or False.",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 7,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请判断当前社交网络是否满足用户群体二分性质，即能否将所有用户划分为两组，使得关注关系仅存在于不同组别之间，以便平台实施差异化的社群推荐策略并避免同质群体内部冗余连接？",
+        "question": "Please determine whether the current social network satisfies the bipartite property of the user group, that is, whether all users can be divided into two groups such that the follow relationships only exist between different groups, allowing the platform to implement differentiated community recommendation strategies and avoid redundant connections within homogeneous groups.",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 3,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "当前社交网络的用户关注关系显示，用户群体存在潜在的两种兴趣社群。请判断该网络是否满足二部图结构，即能否将用户划分为两个互不关注的群体，使得所有关系仅存在于不同群体之间，从而为跨兴趣圈层的精准推荐提供拓扑基础？",
+        "question": "The current user-following relationships in social networks indicate the existence of two potential interest communities among users. Please determine whether this network satisfies the bipartite graph structure, meaning whether it is possible to divide users into two mutually exclusive groups such that all relationships exist only between different groups, thereby providing a topological basis for precise recommendations across interest circles.",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请判断当前网络是否可划分为两个用户社群，使得所有关注关系均为跨社群连接，从而帮助推荐系统避免同质化推荐。",
+        "question": "Please determine whether the current network can be divided into two user communities, such that all follow relationships are cross-community connections, thereby helping the recommendation system avoid homogenized recommendations.",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 5,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析当前社交网络的用户关注关系时，发现存在潜在社群分化现象。若需验证用户群体是否能严格划分为两组，且所有关注行为仅发生在组间而非组内，从而支撑精准推荐策略，请判断该网络是否满足二部图结构。",
+        "question": "When analyzing the user attention relationships in current social networks, it was found that there is a potential phenomenon of community differentiation. To verify whether the user population can be strictly divided into two groups, with all attention behaviors occurring only between the groups and not within the groups, thereby supporting a precise recommendation strategy, please determine whether the network satisfies the bipartite graph structure.",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 6,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请判断当前社交网络是否可被划分为两个互不关注的用户群体，使得所有关注关系仅存在于不同群体之间，从而为社群发现和用户推荐提供结构支持？",
+        "question": "Please determine whether the current social network can be divided into two non-overlapping user groups, such that all follow relationships exist only between different groups, thereby providing structural support for community detection and user recommendation.",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络平台希望通过分析用户关注关系，判断用户群体是否可以被划分为两个互不关注的子社群，从而优化跨群体推荐策略。请判断该网络的关注关系结构是否满足二部图特性，为个性化推荐提供拓扑结构依据？",
+        "question": "Current social network platforms aim to analyze user follow relationships to determine whether user groups can be divided into two non-following sub-communities, thereby optimizing cross-group recommendation strategies. Please assess whether the follow relationship structure of the network satisfies the characteristics of a bipartite graph, providing a topological basis for personalized recommendations.",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络希望通过用户关注关系划分兴趣社群，若存在用户仅关注其他群体成员而本群体内部无互相关注的现象，推荐系统便可针对性优化跨群体推送策略。请判断该网络是否满足此类群体划分条件，即所有关注关系都严格存在于不同群体之间？",
+        "question": "The current social network aims to define interest communities through user follow relationships. If there are users who only follow members of other groups without any mutual follow relationships within their own group, the recommendation system can specifically optimize cross-group push strategies. Please determine whether the network meets the criteria for such group division, that is, whether all follow relationships strictly exist between different groups?",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络平台希望根据用户关注关系，判断是否可将所有用户划分为两个互不关注的群体，以便为未建立联系的潜在兴趣社群推荐提供依据。请判断该网络是否满足此二分结构条件？",
+        "question": "The current social networking platforms hope to determine whether all users can be divided into two groups that do not follow each other, based on user following relationships, in order to provide a basis for recommending potential interest communities that have not yet established connections. Please assess whether this network satisfies the conditions for this bipartite structure?",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交平台希望优化用户推荐策略，若网络能划分为两个互不关注的用户群体，则可将推荐目标锁定在另一群体以促进跨圈互动。请判断该网络是否满足此二部图结构，从而避免向同一群体用户重复推荐内容？",
+        "question": "The current social platform aims to optimize user recommendation strategies. If the network can be divided into two mutually exclusive user groups, the recommendation target can be focused on the other group to promote cross-circle interaction. Please determine whether this network meets the bipartite graph structure to avoid recommending content repeatedly to users within the same group.",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析当前网络的用户关注关系时，发现存在明显的社群分化现象。请判断该网络结构是否满足二部图特性，即能否将所有用户划分为两个互不关注的群体，使得关注关系仅存在于不同群体之间，从而为跨社群用户推荐策略提供理论依据？",
+        "question": "When analyzing the user attention relationships in the current network, a clear phenomenon of community divergence is observed. Please determine whether this network structure fulfills the characteristics of a bipartite graph, namely, whether it is possible to divide all users into two mutually exclusive groups such that attention relationships only exist between different groups, thus providing a theoretical basis for user recommendation strategies across communities?",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 2,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交平台希望优化用户推荐策略，发现用户群体可能分为两个互不关注的兴趣小组。若关注关系仅存在于不同小组之间，推荐时需避免跨组推送。请判断当前网络的关注结构是否为二部图以验证该假设。",
+        "question": "The current social platform aims to optimize user recommendation strategies and has found that the user base can be divided into two mutually exclusive interest groups. If there are only follow relationships between different groups, cross-group recommendations should be avoided. Please determine whether the current network's follow structure is a bipartite graph to verify this hypothesis.",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交平台希望优化用户推荐策略，发现若用户关注关系能划分为两个互不关注的群体，则推荐效果更佳。请判断该网络是否满足此条件，即所有关注关系仅存在于不同群体之间？",
+        "question": "Current social platforms aim to optimize user recommendation strategies. It has been found that if user follow relationships can be divided into two mutually exclusive groups, the recommendation effectiveness is better. Please determine whether this network meets this condition, that is, whether all follow relationships exist only between different groups?",
+        "label": "Bipartite_Check​",
+        "type": "社群发现与用户推荐",
+        "true_count": 7,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析当前网络的信息传播路径时，发现可能存在用户群体间的单向关注闭环。请判断该社交网络的关注关系是否满足二部图结构，即能否将用户划分为两组且所有关注关系仅从一组指向另一组，从而避免信息回传导致的传播效率下降？",
+        "question": "When analyzing the information dissemination paths in the current network, it was found that there may be a one-way attention loop among user groups. Please determine whether the attention relationships in this social network satisfy the bipartite graph structure, that is, whether users can be divided into two groups such that all attention relationships point only from one group to the other, thereby avoiding a decline in dissemination efficiency caused by information feedback.",
+        "label": "Bipartite_Check​",
+        "type": "信息传播路径分析",
+        "true_count": 5,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络中，信息传播路径分析显示内容仅能在两个互不关注的用户群体间单向流动，而同一群体内部无法直接传播。请判断该网络是否属于二部图结构，并说明依据。",
+        "question": "In the current social network, the analysis of information transmission paths shows that content can only flow in one direction between two groups of users who do not follow each other, while it cannot be transmitted directly within the same group. Please determine whether this network belongs to a bipartite graph structure and explain the basis for your judgment.",
+        "label": "Bipartite_Check​",
+        "type": "信息传播路径分析",
+        "true_count": 2,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请判断当前社交网络是否可以被划分为两个互不关注的用户群体，使得所有关注关系仅存在于不同群体之间，从而确保信息传播时不会因内部关注产生路径冲突，影响不同阵营间的扩散效率？",
+        "question": "Please determine whether the current social network can be divided into two mutually non-following user groups, such that all follow relationships only exist between different groups, ensuring that information dissemination will not encounter path conflicts due to internal followings, thereby affecting the diffusion efficiency between different factions.",
+        "label": "Bipartite_Check​",
+        "type": "信息传播路径分析",
+        "true_count": 5,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析当前网络的信息传播路径时，发现用户关注关系可能影响扩散效率。请判断该网络是否为二部图，以确定是否存在允许信息在两个独立群体间快速流转而内部无关注的结构。",
+        "question": "When analyzing the information dissemination path of the current network, it was found that user attention relationships may affect diffusion efficiency. Please determine whether this network is a bipartite graph to ascertain the existence of a structure that allows information to circulate quickly between two independent groups while having no attention relationships internally.",
+        "label": "Bipartite_Check​",
+        "type": "信息传播路径分析",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析当前网络的信息传播路径时，发现用户间存在单向关注形成的扩散链路。请判断该网络是否为二部图结构，即是否存在将用户划分为两组且所有信息传播方向都只能从一组指向另一组的可能，这将直接影响信息能否形成无矛盾的有效扩散。",
+        "question": "When analyzing the information dissemination paths in the current network, it was found that there are diffusion chains formed by unidirectional attention among users. Please determine whether this network is a bipartite graph structure, that is, whether it is possible to divide users into two groups such that all information dissemination directions can only point from one group to the other, as this will directly affect whether the information can form an effective diffusion without contradictions.",
+        "label": "Bipartite_Check​",
+        "type": "信息传播路径分析",
+        "true_count": 1,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请判断当前网络的用户关注关系是否满足二部图结构，即能否将用户分为两组，使得所有关注关系仅存在于不同组之间，从而确保信息传播路径不会形成闭环？",
+        "question": "Please determine whether the current network's user attention relationship satisfies the bipartite graph structure, that is, whether it is possible to divide users into two groups so that all attention relationships only exist between different groups, thereby ensuring that the information propagation path does not form a closed loop?",
+        "label": "Bipartite_Check​",
+        "type": "信息传播路径分析",
+        "true_count": 2,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在分析当前网络的信息传播路径时，发现用户间关注关系可能形成闭环。请判断该社交网络是否满足“用户仅分为两个独立群体，且信息传播始终从一组流向另一组而不会回流”的二部图特性，以验证是否存在跨群体单向传播的最优结构？",
+        "question": "When analyzing the information dissemination paths in the current network, it is found that the attention relationships among users may form a closed loop. Please determine whether this social network satisfies the bipartite graph property of \"users are only divided into two independent groups, and information dissemination always flows from one group to another without returning,\" in order to verify the existence of an optimal structure for unidirectional propagation across groups.",
+        "label": "Bipartite_Check​",
+        "type": "信息传播路径分析",
+        "true_count": 1,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析当前社交网络的信息传播路径时，发现可能存在用户间的矛盾传播路径。请通过二部图检测判断该网络结构是否会导致此类冲突，从而影响信息分发的效率？",
+        "question": "When analyzing the information dissemination paths in current social networks, it is found that there may be conflicting dissemination paths between users. Please use bipartite graph detection to determine whether this network structure could lead to such conflicts, thereby affecting the efficiency of information distribution.",
+        "label": "Bipartite_Check​",
+        "type": "信息传播路径分析",
+        "true_count": 6,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络中的信息传播是否存在相互冲突的路径结构？请通过分析用户关注关系判断该网络是否可以被划分为两个独立群体，使得所有信息传播仅发生在群体之间，从而确保传播路径无闭环。",
+        "question": "Are there conflicting path structures in the information dissemination within the current social network? Please analyze the user attention relationships to determine whether this network can be divided into two independent groups, ensuring that all information dissemination occurs only between the groups and that the dissemination paths have no closed loops.",
+        "label": "Bipartite_Check​",
+        "type": "信息传播路径分析",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请判断当前网络的信息传播路径是否存在相互关注的闭环，即所有用户能否被分为两组，使得关注关系仅存在于不同组之间，从而确保信息传播不会在组内形成循环？",
+        "question": "Please determine whether the current network's information dissemination path has a closed loop of mutual attention, that is, whether all users can be divided into two groups such that attention relationships only exist between different groups, thereby ensuring that information dissemination does not create cycles within the same group?",
+        "label": "Bipartite_Check​",
+        "type": "信息传播路径分析",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析当前网络的信息传播路径时，我们发现用户关注关系可能影响信息扩散效率。若存在两个互不关注的用户群体，且信息只能通过跨群体传播避免重复扩散，这种结构是否满足二部图特征？请判断该网络能否通过二部图检测。",
+        "question": "When analyzing the information dissemination pathways in the current network, we find that the user attention relationships may affect the efficiency of information diffusion. If there are two user groups that do not follow each other, and information can only be disseminated across groups to avoid redundant diffusion, does this structure satisfy the characteristics of a bipartite graph? Please determine whether this network can be detected as a bipartite graph.",
+        "label": "Bipartite_Check​",
+        "type": "信息传播路径分析",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析当前网络的信息传播路径时，发现用户关注关系可能存在群体分化特征。请判断该网络是否满足二部图结构——即能否将所有用户划分为两个独立群体，使得所有关注行为都发生在不同群体之间，从而确保信息传播始终跨群体单向流动？",
+        "question": "When analyzing the information dissemination paths in the current network, it has been found that user attention relationships may exhibit characteristics of group differentiation. Please determine whether this network satisfies the bipartite graph structure—i.e., whether all users can be divided into two distinct groups such that all attention behaviors occur between different groups, thereby ensuring that information dissemination consistently flows unidirectionally across groups?",
+        "label": "Bipartite_Check​",
+        "type": "信息传播路径分析",
+        "true_count": 1,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请判断当前社交网络的信息传播路径是否存在潜在冲突，即能否将用户划分为两个无内部关注的群体，使得所有关注关系仅在不同群体间单向流动，从而确保信息传递不会形成闭环？",
+        "question": "Please determine whether there is a potential conflict in the information dissemination path of the current social network, specifically whether users can be divided into two groups with no internal connections, so that all attention relationships flow unidirectionally between different groups, thereby ensuring that information transmission does not create closed loops.",
+        "label": "Bipartite_Check​",
+        "type": "信息传播路径分析",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析当前网络的信息传播路径时，发现用户关注行为可能存在群体分化。请判断该网络是否满足“所有用户仅关注另一类群体成员，且自身所属群体内部不存在任何关注关系”的二部图结构特征，并说明结果依据。",
+        "question": "When analyzing the information dissemination paths in the current network, it is found that user attention behaviors may exhibit group differentiation. Please determine whether the network satisfies the bipartite graph structural characteristic that \"all users only pay attention to members of another group, and there are no attention relationships within their own group,\" and explain the basis for the results.",
+        "label": "Bipartite_Check​",
+        "type": "信息传播路径分析",
+        "true_count": 2,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请判断当前社交网络中用户的单向关注关系是否构成二部图结构，即所有用户能否被划分为两组，使得所有关注行为都发生在不同组别之间，而组内不存在任何关注。这将直接影响信息传播路径是否存在闭环性干扰，进而评估信息扩散效率是否符合预期。",
+        "question": "Please determine whether the one-way follow relationships among users in the current social network form a bipartite graph structure, meaning whether all users can be divided into two groups such that all follow behaviors occur between different groups, and there are no follow interactions within the same group. This will directly affect whether there is any cyclical interference in the information propagation path, and subsequently assess whether the information diffusion efficiency meets expectations.",
+        "label": "Bipartite_Check​",
+        "type": "信息传播路径分析",
+        "true_count": 7,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析当前社交网络的信息传播路径时，需验证是否存在用户分组方式，使得所有信息仅通过跨组关注关系扩散，而组内不存在传播路径。请判断该网络是否满足二部图结构特性。",
+        "question": "When analyzing the information dissemination paths in current social networks, it is necessary to verify whether there exists a user grouping method such that all information spreads only through cross-group attention relationships, while there are no dissemination paths within the groups. Please determine whether the network satisfies the characteristics of a bipartite graph structure.",
+        "label": "Bipartite_Check​",
+        "type": "信息传播路径分析",
+        "true_count": 5,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前网络中的信息传播路径分析显示，用户关注关系可能存在两个互不关注的群体，且信息仅能在群体间单向流动。请判断该网络是否为二部图结构，验证是否存在信息仅通过跨群体传播而内部无扩散的传播特性。",
+        "question": "The analysis of information transmission paths in the current network shows that user attention relationships may consist of two mutually non-attentive groups, and information can only flow unidirectionally between the groups. Please determine whether this network is a bipartite graph structure and verify whether there is a transmission characteristic where information spreads only across groups without diffusion within them.",
+        "label": "Bipartite_Check​",
+        "type": "信息传播路径分析",
+        "true_count": 1,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "平台管理员怀疑当前网络中存在一批虚假账号，这些账号可能分为两个互不关注的群体，且均只关注真实用户。请判断是否可通过二部图检测算法确认该网络中存在此类二分结构模式。",
+        "question": "The platform administrator suspects that there is a batch of fake accounts in the current network, which may be divided into two non-overlapping groups, each only following real users. Please determine whether it is possible to confirm the existence of such bipartite structural patterns in the network using bipartite graph detection algorithms.",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 2,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "请判断当前社交网络是否存在虚假账号群组特征，即虚假账号仅单向关注真实用户，而真实用户之间不存在相互关注关系，使得整个关注网络可被划分为两组且组内无关注行为。",
+        "question": "Please determine whether there are characteristics of fake account groups in the current social network, specifically that fake accounts only follow real users in a one-way manner, and there is no mutual following relationship among real users, resulting in the entire follow network being divided into two groups with no following behavior within the groups.",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络平台发现大量可疑账号，初步推测这些虚假账号可能存在批量注册并单向关注正常用户的行为模式。已知正常用户之间不会相互关注，但虚假账号会集中关注部分真实用户。请判断该网络的关注关系是否满足二部图结构，从而验证是否存在这种明显的异常互动模式？",
+        "question": "Current social networking platforms have discovered a large number of suspicious accounts. Preliminary investigations suggest that these fake accounts may exhibit a behavior pattern of mass registration and one-way following of normal users. It is known that normal users do not follow each other, but fake accounts tend to focus on following certain real users. Please determine whether the following relationships in this network satisfy a bipartite graph structure, in order to validate the existence of this obvious abnormal interaction pattern.",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 3,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "请判断当前社交网络中是否存在由虚假账号构成的特殊结构，即这些账号被分为互不关注的两组且仅单向关注真实用户群体，导致整个网络可能形成二部图特征，从而验证虚假账号协同作案的假设是否成立。",
+        "question": "Please determine whether there exists a special structure composed of fake accounts in the current social network, specifically that these accounts are divided into two groups that do not follow each other and only follow a real user group in a one-way manner, leading to the entire network potentially exhibiting bipartite graph characteristics, thereby validating whether the hypothesis of coordinated activity among fake accounts is established.",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络平台怀疑存在一批虚假账号，这些账号的特点是只关注普通用户但从不被反关注。已知正常用户之间可能存在双向关注，而虚假账号与正常用户之间仅有单向关注。请判断是否可以通过二部图检测算法验证该网络中存在这类虚假账号群组，应返回True还是False？",
+        "question": "True",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 6,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络平台检测到部分账号存在异常关注行为，怀疑存在虚假账号群组。已知虚假账号通常分为两个互不关注的群体，但会集中关注真实用户。请判断该网络的关注关系图是否可能由这种虚假账号模式形成，即是否为二部图结构？",
+        "question": "The current social network platform has detected abnormal following behaviors in some accounts and suspects the existence of fake account groups. It is known that fake accounts are usually divided into two groups that do not follow each other but will concentrate on following real users. Please determine whether the following relationship graph of this network could be formed by this fake account pattern, that is, whether it is a bipartite graph structure?",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 1,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在检测当前社交平台的虚假账号时，发现异常关注模式：若虚假账号只关注真实用户但互不关注，而真实用户之间相互关注。请判断该网络是否满足二部图结构特征，从而验证是否存在此类虚假账号行为模式？",
+        "question": "When detecting fake accounts on current social media platforms, an abnormal following pattern is found: if fake accounts only follow real users without mutual following, while real users follow each other. Please determine whether this network satisfies the characteristics of a bipartite graph structure, thereby verifying the existence of such fake account behavior patterns.",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络中，虚假账号通常存在异常关注模式，例如新注册账号仅单向关注大量老用户，而老用户之间极少互相关注。若将用户分为新账号和老用户两组，请通过二部图检测算法判断该网络是否呈现这种典型的虚假账号行为特征，即关注关系是否仅存在于两组之间而不发生在组内。",
+        "question": "In the current social networks, fake accounts often exhibit abnormal following patterns, such as newly registered accounts only following a large number of old users in a one-way manner, while there is very little mutual following among old users. If users are divided into two groups: new accounts and old users, please use a bipartite graph detection algorithm to determine whether the network exhibits this typical behavior characteristic of fake accounts, that is, whether the following relationships exist only between the two groups and not within the groups.",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在检测当前社交网络的虚假账号时，发现虚假账号通常只单向关注真实用户，而真实用户之间会互相关注但不会主动关注虚假账号。请根据关注方向判断整个网络是否满足二部图结构，从而验证是否存在明显的虚假账号集群特征？",
+        "question": "When detecting fake accounts in the current social network, it was found that fake accounts typically only follow real users in one direction, while real users follow each other reciprocally but do not actively follow fake accounts. Please determine whether the entire network satisfies the bipartite graph structure based on the direction of following, in order to verify whether there are obvious clustering characteristics of fake accounts.",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络近期发现大量虚假账号，这些账号通常只关注真实用户，但彼此之间不会互相关注。真实用户之间可能存在相互关注。请判断该网络是否为二部图，以辅助识别是否存在虚假账号聚集的特征。",
+        "question": "Recently, a large number of fake accounts have been found on the current social network. These accounts usually only follow real users, but do not follow each other. Real users may have mutual follows. Please determine whether this network is a bipartite graph to assist in identifying characteristics of potential clusters of fake accounts.",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 5,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台怀疑当前网络中存在大量虚假账号，管理员发现这些账号的关注关系可能存在特定模式：真实用户和虚假账号之间不会互相关注，但各自群体内部存在单向关注。请判断当前网络是否可以通过这种关注关系模式被划分为两个互不关注的群组，从而识别出虚假账号群组？",
+        "question": "A certain social media platform suspects that there are a large number of fake accounts in the current network. Administrators have found that the follower relationships of these accounts may exhibit a specific pattern: real users and fake accounts do not follow each other, but there is one-way following within each group. Please determine whether the current network can be divided into two groups that do not follow each other based on this following relationship pattern, thus identifying the group of fake accounts.",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 3,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "当前社交网络平台发现一批可疑账号，这些账号仅单向关注另一部分账号且不存在内部关注。平台怀疑这是有组织的虚假账号群，试图通过二分互动制造虚假热度。请判断该关注网络是否构成二部图结构，从而验证是否存在这种\"一分为二\"的异常群体特征。",
+        "question": "The current social networking platform has discovered a number of suspicious accounts that only follow another group of accounts in one direction without internal following. The platform suspects that this is an organized group of fake accounts attempting to create false engagement through a bipartite interaction. Please determine whether this following network constitutes a bipartite graph structure in order to verify the existence of this \"split into two\" abnormal group characteristic.",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请判断当前社交网络中的关注关系是否满足虚假账号检测中的二分群体特征，即所有账号可划分为两组且关注关系仅存在于不同组之间，从而识别出潜在的虚假账号集群。",
+        "question": "Please determine whether the follower relationships in the current social network meet the bipartite group characteristics in fake account detection, meaning all accounts can be divided into two groups and the follower relationships exist only between different groups, thereby identifying potential clusters of fake accounts.",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "平台监测到部分账号存在异常关注行为，怀疑虚假账号通过单向关注真实用户来伪造互动数据。请判断当前网络的关注关系是否构成二部图，从而验证虚假账号与真实用户是否分属两个无内部关注的独立群体。",
+        "question": "The platform has detected abnormal follow behavior from some accounts and suspects that fake accounts are imitating interaction data by following real users one-way. Please determine whether the current online follow relationships form a bipartite graph to verify whether fake accounts and real users belong to two independent groups with no internal follows.",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请判断当前社交网络是否可能通过二部图结构检测出虚假账号集群的存在，即是否存在异常关注模式使得节点可划分为真实用户与虚假账号两组，且所有关注关系仅存在于组间而非组内。",
+        "question": "Please determine whether the current social network can detect the presence of clusters of fake accounts through a bipartite graph structure, that is, whether there exists an abnormal following pattern that allows the nodes to be divided into two groups: real users and fake accounts, with all following relationships existing only between the groups and not within the groups.",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 5,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在检测当前社交网络中的虚假账号时，发现虚假账号通常单向关注正常用户但彼此无关联，而正常用户间存在互相关注。请判断该网络是否为二部图，以辅助识别是否存在此类典型的虚假账号行为模式。",
+        "question": "When detecting fake accounts in the current social network, it is found that fake accounts typically follow normal users in a one-way manner but are not related to each other, while there is mutual following among normal users. Please determine whether the network is a bipartite graph to assist in identifying the existence of such typical fake account behavior patterns.",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请判断当前网络中是否存在虚假账号集群，其关注模式是否满足二部图特征：所有账号可划分为两个互不关注的独立集合，且关注行为仅发生在不同集合之间。",
+        "question": "Please determine whether there exists a cluster of fake accounts in the current network, and whether their following pattern satisfies the bipartite graph characteristic: all accounts can be divided into two mutually exclusive independent sets, and following behavior only occurs between different sets.",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 5,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络平台发现部分账号存在异常关注行为，疑似虚假账号群组。已知这些账号仅单向关注真实用户且彼此之间无互相关注，平台需验证该群体是否满足虚假账号的二分特征。请判断当前网络是否为二部图结构？",
+        "question": "The current social networking platform has found that some accounts exhibit abnormal follow behaviors, suspected to be part of a group of fake accounts. It is known that these accounts only follow real users in one direction without mutual following among themselves. The platform needs to verify whether this group meets the bipartite characteristics of fake accounts. Please determine whether the current network is a bipartite graph structure.",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请判断当前社交网络中是否存在大量虚假账号，这些账号是否呈现出仅关注真实用户但彼此之间绝不互相关注的特征，从而导致整个网络的关注关系形成二部图结构？",
+        "question": "Please determine whether there are a large number of fake accounts in the current social network, and whether these accounts exhibit the characteristic of only following real users while not following each other, thereby causing the entire network's follow relationships to form a bipartite graph structure?",
+        "label": "Bipartite_Check​",
+        "type": "虚假账号检测",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前网络计划推行一项影响力最大化策略，将用户分为两组进行交替推广，要求同一组内用户之间不存在单向关注关系。请判断该网络是否满足此策略所需的结构条件，即是否为二部图结构？",
+        "question": "The current network plans to implement a strategy to maximize influence by dividing users into two groups for alternating promotion, requiring that there is no one-way follow relationship among users within the same group. Please determine whether this network meets the structural conditions required for this strategy, specifically whether it is a bipartite graph structure.",
+        "label": "Bipartite_Check​",
+        "type": "影响力最大化策略",
+        "true_count": 1,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前网络正在测试一种影响力最大化策略，计划将用户分为两组交替推广信息，要求同组内用户不存在关注关系以确保传播效率。请判断该网络是否满足此策略的结构条件，即是否为二部图？",
+        "question": "The current network is testing an influence maximization strategy, planning to divide users into two groups to alternately promote information, requiring that there are no connections among users within the same group to ensure transmission efficiency. Please determine whether the network satisfies the structural conditions of this strategy, that is, whether it is a bipartite graph?",
+        "label": "Bipartite_Check​",
+        "type": "影响力最大化策略",
+        "true_count": 4,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "当前网络计划通过选择关键用户进行广告活动推广，若采用影响力最大化策略，需确保用户群体可划分为互不关注的两组，以便从两组中分别挑选初始传播节点。请判断该网络是否满足此二分结构条件？",
+        "question": "The current network plans to promote advertising activities by selecting key users. If an influence maximization strategy is adopted, it is necessary to ensure that the user group can be divided into two mutually exclusive groups in order to select initial dissemination nodes from both groups. Please assess whether this network meets the conditions for this bipartite structure.",
+        "label": "Bipartite_Check​",
+        "type": "影响力最大化策略",
+        "true_count": 2,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在规划影响力最大化策略时，需要确定当前社交网络是否能够被划分为两个互不关注的用户群体，以便优化信息传播路径。请判断该网络是否为二部图结构？",
+        "question": "When planning strategies for maximizing influence, it is necessary to determine whether the current social network can be divided into two mutually non-following user groups in order to optimize the information dissemination path. Please assess whether the network is bipartite.",
+        "label": "Bipartite_Check​",
+        "type": "影响力最大化策略",
+        "true_count": 5,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "请判断当前网络是否满足影响力最大化策略中“将用户精准划分为两个无内部关注的群体”的条件，这是否意味着该社交网络的关注关系构成二部图结构？",
+        "question": "Please determine whether the current network meets the conditions for the influence maximization strategy of \"precisely dividing users into two groups without internal attention,\" and does this mean that the social network's relationship structure constitutes a bipartite graph?",
+        "label": "Bipartite_Check​",
+        "type": "影响力最大化策略",
+        "true_count": 1,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前网络正在设计一项影响力最大化推广策略，计划将用户分为两组进行信息投放，要求同组用户之间不存在关注关系以确保传播路径不重叠。请判断该网络是否满足此策略的二分结构要求？",
+        "question": "The current network is designing a strategy to maximize influence, planning to divide users into two groups for information dissemination, with the requirement that there are no connections between users within the same group to ensure that the propagation paths do not overlap. Please determine whether this network meets the bipartite structure requirements of this strategy.",
+        "label": "Bipartite_Check​",
+        "type": "影响力最大化策略",
+        "true_count": 5,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "当前网络计划通过分组策略最大化信息传播效果，要求将用户分为两组且组内无互相关注关系，仅允许跨组关注。请判断该网络是否满足此二分结构，可直接应用影响力最大化算法进行推广？",
+        "question": "The current network plans to maximize the effectiveness of information dissemination through a grouping strategy, requiring users to be divided into two groups with no mutual following relationships within the groups, only allowing cross-group following. Please determine whether this network meets the bipartite structure and whether the influence maximization algorithm can be directly applied for promotion.",
+        "label": "Bipartite_Check​",
+        "type": "影响力最大化策略",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在影响力最大化策略中，若想通过交替激活两个用户群体实现信息扩散，请判断当前网络是否必须满足二部图结构才能保证同一群体内用户不存在相互关注关系？",
+        "question": "In a strategy for maximizing influence, if the goal is to achieve information diffusion by alternately activating two user groups, please determine whether the current network must satisfy a bipartite graph structure to ensure that there are no mutual follow relationships within the same group of users.",
+        "label": "Bipartite_Check​",
+        "type": "影响力最大化策略",
+        "true_count": 2,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在推广品牌活动时，运营团队发现当前网络中存在用户间单向关注形成的潜在传播链。若该网络是二部图结构，则可通过选择两个互不关注的用户群体实现跨圈层传播。请判断当前网络是否满足二部图条件，从而验证该影响力最大化方案是否可行？",
+        "question": "When promoting brand activities, the operations team found a potential communication chain formed by one-way attention among users in the current network. If the network is a bipartite graph structure, cross-layer communication can be achieved by selecting two mutually non-following user groups. Please determine whether the current network meets the conditions of a bipartite graph to verify the feasibility of this influence maximization plan.",
+        "label": "Bipartite_Check​",
+        "type": "影响力最大化策略",
+        "true_count": 4,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "当前社交网络计划采用影响力最大化策略，将用户分为两个互不关注的群体进行信息传播。请判断该网络是否满足二分结构要求，以便直接应用此策略？",
+        "question": "The current social network plans to adopt an influence maximization strategy by dividing users into two mutually exclusive groups for information dissemination. Please determine whether this network meets the requirements of a bipartite structure in order to apply this strategy directly.",
+        "label": "Bipartite_Check​",
+        "type": "影响力最大化策略",
+        "true_count": 2,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在推广新产品时，当前网络计划采用“二分影响力扩散模型”，该策略要求用户关系网必须满足两组间单向关注、组内无连接的结构。请判断该社交网络是否适用此策略，并说明检测依据。",
+        "question": "When promoting a new product, the current online plan uses a \"binary influence diffusion model.\" This strategy requires that the user relationship network must meet the structure of unidirectional attention between two groups and no connections within the group. Please assess whether this social network is suitable for this strategy and explain the basis for your assessment.",
+        "label": "Bipartite_Check​",
+        "type": "影响力最大化策略",
+        "true_count": 1,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "请判断当前社交网络是否可以通过将用户划分为两个互不关注的群体来实现影响力最大化策略，即确保信息传播时能高效覆盖整个网络而不在组内重复扩散。",
+        "question": "Please determine whether the current social network can achieve a maximum influence strategy by dividing users into two mutually non-following groups, ensuring that information dissemination can efficiently cover the entire network without redundant diffusion within the groups.",
+        "label": "Bipartite_Check​",
+        "type": "影响力最大化策略",
+        "true_count": 1,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络计划实施影响力最大化策略，需将用户分为两组进行定向信息传播。请判断该网络是否满足二部图结构，以便验证这种基于用户分组的传播模式能否成立，直接决定策略可行性。",
+        "question": "The current social network plans to implement an influence maximization strategy, which requires dividing users into two groups for targeted information dissemination. Please determine whether the network satisfies the bipartite graph structure to verify whether this user-group-based propagation model can be established, which directly affects the feasibility of the strategy.",
+        "label": "Bipartite_Check​",
+        "type": "影响力最大化策略",
+        "true_count": 2,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前网络中的用户关注关系是否满足二部图结构？请判断该网络能否通过\"在两个互不关注的群体中同步启动传播\"的影响力最大化策略，使信息通过跨群体关注链路实现全网覆盖。",
+        "question": "Does the user attention relationship in the current network satisfy the bipartite graph structure? Please determine whether this network can maximize information spread across the entire network through the strategy of \"synchronously initiating diffusion in two mutually non-attentive groups\" via cross-group attention links.",
+        "label": "Bipartite_Check​",
+        "type": "影响力最大化策略",
+        "true_count": 2,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在影响力最大化策略中，若当前网络存在互不关注的用户群体结构，则可通过二分传播路径提升信息扩散效率。请判断该网络是否满足二部图特性，以便验证双群体传播模型在此场景的适用性？",
+        "question": "In the strategy to maximize influence, if the current network has a structure of user groups that do not pay attention to each other, the information diffusion efficiency can be improved through bipartite propagation paths. Please determine whether the network meets the characteristics of a bipartite graph to verify the applicability of the dual-group propagation model in this scenario.",
+        "label": "Bipartite_Check​",
+        "type": "影响力最大化策略",
+        "true_count": 2,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "市场部门计划在\"当前网络\"开展推广活动，拟采用影响力最大化策略，将用户分为两组进行定向传播。已知用户间的单向关注关系可能影响信息扩散效率。请判断该网络是否满足二部图结构，以便验证是否存在天然的用户分群基础，确保信息能在两组间高效流动而不产生组内传播冗余。",
+        "question": "The marketing department plans to carry out promotional activities on the \"current network,\" intending to use a strategy that maximizes influence by dividing users into two groups for targeted dissemination. It is known that the one-way attention relationship among users may affect the efficiency of information diffusion. Please determine whether the network satisfies the bipartite graph structure to verify whether there is a natural basis for user clustering, ensuring that information can flow efficiently between the two groups without generating intra-group transmission redundancy.",
+        "label": "Bipartite_Check​",
+        "type": "影响力最大化策略",
+        "true_count": 4,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化当前网络的影响力最大化策略时，发现若用户群体天然分为两个互不关注的阵营，则信息扩散路径可被精准预测。请判断该网络是否满足二部图结构，从而验证是否可通过二分特性设计双通道传播方案？",
+        "question": "When optimizing the strategy for maximizing the influence of the current network, it was found that if the user group is naturally divided into two mutually exclusive factions, the information diffusion paths can be accurately predicted. Please determine whether the network satisfies the bipartite graph structure, in order to verify whether a dual-channel propagation scheme can be designed based on the bipartite characteristics.",
+        "label": "Bipartite_Check​",
+        "type": "影响力最大化策略",
+        "true_count": 3,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "当前社交网络早期用户关注关系可划分为互不关注的两个群体，但随着用户规模扩大，新增了少量跨群体关注行为。请判断在现有连接模式下，当前网络是否仍满足二部图结构特征？",
+        "question": "The current social network's early user attention relationships can be divided into two groups that do not follow each other, but as the user base expands, there has been a minor addition of cross-group attention behaviors. Please determine if the current network still meets the characteristics of a bipartite graph structure under the existing connection model.",
+        "label": "Bipartite_Check​",
+        "type": "社交网络演化分析",
+        "true_count": 2,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "近期平台调整了推荐策略，用户间新增了部分关注关系。请判断当前网络是否仍为二部图，即能否将用户划分为两组，使得所有关注行为都发生在不同组之间？",
+        "question": "Recently, the platform has adjusted its recommendation strategy, and some new follow relationships have been added among users. Please determine whether the current network is still a bipartite graph, that is, whether users can be divided into two groups such that all follow behaviors occur between different groups.",
+        "label": "Bipartite_Check​",
+        "type": "社交网络演化分析",
+        "true_count": 5,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "当前社交平台在用户关注关系调整后，部分用户新增了单向关注。已知初始阶段该网络为二部图结构，请判断当新用户A关注用户B、用户C关注用户D这两条边同时加入时，整个网络是否仍保持二部图特性？",
+        "question": "After users adjust their following relationships on the current social platform, some users have added one-way follows. Given that the initial stage of the network is a bipartite graph structure, please determine whether the entire network still maintains the bipartite graph property when two edges are added simultaneously: user A follows user B, and user C follows user D.",
+        "label": "Bipartite_Check​",
+        "type": "社交网络演化分析",
+        "true_count": 1,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在某个新兴社交平台中，用户最初仅允许单向关注不同阵营（如创作者与观众）的账号。随着功能迭代，用户开始跨阵营建立关注关系。请判断当前网络是否仍满足二部图特性，即所有关注关系仍严格存在于两个互不关注的独立阵营之间？",
+        "question": "In a certain emerging social platform, users were initially only allowed to follow accounts from different camps (such as creators and viewers) in a one-way manner. As features have evolved, users have begun to establish follow relationships across different camps. Please determine whether the current network still satisfies the bipartite graph property, that is, whether all follow relationships still strictly exist between two independent camps that do not follow each other.",
+        "label": "Bipartite_Check​",
+        "type": "社交网络演化分析",
+        "true_count": 2,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "随着当前网络中新用户大量涌入并单向关注活跃用户，而近期数据显示新用户之间几乎不互相关注。请判断当前网络的关注关系结构是否演化为两个互不关注的独立群体，即是否符合二部图特征？",
+        "question": "With a large influx of new users in the current network who tend to follow active users unidirectionally, recent data shows that new users barely follow each other. Please determine whether the current attention relationship structure of the network has evolved into two independent groups that do not follow each other, that is, whether it conforms to the characteristics of a bipartite graph.",
+        "label": "Bipartite_Check​",
+        "type": "社交网络演化分析",
+        "true_count": 2,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "随着当前网络用户规模增长，部分老用户开始关注新入驻的创作者群体，而新用户则集中关注早期优质内容生产者。请判断这种关注模式演化后，整个社交网络是否仍保持二部图结构？",
+        "question": "With the current growth in the number of internet users, some older users have started to pay attention to the new creators joining the platform, while new users focus primarily on early quality content producers. Please determine whether, after this evolution of attention patterns, the entire social network still maintains a bipartite graph structure.",
+        "label": "Bipartite_Check​",
+        "type": "社交网络演化分析",
+        "true_count": 2,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "随着时间推移，当前社交网络新增了大量关注行为，导致用户关系结构发生演变。请判断现有网络是否仍满足二部图特性，即所有关注关系是否始终发生在两个互不关注的用户群体之间？",
+        "question": "As time goes by, current social networks have added a large number of following behaviors, resulting in an evolution of user relationship structures. Please determine whether the existing network still satisfies the properties of a bipartite graph, that is, whether all following relationships always occur between two groups of users that do not follow each other.",
+        "label": "Bipartite_Check​",
+        "type": "社交网络演化分析",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析当前社交网络的演化过程时，发现用户群体间新增了跨阵营关注行为。请判断经过这次关系变动后，当前网络是否仍满足二部图结构特征？",
+        "question": "During the analysis of the evolutionary process of the current social network, it was found that there is a new cross-campaign attention behavior among user groups. Please determine whether the current network still satisfies the characteristics of a bipartite graph structure after this relationship change.",
+        "label": "Bipartite_Check​",
+        "type": "社交网络演化分析",
+        "true_count": 5,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "随着当前网络用户关注关系的动态演变，平台需分析是否存在用户群体自然分化为两个互不关注的阵营。请判断该网络是否满足二部图结构特征，即所有关注关系仅存在于不同群体之间，而群体内部无任何关注行为？",
+        "question": "With the dynamic evolution of relationships among current online users, the platform needs to analyze whether there is a natural differentiation of user groups into two camps that do not follow each other. Please determine whether the network satisfies the characteristics of a bipartite graph structure, where all following relationships exist only between different groups, and there is no following behavior within the groups themselves.",
+        "label": "Bipartite_Check​",
+        "type": "社交网络演化分析",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请判断当前网络在用户关注行为逐渐分化为两个兴趣小组后，是否仍满足所有关注关系仅存在于不同小组之间，不存在组内互相关注的情况？",
+        "question": "Please determine whether the current network still satisfies the condition that all attention relationships exist only between different interest groups, and there are no mutual followings within the groups, after the user's attention behavior gradually differentiates into two interest groups.",
+        "label": "Bipartite_Check​",
+        "type": "社交网络演化分析",
+        "true_count": 4,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "当前社交网络经过近期用户关注关系动态调整后，用户群体是否形成了无法划分为两个无内部关注的阵营的结构？请判断该网络是否为二部图。",
+        "question": "After the recent adjustments to user attention relationships in current social networks, has the user group formed a structure that cannot be divided into two factions with no internal attention? Please determine whether this network is a bipartite graph.",
+        "label": "Bipartite_Check​",
+        "type": "社交网络演化分析",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络在用户增长过程中逐渐形成了两个主要社区，新用户加入后只关注另一社区成员。请判断该网络的关注关系是否始终满足二部图结构特征，即所有关注关系都发生在不同社区之间而社区内部无关注？",
+        "question": "In the current social network, two main communities have gradually formed during the user growth process. After new users join, they only follow members of the other community. Please determine whether the following relationship of attention in this network consistently satisfies the characteristics of a bipartite graph structure, which means that all relationships of attention occur between different communities, with no attention within the communities themselves.",
+        "label": "Bipartite_Check​",
+        "type": "社交网络演化分析",
+        "true_count": 3,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请判断当前网络在新增一批用户关注关系后，是否仍能按兴趣偏好划分为两个互不关注的群体，即检测是否为二部图。",
+        "question": "Please determine whether the current network can still be divided into two mutually non-following groups by interest preference after a new batch of user follow relationships has been added, that is, check if it is a bipartite graph.",
+        "label": "Bipartite_Check​",
+        "type": "社交网络演化分析",
+        "true_count": 5,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "近期当前网络用户关注关系出现明显分化，部分用户仅单向关注特定群体。请判断该网络是否满足“用户群体间仅存在跨组关注而组内无互相关注”的二部图结构特征？",
+        "question": "Recently, the attention relationships among current online users have shown a clear divergence, with some users only one-sidedly following specific groups. Please determine whether this network meets the bipartite graph structure characteristic of \"only cross-group attention exists between user groups while there is no mutual attention within the groups.\"",
+        "label": "Bipartite_Check​",
+        "type": "社交网络演化分析",
+        "true_count": 2,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "当前社交网络经过一段时间演化后，用户关注关系形成了多个嵌套结构。请判断该网络是否仍保持二部图特性，即能否将所有用户划分为两个互不关注的群体，使得关注关系仅存在于不同群体之间？",
+        "question": "After a period of evolution, the current social network has formed multiple nested structures of user attention relationships. Please determine whether the network still maintains the characteristic of a bipartite graph, that is, whether it is possible to divide all users into two mutually non-attentive groups such that attention relationships only exist between different groups.",
+        "label": "Bipartite_Check​",
+        "type": "社交网络演化分析",
+        "true_count": 5,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前社交网络早期用户被划分为两个群体，且用户仅被允许关注另一群体成员。近期新增了一批单向关注关系，有观点认为这可能导致网络结构无法维持原有二分特性。请判断当前网络是否仍为二部图。",
+        "question": "The early users of the current social network are divided into two groups, and users are only allowed to follow members of the other group. Recently, a new batch of one-way follow relationships has been added, and some believe that this may cause the network structure to lose its original bipartite characteristics. Please determine whether the current network is still a bipartite graph.",
+        "label": "Bipartite_Check​",
+        "type": "社交网络演化分析",
+        "true_count": 4,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析当前社交网络的用户关注关系演化时，发现早期用户倾向于形成两个互不关注的群体，但会单向关注另一群体中的用户。随着新用户加入，这种结构是否仍然保持？请判断该网络是否始终满足二分图特性。",
+        "question": "When analyzing the evolution of user attention relationships in current social networks, it is found that early users tend to form two mutually non-following groups, but they will unidirectionally follow users in the other group. As new users join, does this structure remain? Please determine whether the network consistently satisfies the bipartite graph characteristic.",
+        "label": "Bipartite_Check​",
+        "type": "社交网络演化分析",
+        "true_count": 2,
+        "weak_count": 0
+    }
+]
