@@ -17,8 +17,8 @@ torch.manual_seed(42)
 np.random.seed(42)
 
 # 加载PEMS03数据集
-npz_path = "/home/data2t1/wangrongzheng/GTAgent/zTrain_test/transport/PEMS03.npz"
-csv_path = "/home/data2t1/wangrongzheng/GTAgent/zTrain_test/transport/PEMS03.csv"
+npz_path = "/home/data2t1/tempuser/GTAgent/zTrain_test/transport/PEMS03.npz"
+csv_path = "/home/data2t1/tempuser/GTAgent/zTrain_test/transport/PEMS03.csv"
 
 # 加载数据
 data = np.load(npz_path)['data']  # (26208, 358, 1)

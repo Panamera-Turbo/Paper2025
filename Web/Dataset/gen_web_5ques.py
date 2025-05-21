@@ -90,7 +90,7 @@ def hits_scores(G, node):
 
 
 # 主程序
-file_path = '/home/data2t1/wangrongzheng/GTAgent/Web/web-Google_node.txt'  # 替换为你的文件路径
+file_path = '/home/data2t1/tempuser/GTAgent/Web/web-Google_node.txt'  # 替换为你的文件路径
 G = read_graph_from_file(file_path)
 
 # 随机采样生成十个子图
@@ -455,7 +455,7 @@ for i in tqdm(range(num_subgraphs), desc="Generating subgraphs"):
 
 # 将每个数据集保存到不同的 JSON 文件中
 for task_name, data in datasets.items():
-    output_file_path = f'/home/data2t1/wangrongzheng/GTAgent/Web/Dataset/1000_50_5ques/{task_name}_output.json'  # 替换为你想要的输出文件路径
+    output_file_path = f'/home/data2t1/tempuser/GTAgent/Web/Dataset/1000_50_5ques/{task_name}_output.json'  # 替换为你想要的输出文件路径
     with open(output_file_path, 'w') as output_file:
         json.dump(data, output_file)
 

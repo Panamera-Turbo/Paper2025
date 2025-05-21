@@ -293,7 +293,7 @@ def convert_numpy_types(obj):
 
 # 修改保存 JSON 的代码
 for task_name, data in datasets.items():
-    output_file_path = f'/home/data2t1/wangrongzheng/GTAgent/Citation/Dataset/100_50_nodes/{task_name}_output.json'
+    output_file_path = f'/home/data2t1/tempuser/GTAgent/Citation/Dataset/100_50_nodes/{task_name}_output.json'
     data = convert_numpy_types(data)  # 转换 NumPy 类型
     with open(output_file_path, 'w') as output_file:
         json.dump(data, output_file)

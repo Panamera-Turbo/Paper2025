@@ -11,7 +11,7 @@ import torch
 
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "3"
-model_name = "/home/data2t1/wangrongzheng/LLaMA-Factory-main/models/llama3_lora_dpo1"
+model_name = "/home/data2t1/tempuser/LLaMA-Factory-main/models/llama3_lora_dpo1"
 
 sampling_params = SamplingParams(max_tokens=8192, temperature=0.7, top_p=1)
 
@@ -26,26 +26,26 @@ def read_json_file(file_path):
     return data
 
 
-prompt_file = '/home/data2t1/wangrongzheng/GTAgent/Web/Task_Agent/Llama3_Graph_Agent/simple_toolset/prompt_origin.txt'
+prompt_file = '/home/data2t1/tempuser/GTAgent/Web/Task_Agent/Llama3_Graph_Agent/simple_toolset/prompt_origin.txt'
 with open(prompt_file, 'r', encoding='utf-8') as file:
     prompt = file.read()
 
-prompt_file = '/home/data2t1/wangrongzheng/GTAgent/Web/Task_Agent/Llama3_Graph_Agent/re_prompt5.txt'
+prompt_file = '/home/data2t1/tempuser/GTAgent/Web/Task_Agent/Llama3_Graph_Agent/re_prompt5.txt'
 with open(prompt_file, 'r', encoding='utf-8') as file:
     prompt2 = file.read()
 
 # 主程序
-#/home/data2t1/wangrongzheng/GTAgent/Web/Dataset/1000_50_5ques/pagerank_output.json
-#/home/data2t1/wangrongzheng/GTAgent/Web/Dataset/1000_50_5ques/common_neighbors_output.json
-#/home/data2t1/wangrongzheng/GTAgent/Web/Dataset/1000_50_5ques/jaccard_coefficient_output.json
-#/home/data2t1/wangrongzheng/GTAgent/Web/Dataset/1000_50_5ques/graph_diameter_output.json
-#/home/data2t1/wangrongzheng/GTAgent/Web/Dataset/1000_50_5ques/hits_scores_output.json
-output_file_path = '/home/data2t1/wangrongzheng/GTAgent/Web/Dataset/1000_50_5ques/common_neighbors_output.json' # 替换为你保存的JSON文件路径
+#/home/data2t1/tempuser/GTAgent/Web/Dataset/1000_50_5ques/pagerank_output.json
+#/home/data2t1/tempuser/GTAgent/Web/Dataset/1000_50_5ques/common_neighbors_output.json
+#/home/data2t1/tempuser/GTAgent/Web/Dataset/1000_50_5ques/jaccard_coefficient_output.json
+#/home/data2t1/tempuser/GTAgent/Web/Dataset/1000_50_5ques/graph_diameter_output.json
+#/home/data2t1/tempuser/GTAgent/Web/Dataset/1000_50_5ques/hits_scores_output.json
+output_file_path = '/home/data2t1/tempuser/GTAgent/Web/Dataset/1000_50_5ques/common_neighbors_output.json' # 替换为你保存的JSON文件路径
 subgraphs_info = read_json_file(output_file_path)
 
 
 # 输出结果保存路径
-output_json_file = '/home/data2t1/wangrongzheng/GTAgent/Web/Dataset/1000_50_5ques/output/pagerank.json'
+output_json_file = '/home/data2t1/tempuser/GTAgent/Web/Dataset/1000_50_5ques/output/pagerank.json'
 # 如果结果文件不存在，则创建一个空列表文件
 if not os.path.exists(output_json_file):
     with open(output_json_file, 'w') as f:

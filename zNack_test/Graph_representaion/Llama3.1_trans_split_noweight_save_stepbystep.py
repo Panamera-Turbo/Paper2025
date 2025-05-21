@@ -10,7 +10,7 @@ import transformers
 import torch
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "5"
-model_id = "/home/data2t1/wangrongzheng/Llama-3.1-8B-Instruct"
+model_id = "/home/data2t1/tempuser/Llama-3.1-8B-Instruct"
 
 # Initialize text generation pipeline
 pipeline = transformers.pipeline(
@@ -54,11 +54,11 @@ def parse_graph(input_data):
 
     return G
 
-prompt_file = '/home/data2t1/wangrongzheng/GTAgent/Web/Graph_Agent/GPT_Graph_Agent/prompt5.txt'
+prompt_file = '/home/data2t1/tempuser/GTAgent/Web/Graph_Agent/GPT_Graph_Agent/prompt5.txt'
 with open(prompt_file, 'r', encoding='utf-8') as file:
     prompt = file.read()
 
-output_file_path = '/home/data2t1/wangrongzheng/GTAgent/.Graph4Real/Trans/Question_Json/Small/Web/Shortest_Path.json'
+output_file_path = '/home/data2t1/tempuser/GTAgent/.Graph4Real/Trans/Question_Json/Small/Web/Shortest_Path.json'
 subgraphs_info = read_json_file(output_file_path)
 
 def edge_edit_distance(G, H):

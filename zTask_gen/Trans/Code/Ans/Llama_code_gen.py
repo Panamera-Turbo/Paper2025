@@ -14,7 +14,7 @@ import transformers
 import torch
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
-model_id = "/home/data2t1/wangrongzheng/LLaMA-Factory-main/models/llama3.1_lora_code2"
+model_id = "/home/data2t1/tempuser/LLaMA-Factory-main/models/llama3.1_lora_code2"
 
 # 初始化生成文本的 pipeline
 pipeline = transformers.pipeline(
@@ -63,7 +63,7 @@ if __name__ == "__main__":
         tmp_path = f.name
 
     # 构造conda执行命令（完整路径初始化）
-    conda_sh_path = "/home/data2t1/wangrongzheng/miniconda3/etc/profile.d/conda.sh"
+    conda_sh_path = "/home/data2t1/tempuser/miniconda3/etc/profile.d/conda.sh"
     
     if sys.platform.startswith('win'):
         python_command = fr"conda activate {conda_env_name} && python"

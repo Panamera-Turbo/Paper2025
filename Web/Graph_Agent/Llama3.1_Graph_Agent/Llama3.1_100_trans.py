@@ -10,7 +10,7 @@ import transformers
 import torch
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
-model_id = "/home/data2t1/wangrongzheng/Llama-3.1-8B-Instruct"
+model_id = "/home/data2t1/tempuser/Llama-3.1-8B-Instruct"
 
 # 初始化生成文本的 pipeline
 pipeline = transformers.pipeline(
@@ -66,12 +66,12 @@ def parse_graph(input_data):
     return G
 
 
-prompt_file = '/home/data2t1/wangrongzheng/GTAgent/Web/Graph_Agent/GPT_Graph_Agent/prompt5.txt'
+prompt_file = '/home/data2t1/tempuser/GTAgent/Web/Graph_Agent/GPT_Graph_Agent/prompt5.txt'
 with open(prompt_file, 'r', encoding='utf-8') as file:
     prompt = file.read()
 
 # 主程序
-output_file_path = '/home/data2t1/wangrongzheng/GTAgent/Social/gen/1000_50/edge_exists_output.json' # 替换为你保存的JSON文件路径
+output_file_path = '/home/data2t1/tempuser/GTAgent/Social/gen/1000_50/edge_exists_output.json' # 替换为你保存的JSON文件路径
 subgraphs_info = read_json_file(output_file_path)
 
 

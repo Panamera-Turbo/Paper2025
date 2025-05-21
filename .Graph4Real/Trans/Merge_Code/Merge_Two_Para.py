@@ -86,11 +86,11 @@
 
 
 # # 使用示例
-# merge_jsons('/home/data2t1/wangrongzheng/GTAgent/Transport/gen/1000_50_nodes/is_reachable_output.json', 
-#             '/home/data2t1/wangrongzheng/GTAgent/zTask_gen/Trans/Ans/Path_Existence_filtered.json', 
-#             '/home/data2t1/wangrongzheng/GTAgent/.Graph4Real/Trans/Path_Existence.json')
+# merge_jsons('/home/data2t1/tempuser/GTAgent/Transport/gen/1000_50_nodes/is_reachable_output.json', 
+#             '/home/data2t1/tempuser/GTAgent/zTask_gen/Trans/Ans/Path_Existence_filtered.json', 
+#             '/home/data2t1/tempuser/GTAgent/.Graph4Real/Trans/Path_Existence.json')
 
-# # '/home/data2t1/wangrongzheng/GTAgent/.Graph4Real/Trans/Cycle_Detection.json'
+# # '/home/data2t1/tempuser/GTAgent/.Graph4Real/Trans/Cycle_Detection.json'
 
 
 import json
@@ -207,9 +207,9 @@ def merge_jsons_from_folders(folder1_path, folder2_path, output_folder_path):
 
 # 使用示例
 merge_jsons_from_folders(
-    '/home/data2t1/wangrongzheng/GTAgent/Transport/gen/100_50_nodes/Two_para', 
-    '/home/data2t1/wangrongzheng/GTAgent/zzzQuesGen/Trans/translated_json', 
-    '/home/data2t1/wangrongzheng/GTAgent/zzzQuesGen/Trans/Ques_to_evalute'
+    '/home/data2t1/tempuser/GTAgent/Transport/gen/100_50_nodes/Two_para', 
+    '/home/data2t1/tempuser/GTAgent/zzzQuesGen/Trans/translated_json', 
+    '/home/data2t1/tempuser/GTAgent/zzzQuesGen/Trans/Ques_to_evalute'
 )
 
 

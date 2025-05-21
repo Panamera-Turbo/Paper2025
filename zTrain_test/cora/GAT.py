@@ -3,7 +3,7 @@ import torch.nn.functional as F
 from torch_geometric.nn import GATConv
 
 # 加载本地 Cora 数据集
-data_path = '/home/data2t1/wangrongzheng/GTAgent/zTrain_test/cora/cora_fixed_tfidf.pt'
+data_path = '/home/data2t1/tempuser/GTAgent/zTrain_test/cora/cora_fixed_tfidf.pt'
 data = torch.load(data_path)
 
 # 检查数据是否包含 train_mask，如果没有则手动创建

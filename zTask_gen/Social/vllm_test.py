@@ -29,8 +29,8 @@ def chat_completion_request(messages, model=GPT_MODEL):
 
 # 配置 LLM 模型
 os.environ["CUDA_VISIBLE_DEVICES"] = "3"
-model_name = "/home/data2t1/wangrongzheng/LLaMA-Factory-main/models/llama3.1_lora_dpo+grpo"
-#"/home/data2t1/wangrongzheng/LLaMA-Factory-main/models/llama3.1_lora_dpo+grpo"
+model_name = "/home/data2t1/tempuser/LLaMA-Factory-main/models/llama3.1_lora_dpo+grpo"
+#"/home/data2t1/tempuser/LLaMA-Factory-main/models/llama3.1_lora_dpo+grpo"
 sampling_params = SamplingParams(max_tokens=4096, temperature=0.7, top_p=1)
 
 #llm = LLM(model=model_name, tokenizer_mode="auto", tensor_parallel_size=1, dtype="half")

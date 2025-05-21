@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 读取CSV文件
-file_path = "/home/data2t1/wangrongzheng/GTAgent/zTrain_test/transport/PEMS03.csv"
+file_path = "/home/data2t1/tempuser/GTAgent/zTrain_test/transport/PEMS03.csv"
 df = pd.read_csv(file_path)
 
 # 获取所有节点

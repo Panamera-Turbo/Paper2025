@@ -42,7 +42,7 @@ if __name__ == "__main__":
         tmp_path = f.name
 
     # 构造conda执行命令（完整路径初始化）
-    conda_sh_path = "/home/data2t1/wangrongzheng/miniconda3/etc/profile.d/conda.sh"
+    conda_sh_path = "/home/data2t1/tempuser/miniconda3/etc/profile.d/conda.sh"
     
     if sys.platform.startswith('win'):
         python_command = fr"conda activate {conda_env_name} && python"

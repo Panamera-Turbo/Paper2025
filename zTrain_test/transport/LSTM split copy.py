@@ -17,8 +17,8 @@
 # np.random.seed(42)
 
 # # 数据路径
-# npz_path = "/home/data2t1/wangrongzheng/GTAgent/zTrain_test/transport/PEMS03.npz"
-# csv_path = "/home/data2t1/wangrongzheng/GTAgent/zTrain_test/transport/PEMS03.csv"
+# npz_path = "/home/data2t1/tempuser/GTAgent/zTrain_test/transport/PEMS03.npz"
+# csv_path = "/home/data2t1/tempuser/GTAgent/zTrain_test/transport/PEMS03.csv"
 
 # class TrafficData:
 #     def __init__(self, X, y):
@@ -82,9 +82,9 @@ torch.manual_seed(42)
 np.random.seed(42)
 
 # 数据路径
-npz_path = "/home/data2t1/wangrongzheng/GTAgent/zTrain_test/transport/PEMS03.npz"
-csv_path = "/home/data2t1/wangrongzheng/GTAgent/zTrain_test/transport/PEMS03.csv"
-output_csv_path = "/home/data2t1/wangrongzheng/GTAgent/zTrain_test/transport/PEMS03_last12.csv"  # 新增：保存最后12个时刻的CSV路径
+npz_path = "/home/data2t1/tempuser/GTAgent/zTrain_test/transport/PEMS03.npz"
+csv_path = "/home/data2t1/tempuser/GTAgent/zTrain_test/transport/PEMS03.csv"
+output_csv_path = "/home/data2t1/tempuser/GTAgent/zTrain_test/transport/PEMS03_last12.csv"  # 新增：保存最后12个时刻的CSV路径
 
 class TrafficData:
     def __init__(self, X, y):

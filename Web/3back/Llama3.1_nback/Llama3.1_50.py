@@ -9,7 +9,7 @@ from vllm.sampling_params import SamplingParams
 import copy
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "5"
-model_name = "/home/nas/wangrongzheng/Llama-3.1-8B-Instruct"
+model_name = "/home/nas/tempuser/Llama-3.1-8B-Instruct"
 
 sampling_params = SamplingParams(max_tokens=16384, temperature=0.7, top_p=1)
 

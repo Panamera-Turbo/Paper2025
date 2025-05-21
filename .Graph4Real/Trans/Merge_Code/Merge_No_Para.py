@@ -56,11 +56,11 @@
 #     print(f"合并完成，结果已保存到 {output_path}")
 
 # # 使用示例
-# merge_jsons('/home/data2t1/wangrongzheng/GTAgent/Transport/gen/1000_50_nodes/number_of_nodes_output.json', 
-#             '/home/data2t1/wangrongzheng/GTAgent/zTask_gen/Trans/Ans/Node_Count_filtered.json', 
-#             '/home/data2t1/wangrongzheng/GTAgent/.Graph4Real/Trans/Node_Count.json')
+# merge_jsons('/home/data2t1/tempuser/GTAgent/Transport/gen/1000_50_nodes/number_of_nodes_output.json', 
+#             '/home/data2t1/tempuser/GTAgent/zTask_gen/Trans/Ans/Node_Count_filtered.json', 
+#             '/home/data2t1/tempuser/GTAgent/.Graph4Real/Trans/Node_Count.json')
 
-# # '/home/data2t1/wangrongzheng/GTAgent/.Graph4Real/Trans/Cycle_Detection.json'
+# # '/home/data2t1/tempuser/GTAgent/.Graph4Real/Trans/Cycle_Detection.json'
 
 
 import json

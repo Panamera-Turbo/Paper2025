@@ -117,7 +117,7 @@ def random_walk_sampling(G, num_nodes_to_sample):
             return H  # 返回包含采样节点的子图
 
 # 主程序
-file_path = '/home/data2t1/wangrongzheng/GTAgent/Social/1912.txt'  # 替换为你的文件路径
+file_path = '/home/data2t1/tempuser/GTAgent/Social/1912.txt'  # 替换为你的文件路径
 G = read_graph_from_file(file_path)
 
 # 随机采样生成十个子图

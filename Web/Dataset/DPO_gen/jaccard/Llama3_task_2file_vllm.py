@@ -11,7 +11,7 @@ import torch
 
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
-model_name = "/home/data2t1/wangrongzheng/llama3_GLandEX"
+model_name = "/home/data2t1/tempuser/llama3_GLandEX"
 
 sampling_params = SamplingParams(max_tokens=8192, temperature=0.7, top_p=1)
 
@@ -26,21 +26,21 @@ def read_json_file(file_path):
     return data
 
 
-prompt_file = '/home/data2t1/wangrongzheng/GTAgent/Web/Dataset/DPO_gen/jaccard/prompt1.txt'
+prompt_file = '/home/data2t1/tempuser/GTAgent/Web/Dataset/DPO_gen/jaccard/prompt1.txt'
 with open(prompt_file, 'r', encoding='utf-8') as file:
     prompt1 = file.read()
 
-prompt_file = '/home/data2t1/wangrongzheng/GTAgent/Web/Dataset/DPO_gen/jaccard/prompt2.txt'
+prompt_file = '/home/data2t1/tempuser/GTAgent/Web/Dataset/DPO_gen/jaccard/prompt2.txt'
 with open(prompt_file, 'r', encoding='utf-8') as file:
     prompt2 = file.read()
 
 # 主程序
-output_file_path = '/home/data2t1/wangrongzheng/GTAgent/Web/Dataset/1000_50_5ques/output/jaccard_coefficient.json' # 替换为你保存的JSON文件路径
+output_file_path = '/home/data2t1/tempuser/GTAgent/Web/Dataset/1000_50_5ques/output/jaccard_coefficient.json' # 替换为你保存的JSON文件路径
 subgraphs_info = read_json_file(output_file_path)
 
 
 # 输出结果保存路径
-output_json_file = '/home/data2t1/wangrongzheng/GTAgent/Web/Dataset/1000_50_5ques/output/jaccard_DPO.json'
+output_json_file = '/home/data2t1/tempuser/GTAgent/Web/Dataset/1000_50_5ques/output/jaccard_DPO.json'
 # 如果结果文件不存在，则创建一个空列表文件
 if not os.path.exists(output_json_file):
     with open(output_json_file, 'w') as f:

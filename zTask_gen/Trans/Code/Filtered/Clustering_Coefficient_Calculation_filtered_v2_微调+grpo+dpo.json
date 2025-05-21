@@ -1,0 +1,18 @@
+[
+    {
+        "origin_question": "在追踪论文引文网络中学术影响力的传播路径时，节点'0302'的聚类系数是多少？请保留两位小数。",
+        "question": "What is the clustering coefficient of node '0302' when tracing the propagation path of academic influence in the citation network of papers? Please keep two decimal places.",
+        "label": "​​Clustering_Coefficient_Calculation",
+        "type": "学术影响力追踪",
+        "true_count": 9,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在追踪学术影响力的论文引文网络中，节点编号'0302'的文章与其引用关系形成的局部社区结构紧密程度如何？请计算该节点的聚类系数并保留两位小数。",
+        "question": "In the citation network tracking academic influence, what is the closeness of the local community structure formed by the article with node number '0302' and its citation relationships? Please calculate the clustering coefficient of that node and round it to two decimal places.",
+        "label": "​​Clustering_Coefficient_Calculation",
+        "type": "学术影响力追踪",
+        "true_count": 3,
+        "weak_count": 1
+    }
+]

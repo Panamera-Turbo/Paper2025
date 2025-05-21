@@ -342,8 +342,8 @@ def evaluate_model(model, test_loader, scaler, device):
 
 def main():
     # Load data
-    npz_path = "/home/data2t1/wangrongzheng/GTAgent/zTrain_test/transport/PEMS03.npz"
-    csv_path = "/home/data2t1/wangrongzheng/GTAgent/zTrain_test/transport/PEMS03.csv"
+    npz_path = "/home/data2t1/tempuser/GTAgent/zTrain_test/transport/PEMS03.npz"
+    csv_path = "/home/data2t1/tempuser/GTAgent/zTrain_test/transport/PEMS03.csv"
     
     data_obj = np.load(npz_path)
     traffic_data = data_obj['data']  # Shape (26208, 358, 1)

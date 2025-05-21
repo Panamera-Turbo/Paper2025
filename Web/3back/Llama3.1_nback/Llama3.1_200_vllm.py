@@ -9,7 +9,7 @@ from vllm.sampling_params import SamplingParams
 import copy
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
-model_name = "/home/data2t1/wangrongzheng/llama3_GLandEX"
+model_name = "/home/data2t1/tempuser/llama3_GLandEX"
 
 sampling_params = SamplingParams(max_tokens=16384, temperature=0.7, top_p=1)
 
@@ -62,7 +62,7 @@ def parse_graph(input_data):
 
 
 # 主程序
-output_file_path = '/home/data2t1/wangrongzheng/GTAgent/Web/Data_edgecut/subgraphs_output_edgecut_200.json'  # 替换为你保存的JSON文件路径
+output_file_path = '/home/data2t1/tempuser/GTAgent/Web/Data_edgecut/subgraphs_output_edgecut_200.json'  # 替换为你保存的JSON文件路径
 subgraphs_info = read_json_file(output_file_path)
 
 

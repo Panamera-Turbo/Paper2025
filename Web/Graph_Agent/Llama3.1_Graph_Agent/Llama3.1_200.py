@@ -8,7 +8,7 @@ from vllm import LLM
 from vllm.sampling_params import SamplingParams
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "6,7"
-model_name = "/home/data2t1/wangrongzheng/Llama-3.1-8B-Instruct"
+model_name = "/home/data2t1/tempuser/Llama-3.1-8B-Instruct"
 
 sampling_params = SamplingParams(max_tokens=8192, temperature=0.7, top_p=1)
 
@@ -60,12 +60,12 @@ def parse_graph(input_data):
     return G
 
 
-prompt_file = '/home/data2t1/wangrongzheng/GTAgent/Web/GPT_Graph_Agent/prompt4.txt'
+prompt_file = '/home/data2t1/tempuser/GTAgent/Web/GPT_Graph_Agent/prompt4.txt'
 with open(prompt_file, 'r', encoding='utf-8') as file:
     prompt = file.read()
 
 # 主程序
-output_file_path = '/home/data2t1/wangrongzheng/GTAgent/Web/Dataset/10000_200/has_cycle_output.json' # 替换为你保存的JSON文件路径
+output_file_path = '/home/data2t1/tempuser/GTAgent/Web/Dataset/10000_200/has_cycle_output.json' # 替换为你保存的JSON文件路径
 subgraphs_info = read_json_file(output_file_path)
 
 

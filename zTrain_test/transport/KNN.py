@@ -82,8 +82,8 @@ def train_and_predict_knn(X_train, y_train, X_test, y_test, scaler, features, n_
 # 4. 主函数
 def main():
     # 文件路径
-    csv_path = "/home/data2t1/wangrongzheng/GTAgent/zTrain_test/transport/PEMS03.csv"  # 替换为你的 CSV 文件路径
-    npz_path = "/home/data2t1/wangrongzheng/GTAgent/zTrain_test/transport/PEMS03.npz"  # 替换为你的 NPZ 文件路径（如果有）
+    csv_path = "/home/data2t1/tempuser/GTAgent/zTrain_test/transport/PEMS03.csv"  # 替换为你的 CSV 文件路径
+    npz_path = "/home/data2t1/tempuser/GTAgent/zTrain_test/transport/PEMS03.npz"  # 替换为你的 NPZ 文件路径（如果有）
     
     # 加载数据
     traffic_data, adj_matrix = load_data(csv_path, npz_path)

@@ -11,7 +11,7 @@ import torch
 
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "5"
-model_name = "/home/data2t1/wangrongzheng/LLaMA-Factory-main/models/llama3_lora_dpo1"
+model_name = "/home/data2t1/tempuser/LLaMA-Factory-main/models/llama3_lora_dpo1"
 
 sampling_params = SamplingParams(max_tokens=8192, temperature=0.7, top_p=1)
 
@@ -26,21 +26,21 @@ def read_json_file(file_path):
     return data
 
 
-prompt_file = '/home/data2t1/wangrongzheng/GTAgent/Web/Task_Agent/Llama3_Graph_Agent/simple_toolset/prompt_origin.txt'
+prompt_file = '/home/data2t1/tempuser/GTAgent/Web/Task_Agent/Llama3_Graph_Agent/simple_toolset/prompt_origin.txt'
 with open(prompt_file, 'r', encoding='utf-8') as file:
     prompt = file.read()
 
-prompt_file = '/home/data2t1/wangrongzheng/GTAgent/Web/Task_Agent/Llama3_Graph_Agent/re_prompt5.txt'
+prompt_file = '/home/data2t1/tempuser/GTAgent/Web/Task_Agent/Llama3_Graph_Agent/re_prompt5.txt'
 with open(prompt_file, 'r', encoding='utf-8') as file:
     prompt2 = file.read()
 
 # 主程序
-output_file_path = '/home/data2t1/wangrongzheng/GTAgent/Web/Dataset/1000_50_5ques/node_exists_output.json' # 替换为你保存的JSON文件路径
+output_file_path = '/home/data2t1/tempuser/GTAgent/Web/Dataset/1000_50_5ques/node_exists_output.json' # 替换为你保存的JSON文件路径
 subgraphs_info = read_json_file(output_file_path)
 
 
 # 输出结果保存路径
-output_json_file = '/home/data2t1/wangrongzheng/GTAgent/Web/Dataset/1000_50_5ques/output/shortest_path.json'
+output_json_file = '/home/data2t1/tempuser/GTAgent/Web/Dataset/1000_50_5ques/output/shortest_path.json'
 # 如果结果文件不存在，则创建一个空列表文件
 if not os.path.exists(output_json_file):
     with open(output_json_file, 'w') as f:

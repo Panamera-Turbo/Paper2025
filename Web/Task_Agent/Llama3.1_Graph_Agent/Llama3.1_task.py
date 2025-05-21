@@ -10,7 +10,7 @@ import transformers
 import torch
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "2"
-model_id = "/home/data2t1/wangrongzheng/Llama-3.1-8B-Instruct"
+model_id = "/home/data2t1/tempuser/Llama-3.1-8B-Instruct"
 
 # 初始化生成文本的 pipeline
 pipeline = transformers.pipeline(
@@ -28,16 +28,16 @@ def read_json_file(file_path):
     return data
 
 
-prompt_file = '/home/data2t1/wangrongzheng/GTAgent/Web/Task_Agent/Llama3_Graph_Agent/prompt_origin.txt'
+prompt_file = '/home/data2t1/tempuser/GTAgent/Web/Task_Agent/Llama3_Graph_Agent/prompt_origin.txt'
 with open(prompt_file, 'r', encoding='utf-8') as file:
     prompt = file.read()
 
-prompt_file = '/home/data2t1/wangrongzheng/GTAgent/Web/Task_Agent/Llama3_Graph_Agent/re_prompt5.txt'
+prompt_file = '/home/data2t1/tempuser/GTAgent/Web/Task_Agent/Llama3_Graph_Agent/re_prompt5.txt'
 with open(prompt_file, 'r', encoding='utf-8') as file:
     prompt2 = file.read()
 
 # 主程序
-output_file_path = '/home/data2t1/wangrongzheng/GTAgent/Web/Dataset/1000_50_5ques/node_degree_output.json' # 替换为你保存的JSON文件路径
+output_file_path = '/home/data2t1/tempuser/GTAgent/Web/Dataset/1000_50_5ques/node_degree_output.json' # 替换为你保存的JSON文件路径
 subgraphs_info = read_json_file(output_file_path)
 
 
