@@ -328,7 +328,7 @@ generator.run(output_file="data/thinking_paths.jsonl")
 {
   "instruction": "Find shortest path between A and B in [adjacency list]",
   "input": "[[0,1],[1,2],...]",
-  "output": "<THINK>Use Dijkstra's algorithm</THINK><DECISION>tool:shortest_path</DECISION>",
+  "output": "<THINK>Use shortest path tool</THINK><DECISION>tool:shortest_path</DECISION>",
   "system": "You are a graph reasoning expert..."
 }
 ```
@@ -339,7 +339,7 @@ generator.run(output_file="data/thinking_paths.jsonl")
 
 ```shell
   "Reasoning": {
-    "file_name": "${GTools/Train/Graph.json}",
+    "file_name": "${Graph4real/Train/Thinking.json}",
     "columns": {
     "prompt": "instruction",
     "query": "input",
@@ -365,8 +365,8 @@ llamafactory-cli train examples/train_lora/llama3_lora_sft.yaml
 
 ```shell
 # Our fine-tuning parameter settings are as follows.
-model_path= Llama3/model
-output_model= Llama3/lora_weight
+model_path= Llama3.1/model
+output_model= Llama3.1/lora_weight
 
 ### model
 model_name_or_path: ${model_path}
@@ -427,9 +427,12 @@ DPOPreferenceGenerator(
 ```
 
 #### Config: `examples/train_dpo/graphcogent_dpo.yaml`
-```yaml
+```shell
+model_path= Llama3.1/model
+output_model= saves/llama3.1-8b/lora/dpo+grpo
+
 ### model
-model_name_or_path: /home/data2t1/wangrongzheng/DeepSeek-R1-Distill-Llama-8B
+model_name_or_path: ${model_path}
 trust_remote_code: true
 
 ### method
@@ -449,7 +452,7 @@ overwrite_cache: true
 preprocessing_num_workers: 8
 
 ### output
-output_dir: saves/llama3-8b/lora/dpo+grpo
+output_dir: {output_model}
 logging_steps: 10
 save_steps: 500
 plot_loss: true
