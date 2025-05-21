@@ -497,18 +497,12 @@ llamafactory-cli export \
   --export_legacy_format false
 ```
 
-**Verification**:
-```python
-from transformers import AutoModelForCausalLM
-model = AutoModelForCausalLM.from_pretrained("./deploy/graphcogent_agent")
-assert "graph" in model.config.architectures[0].lower()
-```
 
 ---
 
 ## Folder Structure
 ```
-GraphCogent/
+GraphCogent_train/
 ├── data/
 │   ├── thinking_paths.jsonl      # SFT data
 │   └── dpo_pairs.jsonl           # DPO preferences
