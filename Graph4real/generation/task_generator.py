@@ -2,6 +2,7 @@ import json
 from openai import OpenAI
 from tqdm import tqdm
 import os
+import argparse
 
 GPT_MODEL = "deepseek-r1"
 
@@ -23,80 +24,92 @@ def chat_completion_request(messages, model=GPT_MODEL):
         print(f"Exception: {e}")
         return e
 
-# 配置文件路径
-input_folder = 'zzzQuesGen/Trans/p1'  # 替换为您的txt文件夹路径
-output_folder = 'zzzQuesGen/Trans/json'  # 替换为输出JSON文件夹路径
+def main():
+    # Set up argument parser
+    parser = argparse.ArgumentParser(description='Process text files and generate JSON outputs.')
+    parser.add_argument('--input_folder', required=True, help='Path to the input folder containing txt files')
+    parser.add_argument('--output_folder', required=True, help='Path to the output folder for JSON files')
+    parser.add_argument('--num_examples', type=int, required=True, help='Total number of examples to generate')
+    
+    args = parser.parse_args()
 
-# 如果输出文件夹不存在，则创建
-if not os.path.exists(output_folder):
-    os.makedirs(output_folder)
+    # Use the arguments
+    input_folder = args.input_folder
+    output_folder = args.output_folder
+    num_examples = args.num_examples
 
-# 获取所有txt文件
-txt_files = [f for f in os.listdir(input_folder) if f.endswith('.txt')]
+    # If output folder doesn't exist, create it
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
 
-for txt_file in tqdm(txt_files, desc="Processing Files"):
-    # 读取文件内容和标题
-    file_path = os.path.join(input_folder, txt_file)
-    with open(file_path, 'r', encoding='utf-8') as f:
-        mess = f.read().strip()
-    title = os.path.splitext(txt_file)[0]
+    # Get all txt files
+    txt_files = [f for f in os.listdir(input_folder) if f.endswith('.txt')]
 
-    # 输出JSON文件路径（基于txt文件名）
-    output_file_path = os.path.join(output_folder, f"{title}.json")
+    for txt_file in tqdm(txt_files, desc="Processing Files"):
+        # Read file content and title
+        file_path = os.path.join(input_folder, txt_file)
+        with open(file_path, 'r', encoding='utf-8') as f:
+            mess = f.read().strip()
+        title = os.path.splitext(txt_file)[0]
 
-    # 初始化数据存储
-    data = []
-    if os.path.exists(output_file_path):
-        try:
-            with open(output_file_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-        except (json.JSONDecodeError, FileNotFoundError):
-            data = []
+        # Output JSON file path (based on txt filename)
+        output_file_path = os.path.join(output_folder, f"{title}.json")
 
-    original_string = mess
-    # 总次数
-    total_count = 400
+        # Initialize data storage
+        data = []
+        if os.path.exists(output_file_path):
+            try:
+                with open(output_file_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+            except (json.JSONDecodeError, FileNotFoundError):
+                data = []
 
-    # 定义替换内容列表
-    contents = [
-        "旅游行程规划",
-        "物流配送优化",
-        "城市应急响应",
-        "公共交通调度",
-        "共享出行服务"
-    ]
+        original_string = mess
+        # Define replacement content list
+        contents = [
+            "Travel route planning",
+            "Logistics delivery optimization",
+            "Urban emergency response planning",
+            "Public transit network scheduling",
+            "Shared mobility platforms"
+        ]
 
-    # 每个内容的打印次数
-    count_per_content = total_count // len(contents)
+        # Number of examples per content
+        count_per_content = num_examples // len(contents)
 
-    # 替换并打印整个字符串
-    for content in tqdm(contents, desc=f"Calling API for {txt_file}"):
-        for _ in tqdm(range(count_per_content), desc=f"content {content}"):
-            # 替换字符串中的 {{}} 为当前内容
-            modified_string = original_string.replace("{{}}", content)
-            print(modified_string)
+        # Replace and print the entire string
+        for content in tqdm(contents, desc=f"Calling API for {txt_file}"):
+            for _ in tqdm(range(count_per_content), desc=f"content {content}"):
+                # Replace {{}} in the string with current content
+                modified_string = original_string.replace("{{}}", content)
+                print(modified_string)
 
-            messages = [{"role": "user", "content": modified_string}]
-            chat_response = chat_completion_request(messages)
-            
-            if isinstance(chat_response, Exception):
-                continue
-            
-            # 获取API响应内容
-            answer = chat_response.choices[0].message.content
-            print(answer)
-            
-            # 记录数据
-            data.append({
-                'prompt': modified_string,
-                'label': title,
-                'type': content,
-                'answer': answer
-            })
-            
-            # 实时保存结果
-            with open(output_file_path, 'w', encoding='utf-8') as f:
-                json.dump(data, f, ensure_ascii=False, indent=4)
+                messages = [{"role": "user", "content": modified_string}]
+                chat_response = chat_completion_request(messages)
+                
+                if isinstance(chat_response, Exception):
+                    continue
+                
+                # Get API response content
+                answer = chat_response.choices[0].message.content
+                print(answer)
+                
+                # Record data
+                data.append({
+                    'prompt': modified_string,
+                    'label': title,
+                    'type': content,
+                    'answer': answer
+                })
+                
+                # Save results in real time
+                with open(output_file_path, 'w', encoding='utf-8') as f:
+                    json.dump(data, f, ensure_ascii=False, indent=4)
+
+    print("All JSON files have been updated.")
+
+if __name__ == "__main__":
+    main()
 
 
-print("所有JSON文件已更新。")
+# python script.py --input_folder zzzQuesGen/Trans/p1 --output_folder zzzQuesGen/Trans/json --num_examples 400

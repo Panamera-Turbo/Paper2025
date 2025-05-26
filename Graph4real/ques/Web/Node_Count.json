@@ -1,0 +1,1402 @@
+[
+    {
+        "origin_question": "在优化分布式网页爬虫的任务分配时，为避免重复抓取和遗漏页面，需要准确计算当前网络拓扑中存在的所有独立页面总数。若每个爬虫实例负责不同子域，应如何确定全网的页面总量？",
+        "question": "In optimizing the task allocation for distributed web crawlers, to avoid redundant crawling and missing pages, it is necessary to accurately calculate the total number of independent pages present in the current network topology. If each crawler instance is responsible for different subdomains, how should the total number of pages across the entire network be determined?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫时，为避免因动态生成的循环链接重复抓取导致带宽浪费，需计算当前拓扑内实际存在的独立网页数量，请确定该数值。",
+        "question": "When optimizing web crawlers, in order to avoid bandwidth waste caused by repetitive crawling of dynamically generated circular links, it is necessary to calculate the actual number of distinct webpages present in the current topology. Please determine this value.",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "爬虫团队计划优化资源分配策略，需提前确定待抓取网页的总数量以避免重复访问。若将孤立页面和存在相互跳转关系的页面视为独立实体，当前网络中实际需要计入的节点总量是多少？",
+        "question": "The web crawling team plans to optimize the resource allocation strategy and needs to determine the total number of web pages to be crawled in advance to avoid duplicate visits. If isolated pages and pages with mutual links are considered independent entities, what is the total number of nodes that needs to be accounted for in the current network?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分布式爬虫系统的初始抓取阶段，为合理分配服务器资源并避免重复索引，需计算当前网络中存在多少独立网页。如何确定需处理的页面总数？",
+        "question": "In the initial crawling phase of a distributed crawler system, it is essential to calculate how many unique web pages currently exist on the network in order to allocate server resources effectively and avoid duplicate indexing. How can we determine the total number of pages that need to be processed?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了优化爬虫效率并避免重复抓取，需要确定整个网络中所有不重复的页面总数。请问当前网络中共有多少个不同的网页需要处理？",
+        "question": "To optimize the efficiency of web crawlers and avoid duplicate fetching, it is necessary to determine the total number of unique pages across the entire network. Could you please let me know how many different web pages need to be processed in the current network?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站爬虫在抓取过程中使用哈希表记录已访问节点以避免重复请求，现需要统计该网络内所有唯一网页的总数，从而确认当前哈希表容量是否足够覆盖所有页面。请计算该拓扑中存在的独立节点数量。",
+        "question": "A web crawler on a certain site uses a hash table to record the nodes it has visited in order to avoid duplicate requests. It now needs to count the total number of unique webpages in the network to determine if the current hash table capacity is sufficient to cover all pages. Please calculate the number of independent nodes present in this topology.",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫任务时，为避免重复抓取并合理分配服务器资源，需明确当前网络拓扑中实际存在的独立网页节点总数是多少？",
+        "question": "In optimizing webpage crawling tasks, to avoid redundant captures and allocate server resources effectively, it is necessary to clarify the total number of actual independent webpage nodes present in the current network topology.",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "若网络爬虫采用哈希表记录已访问节点以避免重复抓取，为确保本次任务能完整处理所有页面，需计算当前网站拓扑中可能存在的不重复网页总数。",
+        "question": "If the web crawler uses a hash table to record visited nodes to avoid duplicate crawling, it is necessary to calculate the total number of distinct web pages that may exist in the current website topology to ensure that the task can fully process all pages.",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在网页爬虫优化中，为避免冗余请求并节省带宽，需预先确定整个网络内独立页面的精确数量以配置并发抓取线程数，应如何获取该数值？",
+        "question": "In web crawler optimization, to avoid redundant requests and save bandwidth, it is necessary to determine the exact number of unique pages across the entire network in advance in order to configure the number of concurrent fetching threads. How can this value be obtained?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网站爬虫的存储资源分配策略时，为避免因重复抓取相同页面造成带宽浪费，需要先确定整个网络包含多少个独立节点。请根据超链接关系计算该站点实际存在的网页总量。",
+        "question": "When optimizing the storage resource allocation strategy for web crawlers, it is essential to determine the total number of independent nodes in the entire network to avoid bandwidth waste caused by repeatedly crawling the same pages. Please calculate the actual total number of pages on the site based on the hyperlink relationships.",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫的抓取路径时，若需避免重复访问已爬取页面，计算当前网络拓扑中存在的独立页面总数以确定存储资源分配方案。",
+        "question": "When optimizing the crawling path of a web crawler, if it is necessary to avoid revisiting already crawled pages, calculate the total number of distinct pages present in the current network topology to determine the resource allocation plan for storage.",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化搜索引擎爬虫的抓取效率时，需预先确认目标网站的网络规模。若所有页面仅通过超链接单向关联，且存在多个孤立子网与循环引用，请计算该网络中实际需要抓取的总网页数量。",
+        "question": "When optimizing the crawling efficiency of search engine bots, it is necessary to first confirm the network scale of the target website. If all pages are only associated unidirectionally through hyperlinks, and there are multiple isolated subnets and circular references, please calculate the total number of actual web pages that need to be crawled in this network.",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫抓取策略时，若需避免重复访问同一页面，应如何计算整个由相互链接的独立页面构成的网络中不重复的页面总数？",
+        "question": "When optimizing the web crawler fetching strategy, how should one calculate the total number of unique pages in a network composed of interconnected independent pages to avoid revisiting the same page?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为确保爬虫在优化后未遗漏任何页面，当前网络中共有多少独立网页需被收录？",
+        "question": "To ensure that the crawler has not missed any pages after optimization, how many independent web pages are currently in the network that need to be indexed?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫抓取策略时，若需确保遍历所有页面且不重复访问，应当如何快速确定该网站拓扑网络中实际存在的唯一可访问网页总量？",
+        "question": "When optimizing the web crawler's crawling strategy, how can we quickly determine the total number of unique accessible web pages that actually exist in the topology of the website to ensure that all pages are traversed without duplicate visits?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站爬虫在优化抓取队列调度时，为避免重复下载已访问页面，需要计算当前网络中所有不重复的独立网页节点总数，该数值是多少？",
+        "question": "Translation: A web crawler on a certain website is optimizing the crawling queue schedule. To avoid re-downloading already visited pages, it needs to calculate the total number of all unique independent web page nodes in the current network. What is that number?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化网页爬虫策略时，为避免重复抓取同域名下的嵌套子页面，需先确定当前主站及其所有子站通过超链接关联的唯一网页总数是多少？",
+        "question": "When optimizing web crawling strategies, in order to avoid duplicate crawling of nested subpages under the same domain, it is necessary to first determine the total number of unique webpages associated through hyperlinks between the current main site and all its sub-sites.",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫的存储资源时，若已通过链接关系标记了所有可访问路径，如何计算当前网络中存在且需要抓取的不同网页总数？",
+        "question": "In optimizing the storage resources of a web crawler, if all accessible paths have been marked through link relationships, how can the total number of different webpages that currently exist and need to be crawled in the network be calculated?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为确保爬虫高效工作且不重复访问，需计算当前网络中共有多少个独立网页需要抓取？",
+        "question": "To ensure that the crawler works efficiently and does not visit pages repeatedly, it is necessary to calculate how many unique web pages are available to be crawled in the current network.",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫避免重复抓取的过程中，若已知所有网页间的跳转关系，如何通过分析链接拓扑结构快速计算当前网站实际存在的独立页面总数？",
+        "question": "In the process of optimizing a web crawler to avoid duplicate fetching, if the jump relationships between all web pages are known, how can we quickly calculate the total number of distinct pages that actually exist on the current website by analyzing the link topology?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫的抓取策略时，若需避免重复访问同一页面，系统需先确定当前网络中独立页面的总数。假设所有通过超链接关联的页面均属于同一网络，请计算需要优先统计的初始页面集合规模。",
+        "question": "When optimizing the crawling strategy of a web crawler, if it is necessary to avoid revisiting the same page, the system must first determine the total number of unique pages within the current network. Assuming that all pages linked through hyperlinks belong to the same network, please calculate the size of the initial set of pages that need to be prioritized for statistics.",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫的存储空间分配时，需要预先确定整个网络中存在多少个不重复的页面。当前所有通过超链接关联的网页节点总数是多少？",
+        "question": "In optimizing the storage space allocation for web crawlers, it is necessary to determine in advance how many unique pages exist across the entire web. What is the current total number of web page nodes associated through hyperlinks?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫的抓取效率时，为避免重复抓取已建立索引的页面，现需通过分析超链接结构确定整个网络中共有多少个唯一网页，请计算该数值。",
+        "question": "To optimize the crawling efficiency of web crawlers and avoid re-crawling indexed pages, it is necessary to analyze the hyperlink structure to determine the total number of unique web pages across the entire network. Please calculate this value.",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站存在多个子页面相互引用形成循环结构，为避免爬虫重复抓取，需要计算整个站点实际存在的独立页面总数。请给出准确数量。",
+        "question": "Translation: A certain website has multiple subpages that reference each other, forming a circular structure. To avoid duplicate crawling by bots, it is necessary to calculate the total number of independent pages that actually exist on the entire site. Please provide the exact number.",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当网页爬虫需要优化抓取任务时，必须明确待处理的独立页面总数。当前网络中存在相互引用的多级页面，如何计算需要抓取的全部唯一网页数量？",
+        "question": "When web crawlers need to optimize their crawling tasks, they must clarify the total number of unique pages that need to be processed. Given the presence of multi-level pages that reference each other on the current web, how can we calculate the total number of unique web pages that need to be crawled?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站在不同子域名下存在相互链接的页面，为避免爬虫重复抓取同一内容，需统计所有通过内部超链接关联的唯一网页数量。应如何计算该站点实际包含的独立页面总数？",
+        "question": "Translation: A certain website has interlinked pages across different subdomains. To avoid web crawlers fetching the same content repeatedly, it is necessary to calculate the number of unique webpages associated through internal hyperlinks. How should the total number of distinct pages contained in the site be calculated?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫的抓取效率时，如何快速确定网站中所有未被重复索引的独立页面数量，以便合理分配爬取资源？",
+        "question": "When optimizing the crawling efficiency of web crawlers, how can we quickly determine the number of unique, non-duplicate indexed pages on a website in order to allocate crawling resources appropriately?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在网页爬虫优化中，为避免重复抓取，使用哈希表记录已访问节点。假设某网站内链结构存在多级跳转，但部分页面被不同路径多次引用，计算总共有多少个唯一网页需要处理？",
+        "question": "In web crawler optimization, to avoid duplicate fetching, a hash table is used to record visited nodes. Assuming a website has a multi-level link structure with certain pages being referenced multiple times through different paths, how many unique web pages need to be processed in total?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某公司使用分布式爬虫抓取网页时，发现多个爬虫实例可能重复访问相同页面。若要全局去重并优化资源分配，需先确定整个网络中有多少唯一页面节点。当前系统中共有多少个独立网页？",
+        "question": "A certain company, while using distributed crawlers to scrape web pages, discovered that multiple crawler instances may access the same page repeatedly. To globally eliminate duplicates and optimize resource allocation, it is necessary to first determine how many unique page nodes exist across the entire network. How many independent web pages are currently in the system?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为提高网页爬虫效率，系统需在首次遍历时确定待抓取页面总量以避免冗余请求。若所有页面仅通过内部超链接单向引用，请计算该网络中不重复的页面总数是多少？",
+        "question": "To improve the efficiency of web crawlers, the system needs to determine the total number of pages to be crawled during the first traversal to avoid redundant requests. If all pages are referenced in a one-way manner through internal hyperlinks, please calculate the total number of unique pages in this network.",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫的抓取效率时，若采用广度优先策略遍历某新闻网站的主站节点，并跳过已访问的子域名页面，需计算当前抓取队列中实际存在的唯一主站节点总数，确保完整覆盖且不重复统计？",
+        "question": "When optimizing the crawling efficiency of a web scraper, if a breadth-first strategy is used to traverse the main site nodes of a news website while skipping already visited subdomain pages, it is necessary to calculate the total number of unique main site nodes that currently exist in the retrieval queue to ensure complete coverage without duplicate counting.",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫任务时，为避免重复抓取并合理分配服务器资源，需要精准统计待爬取网络中的独立页面总数。当前系统中存在多少个不重复的网页？",
+        "question": "In optimizing web crawling tasks, to avoid duplicate fetching and to allocate server resources effectively, it is necessary to accurately count the total number of unique pages in the network to be crawled. How many unique web pages currently exist in the system?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫策略时，若需确保每个页面仅被访问一次且不遗漏，如何计算当前超链接网络中所有独立网页节点的总数？",
+        "question": "When optimizing web crawler strategies, if it is required to ensure that each page is accessed only once and nothing is missed, how can one calculate the total number of independent web page nodes in the current hyperlink network?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为了优化爬虫的分布式抓取策略，需要预先排除镜像站点和重复子域对资源预估的干扰。当前网络拓扑中实际存在的独立网页数量是多少？",
+        "question": "In order to optimize the distributed crawling strategy of the crawler, it is necessary to preclude the interference of mirror sites and duplicate subdomains on resource estimation. What is the actual number of independent web pages that exist in the current network topology?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在网页爬虫优化中，为避免重复抓取和资源浪费，如何计算当前网络内所有需要被索引的唯一页面总数？",
+        "question": "In web crawler optimization, how can we calculate the total number of unique pages that need to be indexed within the current network to avoid redundant crawling and resource wastage?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某搜索引擎在优化爬虫策略时需要避免重复抓取同一页面，已知所有页面通过超链接形成相互引用的网络结构，请计算当前任务中需要抓取的不重复页面总数。",
+        "question": "Translation: When optimizing the crawling strategy of a certain search engine, it is necessary to avoid duplicate crawling of the same page. Given that all pages form a mutually referencing network structure through hyperlinks, please calculate the total number of unique pages that need to be crawled in the current task.",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网站爬虫的抓取策略时，为了避免重复抓取并节省服务器资源，需要预先确定整个网络中有多少个唯一的网页？",
+        "question": "When optimizing the crawling strategy of a website, in order to avoid duplicate crawling and save server resources, it is necessary to determine in advance how many unique webpages exist across the entire network.",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为确保爬虫在抓取时不会因重复访问浪费资源，需要提前计算网站内所有通过超链接连接的页面总数。当前网络中存在的唯一页面共有多少个？",
+        "question": "To ensure that the crawler does not waste resources due to repetitive access during crawling, it is necessary to calculate in advance the total number of pages connected through hyperlinks within the website. How many unique pages currently exist on the web?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化网页爬虫抓取策略时，若已通过链接关系标记了初始抓取范围，如何计算当前网络内实际需要抓取的不重复网页总量，以避免重复访问并分配爬虫资源？",
+        "question": "When optimizing the web crawler's fetching strategy, if the initial fetching scope has already been marked through link relationships, how can the total number of unique webpages that actually need to be crawled within the current network be calculated, in order to avoid duplicate visits and allocate crawler resources efficiently?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫任务时，为了避免重复抓取冗余页面，应当如何计算当前链接网络中所有不重复的独立网页总数？",
+        "question": "When optimizing web crawling tasks, how should we calculate the total number of all unique independent web pages in the current link network to avoid redundant crawling of duplicate pages?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站主页包含多个栏目页链接，每个栏目页又链接不同子页面。若爬虫需通过哈希表记录已访问页面来优化效率，最终需计算整个站点唯一页面的总数。",
+        "question": "The homepage of a certain website contains multiple section page links, and each section page links to different subpages. If a crawler needs to use a hash table to keep track of the visited pages for efficiency optimization, it ultimately needs to calculate the total number of unique pages on the entire site.",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某分布式爬虫系统需要合理分配抓取区域以避免重复索引，已知各子爬虫负责的节点存在交叉链接。若要确保完整覆盖整个网络，需明确基础单元总量。应当计算的基准节点数是多少？",
+        "question": "A certain distributed web crawler system needs to allocate crawling areas reasonably to avoid duplicate indexing, given that the nodes managed by each sub-crawler have overlapping links. To ensure complete coverage of the entire network, it is necessary to clarify the total number of basic units. What should the benchmark number of nodes to be calculated be?",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站在改版后需优化爬虫效率，若已知部分页面因无反向链接未被索引，计算当前网络实际存在的总页面数以调整爬虫的递归抓取深度阈值。",
+        "question": "After the redesign of a certain website, it is necessary to optimize the crawling efficiency. If it is known that some pages are not indexed due to a lack of backlinks, calculate the total number of pages currently existing on the network in order to adjust the recursive crawling depth threshold for the crawler.",
+        "label": "Node_Count",
+        "type": "网页爬虫优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了优化网站内部链接结构以提升搜索引擎排名，需要确保所有页面都能被爬虫有效抓取。计算当前网络中存在的独立网页总数，以评估权重分配是否合理。",
+        "question": "To optimize the internal linking structure of a website for better search engine rankings, it is essential to ensure that all pages can be effectively crawled by bots. Calculate the total number of standalone web pages currently existing on the network to assess whether the weight distribution is reasonable.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在搜索引擎排名优化中，某网站需通过反向链接分布评估页面权重基础。若每个节点代表独立页面，且超链接形成拓扑网络，请计算当前网络中共有多少个未被删除或失效的有效页面？",
+        "question": "In search engine ranking optimization, a certain website needs to evaluate the page authority based on the distribution of backlinks. If each node represents an independent page and hyperlinks form a topological network, please calculate how many valid pages in the current network are not deleted or inactive.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网站内部链接结构以提升搜索引擎排名时，如何计算整个站点包含的独立网页总数，从而帮助分析当前内容规模对排名算法的潜在影响？",
+        "question": "Translation: When optimizing the internal linking structure of a website to improve search engine rankings, how can we calculate the total number of unique pages included in the entire site to help analyze the potential impact of the current content scale on ranking algorithms?",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了优化网站内部链接结构以提升搜索引擎爬虫的抓取效率，现需统计当前站点中所有可被索引的独立页面总数，请计算该网站包含多少个需要被爬虫识别的独立网页节点？",
+        "question": "To optimize the internal link structure of the website and improve the crawling efficiency of search engine bots, we need to count the total number of all indexable independent pages on the current site. Please calculate how many independent web page nodes need to be recognized by the bots on this website.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某网站管理员在优化内部链接结构以提升搜索引擎排名时，需要确定整个网络中的独立页面总数，以便合理分配权重。请计算当前共有多少个不同的网页节点存在？",
+        "question": "A website administrator needs to determine the total number of unique webpage nodes within the entire network while optimizing the internal linking structure to improve search engine rankings, in order to allocate weight appropriately. Please calculate how many different webpage nodes currently exist.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了优化搜索引擎排名，需要确保网站结构合理且所有页面均被内部链接覆盖以便爬虫索引，请计算当前网络中存在的独立网页数量以确定需要参与排名评估的页面总数？",
+        "question": "To optimize search engine rankings, it is essential to ensure that the website structure is logical and that all pages are covered by internal links for crawler indexing. Please calculate the number of unique web pages currently available on the internet to determine the total number of pages that need to be involved in the ranking assessment.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某电商平台为提升搜索引擎排名，重新设计了商品详情页的内部链接结构。现需确认调整后的站点中所有有效页面的数量，以便评估爬虫索引覆盖率，请计算当前网络中的独立页面总数。",
+        "question": "A certain e-commerce platform has redesigned the internal linking structure of its product detail pages to improve search engine rankings. It is now necessary to verify the number of all valid pages on the adjusted site in order to assess the coverage of the crawler index. Please calculate the total number of unique pages on the current website.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某公司近期优化了官网内部链接结构以提升搜索引擎排名，现需确认整个网站中被爬虫成功抓取且未被重复索引的独立页面总数，请计算当前网络中共有多少个唯一网页节点？",
+        "question": "A company has recently optimized the internal link structure of its official website to improve search engine rankings. It now needs to confirm the total number of unique pages on the entire site that have been successfully crawled by spiders and have not been indexed multiple times. Please calculate how many unique webpage nodes currently exist in the network.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了优化搜索引擎排名，需要确保所有页面都被爬虫正确索引，计算当前网站结构中存在的独立网页总数？",
+        "question": "To optimize search engine rankings, it is essential to ensure that all pages are correctly indexed by crawlers. How can we calculate the total number of independent web pages present in the current website structure?",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网站内部链接结构以提升搜索引擎排名时，如何计算当前站点内所有独立页面的总数，需排除重复收录与孤立无链接的情况？",
+        "question": "When optimizing the internal linking structure of a website to improve search engine rankings, how can the total number of unique pages on the current site be calculated, excluding duplicates and isolated pages without any links?",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某电商平台近期优化了商品详情页的内部链接结构以提升搜索引擎收录率，现需确认整个站点中实际存在的独立商品页数量，避免因冗余或孤岛页面影响排名效果，应如何计算当前网络中有效的网页总数？",
+        "question": "A certain e-commerce platform recently optimized the internal link structure of its product detail pages to improve search engine indexing rates. It is now necessary to confirm the actual number of standalone product pages across the entire site to avoid the impact of redundant or orphaned pages on ranking performance. How should the total number of valid web pages in the current network be calculated?",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化某网站的内部链接结构以提升搜索引擎排名时，需要确认所有独立页面的基础数量，请计算当前网络中参与链接优化的有效页面总数。",
+        "question": "When optimizing the internal link structure of a website to improve search engine rankings, it is necessary to confirm the base number of all independent pages. Please calculate the total number of valid pages currently participating in link optimization on the network.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化搜索引擎排名时，需要统计所有参与权重计算的独立页面数量。若每个网页通过超链接形成网络结构，如何确定当前整个拓扑网络中存在的唯一可被索引的网页总数？",
+        "question": "To optimize search engine rankings, it is necessary to count the total number of independent pages involved in weight calculations. If each webpage forms a network structure through hyperlinks, how can we determine the total number of unique indexable pages present in the current overall topological network?",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为了优化搜索引擎排名，需要分析网站内部链接结构。计算当前网站总共有多少个独立网页，以确定是否存在因链接断裂而产生的孤立页面？",
+        "question": "To optimize search engine rankings, it is necessary to analyze the internal linking structure of the website. Calculate the total number of unique web pages on the current site to determine whether there are any isolated pages resulting from broken links.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化某电商网站的搜索引擎排名时，需确保所有商品详情页都能被爬虫发现。已知页面间通过推荐模块形成链接关系，请计算当前网站拓扑中存在的有效页面总数，以验证是否因孤立页面导致索引缺失影响搜索权重。",
+        "question": "When optimizing the search engine ranking of a certain e-commerce website, it is necessary to ensure that all product detail pages can be discovered by crawlers. Given that links between pages are formed through a recommendation module, please calculate the total number of valid pages currently present in the website's topology to verify whether indexing issues due to isolated pages are affecting search weight.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "网站管理员在优化SEO时发现部分页面未被爬虫收录，怀疑存在未连接的孤立页面。请计算当前站点中总共有多少个网页节点，以确认是否所有页面都已正确纳入链接结构？",
+        "question": "The website administrator discovered that some pages were not indexed by crawlers while optimizing SEO and suspected the presence of unlinked isolated pages. Please calculate the total number of web nodes currently on the site to confirm whether all pages have been correctly incorporated into the linking structure.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网站内部链接结构以提升搜索引擎排名时，需确保所有页面均被收录。请计算当前网络中共有多少独立页面，以确认是否存在未被索引的重复或缺失页面？",
+        "question": "When optimizing the internal linking structure of a website to improve search engine ranking, it is important to ensure that all pages are indexed. Please calculate the total number of unique pages currently on the web to confirm if there are any duplicate or missing pages that are not indexed.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某网站管理员在优化内部链接结构以提高搜索引擎排名时，需要确定整个网络中共有多少独立页面参与权重传递。应如何计算这些页面的总数？",
+        "question": "When a website administrator is optimizing the internal linking structure to improve search engine rankings, they need to determine how many unique pages are involved in weight transmission throughout the entire network. How should the total number of these pages be calculated?",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了优化网站内部链接结构并提升搜索引擎排名，需要确保所有页面都被合理索引。请计算当前网络中存在多少独立页面，以确认是否存在遗漏或重复内容？",
+        "question": "To optimize the internal linking structure of the website and improve search engine rankings, it is essential to ensure that all pages are properly indexed. Please calculate how many unique pages currently exist on the web to confirm if there are any missing or duplicate contents.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网站内部链接结构以提升搜索引擎排名时，计算当前网站共有多少个独立网页，以确认所有页面都已被正确收录并参与搜索引擎排名？",
+        "question": "When optimizing the internal link structure of a website to improve search engine rankings, how can one calculate the total number of unique web pages currently on the site to ensure that all pages have been properly indexed and are participating in search engine rankings?",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化某网站的内部链接结构以提升搜索引擎排名时，需要计算整个站点存在的独立页面总数是多少？",
+        "question": "When optimizing a website's internal linking structure to improve search engine rankings, is it necessary to calculate the total number of unique pages present on the entire site?",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化网站内部链接结构以提升搜索引擎排名的过程中，需要确认所有被合理引用的页面总数，请计算当前网络中的有效页面数量。",
+        "question": "In the process of optimizing the internal linking structure of a website to enhance search engine rankings, it is necessary to confirm the total number of reasonably referenced pages. Please calculate the current number of valid pages on the site.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网站内部链接结构以提升搜索引擎排名时，需要确保所有页面都能被爬虫有效抓取。请计算当前网络中共存在多少个独立页面？",
+        "question": "When optimizing the internal link structure of a website to improve search engine rankings, it is important to ensure that all pages can be effectively crawled by bots. Please calculate the total number of independent pages currently existing on the web.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某站点管理员计划优化搜索引擎爬虫的抓取效率，需优先确认当前网络结构中被索引的独立网页总数，以调整站点地图更新策略，应当如何计算该网络的页面基数？",
+        "question": "The administrator of a certain site plans to optimize the crawling efficiency of search engine crawlers and needs to prioritize confirming the total number of independent web pages indexed in the current network structure in order to adjust the site map update strategy. How should the base number of pages in this network be calculated?",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网站内部链接结构以提升搜索引擎排名的过程中，需要确保所有页面都能被爬虫访问。若部分旧页面已被删除但残留反向链接，同时新增了5个落地页且其中2个尚未被任何页面引用，计算当前网站中实际存在的独立页面总数。",
+        "question": "In the process of optimizing the internal link structure of a website to improve search engine rankings, it is essential to ensure that all pages can be accessed by crawlers. If some old pages have been deleted but there are still residual backlinks, and 5 new landing pages have been added, with 2 of them not referenced by any other pages, calculate the total number of unique pages that currently exist on the website.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 17,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在优化某网站内部链接结构以提高搜索引擎排名时，需要确定当前存在多少个独立页面参与链接传递权重，请计算该网站拓扑网络中所有唯一可被爬取的网页节点总数。",
+        "question": "When optimizing the internal link structure of a website to improve its search engine ranking, it's necessary to determine how many independent pages currently participate in link equity transfer. Please calculate the total number of unique crawlable webpage nodes in the topology network of the website.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站在优化搜索引擎排名时，发现部分页面因缺少内部链接导致权重分散，需确认所有独立页面是否均被纳入拓扑体系。请计算当前网络中共有多少个网页节点？",
+        "question": "Translate to English: \n\nDuring the optimization of search engine rankings on a certain website, it was discovered that some pages had their weight dispersed due to a lack of internal links. It is necessary to confirm whether all independent pages have been included in the topological structure. Please calculate the total number of webpage nodes currently in the network.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站在调整内部链接结构以优化搜索引擎排名时，管理员需要确认当前参与权重传递的所有独立页面数量。假设每个页面仅被统计一次，请计算该站点中需要进行链接优化的页面总数？",
+        "question": "When a website is adjusting its internal link structure to optimize search engine rankings, the administrator needs to confirm the total number of independent pages currently involved in the weight transfer. Assuming each page is counted only once, please calculate the total number of pages on the site that require link optimization.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为了优化搜索引擎排名，网站管理员需要确保所有页面都被内部链接覆盖以避免索引遗漏。请计算当前网站结构中存在的有效网页总数，以确认爬虫可访问的页面数量。",
+        "question": "To optimize search engine rankings, webmasters need to ensure that all pages are covered by internal links to avoid indexing issues. Please calculate the total number of valid web pages present in the current website structure to confirm the number of pages accessible to crawlers.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某网站内部链接结构以优化搜索引擎排名时，需要计算整个网络中的网页总数。当前网络中存在孤立页面和无效节点，请确定总共有多少个网页？",
+        "question": "When analyzing the internal link structure of a website to optimize search engine rankings, it's necessary to calculate the total number of webpages across the entire network. Currently, there are isolated pages and invalid nodes in the network. Please determine the total number of webpages.",
+        "label": "Node_Count",
+        "type": "搜索引擎排名优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站在改版迁移后，运维团队需要确认所有历史页面已正确归档。请计算现有站点包含的独立网页总数，以验证是否存在数据丢失风险。",
+        "question": "After the redesign and migration of the website, the operations and maintenance team needs to confirm that all historical pages have been correctly archived. Please calculate the total number of unique web pages included in the current site to verify if there is a risk of data loss.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在网站结构健康诊断中，发现部分页面可能因维护未被索引或重复创建。请通过拓扑关系计算当前网络中实际存在的独立网页总数，以确认是否存在冗余或遗漏。",
+        "question": "In the website structure health diagnosis, it has been found that some pages may not be indexed or have been duplicated due to maintenance. Please calculate the total number of distinct web pages currently existing in the network using topological relationships to confirm whether there are any redundancies or omissions.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前网站拓扑网络进行结构健康诊断时，需要确认所有独立页面的数量是否存在异常。请计算该网络中实际存在的有效节点总数，以判断是否存在未被索引的孤立页面。",
+        "question": "Translation: When conducting structural health diagnostics of the current website topology network, it is necessary to verify whether there are any anomalies in the number of independent pages. Please calculate the total number of valid nodes that actually exist in the network to determine if there are any unindexed isolated pages.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "网站管理员在检查页面结构时，发现某些页面存在孤立状态且无法被用户访问。若已知系统中已标记了5个失效节点，请计算当前整个网站拓扑网络包含多少个网页节点，以确认是否存在未被识别的隐藏异常页面？",
+        "question": "The website administrator found that certain pages are in an isolated state and cannot be accessed by users while checking the page structure. If it is known that 5 invalid nodes have been marked in the system, please calculate the total number of web page nodes in the current website topology network to confirm whether there are any unidentified hidden abnormal pages.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "网站结构健康诊断时发现多个孤立页面未被索引，需确认当前网络规模。请计算该网站包含多少个独立网页节点？",
+        "question": "During the website structure health diagnosis, it was found that multiple isolated pages are not indexed. Please confirm the current network scale. How many independent webpage nodes does this website contain?",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "为了诊断某网站是否存在孤立页面或结构缺陷，需全面统计其所有独立页面数量。请计算该网站拓扑网络中总共有多少个不同的网页节点？",
+        "question": "To diagnose whether a website has isolated pages or structural defects, it is necessary to conduct a comprehensive count of all its independent pages. Please calculate how many different web page nodes exist in the topology network of the website.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站在结构健康诊断中发现部分页面存在孤立或冗余链接问题，需计算整个站点当前有效的独立网页数量以评估优化空间，请问应如何确定总节点数？",
+        "question": "A certain website has found some isolated or redundant link issues during structural health diagnosis. It is necessary to calculate the current number of valid independent pages on the entire site to assess optimization opportunities. How should the total number of nodes be determined?",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "技术团队在诊断网站结构健康状态时，发现可能存在冗余或孤立的页面影响用户体验。需快速核实当前整个站点实际存在的独立网页总数，请通过拓扑数据计算有效节点数量。",
+        "question": "The technical team found that there may be redundant or isolated pages affecting user experience while diagnosing the health status of the website's structure. It is necessary to quickly verify the total number of independent web pages that currently exist on the site. Please calculate the number of effective nodes using topology data.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为确保网站结构健康，避免存在孤立页面或重复节点，需要准确统计当前所有可访问的页面总数。请问该拓扑网络中实际包含多少个有效节点？",
+        "question": "To ensure the health of the website structure and avoid isolated pages or duplicate nodes, it is necessary to accurately count the total number of currently accessible pages. May I ask how many actual valid nodes are included in this topology network?",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站在维护时发现部分页面因历史更新未被收录，为确保站点架构完整性，需诊断当前网络中实际存在的独立网页总数是多少？",
+        "question": "During maintenance of a certain website, it was found that some pages were not indexed due to historical updates. To ensure the integrity of the site's architecture, it is necessary to diagnose the current total number of independent web pages that actually exist on the network.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为了诊断网站是否存在孤立页面或结构异常，当前需要统计所有通过超链接相互关联的页面总数。请计算该拓扑网络中总共有多少个有效页面？",
+        "question": "To diagnose whether there are isolated pages or structural anomalies on the website, it is currently necessary to count the total number of pages that are interconnected through hyperlinks. Please calculate how many valid pages there are in this topological network.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为确保网站无孤立或重复页面，技术团队需统计所有独立网页数量。当前网络中存在多少个不同的页面？",
+        "question": "To ensure there are no isolated or duplicate pages on the website, the technical team needs to count the number of unique web pages. How many different pages currently exist on the network?",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为确保网站结构健康，避免存在孤岛页面影响用户体验，技术团队需核查所有独立网页节点的总数。当前网络中共有多少个唯一页面？",
+        "question": "To ensure the health of the website structure and avoid the existence of isolated pages that could affect user experience, the technical team needs to check the total number of independent webpage nodes. How many unique pages are there currently in the network?",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为确保网站结构不存在冗余或孤立页面影响用户体验，需统计当前网络中所有有效网页的总量。请计算该站点实际包含多少个独立页面节点？",
+        "question": "To ensure that the website structure does not contain redundant or isolated pages that could affect user experience, it is necessary to count the total number of valid webpages currently on the network. Please calculate how many independent page nodes are included on this site.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "为确保网站导航路径有效性，需统计当前拓扑网络中所有存在超链接关系的独立页面总数，请计算当前结构中的实际活跃节点数量？",
+        "question": "To ensure the effectiveness of the website navigation paths, it is necessary to count the total number of independent pages that have hyperlink relationships in the current topology network. Please calculate the number of actual active nodes in the current structure.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "计算当前网站拓扑中存在的总页面数，用于诊断是否存在未收录的孤立节点或冗余页面。",
+        "question": "Calculate the total number of pages present in the current website topology to diagnose whether there are any unindexed isolated nodes or redundant pages.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "请计算当前网站拓扑网络中实际存在的有效页面总数，用以诊断是否存在因超链接配置错误导致的孤立节点或重复节点问题，从而评估整体结构完整性。",
+        "question": "Please calculate the total number of valid pages that currently exist in the website topology network to diagnose whether there are isolated nodes or duplicate nodes resulting from incorrect hyperlink configurations, thereby assessing the overall structural integrity.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在网站健康检查中发现部分页面可能因链接配置错误未被索引，请计算当前系统中实际存在的独立页面总数以确认是否存在数据遗漏。",
+        "question": "In the website health check, it was found that some pages may not have been indexed due to incorrect link configurations. Please calculate the total number of distinct pages that currently exist in the system to confirm whether there are any data omissions.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "技术团队发现搜索引擎爬虫在抓取网站时可能存在遗漏，需要确认当前站点内实际存在的独立页面总数，以便排查未被索引的失效链接。如何基于页面间的超链接关系计算整个网站的有效网页数量？",
+        "question": "The technical team has discovered that there may be omissions when the search engine crawlers are indexing the site. It is necessary to confirm the total number of actual independent pages on the current site in order to identify any unindexed broken links. How can we calculate the total number of valid web pages on the entire site based on the hyperlink relationships between the pages?",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在线商城的网页拓扑网络中，部分页面因超链接失效形成孤立节点。为评估站点导航结构的完整性，需确认当前系统中实际生效的独立页面总量。请计算该网络内存在的有效网页节点数量？",
+        "question": "In the topology of the online mall's web pages, some pages have become isolated nodes due to broken hyperlinks. To assess the integrity of the site's navigation structure, it is necessary to confirm the total number of independent pages that are currently active in the system. Please calculate the number of valid web page nodes present in this network.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "当前网站进行结构健康检查时，需确认所有页面是否存在孤立节点或重复收录问题，请计算整个拓扑网络中独立存在的网页节点总数。",
+        "question": "During the structural health check of the current website, it is necessary to confirm whether there are any isolated nodes or issues with duplicate indexing on all pages. Please calculate the total number of independent web page nodes existing in the entire topology network.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "网站维护人员发现部分改版后的页面无法通过内部导航访问，疑似存在未被正确链接的孤立页面。请计算当前整个网站拓扑网络中所有节点的总数，以确认是否存在未被收录的网页地址。",
+        "question": "The website maintenance personnel discovered that some of the revamped pages could not be accessed via internal navigation, indicating the presence of isolated pages that may not have been correctly linked. Please calculate the total number of nodes in the current website topology to confirm whether there are any unindexed webpage addresses.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在网站结构健康检查中，某站点维护后需确认是否存在页面丢失。请计算当前网络中的总网页节点数，以验证是否与备份数据中记录的500个页面一致。",
+        "question": "In the website structural health check, it is necessary to verify if there are any missing pages after maintenance of a certain site. Please calculate the total number of webpage nodes in the current network to confirm whether it matches the recorded 500 pages in the backup data.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某网站导航结构健康度时，发现部分页面存在孤立或冗余链接。为评估整体架构完整性，需要明确整个站点实际存在的独立页面总量是多少？",
+        "question": "In analyzing the health of the navigation structure of a certain website, it was found that some pages have isolated or redundant links. To assess the overall integrity of the structure, it is necessary to clarify the total number of independent pages that actually exist on the entire site.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某网站在进行结构健康诊断时，发现存在因超链接配置错误导致的孤岛页面。为确保所有页面都能被搜索引擎抓取，需要统计当前拓扑网络中实际存在的有效网页总数是多少？",
+        "question": "During a structural health diagnosis of a certain website, it was discovered that there are island pages caused by incorrect hyperlink configurations. To ensure that all pages can be crawled by search engines, it is necessary to count the total number of valid web pages that currently exist in the topology network.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在网站结构健康诊断中，若需排查因链接缺失导致的页面不可达问题，请计算当前站点拓扑网络内所有独立存在的页面总数，以评估内容覆盖完整性。",
+        "question": "In the website structure health diagnosis, if you need to investigate issues of unreachable pages caused by missing links, please calculate the total number of all independently existing pages within the current site topology to assess content coverage completeness.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "当前在线商城的网页改版后，需快速确认站点内实际存在的有效页面总数，请计算所有独立页面的数量以诊断是否存在冗余或缺失的结构性问题。",
+        "question": "After the recent redesign of the online store's webpage, it is necessary to quickly confirm the total number of valid pages that actually exist on the site. Please calculate the number of all unique pages to diagnose whether there are any redundant or missing structural issues.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "网站管理员发现部分页面因链接失效导致流量异常，需通过统计当前站点所有独立存在的页面数量定位未连通区域。请计算该网站拓扑网络中实际存在的有效网页总数是多少？",
+        "question": "The website administrator found that some pages are experiencing abnormal traffic due to broken links. To locate the disconnected areas, it is necessary to count the total number of independent pages currently existing on the site. Please calculate the total number of valid webpages that actually exist in this website's topology.",
+        "label": "Node_Count",
+        "type": "网站结构健康诊断",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某公司整合了旗下三个独立运营的新闻社区平台，每个社区的网页仅在本站内形成超链接闭环，且存在部分公共用户跳转页。计算此次合并后整个内容生态网络的独立网页节点总数。",
+        "question": "A company has integrated three independently operated news community platforms under its umbrella. Each community's webpage forms a closed loop of hyperlinks only within the site, and there are some shared user redirect pages. Calculate the total number of independent webpage nodes in the overall content ecosystem network after this merger.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站管理员在分析不同主题社区时发现多个子群组间存在交叉链接，但需要确认整个网络的规模以避免重复统计，请计算该拓扑中实际存在的独立网页总数。",
+        "question": "A website administrator found that there are cross-links between multiple subgroups while analyzing different themed communities, but needs to confirm the overall scale of the network to avoid duplicate counting. Please calculate the total number of actual independent web pages present in this topology.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某网站由多个相互链接的主题社区组成，每个社区内的网页仅通过内部超链接关联。为评估站点内容规模，需统计所有主题社区（包括技术文档、用户交流版块和产品动态专区）内的独立页面总数，请计算该网站当前存在的网页总量。",
+        "question": "A certain website consists of multiple interlinked themed communities, with webpages within each community connected solely through internal hyperlinks. To assess the content scale of the site, it is necessary to count the total number of independent pages across all themed communities (including technical documentation, user discussion sections, and product update areas). Please calculate the total number of webpages that currently exist on the website.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某在线论坛的网页拓扑结构时，发现用户创建的专题板块通过超链接形成多个主题社区。若每个社区内的页面均通过内部链接互相引用，且不同社区间无交叉链接，请计算该网络中共有多少个内容页面节点？",
+        "question": "When analyzing the web topology of a certain online forum, it was found that user-created topic sections form multiple thematic communities through hyperlinks. If each page within a community references each other through internal links, and there are no cross-links between different communities, please calculate how many content page nodes are there in total in this network?",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网络由多个互不重叠的主题社区构成，每个社区内的网页仅通过内部单向超链接关联。若需评估该网络的整体规模，应如何计算其中所有独立网页的总数量？",
+        "question": "The network consists of multiple non-overlapping thematic communities, where the webpages within each community are only linked by internal one-way hyperlinks. To assess the overall size of the network, how should one calculate the total number of independent webpages contained within it?",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某在线论坛将用户主页划分为科技、娱乐、生活三个主题社区，各社区内的页面通过内部链接关联，但存在跨社区的超链接引用。请计算该论坛当前实际存在的独立用户主页总数。",
+        "question": "Translate to English: An online forum categorizes user homepages into three thematic communities: technology, entertainment, and lifestyle. Pages within each community are interconnected through internal links, but there are also hyperlinks referencing across communities. Please calculate the current total number of independent user homepages that actually exist on the forum.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某网页拓扑网络中，不同主题社区通过内部超链接紧密关联，但跨社区链接极少。现需统计该网络被划分为多个独立主题社区后，整个系统中实际存在的唯一网页节点总数是多少？",
+        "question": "In a certain web topology network, different thematic communities are closely connected through internal hyperlinks, but there are very few cross-community links. Now, it is necessary to calculate the total number of unique web page nodes that actually exist in the entire system after the network is divided into several independent thematic communities.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站主题社区的主页通过超链接关联了若干子页面，每个子页面最多被两个上级页面链接，且所有页面都通过这种层级关系归属于当前主题社区。请计算该主题社区完整包含的网页总数。",
+        "question": "The homepage of a certain website's themed community is linked to several subpages through hyperlinks. Each subpage can be linked by at most two parent pages, and all pages belong to the current themed community through this hierarchical relationship. Please calculate the total number of web pages that are completely contained within this themed community.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某在线教育平台将课程分为多个主题社区，每个社区内的课程页面通过内部链接相互推荐，但不同社区间无跳转路径。计算该平台需要管理的课程页面总数是多少？",
+        "question": "Translate to English: An online education platform divides its courses into multiple thematic communities. The course pages within each community are interlinked and mutually recommended, but there are no pathways for jumping between different communities. Calculate the total number of course pages that the platform needs to manage.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某平台将用户创建的多个兴趣社区网页（如科技、美食、旅行）整合后，需确认整个网络规模以优化服务器资源。请计算当前所有被收录的独立页面总数是多少？",
+        "question": "A certain platform has integrated multiple user-created interest community web pages (such as technology, food, travel) and needs to confirm the total number of independent pages in the entire network to optimize server resources. Please calculate the total number of all currently indexed independent pages.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某在线平台将网页按主题划分为科技、教育和健康三个社区，各社区内存在密集超链接但跨社区链接极少。现需统计整合所有社区后的独立网页数量，请问整个网络中共有多少个不同的网页节点？",
+        "question": "An online platform categorizes its web pages into three communities based on themes: technology, education, and health. Each community has densely packed hyperlinks, but there are very few links between different communities. Now, it's necessary to count the total number of unique web pages after consolidating all communities. How many different web page nodes are there in the entire network?",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某在线教育平台的课程页面网络由多个子社区组成，每个子社区内的课程页面通过超链接相互推荐。已知不同子社区之间不存在跨区链接，请计算该平台所有课程页面形成的拓扑网络中，实际存在的独立网页节点总数。",
+        "question": "The course pages of an online education platform are composed of multiple sub-communities. Within each sub-community, the course pages are mutually recommended through hyperlinks. It is known that there are no cross-region links between different sub-communities. Please calculate the total number of independent web page nodes that actually exist in the topological network formed by all the course pages on this platform.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台将用户主页按兴趣圈划分为影视、游戏和科技三个互不连通的主题社区，各社区内部主页存在相互推荐链接但跨社区无跳转路径，请计算该平台所有主题社区包含的独立主页节点总数。",
+        "question": "A social media platform divides user homepages into three non-interconnected thematic communities based on interests: film and television, gaming, and technology. Within each community, there are mutual recommendation links among the homepages, but there are no pathways to jump between communities. Please calculate the total number of independent homepage nodes contained in all thematic communities on the platform.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析网页拓扑网络时，如何确定由多个内部链接紧密但彼此无跨社区链接的子群构成的整个系统规模？请计算当前网络中所有主题社区内的总网页数量。",
+        "question": "When analyzing the topology of a web network, how can we determine the overall scale of a system composed of multiple tightly-knit subgroups with internal links but no cross-community links? Please calculate the total number of web pages within all thematic communities in the current network.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网页网络通过主题社区分析发现存在新闻、电商和社交媒体三大社区，各社区内部超链接密集但跨社区链接较少。若需评估该网络的整体规模，请计算所有主题社区包含的独立页面总数是多少？",
+        "question": "Translation: A certain webpage network has identified three main communities—news, e-commerce, and social media—through thematic community analysis. Each community has dense internal hyperlinks, but there are few inter-community links. To assess the overall scale of this network, please calculate the total number of unique pages contained within all thematic communities.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某网站由主站、论坛和帮助中心三个子站点构成，各子站点内部存在交叉链接，且主站首页同时指向论坛首页和帮助中心首页。现需统计整个网络中被超链接直接或间接连接的所有独立页面总数，需注意不同子站点的相同URL页面需视为不同节点。",
+        "question": "The website consists of a main site, a forum, and a help center, with cross-links existing among the sub-sites. The main site homepage also directs to both the forum homepage and the help center homepage. Now, it is necessary to count the total number of all independent pages that are directly or indirectly linked by hyperlinks throughout the entire network. Note that pages with the same URL across different sub-sites should be considered different nodes.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交书签网站将用户收藏的网页划分为科技、艺术等主题社区，各社区内部存在大量同主题链接，同时存在跨社区推荐链接。若需统计该平台当前网络中共有多少个独立网页节点，应如何计算？",
+        "question": "Translation:\n\nA certain social bookmarking website categorizes users' saved web pages into thematic communities such as technology and art. Within each community, there are numerous links related to the same theme, as well as cross-community recommended links. If one needs to count the total number of unique web page nodes currently present in this platform's network, how should this be calculated?",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某搜索引擎在分析一个主题社区时，发现其中所有网页仅通过内部超链接相互跳转，且不存在指向社区外部的链接。计算该封闭社区所包含的网页总数。",
+        "question": "A certain search engine, while analyzing a thematic community, discovered that all the webpages within it only link to each other through internal hyperlinks and there are no links pointing to external sites. Calculate the total number of webpages contained in this closed community.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某个网络由多个主题社区组成，每个社区包含其相关网页及内部超链接，但存在跨社区引用导致部分网页重复。计算整个网络中不重复的网页总数。",
+        "question": "A certain network is composed of multiple thematic communities, each containing its related web pages and internal hyperlinks. However, there are cross-community references that cause some web pages to be duplicated. Calculate the total number of unique web pages in the entire network.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某电商平台通过分析商品页面的超链接关系，识别出服饰、家电、美妆三个核心主题社区。已知社区内部页面存在密集的相互推荐链接，但跨社区链接仅指向首页导航。现需统计该平台所有参与主题社区关联的商品页面总数，请计算网络中共有多少个独立页面节点？",
+        "question": "Translation: An e-commerce platform has identified three core thematic communities—apparel, home appliances, and beauty—by analyzing the hyperlink relationships on product pages. It is known that there are dense mutual recommendation links within the community pages, but cross-community links only point to the homepage navigation. Now, it is necessary to count the total number of product pages associated with all participating thematic communities on the platform. Please calculate how many independent page nodes are there in the network?",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站由多个主题社区组成，每个社区内的网页通过内部超链接紧密关联，但不同社区之间无交叉链接。作为管理员，需统计当前网络中所有至少被一个主题社区包含的网页节点总数。",
+        "question": "A certain website consists of multiple themed communities, with webpages within each community closely linked through internal hyperlinks, but there are no cross-links between different communities. As an administrator, you need to count the total number of webpage nodes that are included in at least one themed community within the current network.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某论坛网站分为科技、娱乐和生活三个主题版块，各版块内部网页通过超链接互相推荐，但部分页面存在跨版块跳转关系。管理员需要确认全站共有多少独立页面，以便进行服务器资源分配，应当如何计算？",
+        "question": "Translation: A certain forum website is divided into three main thematic sections: technology, entertainment, and lifestyle. The internal webpages within each section recommend each other through hyperlinks, but some pages have cross-section navigation. The administrator needs to confirm how many independent pages there are in total on the site in order to allocate server resources. How should this be calculated?",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某在线教育平台在优化课程推荐系统时，发现编程、设计和语言类课程页面各自形成了紧密互链的主题社区，但存在跨主题的孤立页面。请计算该平台需要维护的总课程页面数量以确保所有资源都被正确索引？",
+        "question": "An online education platform, while optimizing its course recommendation system, found that the pages for programming, design, and language courses formed tightly interconnected thematic communities, but there were isolated pages across themes. Please calculate the total number of course pages that the platform needs to maintain to ensure all resources are correctly indexed.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交书签网站包含多个主题圈子，圈子间存在单向引用链接。在进行社区划分时，发现三个主要子群组，但部分网页同时被不同子群组的链接指向。请计算该网站当前总共包含多少个独立网页？",
+        "question": "The social bookmarking website contains multiple thematic circles, with unidirectional reference links between the circles. During the community segmentation, three main subgroups were identified, but some webpages are linked by different subgroups simultaneously. Please calculate the current total number of independent webpages on this website.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某在线教育平台的网页拓扑中，不同课程社区形成独立子群，各子群内部网页仅通过单向链接互连，其中编程课程子群包含32个页面，数学课程子群包含28个页面，公开课子群不仅包含15个内部页面，还链接着其他子群的5个共享资源页。计算该平台当前存在的独立网页总数。",
+        "question": "In the web topology of an online education platform, different course communities form independent subgroups. Each subgroup's internal pages are interconnected through one-way links. The programming course subgroup contains 32 pages, the mathematics course subgroup contains 28 pages, and the open course subgroup not only includes 15 internal pages but also links to 5 shared resource pages from other subgroups. Calculate the total number of independent web pages currently existing on this platform.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某在线教育平台的课程资源网络由多个学科社区组成，每个社区内部网页互相链接，但不同社区间存在共享的公共资源页面。若要确定整个平台网络中的总网页数量，需计算所有学科社区及共享页面中的唯一节点总数，应如何计算？",
+        "question": "The course resource network of an online education platform consists of multiple subject communities, where the webpages within each community are linked to each other, but there are shared public resource pages between different communities. To determine the total number of webpages in the entire platform network, one needs to calculate the total number of unique nodes in all subject communities and the shared pages. How should this calculation be performed?",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某公司维护了多个独立的子站点，每个子站点内部的网页通过超链接相互跳转，但不同子站点之间没有任何链接。现需统计整个网站群包含的网页总数，请计算所有子站点中存在的唯一网页数量总和。",
+        "question": "A certain company maintains multiple independent sub-sites, where the web pages within each sub-site are linked to one another through hyperlinks, but there are no links between different sub-sites. We need to count the total number of unique web pages across all sub-sites. Please calculate the sum of the unique web page counts that exist in all sub-sites.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某在线教育平台有多个课程专题社区，每个社区内的网页通过内部链接相互跳转，但不同专题间无超链接。现需统计平台整合所有专题后不重复的网页总数，应如何计算？",
+        "question": "Translation: There are multiple course topic communities on an online education platform, where the web pages within each community can link to each other through internal links, but there are no hyperlinks between different topics. Now, it is necessary to calculate the total number of unique web pages after the platform integrates all topics. How should this be calculated?",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某学术资源平台将论文页按学科领域划分为若干社区，同一社区内的页面通过参考文献高频互链，跨社区链接占比不足5%。请计算该平台总共收录了多少篇论文页面？",
+        "question": "An academic resource platform divides its paper pages into several communities based on subject areas. Pages within the same community are frequently linked to each other through references, while cross-community links account for less than 5%. Please calculate the total number of paper pages recorded by this platform.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某公司维护了一个包含科技、教育、娱乐等多个主题子站的网站群，各子站网页通过超链接相互引用。已知科技站有内部重叠链接结构，教育站存在跨主题引用，娱乐站形成闭环链接。请计算整个网站群中共有多少个不同的网页被收录？",
+        "question": "A certain company maintains a network of websites that includes multiple themed sub-sites such as technology, education, and entertainment. The web pages of each sub-site reference each other through hyperlinks. It is known that the technology sub-site has an internal overlapping link structure, the education sub-site has cross-theme references, and the entertainment sub-site forms a closed-loop link. Please calculate the total number of distinct web pages included in the entire network of websites.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某平台将三个主题社区的子网页合并为统一导航结构，各社区内部存在跨区跳转链接但独立运营，现需计算整合后的全局网络中共有多少个独立网页？",
+        "question": "Translate to English: A certain platform has merged the subpages of three themed communities into a unified navigation structure. While there are cross-region links within each community, they operate independently. We now need to calculate how many independent webpages there are in the integrated global network.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某在线教育平台根据课程主题将网页分为多个社区，每个社区内的页面通过内部链接紧密关联，但不同社区间无直接跳转。计算该平台中所有课程主题社区包含的独立页面总数。",
+        "question": "An online education platform divides its webpages into multiple communities based on course themes. Pages within each community are closely linked through internal links, but there are no direct jumps between different communities. Calculate the total number of unique pages contained within all course theme communities on the platform.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交书签网站包含多个主题社区，每个社区内的用户收藏页面仅通过内部超链接互相推荐，但不同社区间无任何跳转路径。计算该平台当前所有独立主题社区内的网页总数。",
+        "question": "A certain social bookmarking website contains multiple themed communities. Within each community, users can only recommend pages to each other through internal hyperlinks, while there are no navigation paths between different communities. Calculate the total number of webpages across all independent themed communities on the platform.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某搜索引擎在分析网页社区结构时，发现三个主题社区存在跨社区链接，其中核心社区内部存在环状链接路径。若需要验证该核心社区是否覆盖目标领域90%的关键页面，首先需要确定该社区包含多少独立网页？",
+        "question": "A certain search engine, while analyzing the structure of web communities, discovered that three thematic communities have cross-community links, and there are cyclical linking paths within the core community. To verify whether this core community covers 90% of the key pages in the target domain, it is first necessary to determine how many independent web pages are included in this community.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某新闻网站识别出一个话题社区，其中相关文章仅通过内部链接相互引用，不指向站外或其他话题内容。请计算该社区内的总文章数量。",
+        "question": "A certain news website identified a topic community where related articles only reference each other through internal links and do not point to external sites or other topic content. Please calculate the total number of articles within this community.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某在线平台由多个兴趣子社区组成，每个子社区内的用户网页通过超链接相互关联，但部分节点可能同时属于多个子社区。计算整个平台网络中的独立网页总数，避免重复统计跨社区共享的节点。",
+        "question": "An online platform consists of multiple interest sub-communities, where users' web pages within each sub-community are interconnected through hyperlinks. However, some nodes may belong to multiple sub-communities simultaneously. The task is to calculate the total number of unique web pages in the entire platform network, avoiding double counting of nodes shared across communities.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某新闻聚合平台根据主题关联性将网页划分为多个社区，例如国际时事、体育赛事和科技动态板块，每个社区内部存在密集的超链接。计算该平台全网中共有多少个不重复的独立网页节点？",
+        "question": "A certain news aggregation platform divides web pages into multiple communities based on thematic relevance, such as international news, sports events, and technology updates, with dense hyperlinks within each community. How many unique independent web page nodes are there in total across the platform?",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析一个由多个相互链接的网页社区组成的网络时，若每个社区内部链接紧密但跨社区链接稀少，计算该网络包含的网页总数。",
+        "question": "When analyzing a network composed of multiple interconnected web communities, if each community has closely linked internal pages but few links across communities, calculate the total number of pages contained in the network.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某在线教育平台的课程页面根据学科分类形成了多个知识社区，并通过相关推荐链接相互关联。现需评估平台内容覆盖广度，请计算当前整个知识网络中共包含多少个不同的课程页面节点？",
+        "question": "The course page of an online education platform has formed multiple knowledge communities categorized by subject, and they are interconnected through recommended links. We need to evaluate the breadth of content coverage on the platform. Please calculate the total number of different course page nodes currently included in the entire knowledge network.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站通过分析页面间的超链接识别出多个主题社区，各社区内部链接紧密但跨社区链接较少。计算整个网络中的唯一页面总数。",
+        "question": "A certain website identifies multiple thematic communities by analyzing the hypertext links between its pages. Each community has tightly interlinked pages, but there are relatively few links across different communities. The task is to calculate the total number of unique pages in the entire network.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某论坛平台包含科技、娱乐、生活三个主题社区，各社区内的帖子页面通过超链接互相关联，同时存在跨社区的单向跳转链接。现需统计整个平台整合后的独立页面总数，应计算多少个网页节点？",
+        "question": "The forum platform contains three themed communities: Technology, Entertainment, and Lifestyle. The post pages within each community are interconnected through hyperlinks, and there are also unidirectional links for cross-community navigation. We need to count the total number of independent pages after the integration of the entire platform. How many web nodes should be counted?",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某公司整合多个主题社区（如新闻、购物、社交）的网页时，发现不同子群存在跨主题的跳转链接。为确保各主题社区独立且无重复页面，需计算整个网络中所有不重复网页的总数是多少？",
+        "question": "When a company integrates multiple themed communities (such as news, shopping, and social) on its webpage, it finds that different subgroups contain cross-theme linking. To ensure that each themed community is independent and there are no duplicate pages, it is necessary to calculate the total number of unique webpages in the entire network.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某网站主社区由新闻、购物和社交三个子社区构成，各子社区内部存在相互跳转链接但未跨社区互连。运维人员发现部分子社区节点未被正确纳入统计，导致总页面数显示异常。请计算当前网络中所有独立网页节点的准确数量，确保主社区与各子社区的页面均被完整计入。",
+        "question": "The main community of a certain website is composed of three sub-communities: news, shopping, and social. There are interlinked connections within each sub-community, but no interconnections between sub-communities. Maintenance personnel have discovered that some nodes in the sub-communities have not been correctly included in the statistics, resulting in an abnormal total page count. Please calculate the accurate number of all independent webpage nodes in the current network to ensure that the pages of the main community and each sub-community are fully accounted for.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某社交平台将用户主页、话题圈和兴趣小组三个主题社区通过内部超链接关联，但存在跨社区互链情况。计算整合后的整个网络中共有多少个独立网页节点？",
+        "question": "A certain social media platform links three themed communities: user homepages, topic circles, and interest groups through internal hyperlinks, but there are instances of cross-community interlinking. How many independent web page nodes are there in the entire integrated network?",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某在线论坛的网页拓扑由多个主题社区组成，每个社区内部存在密集的超链接跳转，但跨社区链接极少。管理员发现某个爬虫程序遍历了所有可访问页面，日志显示部分URL可能重复抓取了不同子板块的入口页。请计算整个网络中不重复的网页总数。",
+        "question": "The webpage topology of a certain online forum consists of multiple thematic communities, where there are dense hyperlinked connections within each community, but very few links between communities. The administrator has discovered that a certain crawler program has traversed all accessible pages, and the logs indicate that some URLs may have been repeatedly crawled from the entry pages of different sub-boards. Please calculate the total number of unique webpages in the entire network.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网页拓扑网络中，不同主题社区内的页面倾向于通过超链接紧密连接，但跨社区链接较少。若已知每个独立社区内部的网页数量，如何计算整个网络中的总网页数？",
+        "question": "In a certain webpage topology network, pages within different thematic communities tend to be closely connected through hyperlinks, while cross-community links are relatively few. If the number of pages within each independent community is known, how can the total number of webpages in the entire network be calculated?",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某公司近期收购了多个网站，技术团队在整合时发现这些站点各自形成了独立的主题社区（如电商平台、社交媒体等）。若已知每个社区内部的页面不重复且无跨社区链接，请计算整合后整个网络包含的独立网页总数。",
+        "question": "A certain company has recently acquired multiple websites, and its technology team discovered that these sites each formed independent thematic communities (such as e-commerce platforms, social media, etc.) during the integration process. If it is known that the pages within each community are unique and there are no cross-community links, please calculate the total number of independent webpages contained in the entire network after integration.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台通过超链接分析发现一个用户群组内的页面相互紧密链接，但极少与外部页面连接。若将该群组视为独立社区，请计算此封闭社区中实际存在的独立用户主页数量。",
+        "question": "A social platform discovered through hyperlink analysis that the pages within a user group are tightly linked to each other, but seldom connect to external pages. If this group is regarded as an independent community, please calculate the actual number of independent user homepages present in this closed community.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某公司在分析其产品官网的网页拓扑结构时，发现存在多个相互独立的内容子网络，每个子网络内的页面通过内部超链接紧密关联，但不同子网络间没有任何跳转路径。请计算该网站当前有效运营的全部网页节点总量。",
+        "question": "A company, while analyzing the website topology of its product's official website, discovered the existence of multiple independent content sub-networks. Pages within each sub-network are closely interconnected through internal hyperlinks, but there are no navigation paths between different sub-networks. Please calculate the total number of all currently operational webpage nodes on the site.",
+        "label": "Node_Count",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某次网络攻击中，黑客通过入侵入口页面A，利用超链接关系向关联页面传播恶意软件。安全团队需要立即计算可能被恶意软件感染的网页总数，以便进行隔离处理。当前网络中所有节点的数量是多少？",
+        "question": "In a certain cyber attack, hackers infiltrated entry page A and spread malware to related pages through hyperlink relationships. The security team needs to quickly calculate the total number of web pages that could be infected by the malware for isolation procedures. What is the total number of nodes in the current network?",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在一次网络攻击中，攻击者通过伪造超链接切断了部分节点的连接路径，防御系统紧急启用了3个备份节点重建核心链路。若受损区域原本包含27个相互引用的网页节点，且备份节点与所有存活节点建立了双向链接，计算当前有效参与防御的网页节点总数。",
+        "question": "In a cyber attack, the attacker disrupted the connection paths of some nodes by forging hyperlinks. The defense system urgently activated three backup nodes to rebuild the core links. If the damaged area originally contained 27 inter-referenced webpage nodes and the backup nodes established bidirectional links with all surviving nodes, calculate the total number of webpage nodes currently participating effectively in the defense.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站遭受DDoS攻击后，防御系统紧急启用了分布式备份节点重构机制。已知原始节点与备份节点的拓扑关系已被重新映射，计算当前网络中所有有效防御节点（含存活的主节点和重构备份节点）的总数量。",
+        "question": "After a certain website suffered a DDoS attack, the defense system urgently activated a distributed backup node reconstruction mechanism. It is known that the topological relationships between the original nodes and backup nodes have been remapped. Calculate the total number of all valid defense nodes in the current network, including the active main nodes and the reconstructed backup nodes.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某公司网页网络遭受恶意爬虫攻击，攻击者通过伪造超链接删除了部分节点。安全团队已清除所有异常链接并恢复备份，但需确认当前网络中未被篡改的原始网页节点总数。请计算现有有效节点数量。",
+        "question": "Translation: A certain company’s website has suffered a malicious crawler attack, and the attackers deleted some nodes by forging hyperlinks. The security team has removed all abnormal links and restored backups, but it is necessary to confirm the total number of original webpage nodes that have not been tampered with in the current network. Please calculate the number of existing valid nodes.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某公司网络遭受DDoS攻击后，安全团队紧急隔离了被控制的僵尸网页节点。请计算当前有效防御状态下，网络内剩余的正常网页节点总数。",
+        "question": "After a DDoS attack on a company's network, the security team urgently isolated the compromised zombie web nodes. Please calculate the total number of remaining normal web nodes in the network under the current effective defense status.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某次网络攻击中，黑客通过伪造超链接注入了虚假网页节点，安全团队需在防御时快速计算当前拓扑网络中所有真实与可疑节点的总数，以确定攻击波及范围。请统计当前需纳入威胁分析的全部节点数量。",
+        "question": "In a recent cyber attack, hackers injected fake webpage nodes by forging hyperlinks. The security team needs to quickly calculate the total number of all real and suspicious nodes in the current network topology in order to determine the extent of the attack. Please provide the total number of nodes that need to be included in the threat analysis.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在一次网络攻击中，黑客试图通过篡改网页超链接隐藏部分节点。现防御系统已阻断攻击，需验证当前拓扑网络中实际存在的网页总数（包括被短暂隐藏但未被删除的节点），请计算该网络恢复后的完整节点数量。",
+        "question": "In a cyber attack, hackers attempted to hide certain nodes by tampering with webpage hyperlinks. The defense system has now blocked the attack, and it is necessary to verify the total number of webpages currently present in the topology network (including nodes that were briefly hidden but not deleted). Please calculate the total number of nodes in the fully recovered network.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某次网络攻击中，黑客通过篡改网页超链接实施渗透。防御系统已切断所有被检测出异常外链的节点连接，但需确认剩余网络中未被污染的原始节点规模。请计算当前有效网页节点的总数。",
+        "question": "In a recent cyber attack, hackers infiltrated by manipulating web hyperlinks. The defense system has cut off all connections to nodes with detected abnormal external links, but it is necessary to confirm the scale of the remaining unpolluted original nodes in the network. Please calculate the total number of currently valid web nodes.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在一次针对某网站集群的网络攻击中，攻击者通过注入恶意脚本篡改了部分网页节点的超链接指向。安全团队紧急隔离并修复了所有受影响的节点，现需确认当前拓扑网络中可正常访问的网页节点总数。若已知所有被篡改节点均已成功恢复，请计算当前有效网页节点的数量。",
+        "question": "In a recent network attack targeting a cluster of a certain website, the attacker injected malicious scripts to tamper with the hyperlinks of some webpage nodes. The security team urgently isolated and repaired all affected nodes, and now needs to confirm the total number of webpage nodes that are currently accessible in the existing network topology. Given that all tampered nodes have been successfully restored, please calculate the number of currently valid webpage nodes.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在防御针对网页拓扑网络的DDoS攻击时，安全团队需要迅速确定被僵尸网络控制的节点数量以便隔离。当前网络中，所有被标记为受控的节点总数是多少？",
+        "question": "In defending against DDoS attacks targeting web topology networks, the security team needs to quickly determine the number of nodes controlled by the botnet for isolation purposes. What is the total number of nodes currently marked as controlled in the network?",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在一次针对某新闻网站的DDoS攻击中，防御系统紧急隔离了被恶意脚本注入的网页节点。已知未被隔离的网页仍保持原有超链接关系，请计算当前可提供服务的有效节点总数，以便评估系统恢复进度。",
+        "question": "In a DDoS attack on a news website, the defense system urgently isolated the web nodes that were injected with malicious scripts. It is known that the unaffected web pages still retain their original hyperlink relationships. Please calculate the total number of effective nodes currently available for services in order to assess the system's recovery progress.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在一次网络攻击中，攻击者通过篡改某新闻网站首页的超链接，将3个正常网页节点伪装成钓鱼入口。安全团队已修复这些节点并清除了攻击者植入的后门。现需确认当前整个网络未被篡改的网页节点总数，请计算该防御措施生效后的有效节点数量。",
+        "question": "In a cyber attack, the attackers disguised three normal web nodes as phishing entry points by tampering with the hyperlinks on the homepage of a news website. The security team has repaired these nodes and removed the backdoors implanted by the attackers. We now need to confirm the total number of web nodes across the entire network that have not been tampered with. Please calculate the effective number of nodes after this defense measure has taken effect.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在一次针对僵尸网络的防御行动中，安全团队发现部分网页节点被植入了恶意跳转代码。若网络拓扑中每个节点既可能是攻击源也可能是正常页面，请计算当前需要执行全面扫描检测的网页节点总数。",
+        "question": "In a defensive operation against a botnet, the security team discovered that some web nodes had malicious redirect code implanted. If each node in the network topology may be either a source of attack or a normal page, please calculate the total number of web nodes that need to undergo a comprehensive scan and detection.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某次网络攻击中，黑客利用跨站脚本漏洞批量删除了部分网页节点，网络安全团队通过备份重建了拓扑结构。现需确认恢复后的网络规模，计算当前实际存活的网页节点总数以验证防御措施的有效性。",
+        "question": "During a recent cyber attack, hackers exploited a cross-site scripting vulnerability to bulk delete some web page nodes. The cybersecurity team rebuilt the topology through backups. We now need to confirm the scale of the restored network by calculating the total number of currently active web page nodes to verify the effectiveness of our defense measures.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在一次网络攻击中，部分网页节点因恶意篡改被临时隔离。已知未被攻击的正常节点仍保留原有超链接关系，但攻击者可能伪造虚假节点混淆数据。请计算当前网络中存活的网页节点总数以验证系统完整性。",
+        "question": "In a network attack, some web nodes were temporarily isolated due to malicious tampering. It is known that the unaffected normal nodes still retain their original hyperlink relationships, but the attacker may have forged false nodes to confound the data. Please calculate the total number of surviving web nodes in the current network to verify system integrity.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 16,
+        "weak_count": 4
+    },
+    {
+        "origin_question": "在一次针对网页拓扑网络的恶意脚本注入攻击中，攻击者通过特定节点植入后门程序，导致其链接的12个子页面被自动屏蔽。若当前网络中未被标记为失效的节点仍保持原始链接结构，请计算防御系统完成节点隔离后，剩余的有效节点总数。",
+        "question": "In a malicious script injection attack targeting web topology networks, the attacker implanted a backdoor program through a specific node, resulting in the automatic blocking of 12 linked subpages. If the nodes in the current network that are not marked as inactive still maintain the original link structure, please calculate the total number of remaining valid nodes after the defense system has completed node isolation.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某网络攻击利用网页间超链接渗透，防御系统需紧急统计所有可能被恶意脚本入侵的入口节点数量。计算当前拓扑中存在的可访问网页节点总数。",
+        "question": "A certain network attack exploits inter-page hyperlinks for infiltration, and the defense system urgently needs to count the total number of entry points that could potentially be compromised by malicious scripts. Calculate the total number of accessible webpage nodes in the current topology.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某恶意脚本通过网页超链接自动传播，安全团队需立即隔离所有潜在感染节点以遏制攻击。请计算当前拓扑网络中存在的网页总数，以确定全面防护所需覆盖的节点规模。",
+        "question": "A malicious script is spreading automatically through web hyperlinks. The security team must immediately isolate all potentially infected nodes to contain the attack. Please calculate the total number of web pages present in the current network topology to determine the scale of nodes that need to be covered for comprehensive protection.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网络安全团队发现攻击者利用DDoS反射节点构建僵尸网络，其中部分网页被篡改为恶意跳转入口。在隔离所有被标记为反射源的异常页面后，防御系统需要重新计算当前可信任的网页拓扑网络中存在的有效节点总数是多少？",
+        "question": "A certain cybersecurity team discovered that attackers are using DDoS reflection nodes to build a botnet, with some web pages being altered to serve as malicious redirect points. After isolating all abnormal pages identified as reflection sources, the defense system needs to recalculate the total number of valid nodes present in the currently trusted web topology network.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某次网络攻击中，攻击者通过恶意链接注入了虚假登录页面。安全团队紧急清除了所有被篡改的网页节点以切断攻击链，若现有网络拓扑仅包含未被污染的原始节点，请计算当前可信任的网页节点总数。",
+        "question": "In a recent cyber attack, the attacker injected a fake login page through a malicious link. The security team urgently removed all tampered web nodes to disrupt the attack chain. If the current network topology only contains the original nodes that have not been compromised, please calculate the total number of currently trusted web nodes.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某网络安全团队在抵御DDoS攻击时，切断了与恶意控制节点的连接链路。事后排查发现攻击者伪造了3个钓鱼页面节点，防御系统已将这些异常节点从拓扑中彻底移除。当前安全网络内实际存在的合法网页节点总数是多少？",
+        "question": "A certain cybersecurity team cut off the connection links to malicious control nodes while defending against a DDoS attack. After investigation, it was found that the attacker had forged three phishing page nodes, which the defense system has completely removed from the topology. What is the current total number of legitimate web page nodes that actually exist within the secure network?",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在一次网络攻击中，某公司的网页拓扑网络部分节点被恶意篡改，管理员紧急隔离了被注入非法链接的网页。若攻击者通过伪造的404页面隐藏了3个节点，但实际仍存在未被破坏的原始结构，请计算当前网络中活跃的未被篡改的网页节点总数。",
+        "question": "In a cyber attack, some nodes in a company's web topology were maliciously tampered with, prompting the administrator to urgently isolate the web pages that had illegal links injected. If the attacker hid three nodes through a forged 404 page, but the original structure remains intact and undamaged, please calculate the total number of active and untampered web nodes in the current network.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某次网络攻击导致部分网页节点被恶意删除。若防御系统已从备份中完全恢复原始拓扑结构，当前网络中实际存在的有效节点总数是多少？",
+        "question": "A certain cyber attack caused some web nodes to be maliciously deleted. If the defense system has completely restored the original topology from the backup, what is the total number of valid nodes currently existing in the network?",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某公司为防御恶意爬虫对网页拓扑网络的渗透攻击，需快速确认当前所有可访问节点的准确数量以部署隔离策略。请计算现存有效节点的总数。",
+        "question": "A certain company needs to quickly confirm the exact number of all accessible nodes to deploy isolation strategies in defense against malicious crawlers' penetration attacks on the web topology network. Please calculate the total number of existing valid nodes.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在一次针对网页网络的DDoS攻击防御演练中，安全系统检测到有恶意节点通过超链接进行横向渗透。若已知被成功隔离的感染节点列表，请计算当前网络拓扑中未被入侵的健康节点总数。",
+        "question": "In a DDoS attack defense drill targeting web networks, the security system detected that malicious nodes were conducting lateral penetration through hyperlinks. Given a list of successfully isolated infected nodes, please calculate the total number of uninfected healthy nodes in the current network topology.",
+        "label": "Node_Count",
+        "type": "网络攻击防御",
+        "true_count": 15,
+        "weak_count": 3
+    }
+]

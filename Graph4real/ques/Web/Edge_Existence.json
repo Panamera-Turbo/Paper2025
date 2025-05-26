@@ -1,0 +1,1874 @@
+[
+    {
+        "origin_question": "在网页爬虫优化过程中，为减少无效页面抓取，能否确认节点'0302'的源代码中是否存在直接指向'0714'的单向超链接？这将决定是否需预加载该目标页面的资源。",
+        "question": "In the process of optimizing web crawlers, to reduce the capture of invalid pages, can we confirm whether there is a direct one-way hyperlink pointing to '0714' in the source code of the node '0302'? This will determine whether it is necessary to preload the resources of the target page.",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫的队列优先级时，是否需要确认节点'0302'存在直接指向节点'0714'的超链接，以避免因无效跳转而增加额外延迟？",
+        "question": "When optimizing the queue priority for web crawlers, is it necessary to confirm that node '0302' has a direct hyperlink pointing to node '0714' to avoid additional delays caused by invalid redirects?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫的资源分配时，需判断节点'0302'是否存在到节点'0714'的直接超链接，以避免重复调度无效请求。当前网络中这条边是否存在？",
+        "question": "When optimizing the resource allocation of web crawlers, it is necessary to determine whether there is a direct hyperlink from node '0302' to node '0714' in order to avoid redundant scheduling of invalid requests. Does this edge currently exist in the network?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫的抓取路径时，是否需要确认页面'0302'是否包含直接跳转到页面'0714'的超链接，以避免冗余请求？",
+        "question": "When optimizing the crawling path of the web spider, is it necessary to confirm whether page '0302' contains a hyperlink that directly leads to page '0714' in order to avoid redundant requests?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫预处理时，为避免因冗余请求浪费带宽，是否需要确认节点'0302'到'0714'的直接超链接存在，从而决定是否跳过对该路径的递归抓取？",
+        "question": "In optimizing the preprocessing of web crawlers, is it necessary to confirm the existence of direct hyperlinks from node '0302' to '0714' in order to avoid wasting bandwidth on redundant requests and decide whether to skip recursive crawling of that path?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫的缓存更新机制时，需要判断若已缓存页面'0302'，其正文内是否含有直接跳转到未缓存页面'0714'的超链接，当前网络拓扑中是否存在这条边？",
+        "question": "When optimizing the cache update mechanism for web crawlers, it is necessary to determine whether the cached page '0302' contains a hyperlink that directly directs to the uncached page '0714' in its content, and whether this edge exists in the current network topology.",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 15,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在优化新闻网站爬虫效率时，是否需要将“国际新闻总站”页面（节点0302）直接纳入“财经版块”页面（节点0714）的快速抓取队列，因后台数据显示两者可能存在关键直连？",
+        "question": "In optimizing the crawling efficiency of the news website, should the \"International News Station\" page (node 0302) be directly included in the quick crawl queue for the \"Financial Section\" page (node 0714), since backend data suggests there may be a key direct connection between the two?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 16,
+        "weak_count": 4
+    },
+    {
+        "origin_question": "某爬虫团队在优化网页索引效率时，发现若预先确认节点'0302'到'0714'存在直接超链接，可跳过中间三层跳转抓取。当前需验证这两个页面间是否存在直连关系以优化抓取路径，是否存在这样的直接链接？",
+        "question": "A certain web crawling team discovered during the optimization of webpage indexing efficiency that if direct hyperlinks from node '0302' to '0714' are confirmed in advance, they can skip three intermediate layers of redirection for crawling. Currently, it is necessary to verify whether a direct connection exists between these two pages in order to optimize the crawling path. Is there such a direct link?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网站爬虫抓取路径时，需预判节点'0302'到节点'0714'是否存在直接超链接，从而跳过冗余跳转节省资源。当前拓扑中这两个节点间是否具备直达边？",
+        "question": "When optimizing the web crawler's fetching paths, it is necessary to predict whether there is a direct hyperlink from node '0302' to node '0714', thereby skipping redundant jumps to save resources. Does the current topology have a direct edge between these two nodes?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫的预取策略时，若需要提前加载节点'0714'的资源以减少延迟，是否需要确认节点'0302'到节点'0714'之间存在直接超链接？",
+        "question": "When optimizing the prefetch strategy for a web crawler, if it is necessary to preload the resources of node '0714' to reduce latency, is it necessary to confirm that there is a direct hyperlink between node '0302' and node '0714'?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫的抓取路径时，是否需要确认节点'0302'到'0714'之间存在直接超链接，以避免冗余请求？",
+        "question": "When optimizing the crawling path of a web spider, is it necessary to confirm that there are direct hyperlinks between nodes '0302' and '0714' to avoid redundant requests?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫效率时，需要确认页面'0302'是否直接链接到页面'0714'，以便决定是否跳过该路径避免无效请求。当前网络中是否存在这条直接超链接？",
+        "question": "To optimize the efficiency of web crawlers, it's necessary to confirm whether page '0302' has a direct link to page '0714', in order to decide whether to skip that path and avoid invalid requests. Is there a direct hyperlink between these two pages in the current network?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫的资源调度时，需确认网页'0302'是否直接包含指向'0714'的超链接，以避免爬虫对不存在的路径发起冗余请求。当前网络中是否存在这条有效边？",
+        "question": "When optimizing the resource scheduling for web crawlers, it is necessary to verify whether the webpage '0302' directly contains a hyperlink pointing to '0714' to avoid redundant requests to non-existent paths. Is there a valid link in the current network?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫策略时，需确认网页'0302'是否包含直接跳转到'0714'的超链接以避免重复索引。当前网络中是否存在这条边？",
+        "question": "When optimizing the web crawler strategy, it is necessary to confirm whether the webpage '0302' contains a hyperlink that directly redirects to '0714' to avoid duplicate indexing. Does this edge exist in the current network?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫的预加载策略时，需要判断页面'0302'是否包含直接指向'0714'的超链接以便提前分配抓取资源。当前网络中存在该链接吗？",
+        "question": "When optimizing the pre-loading strategy for web crawlers, it is necessary to determine whether page '0302' contains a direct hyperlink to '0714' in order to allocate crawling resources in advance. Does such a link currently exist on the web?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化网站爬虫的抓取路径时，是否需要预先排除从节点'0302'到'0714'的直接链接检查？若该超链接实际不存在，可减少冗余页面解析耗时。",
+        "question": "When optimizing the crawling path for the website crawler, is it necessary to preemptively exclude direct link checks from node '0302' to '0714'? If this hyperlink does not actually exist, it could reduce the time spent on parsing redundant pages.",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化网页爬虫效率时，若需判断已抓取的节点'0302'是否包含直接跳转到'0714'的超链接，能否通过现有拓扑数据快速确认该路径无需二次爬取？",
+        "question": "When optimizing the efficiency of a web crawler, if it is necessary to determine whether the already crawled node '0302' contains a direct hyperlink to '0714', can we quickly confirm that this path does not require a second crawl using the existing topological data?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫的缓存策略时，团队需要确认是否存在从节点'0302'到'0714'的直接超链接，以避免重复抓取冗余路径。请问当前网络中该边是否存在？",
+        "question": "When optimizing the caching strategy for web crawlers, the team needs to confirm whether there is a direct hyperlink from node '0302' to '0714' to avoid redundant path re-crawling. Is this link currently present in the network?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫的更新周期策略时，为减少无效请求次数，需预先确认页面'0302'是否直接包含指向'0714'的超链接。当前拓扑网络中该定向连接是否存在？",
+        "question": "When optimizing the update cycle strategy for the web crawler, to reduce the number of invalid requests, it is necessary to first confirm whether page '0302' directly contains a hyperlink pointing to '0714'. Does this directed connection exist in the current topology network?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 17,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在优化网页爬虫的预抓取策略时，是否需要确认节点'0302'到'0714'的直接链接存在，以决定是否跳过冗余请求并节省带宽资源？",
+        "question": "When optimizing the pre-fetching strategy for web crawlers, is it necessary to verify the existence of direct links for nodes '0302' to '0714' in order to decide whether to skip redundant requests and save bandwidth resources?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫的冗余路径排除策略时，是否需要确认节点'0302'到'0714'之间存在直接超链接，从而避免对该路径进行无效遍历？",
+        "question": "When optimizing the redundancy exclusion strategy for web crawlers, is it necessary to confirm that there is a direct hyperlink between nodes '0302' and '0714' in order to avoid invalid traversal of that path?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫效率时，若希望避免对中间页面发起无效请求，是否需要确认节点'0302'到节点'0714'存在直接超链接？",
+        "question": "In order to optimize the efficiency of web crawlers and avoid making unnecessary requests to intermediary pages, is it necessary to confirm that there is a direct hyperlink from node '0302' to node '0714'?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫的抓取路径时，系统需确认页面'0302'是否直接链接到'0714'，从而避免重复爬取冗余路径。当前网络中是否存在这条关键连接？",
+        "question": "When optimizing the crawling path of a web crawler, the system needs to confirm whether page '0302' is directly linked to '0714' to avoid redundant crawling of unnecessary paths. Is this key connection present in the current web?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "为提高爬虫效率，系统需优先预判关键路径中的超链接是否存在。在抓取过程中，能否确认节点'0302'页面内含有直接跳转到节点'0714'的单向链接，以优化后续调度策略？",
+        "question": "To improve the efficiency of the crawler, the system needs to prioritize judging whether hyperlinks in the key path exist. During the crawling process, can we confirm that the node '0302' page contains a direct one-way link to node '0714' in order to optimize subsequent scheduling strategies?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某网站在优化搜索引擎爬虫的抓取效率时，需快速判断页面'0302'到'0714'是否存在直接超链接，从而决定是否调整递归遍历路径。当前网络中这条边是否存在？",
+        "question": "A certain website, while optimizing the crawling efficiency of search engine bots, needs to quickly determine whether there are direct hyperlinks from page '0302' to '0714' in order to decide whether to adjust the recursive traversal path. Does this edge currently exist in the network?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化网页爬虫的抓取路径时，若需要确认是否可以直接从编号'0302'的页面通过一次超链接跳转到编号'0714'的页面，从而避免冗余爬取其他中间节点，当前网络拓扑中是否存在这条直接连通的边？",
+        "question": "When optimizing the crawling path of a web crawler, if it is necessary to confirm whether it is possible to directly jump from the page with the ID '0302' to the page with the ID '0714' through a single hyperlink, in order to avoid redundant crawling of other intermediate nodes, does the current network topology contain a directly connected edge between these two pages?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化网页爬虫缓存策略时，若需避免重复抓取无效路径，是否需要预先确认节点'0302'到'0714'存在直接超链接关系？",
+        "question": "When optimizing the web crawler cache strategy, is it necessary to confirm in advance whether there is a direct hyperlink relationship between nodes '0302' and '0714' in order to avoid duplicate crawling of invalid paths?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫策略时，若需避免冗余抓取路径，能否确认节点'0302'到核心资源页'0714'之间存在直接超链接以减少无效请求？",
+        "question": "When optimizing the web crawler strategy, can we confirm that there is a direct hyperlink between node '0302' and the core resource page '0714' in order to avoid redundant crawling paths and reduce invalid requests?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化爬虫抓取路径时，需确认页面'0302'到'0714'是否存在直接超链接，以避免重复请求。当前网络中该链接是否真实存在？",
+        "question": "When optimizing the web crawler's scraping path, it is essential to verify whether there are direct hyperlinks from page '0302' to '0714' to avoid duplicate requests. Does this link currently exist in the network?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫的预取策略时，若当前已缓存节点'0302'的全部外链，是否需要向任务队列补充节点'0714'的爬取请求？这取决于节点'0302'是否含有直接指向'0714'的超链接。",
+        "question": "When optimizing the prefetching strategy of a web crawler, whether a crawl request for node '0714' should be added to the task queue after all outbound links of the currently cached node '0302' have been cached depends on whether node '0302' contains a direct hyperlink pointing to '0714'.",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在网页爬虫优化中，若希望避免冗余下载，是否需要确认节点'0302'到节点'0714'之间存在直接超链接，从而决定是否跳过中间页面的遍历？",
+        "question": "In web crawler optimization, if we want to avoid redundant downloads, do we need to confirm the existence of a direct hyperlink between node '0302' and node '0714' in order to decide whether to skip the traversal of the intermediate pages?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化网页爬虫的缓存策略时，当前网络中是否存在从页面'0302'到页面'0714'的直接跳转链接？",
+        "question": "When optimizing the caching strategy for web crawlers, is there a direct link in the current network from page '0302' to page '0714'?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站在更新周期前需优化爬虫抓取路径，已知历史数据中页面'0302'曾通过超链接直接跳转至'0714'，现技术团队需确认该路径是否仍存在以调整优先级策略，当前网络中是否保留着从节点'0302'到节点'0714'的单向直连关系？",
+        "question": "Translation: \n\nBefore the update cycle of a certain website, it is necessary to optimize the crawling path. Historical data shows that the page '0302' once directly linked to '0714' through a hyperlink. The technical team needs to confirm whether this path still exists in order to adjust the prioritization strategy. Is there currently a direct one-way connection from node '0302' to node '0714' in the existing network?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某网站在迁移旧版页面'0302'时，为避免爬虫重复抓取冗余路径，需确认其是否包含直接跳转到新版资源页'0714'的超链接。当前网络中是否存在这条直接引用关系？",
+        "question": "When migrating the old page '0302' on a certain website, to avoid duplicate fetching of redundant paths by crawlers, it is necessary to confirm whether there is a direct hyperlink redirecting to the new resource page '0714'. Is there currently any direct reference relationship existing on the network?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫的抓取路径时，是否需要预先确认节点'0302'到节点'0714'的单向超链接真实存在，以避免调度器向该失效链接发起无效请求？",
+        "question": "When optimizing the crawling path of a web crawler, is it necessary to first confirm that the unidirectional hyperlink from node '0302' to node '0714' actually exists, in order to prevent the scheduler from making invalid requests to that broken link?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在网页爬虫优化中，为减少无效路径遍历，需预判关键节点'0302'到'0714'是否存在直接超链接。若存在，则优先分配资源抓取该路径分支。请确认当前网络拓扑中是否满足这一条件？",
+        "question": "In web crawler optimization, to reduce the traversal of invalid paths, it is necessary to predict whether a direct hyperlink exists from the key node '0302' to '0714'. If it does, resources should be prioritized for crawling that path branch. Please confirm if this condition is met in the current network topology.",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化新闻聚合爬虫的抓取效率时，能否确认‘0302’分类页存在直接跳转到‘0714’专题页的超链接？这关系到是否需调整递归抓取策略。",
+        "question": "Translation: When optimizing the crawling efficiency of the news aggregation crawler, can we confirm whether there is a direct hyperlink on the '0302' category page that redirects to the '0714' topic page? This relates to whether we need to adjust the recursive crawling strategy.",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫的抓取路径时，若需要确认是否可以直接从编号'0302'的页面跳转到'0714'以避免冗余遍历，当前网络中是否存在这样的直接超链接？",
+        "question": "When optimizing the crawling path for web spiders, if it is necessary to confirm whether it is possible to directly jump from the page numbered '0302' to '0714' to avoid redundant traversal, is there such a direct hyperlink present in the current network?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在网页爬虫优化策略中，为减少无效请求，预处理阶段需确认节点'0302'是否直接包含指向节点'0714'的超链接。若该链接存在则需触发动态加载机制，否则跳过抓取流程。当前网络中是否存在这条单向边？",
+        "question": "In the web crawler optimization strategy, to reduce invalid requests, the preprocessing stage needs to confirm whether node '0302' directly contains a hyperlink pointing to node '0714'. If such a link exists, the dynamic loading mechanism should be triggered; otherwise, the crawling process should be skipped. Is there currently a unidirectional edge in the network that connects these two nodes?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页爬虫策略时，是否需要确认页面0302存在直接指向0714的超链接，以便预先过滤无效路径并减少冗余请求？",
+        "question": "When optimizing web crawling strategies, is it necessary to confirm that page 0302 contains a direct hyperlink pointing to 0714 in order to pre-filter invalid paths and reduce redundant requests?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在网页爬虫优化任务中，若爬虫需从编号'0302'的页面快速判断是否存在直达编号'0714'页面的超链接，以避免冗余路径遍历，当前网络拓扑是否支持这种直接跳转？",
+        "question": "In the web crawler optimization task, if the crawler needs to quickly determine whether there is a direct hyperlink to page number '0714' from page number '0302' to avoid redundant path traversal, does the current network topology support such direct jumps?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "为确保网页爬虫在更新周期内高效抓取目标内容，需避免冗余路径扫描，当前网络中是否存在从节点'0302'直接指向'0714'的单向超链接？",
+        "question": "To ensure that the web crawler efficiently captures the target content within the update cycle, it is necessary to avoid redundant path scanning. Are there currently any direct one-way hyperlinks in the network from node '0302' to '0714'?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网页爬虫的抓取路径时，是否需要让爬虫在访问节点'0302'后直接跳转至'0714'，以确认两者之间是否存在直接超链接？",
+        "question": "When optimizing the crawling path of a web crawler, is it necessary for the crawler to jump directly from node '0302' to '0714' after visiting node '0302' in order to verify whether there is a direct hyperlink between the two?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "网站管理员在优化爬虫索引效率时，发现'0302'页面可能隐藏着关键产品页的超链接。能否直接通过'0302'页面的源码跳转到编号'0714'的页面，从而减少爬虫冗余扫描？",
+        "question": "The webmaster discovered that the '0302' page may contain hidden hyperlinks to key product pages while optimizing the efficiency of the crawler's index. Is it possible to directly link to page '0714' through the source code of the '0302' page to reduce redundant scanning by the crawler?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某团队在优化网页爬虫效率时，需要确认页面'0302'是否直接链接至资源页'0714'，若存在该超链接则可跳过中间索引环节直接抓取。请检测该定向跳转关系是否成立？",
+        "question": "A certain team, while optimizing the efficiency of web crawlers, needs to confirm whether page '0302' is directly linked to resource page '0714'. If such a hyperlink exists, they can skip the intermediate indexing step and directly crawl the resource. Could you please check whether this redirect relationship holds?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化某新闻网站的爬虫策略时，为减少冗余页面跳转，技术团队需要确认文章详情页'0302'是否存在直接跳转到相关专题聚合页'0714'的导航链接，当前数据库是否记录有这条单向超链接关系？",
+        "question": "When optimizing the crawling strategy for a news website, to reduce redundant page redirects, the technical team needs to verify whether there is a direct navigation link from the article detail page '0302' to the related topic aggregation page '0714'. Does the current database record this unidirectional hyperlink relationship?",
+        "label": "Edge_Existence",
+        "type": "网页爬虫优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网站SEO排名时，管理员需要验证页面0302是否主动建立了指向权威页面0714的超链接，从而通过链接权重传递提高搜索排名。请问这两个指定页面间是否存在直接的单向引用关系？",
+        "question": "When optimizing the website's SEO ranking, the administrator needs to verify whether page 0302 has actively created a hyperlink pointing to the authoritative page 0714, in order to improve the search ranking through link equity transfer. Is there a direct one-way citation relationship between these two specified pages?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某SEO团队为提高网页0302在搜索结果中的权重，计划通过增加其外链数量进行优化。已知他们近期在0302页面底部添加了一个推荐资源链接，目标指向0714页面。请确认该优化策略是否已正确实施，即当前网络中是否存在从节点0302到0714的有效超链接？",
+        "question": "A certain SEO team plans to optimize webpage 0302 by increasing its external link quantity to improve its ranking in search results. It is known that they recently added a recommended resource link at the bottom of the 0302 page, which targets the 0714 page. Please confirm whether this optimization strategy has been correctly implemented, specifically if there is currently an active hyperlink from node 0302 to 0714 in the network.",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网站内部链接结构以提升搜索引擎排名时，是否需要确认关键页面'0302'是否通过超链接直接指向资源聚合页'0714'，从而确保权重有效传递？当前网络拓扑中是否存在此关键路径的直接连接？",
+        "question": "When optimizing the internal linking structure of a website to improve search engine rankings, is it necessary to confirm whether the key page '0302' directly links to the resource aggregation page '0714' via a hyperlink, thereby ensuring effective weight transfer? Is there a direct connection of this key path in the current network topology?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网站SEO的过程中，内部链接结构对页面权重传递至关重要。现需确认页面编号'0302'是否通过直接超链接将权重传递给目标页面'0714'，该链接关系是否存在？",
+        "question": "In the process of optimizing website SEO, the internal linking structure is crucial for passing page authority. It is necessary to confirm whether page number '0302' passes authority to target page '0714' through a direct hyperlink, and whether this link relationship exists.",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某SEO团队近期调整了网站内链结构，重点关注页面'0302'的外链推荐策略是否直接关联核心产品页'0714'，从而提升目标页面搜索权重。请核查这两页间是否存在单向超链接支持该优化方案？",
+        "question": "A certain SEO team recently adjusted the internal linking structure of the website, focusing on whether the external link recommendation strategy for page '0302' is directly related to the core product page '0714', in order to enhance the search weight of the target page. Please verify if there are any one-way hyperlinks between these two pages that support this optimization plan.",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网页搜索排名时，需验证页面'0302'是否主动为页面'0714'导流以提升其权重。根据当前网络拓扑，能否确认'0302'页面的源码中直接嵌入了指向'0714'的跳转链接？",
+        "question": "When optimizing web search rankings, it is necessary to verify whether page '0302' actively directs traffic to page '0714' to enhance its weight. Based on the current network topology, can it be confirmed that the source code of page '0302' directly embeds a redirect link to '0714'?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化某电商网站搜索引擎排名时，团队发现页面'0302'的关键词布局优异但权重传递受阻，需核查该产品详情页是否直接链向促销活动页'0714'以增强流量分发，请确认这两个节点间是否存在直接超链接关系？",
+        "question": "When optimizing the search engine ranking for a certain e-commerce website, the team found that the keyword layout on page '0302' was exceptional, but the weight transfer was hindered. It is necessary to check whether this product detail page directly links to the promotional activity page '0714' to enhance traffic distribution. Please verify if there is a direct hyperlink relationship between these two nodes.",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化网站内部链接结构以提升搜索引擎排名的过程中，SEO顾问需要确认关键页面'0302'是否直接通过超链接指向资源页面'0714'，从而确保权重有效传递。当前网站拓扑网络中是否存在这条直接影响页面排名的单向链接关系？",
+        "question": "In the process of optimizing a website's internal linking structure to improve search engine rankings, the SEO consultant needs to confirm whether the key page '0302' directly links to the resource page '0714' via a hyperlink to ensure effective weight transfer. Is there currently a one-way linking relationship in the site's topology that directly influences page rankings?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站在进行搜索引擎排名优化时，发现核心页面'0714'的流量异常。运维人员怀疑是上游页面'0302'的超链接配置失效导致权重传递中断，需立即验证这两个页面间是否存在直接引用的超链接关系，请问当前网络中是否存在从页面'0302'指向页面'0714'的有效链接？",
+        "question": "During the process of search engine ranking optimization, a certain website discovered unusual traffic on its core page '0714'. The operations and maintenance personnel suspect that a malfunction in the hyperlink configuration of the upstream page '0302' has interrupted the weight transfer. They need to immediately verify whether there is a direct hyperlink relationship between these two pages. Is there currently an effective link from page '0302' pointing to page '0714' on the network?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化某电商网站搜索引擎排名时，SEO专家发现商品页'0302'的权重传递异常，需要确认该页面是否存在指向促销活动页'0714'的直接超链接，以便判断是否需要调整站内链接结构。当前能否确定这两个页面间存在直接跳转关系？",
+        "question": "When optimizing the search engine ranking of a certain e-commerce website, the SEO expert discovered that the weight transfer of the product page '0302' is abnormal. It is necessary to confirm whether there is a direct hyperlink pointing to the promotional page '0714' in order to determine if adjustments to the internal linking structure are needed. Is it currently possible to ascertain whether there is a direct redirect relationship between these two pages?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化某电商网站的内部链接结构以提升搜索引擎排名时，SEO团队发现页面0302的关键词布局与页面0714高度相关。为确保权重有效传递，需要确认当前网页拓扑中是否存在从页面0302直接指向页面0714的单向超链接？",
+        "question": "In optimizing the internal linking structure of an e-commerce website to enhance search engine rankings, the SEO team discovered that the keyword layout of page 0302 is highly relevant to that of page 0714. To ensure effective transmission of link equity, it is important to confirm whether there exists a direct one-way hyperlink from page 0302 to page 0714 in the current webpage topology.",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某SEO团队近期调整了网站内部链接结构，以提升重要产品页面的搜索引擎排名。现需确认在调整后的链接中，产品页'0302'是否直接指向详情页'0714'，以便评估权重传递效果。当前网络中是否存在从节点'0302'到节点'0714'的直接超链接？",
+        "question": "A certain SEO team recently adjusted the internal linking structure of the website to improve the search engine rankings of important product pages. We need to confirm whether the product page '0302' now directly links to the detail page '0714' after the adjustments, in order to assess the effectiveness of weight transfer. Is there currently a direct hyperlink from node '0302' to node '0714' in the network?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某SEO团队发现网页0714的关键词排名近期下降，经分析怀疑是缺乏来自重要内部页面0302的直接推荐链接。请确认两者之间是否存在单向往链接以确定是否需要调整优化策略？",
+        "question": "An SEO team has found that the keyword ranking for webpage 0714 has recently declined. After analysis, they suspect it is due to a lack of direct referral links from the important internal page 0302. Please confirm whether there is a one-way linking relationship between the two pages to determine if optimization strategies need to be adjusted.",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化网站内部链接结构时，若想通过页面'0302'向页面'0714'传递权重以提升搜索引擎排名，能否确认该页面存在直接指向'0714'的单向超链接？",
+        "question": "When optimizing the internal link structure of a website, if you want to pass weight from page '0302' to page '0714' to improve search engine rankings, can you confirm that there is a direct one-way hyperlink from '0302' to '0714'?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 15,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "某网站在进行搜索引擎排名优化时，发现页面'0302'的内容与页面'0714'高度相关。为了提升页面权重传递效率，技术团队需要确认当前站内架构中是否存在从页面'0302'指向页面'0714'的直接超链接？",
+        "question": "During the search engine ranking optimization of a certain website, it was found that the content of page '0302' is highly relevant to page '0714'. To improve the efficiency of page authority transfer, the technical team needs to confirm whether there is a direct hyperlink from page '0302' to page '0714' in the current internal structure of the site.",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某SEO团队在优化网站内部链接结构时，需确认页面'0302'是否在最近调整中新增了直接指向核心产品页'0714'的超链接，从而提升后者在搜索引擎中的权重。当前能否验证这两个页面间存在直接跳转路径？",
+        "question": "An SEO team, while optimizing the internal linking structure of a website, needs to confirm whether page '0302' has recently added a hyperlink directly pointing to the core product page '0714', in order to enhance the latter's weight in search engines. Can we currently verify if there is a direct jump path between these two pages?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网站内部链接结构时，若希望通过页面'0302'的关键词锚文本直接传递权重至产品页'0714'以提升搜索排名，是否确认存在从节点'0302'指向'0714'的单向超链接？",
+        "question": "When optimizing the internal link structure of a website, if you want to directly transfer authority from the keyword anchor text of page '0302' to the product page '0714' to improve search rankings, can you confirm that there is a one-way hyperlink from node '0302' to '0714'?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某SEO团队在优化网站内部链接权重时，发现页面0302的PageRank值异常波动。根据链接汁液传递原则，是否存在从页面0302直接指向页面0714的超链接关系？这直接影响是否需要在0714页面部署反链检测机制。",
+        "question": "An SEO team noticed abnormal fluctuations in the PageRank value of page 0302 while optimizing the internal link weight of the website. According to the principle of link juice transfer, is there a direct hyperlink relationship from page 0302 to page 0714? This directly affects the need to implement a backlink detection mechanism on page 0714.",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某电商平台在进行搜索引擎优化时，发现产品页0714的权重传递存在异常。技术人员怀疑是核心分类页0302未正确配置指向该产品页的超链接，需立即确认这两个页面间是否存在直接的单向引用关系？",
+        "question": "During search engine optimization on a certain e-commerce platform, an anomaly was discovered in the weight transfer of product page 0714. The technical team suspects that the core category page 0302 has not been correctly configured to link to this product page. It is necessary to immediately verify whether there is a direct one-way linking relationship between these two pages.",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在进行搜索引擎排名优化时，内部链接权重传递是关键策略之一。现需验证页面'0302'是否通过直接超链接指向页面'0714'以提升后者搜索权重，请问当前网站拓扑结构中存在这种直接引用关系吗？",
+        "question": "When optimizing for search engine ranking, internal link weight transfer is one of the key strategies. It is now necessary to verify whether page '0302' directly hyperlinks to page '0714' to enhance the search weight of the latter. Does such a direct reference relationship currently exist in the website topology?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化网站内部链接结构以提升搜索引擎排名时，是否可以确认产品页面'0302'直接链接到促销页面'0714'，从而有效传递页面权重？",
+        "question": "When optimizing the internal linking structure of a website to improve search engine rankings, can it be confirmed that the product page '0302' directly links to the promotion page '0714', thereby effectively passing on page authority?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某网站为优化搜索引擎排名，需确保关键页面间存在有效直链。现管理员怀疑页面'0302'到'0714'的推荐链接被误删，导致权重无法传递。根据当前网络拓扑，能否确认这两个节点之间存在直接超链接关系？",
+        "question": "To optimize the search engine ranking of a certain website, it is necessary to ensure that there are valid direct links between key pages. The administrator suspects that the recommended link from page '0302' to '0714' has been mistakenly deleted, causing the loss of weight transmission. Based on the current network topology, can you confirm if there is a direct hyperlink relationship between these two nodes?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网站内部链接结构以提升页面'0714'的搜索引擎排名时，需要确认页面'0302'是否已主动添加了指向该目标页面的超链接，请问当前网络拓扑中是否存在这条直接引用的边关系？",
+        "question": "In optimizing the internal link structure of the website to improve the search engine ranking of page '0714', it is necessary to confirm whether page '0302' has actively added a hyperlink pointing to the target page. Can you please check if there is a direct edge relationship referring to this in the current network topology?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网站内部链接结构以提升促销页面在搜索引擎中的排名时，SEO团队需要确认产品页面'0302'是否存在直接指向'0714'促销页面的超链接。当前网络中是否存在该链接？",
+        "question": "When optimizing the internal link structure of the website to improve the ranking of the promotional page in search engines, the SEO team needs to confirm whether there is a direct hyperlink from the product page '0302' to the promotional page '0714'. Does such a link currently exist on the network?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站在优化内部链接结构时，SEO团队发现页面'0302'的关键词布局需要传递权重至'0714'页面。根据当前网页拓扑关系，能否确认页面'0302'存在直接指向'0714'的超链接？这将影响搜索引擎对目标页面的排名判断。",
+        "question": "When optimizing the internal link structure of a certain website, the SEO team discovered that the keyword layout of page '0302' needs to pass authority to page '0714'. Based on the current webpage topology, can we confirm whether there is a direct hyperlink from page '0302' to page '0714'? This will affect the search engine's ranking assessment of the target page.",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "为了优化网页'0714'在搜索引擎中的排名，运营团队需要确认其是否被核心产品页'0302'通过直接内部链接推荐。请问当前网站拓扑结构中是否存在从节点'0302'指向节点'0714'的单向超链接？",
+        "question": "To optimize the ranking of the webpage '0714' in search engines, the operations team needs to confirm whether it is being directly recommended by the core product page '0302' through internal linking. Is there currently a unidirectional hyperlink from node '0302' to node '0714' in the existing site topology?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化产品页'0302'的搜索引擎排名时，SEO团队需要验证该页面是否已建立直接跳转到'0714'技术支持页面的超链接。根据当前网络拓扑，能否确认这两个节点间存在单向往链关系？",
+        "question": "When optimizing the search engine ranking of product page '0302', the SEO team needs to verify whether a direct hyperlink to the '0714' technical support page has been established on that page. Based on the current network topology, can it be confirmed that there is a unidirectional linking relationship between these two nodes?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某网站在优化内部链接结构以提升搜索引擎排名时，SEO团队需要确认产品详情页'0302'是否直接通过超链接指向限时促销页'0714'，从而确保权重有效传递。当前网站拓扑中是否存在这条关键的单向引用关系？",
+        "question": "When optimizing the internal link structure of a website to improve search engine rankings, the SEO team needs to confirm whether the product detail page '0302' directly links to the limited-time promotion page '0714' via a hyperlink, in order to ensure that link equity is effectively transmitted. Is this crucial one-way referencing relationship present in the current website topology?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某网站在优化内部链接结构以提升搜索引擎排名时，SEO团队需要确认关键产品页'0302'是否直接指向促销活动页'0714'以有效传递权重。当前网络中是否存在这条直接链接？",
+        "question": "When a certain website is optimizing its internal linking structure to enhance its search engine ranking, the SEO team needs to confirm whether the key product page '0302' directly links to the promotional page '0714' to effectively pass on weight. Is there currently a direct link between these two pages on the website?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化某网站搜索引擎排名时，SEO专家发现页面0714的关键词排名停滞不前。根据内部链接权重传递原则，若要从高权重页面0302主动引导流量，是否需要确认页面0302存在直接指向0714的超链接？",
+        "question": "In optimizing the search engine ranking for a certain website, the SEO expert discovered that the keyword ranking for page 0714 had stagnated. According to the principle of internal link weight transfer, in order to actively drive traffic from the high-authority page 0302 to 0714, is it necessary to confirm that page 0302 contains a direct hyperlink pointing to 0714?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网站内部链接结构以提升搜索引擎排名时，SEO团队需要确认是否已成功添加从页面0302指向0714的直链，从而增强0714的搜索可见性。当前网络中是否存在该直接链接？",
+        "question": "When optimizing the internal link structure of the website to improve search engine rankings, the SEO team needs to confirm whether a direct link from page 0302 to 0714 has been successfully added to enhance the search visibility of 0714. Is this direct link currently present in the network?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网站SEO结构时，需要确认页面'0302'是否直接包含指向权威资源'0714'的反向链接，这种直接引用关系能否被当前网页拓扑网络验证存在？",
+        "question": "When optimizing the SEO structure of the website, it is necessary to confirm whether the page '0302' directly includes backlinks to the authoritative resource '0714'. Can this direct citation relationship be verified by the current webpage topology?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网站内部链接权重时，SEO团队发现节点'0302'的权威值显著高于节点'0714'。为确保新页面获得流量倾斜，需要核查核心页面'0302'是否直接通过超链接指向目标页面'0714'？",
+        "question": "In optimizing the internal link weight of the website, the SEO team found that the authority of node '0302' was significantly higher than that of node '0714'. To ensure that the new page receives a traffic tilt, it is necessary to verify whether the core page '0302' directly links to the target page '0714' through a hyperlink.",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网站内部链接结构以提升搜索引擎排名的过程中，网站管理员需要确认产品详情页（节点0302）是否设置了指向夏季促销专题页（节点0714）的直接超链接。请问当前网页拓扑网络中是否存在这条关键路径链接？",
+        "question": "In the process of optimizing the website's internal linking structure to improve search engine rankings, the webmaster needs to confirm whether the product detail page (Node 0302) has a direct hyperlink pointing to the summer promotion landing page (Node 0714). Is there currently a key path link present in the website topology network?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某SEO团队在优化官网结构时，发现产品页'0302'的关键词排名持续下滑。经分析怀疑是缺少指向专题页'0714'的内部导流链接，现有网页拓扑数据能否证实产品页底部导航区确实存在直接跳转至该专题页的超链接？",
+        "question": "A certain SEO team discovered that the keyword ranking for the product page '0302' has been continuously declining while optimizing the structure of the official website. Upon analysis, they suspect that the lack of an internal linking flow pointing to the topic page '0714' may be the cause. Can the existing webpage topology data confirm whether there is indeed a hyperlink at the bottom navigation area of the product page that directly links to the topic page?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某网站在进行搜索引擎排名优化时，SEO团队发现页面'0714'的关键词排名异常波动。为排查内部链接权重传递问题，需要确认根目录页'0302'是否直接包含指向该异常页面的超链接。请问能否通过现有链接拓扑验证此项关联？",
+        "question": "During the search engine ranking optimization on a certain website, the SEO team noticed abnormal fluctuations in the keyword rankings for the page '0714'. To investigate potential issues with internal link weight transfer, it is necessary to confirm whether the root directory page '0302' directly contains a hyperlink pointing to the abnormal page. Is it possible to verify this association through the existing link topology?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在最近的搜索引擎排名优化中，某团队宣称已通过页面0302的关键词锚文本为页面0714导流。根据网页拓扑关系，能否确认他们确实建立了从0302到0714的有效内部超链接？",
+        "question": "In a recent search engine ranking optimization, a certain team claimed to have directed traffic from page 0302 to page 0714 through the keyword anchor text on page 0302. Based on the webpage topology, can it be confirmed whether they have indeed established an effective internal hyperlink from 0302 to 0714?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网站SEO排名时，内部链接结构直接影响页面权重分配。若页面'0302'需通过超链接直接向页面'0714'传递流量价值，请确认这两个节点间是否已建立有效直连关系？",
+        "question": "When optimizing the website's SEO ranking, the internal linking structure directly affects the distribution of page authority. If page '0302' needs to pass traffic value directly to page '0714' through a hyperlink, please confirm whether an effective direct link relationship has been established between these two nodes.",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在优化网站内部链接结构时，为提升页面0714的关键词搜索排名，需确认其是否被高权重页面0302直接引用。当前网络中存在从0302到0714的单向超链接吗？",
+        "question": "When optimizing the internal link structure of the website to improve the keyword search ranking of page 0714, it is essential to check whether it is directly referenced by high-authority page 0302. Is there currently a one-way hyperlink from 0302 to 0714 on the web?",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在优化网站内部链接结构时，SEO顾问发现页面0302的关键词布局与页面0714高度相关，建议添加从0302到0714的跳转链接以提升页面权重。需要确认当前网站拓扑结构中是否已存在该链接？",
+        "question": "When optimizing the internal link structure of the website, the SEO consultant found that the keyword layout of page 0302 is highly related to that of page 0714. They recommended adding a redirect link from 0302 to 0714 to improve page authority. It is necessary to confirm whether this link already exists in the current website topology.",
+        "label": "Edge_Existence",
+        "type": "搜索引擎排名优化",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在网站结构健康诊断中，需排查支付页面'0302'到订单详情页'0714'是否存在无效跳转，请问该单向链接是否实际存在？",
+        "question": "In the website structure health diagnosis, it is necessary to check whether there are any invalid redirects from the payment page '0302' to the order details page '0714'. Could you please confirm if this one-way link actually exists?",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在网站结构健康诊断过程中，维护团队需确认页面'0302'是否存在直接跳转至页面'0714'的单向超链接，以便快速修复断链风险，当前拓扑网络中该边是否真实存在？",
+        "question": "During the website structure health diagnosis process, the maintenance team needs to confirm whether there is a direct one-way hyperlink from page '0302' to page '0714' in order to quickly address the risk of broken links. Does this edge actually exist in the current topology network?",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在网站结构健康检查中发现节点'0302'到节点'0714'的关键导航路径存在异常中断，需确认这两个页面之间是否保留了直接跳转的超链接？",
+        "question": "During the health check of the website structure, an abnormal interruption in the key navigation path from node '0302' to node '0714' has been identified. It is necessary to confirm whether a direct hyperlink for redirection is retained between these two pages.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "网站管理员在检查产品主页（节点'0302'）到订单提交页（节点'0714'）的单向链接是否正常存在，以确认关键用户流程是否存在潜在断裂风险。请问当前网络结构中这两个指定页面间是否建立了直接可达的超链接？",
+        "question": "The website administrator is checking whether there is a functional one-way link from the product homepage (node '0302') to the order submission page (node '0714') to confirm whether there is a potential risk of disruption in the critical user flow. May I ask if there is a directly reachable hyperlink established between these two specified pages in the current network structure?",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在网站结构健康诊断中，发现节点0302可能存在无效外链风险，需核查该页面是否直接指向节点0714以确认导航有效性。请问节点0302到节点0714是否存在直接链接关系？",
+        "question": "In the website structure health diagnosis, it was found that node 0302 may have a risk of invalid external links. It is necessary to check whether this page directly points to node 0714 to confirm the validity of the navigation. Is there a direct link relationship between node 0302 and node 0714?",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "近期网站结构健康检测中发现节点'0302'的流量异常衰减，运维人员怀疑其与核心页面'0714'的跳转链路断裂。请验证这两个节点间是否存在直接超链接关系？",
+        "question": "Recently, during the website structure health check, abnormal traffic decline was detected at node '0302'. The operations and maintenance personnel suspect that it is related to a broken redirect link to the core page '0714'. Please verify if there is a direct hyperlink relationship between these two nodes.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 15,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在网站结构健康检查中，发现产品详情页'0302'的用户点击流数据无法跳转至服务说明页'0714'，需核查这两个页面间是否存在直接超链接关系？",
+        "question": "In the website structure health check, it was found that the user clickstream data for the product detail page '0302' cannot navigate to the service description page '0714'. It is necessary to verify whether there is a direct hyperlink relationship between these two pages.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在网站结构健康诊断中，发现节点'0302'的页面可能存在失效外链风险，需核查其是否直接关联节点'0714'的页面。请问这两个节点间是否存在有效超链接？",
+        "question": "In the website structure health diagnosis, it was found that the page of node '0302' may have a risk of broken external links, and it is necessary to verify whether it is directly linked to the page of node '0714'. Could you please confirm if there is a valid hyperlink between these two nodes?",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "近期网站监测显示用户从页面'0302'无法通过内部推荐链接正常跳转至页面'0714'，在进行站点导航链路完整性核查时，是否需要确认这两个节点间存在直接超链接关系？",
+        "question": "Recent site monitoring indicates that users are unable to navigate normally from page '0302' to page '0714' through the internal referral link. When conducting a site navigation link integrity check, should we confirm that there is a direct hyperlink relationship between these two nodes?",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在网站结构健康诊断过程中，发现用户无法通过商品分类页节点'0302'直接跳转至促销活动页节点'0714'，请确认两页面间是否存在预设的单向超链接关系？",
+        "question": "During the website structure health diagnosis process, it was discovered that users are unable to directly navigate from the product category page node '0302' to the promotion event page node '0714'. Please confirm if there is a predefined one-way hyperlink relationship between the two pages.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在进行网站结构健康诊断时，发现用户反馈从编号'0302'的服务介绍页无法通过底部导航链接正常跳转至编号'0714'的客服中心页，请验证这两个页面之间是否配置了有效的直接超链接？",
+        "question": "During the website structure health diagnosis, it was found that users reported that they could not navigate normally from the service introduction page numbered '0302' to the customer service center page numbered '0714' via the bottom navigation link. Please verify whether there is a valid direct hyperlink configured between these two pages.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "网站结构健康诊断中发现用户无法从节点'0302'（会员中心首页）直接跳转到节点'0714'（积分兑换页面），需确认这两个关键页面之间是否配置了单向超链接？",
+        "question": "During the website structure health diagnosis, it was found that users cannot directly jump from node '0302' (Member Center Homepage) to node '0714' (Points Redemption Page). Please confirm whether a one-way hyperlink is configured between these two key pages.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在进行网站结构健康诊断时，发现用户从产品详情页（节点0302）跳转至在线客服页面（节点0714）的投诉率较高，需确认两页面间是否存在直接超链接关系以避免中间路径失效导致用户流失，当前网络中是否存有从节点0302指向节点0714的有效单向链接？",
+        "question": "During the website structure health diagnosis, it was found that the complaint rate for users jumping from the product detail page (node 0302) to the online customer service page (node 0714) is relatively high. It is necessary to confirm whether there is a direct hyperlink relationship between the two pages to prevent user loss due to the failure of the intermediary path. Are there any valid one-way links from node 0302 to node 0714 currently in the network?",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "网站结构健康诊断中发现节点'0302'的页面存在跳转异常反馈，需核实该页面的核心功能链接是否包含直接指向节点'0714'的单向超链？",
+        "question": "The website structure health diagnosis has found that the page corresponding to the node '0302' has abnormal redirect feedback. It is necessary to verify whether the core functional link on this page contains a direct one-way hyperlink pointing to node '0714'.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在进行网站结构健康诊断时，发现用户从订单支付页面（节点0302）提交数据后，系统需自动导向订单状态页（节点0714）。为确保流程完整性，请确认这两个页面间是否存在直接超链接？",
+        "question": "During the website structure health diagnosis, it was found that after users submit data from the order payment page (node 0302), the system should automatically redirect to the order status page (node 0714). To ensure the completeness of the process, please confirm whether there is a direct hyperlink between these two pages.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在进行网站结构健康诊断时，发现节点'0302'的关键导航功能模块需调用节点'0714'的资源，请问当前拓扑网络中是否存在该页面间的直接跳转链接？",
+        "question": "During the website structure health diagnosis, it was found that the key navigation function module of node '0302' needs to access the resources of node '0714'. Is there a direct link for jumping between these pages in the current topology network?",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "技术团队在进行网站结构健康诊断时，发现用户反馈从订单查询页（编号0302）无法跳转到退换货指南页（编号0714），需确认两者间是否存在直接超链接关系？",
+        "question": "During the health diagnosis of the website structure, the technical team discovered that user feedback indicated a failure to navigate from the order inquiry page (number 0302) to the return and exchange guide page (number 0714). It is necessary to confirm whether there is a direct hyperlink relationship between the two pages.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "近期网站用户反馈从产品详情页无法正常跳转至客服中心页面，技术团队怀疑节点'0302'到'0714'的推荐跳转链路存在断裂风险。请通过拓扑网络分析确认这两个关键页面间是否仍存在有效的直接超链接？",
+        "question": "Recently, users have reported that they are unable to properly navigate from the product detail page to the customer service center page. The technical team suspects that there may be a risk of a broken recommendation redirection link between nodes '0302' and '0714'. Please confirm through topology network analysis whether there are still valid direct hyperlinks between these two key pages.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在网站结构健康诊断中，发现用户投诉从编号0302的页面无法跳转至编号0714的页面。请确认这两个节点之间是否存在直接的单向超链接关系？",
+        "question": "In the website structure health diagnosis, it was found that users are complaining that they cannot navigate from page number 0302 to page number 0714. Please confirm whether there is a direct one-way hyperlink relationship between these two nodes.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "近期网站运维团队在进行结构健康诊断时，发现页面'0302'与'0714'之间的用户跳转成功率异常偏低，需核实是否存在从'0302'到'0714'的直接超链接配置？",
+        "question": "Recently, during a structural health diagnosis, the website operations and maintenance team discovered that the user transition success rate between pages '0302' and '0714' is unusually low. It is necessary to verify whether there is a direct hyperlink configuration from '0302' to '0714'.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在进行网站结构健康诊断时，发现节点'0302'的页面可能存在无效外链风险，需确认该页面是否直接包含指向节点'0714'的单向超链接以验证导航有效性。请问当前拓扑网络中是否存在这条关键连接路径？",
+        "question": "During the website structure health diagnosis, it was found that the page of node '0302' may have a risk of invalid external links. It is necessary to confirm whether this page contains a direct one-way hyperlink pointing to node '0714' to verify the navigation validity. Is there currently such a critical connection path in the topology network?",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "近期网站维护中发现从产品页节点'0302'到详情页节点'0714'的跳转异常，疑似存在死链风险。请确认当前架构中是否保留了该关键路径的直接链接引用关系？",
+        "question": "Recently, during website maintenance, an abnormal redirection was found from the product page node '0302' to the detail page node '0714', which is suspected to have a risk of a dead link. Please confirm whether the direct link reference for this critical path is still retained in the current architecture?",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 15,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在网站结构健康审查中发现节点'0714'可能存在更新滞后风险，需核实节点'0302'是否保留指向该页面的有效单向超链接，当前网络中是否存在此项直接关联？",
+        "question": "It was found during the website structural health review that node '0714' may have a risk of update lag. It is necessary to verify whether node '0302' retains a valid one-way hyperlink pointing to that page, and if there is a direct connection in the current network.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "近期网站结构健康监测显示，用户从服务条款页（0302）至隐私政策页（0714）的跳转路径存在异常中断风险，需确认两者间是否配置了直接超链接以确保合规性导航完整性？",
+        "question": "Recent monitoring of website structure health indicates a potential disruption risk in the user navigation path from the Terms of Service page (0302) to the Privacy Policy page (0714). It is necessary to confirm whether a direct hyperlink is configured between the two pages to ensure compliance and navigation integrity.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在网站结构健康诊断中，发现用户投诉从商品分类页'0302'无法跳转至促销活动页'0714'。经初步排查导航逻辑，请确认这两个页面间是否存在直接超链接引用关系？",
+        "question": "In the website structure health diagnosis, it was found that users are complaining that they cannot navigate from the product category page '0302' to the promotional activity page '0714'. After an initial investigation into the navigation logic, please confirm whether there is a direct hyperlink relationship between these two pages.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在近期网站结构健康诊断中，运维团队需排查关键页面间的导航完整性，请问是否存在从帮助中心页面（节点0302）直接指向用户协议页面（节点0714）的单向超链接？",
+        "question": "In the recent website structure health check, the operations and maintenance team needs to investigate the navigation integrity between key pages. Is there a one-way hyperlink that directly points from the Help Center page (Node 0302) to the User Agreement page (Node 0714)?",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在进行网站结构健康诊断时，需要确认编号0302的页面是否存在直接跳转至编号0714页面的有效超链接，请问当前系统中这两个指定节点间的单向连接关系是否成立？",
+        "question": "When conducting a website structure health check, it is necessary to confirm whether there is a valid hyperlink that directly redirects from page number 0302 to page number 0714. Could you please confirm if the unidirectional connection between these two specified nodes currently exists in the system?",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在网站结构健康诊断过程中，技术团队需要确认节点'0302'是否直接链接到节点'0714'以验证关键资源可达性，当前网络中是否存在这一单向引用关系？",
+        "question": "During the website structure health diagnosis process, the technical team needs to confirm whether node '0302' is directly linked to node '0714' to verify the accessibility of key resources. Is this unidirectional reference relationship present in the current network?",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在诊断某网站结构健康状况时，发现页面'0302'的流量无法传递至关键页面'0714'，是否因缺少从节点'0302'到节点'0714'的直接超链接所致？",
+        "question": "When diagnosing the structural health of a certain website, it was found that traffic from page '0302' cannot be directed to the key page '0714'. Could this be due to the lack of a direct hyperlink from node '0302' to node '0714'?",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在网站结构健康诊断中，发现节点'0302'的关键导航功能可能异常。为确保用户跳转路径完整，请确认该页面是否存在直接指向节点'0714'的单向超链接？",
+        "question": "In the website structure health diagnosis, it was found that the key navigation function of node '0302' may be abnormal. To ensure that the user navigation path is complete, please confirm whether there is a direct one-way hyperlink pointing to node '0714' on that page.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在网站结构健康诊断过程中，维护团队需要确认页面'0302'到页面'0714'是否存在直接超链接关系，以排查导航路径异常问题，请问当前网络中这两个节点间的单向连接是否有效？",
+        "question": "In the process of diagnosing the health of the website structure, the maintenance team needs to confirm whether there is a direct hyperlink relationship between page '0302' and page '0714' to investigate any abnormal navigation path issues. Could you please check if the unidirectional connection between these two nodes is currently valid in the network?",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在网站结构健康诊断中，发现用户无法从编号'0302'的页面跳转至编号'0714'的关键服务页面，是否存在从节点'0302'到节点'0714'的直接超链接关系需核查？",
+        "question": "In the website structure health diagnosis, it was found that users cannot navigate from page '0302' to the key service page '0714'. It needs to be verified whether there is a direct hyperlink relationship from node '0302' to node '0714'.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 15,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在网站结构健康诊断过程中，工程师发现页面'0302'的关键功能模块可能因缺失指向页面'0714'的跳转链接而导致用户流程中断，请核查这两个节点间是否存在直接超链接关系？",
+        "question": "During the website structure health diagnosis process, engineers discovered that the key functional module on page '0302' may cause a disruption in the user flow due to the absence of a redirect link pointing to page '0714'. Please check whether there is a direct hyperlink relationship between these two nodes.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "网站维护团队在诊断核心页面导航链路完整性时，发现用户从商品详情页（节点0302）跳转至订单结算页（节点0714）的转化率异常。请核查这两个页面间是否存在直接超链接关系，以判断是否因路径断裂导致流量损耗？",
+        "question": "The website maintenance team found an abnormal conversion rate when diagnosing the integrity of the core page navigation links, specifically the transition from the product detail page (Node 0302) to the order checkout page (Node 0714). Please check whether there is a direct hyperlink relationship between these two pages to determine if there is any traffic loss caused by a broken link.",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在最近的网站结构健康检查中，我们需要确认从编号'0302'的页面到'0714'的页面是否存在直接超链接以保障导航完整性。请问这两者之间是否有一条有效的单向链接？",
+        "question": "In the recent website structure health check, we need to confirm whether there is a direct hyperlink from page '0302' to page '0714' to ensure navigation integrity. Could you please let us know if there is a valid one-way link between these two pages?",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在网站结构健康诊断中，需确认核心服务页面'0302'是否设置了指向用户协议页'0714'的有效内部跳转链接，当前系统是否存在这条直接导航路径？",
+        "question": "In the website structure health diagnosis, it is necessary to confirm whether the core service page '0302' has an effective internal link pointing to the user agreement page '0714'. Does the current system have this direct navigation path?",
+        "label": "Edge_Existence",
+        "type": "网站结构健康诊断",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在网页拓扑网络中，社区分析发现节点'0302'和'0714'被归类到同一主题社区，请问当前是否存在从节点'0302'直接跳转到节点'0714'的超链接？",
+        "question": "In the web topology network, community analysis has classified nodes '0302' and '0714' into the same thematic community. Is there currently a hyperlink that allows direct navigation from node '0302' to node '0714'?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站进行主题社区维护时，管理员发现节点'0302'被标注为\"算法教程核心页\"，而节点'0714'是\"图神经网络专题页\"。根据社区关联性规范，核心页必须包含指向专题页的直连通道。当前是否满足该链接要求？",
+        "question": "During the maintenance of a themed community on a certain website, the administrator found that node '0302' was labeled as \"Core Page of Algorithm Tutorial,\" while node '0714' was the \"Thematic Page on Graph Neural Networks.\" According to the community relevance guidelines, core pages must include a direct link to the thematic page. Does the current setup meet this linking requirement?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在某主题社区分析中，发现网页'0302'和'0714'均属于技术文档子社区，需确认两者是否存在直接引用关系以验证子社区内部链接密度。当前网络中是否存在从'0302'指向'0714'的单向超链接？",
+        "question": "In an analysis of a certain themed community, it was found that the webpages '0302' and '0714' both belong to the technical documentation sub-community. It is necessary to confirm whether there is a direct citation relationship between the two in order to verify the link density within the sub-community. Does a one-way hyperlink currently exist on the web pointing from '0302' to '0714'?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在分析某网页社区结构时，发现节点'0302'和'0714'被划分到同一兴趣主题的子群中。请问这两个节点之间是否直接存在由'0302'指向'0714'的超链接？",
+        "question": "In the analysis of the community structure of a certain webpage, it was found that nodes '0302' and '0714' are assigned to the same interest-themed subgroup. Is there a direct hyperlink from '0302' to '0714'?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在分析网页拓扑网络中不同主题社区之间的跨区链接时，需要确认新闻资讯社区的核心节点'0302'是否直接通过超链接关联到社交娱乐社区的节点'0714'，这两类社区间是否存在这条跨区边？",
+        "question": "When analyzing the cross-zone links between different thematic communities in a web topology network, it is necessary to confirm whether the core node '0302' of the news community is directly linked to the node '0714' of the social entertainment community through a hyperlink. Is there a cross-zone edge between these two types of communities?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台的网页网络根据主题聚类形成了多个社区，已知节点'0302'属于科技讨论区，节点'0714'位于影视交流区，现需验证这两个不同主题板块的页面间是否存在直接超链接通路，能否确认从科技区页面0302到影视区页面0714存在单向链接？",
+        "question": "The web network of a certain social media platform has formed multiple communities based on themes through clustering. It is known that node '0302' belongs to the technology discussion area, while node '0714' is located in the film and television communication area. Now, it is necessary to verify whether there exists a direct hyperlink pathway between these two different theme sections, and whether it can be confirmed that there is a one-way link from the technology area page 0302 to the film and television area page 0714.",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某社交平台的网页拓扑结构时，发现用户0302和0714分别活跃于不同的兴趣社区。现需核实用户0302的个人主页是否设置了直接跳转到用户0714主页的超链接，是否存在该单向链接关系？",
+        "question": "When analyzing the webpage topology of a certain social platform, it was discovered that users 0302 and 0714 are active in different interest communities. It is now necessary to verify whether user 0302's personal homepage has a hyperlink that directly redirects to user 0714's homepage, and whether such a one-way linking relationship exists.",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某主题社区的网页链接结构时，发现社区内节点存在密集的跨圈层跳转。根据当前社区节点的连接模式，能否确认编号0302的百科页面直接存在指向0714号技术文档页面的超链接？",
+        "question": "When analyzing the link structure of a certain thematic community's webpage, it was found that there are dense cross-layer jumps among the community nodes. Based on the current connection pattern of the community nodes, is it possible to confirm whether the encyclopedia page numbered 0302 has a direct hyperlink pointing to the technical document page numbered 0714?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在网页社区优化项目中，发现节点'0302'和'0714'属于同一兴趣社区。请确认前者是否直接链接到后者页面？",
+        "question": "In the web community optimization project, it was found that nodes '0302' and '0714' belong to the same interest community. Please confirm whether the former is directly linked to the latter's page.",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在维护一个以学术论文分类的主题社区时，管理员发现社区核心节点'0302'的参考资料区疑似存在断裂链接。若仅考虑直接引用关系，该页面是否包含指向社区跨学科枢纽节点'0714'的有效超链接？",
+        "question": "Translate to English: While maintaining a thematic community categorized by academic papers, the administrator discovered that the reference section of the community core node '0302' may have broken links. Considering only the direct citation relationships, does this page contain valid hyperlinks pointing to the interdisciplinary hub node '0714' in the community?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在网页拓扑网络中，内容监管系统发现节点'0302'所属社区与节点'0714'所属社区存在主题关联性争议。为确认两者是否存在直接超链接行为，是否需要修正社区划分策略？请检查节点'0302'到'0714'是否有单向边存在。",
+        "question": "In the web topology network, the content regulatory system has discovered a thematic association dispute between the community of node '0302' and the community of node '0714'. To confirm whether there is a direct hyperlink behavior between the two, is it necessary to revise the community division strategy? Please check if there is a unidirectional edge from node '0302' to '0714'.",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在网页拓扑网络的社区划分中，若节点'0302'和'0714'被归类到同一紧密连接子群，且子群内强调直接超链关系，当前网络是否满足从'0302'到'0714'的边存在？",
+        "question": "In the community partitioning of the web topology network, if nodes '0302' and '0714' are classified into the same tightly connected subgroup, and the emphasis within the subgroup is on direct hyperlink relationships, does the current network satisfy the existence of a link from '0302' to '0714'?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在网页拓扑网络中，节点'0302'属于新闻社区，节点'0714'属于购物社区。经社区划分后发现两个社区间存在跨域跳转机制，请问系统是否需要更新这两个社区的关联关系——具体而言，当前是否存在从新闻社区'0302'节点直接指向购物社区'0714'节点的超链接？",
+        "question": "In the web topology network, node '0302' belongs to the news community, while node '0714' belongs to the shopping community. After the community detection, it was found that there is a cross-domain transition mechanism between the two communities. Does the system need to update the relationship between these two communities? Specifically, is there currently a hyperlink directly linking the news community node '0302' to the shopping community node '0714'?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某主题社区内部链接结构时，能否确认节点'0302'存在直接指向节点'0714'的超链接关系？",
+        "question": "When analyzing the internal linking structure of a certain topic community, can it be confirmed that there is a direct hyperlink relationship from node '0302' to node '0714'?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在检测某主题社区内部链接有效性时，发现节点'0302'所属子社区与节点'0714'存在跨社区交互需求。请确认这两个节点间是否已建立直接超链接通道？",
+        "question": "When examining the validity of internal links within a specific community, it was found that the sub-community of node '0302' has cross-community interaction requirements with node '0714'. Please confirm whether a direct hyperlink channel has been established between these two nodes.",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在分析某网络安全资源导航站点的核心社区时，发现0302号节点是漏洞数据库入口页面，需要确认该页面是否存在直接指向0714号节点（恶意软件分析工具集页面）的单向链接，这是否属于该主题社区内的有效资源指引路径？",
+        "question": "In analyzing the core community of a certain cybersecurity resource navigation site, it was found that node 0302 serves as the entry page for the vulnerability database. It is necessary to confirm whether there exists a direct one-way link from this page to node 0714 (the malware analysis toolkit page). Is this considered a valid resource guidance pathway within the subject community?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在网页拓扑网络中，若已知节点'0302'属于技术支持社区，节点'0714'位于用户论坛社区，当前需验证跨社区协作场景下，前者是否直接通过超链接关联后者？",
+        "question": "In the web topology network, if it is known that node '0302' belongs to the technical support community and node '0714' is in the user forum community, it is necessary to verify whether the former is directly linked to the latter through a hyperlink in the context of cross-community collaboration.",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某论坛的子站主题社区结构时，需要确认核心讨论区页面0302是否存在直接指向资源归档库页面0714的超链接，该链接是否真实存在于当前网页拓扑网络中？",
+        "question": "When analyzing the thematic community structure of a substation on a certain forum, it is necessary to confirm whether there is a direct hyperlink from the core discussion area page 0302 to the resource archive page 0714, and whether this link currently exists in the webpage topology network.",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某社交平台将用户主页按兴趣主题划分社区后，管理员需要核实节点'0302'的个人主页与节点'0714'的购物推荐页虽分属不同兴趣社区，是否存在直接跳转的超链接关系？",
+        "question": "After a social platform divides user homepages into communities based on interest themes, administrators need to verify whether there is a direct hyperlink relationship between the personal homepage of node '0302' and the shopping recommendation page of node '0714', even though they belong to different interest communities.",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某在线教育平台在优化课程推荐系统时，发现网页'0302'和'0714'均属于算法课程社区。现需确认该社区内部是否建立了从课程概述页'0302'直达习题库页'0714'的单向超链接？",
+        "question": "An online education platform discovered that the webpages '0302' and '0714' both belong to the algorithm course community while optimizing its course recommendation system. It is now necessary to confirm whether there is a one-way hyperlink established from the course overview page '0302' directly to the exercise bank page '0714' within that community.",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在分析某主题社区成员间的内部链接时，需要确认网页节点'0302'是否直接通过超链接指向同社区的节点'0714'，是否存在这样的关联路径？",
+        "question": "When analyzing the internal links among members of a specific topic community, it is necessary to verify whether the webpage node '0302' directly links to the node '0714' of the same community through a hyperlink. Is there such a connection path?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析网页社区结构时，若发现节点'0302'与'0714'被划分到不同主题社区，是否仍存在从前者直接指向后者的超链接？",
+        "question": "When analyzing the structure of a web community, if it is found that nodes '0302' and '0714' are assigned to different thematic communities, is there still a direct hyperlink from the former to the latter?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某个主题社区内部的超链接结构时，是否存在从网页节点'0302'直接指向'0714'的单向链接？",
+        "question": "When analyzing the hyperlink structure within a specific thematic community, is there a direct one-way link from the webpage node '0302' to '0714'?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在网页拓扑网络分析中，某主题社区内的节点'0302'被用户频繁访问，运维团队需确认其是否直接链接至社区内另一热点节点'0714'以优化导航路径，当前能否确定两者之间存在单向超链接？",
+        "question": "In the analysis of web topology networks, the node '0302' within a specific topic community is frequently accessed by users. The operations and maintenance team needs to confirm whether it is directly linked to another hotspot node '0714' within the community in order to optimize the navigation path. Can it currently be determined if there is a unidirectional hyperlink between the two?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在网页拓扑网络中，节点'0302'属于新闻聚合社区，节点'0714'位于视频分享社区。当前需要确认这两个不同主题社区间是否存在从'0302'指向'0714'的直接超链接？",
+        "question": "In the web topology network, node '0302' belongs to the news aggregation community, while node '0714' is located in the video sharing community. It is currently necessary to confirm whether there is a direct hyperlink from '0302' to '0714' between these two different themed communities.",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网络社区分析中发现节点'0302'和'0714'分别处于两个活跃用户群组，在验证跨社区交互行为时，能否确认存在从'0302'页面直接跳转至'0714'页面的超链接？",
+        "question": "In an analysis of a certain online community, it was found that nodes '0302' and '0714' belong to two active user groups. When verifying cross-community interaction behavior, can it be confirmed whether there is a hyperlink that directly links from the '0302' page to the '0714' page?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某主题社区内核心页面'0302'被标注为权威资源节点，现需验证其是否直接关联到社区内高频访问的参考页'0714'。请问当前拓扑网络中是否存在从'0302'指向'0714'的单向超链接？",
+        "question": "In a specific themed community, the core page '0302' has been marked as an authoritative resource node. It is now necessary to verify whether it is directly linked to the frequently accessed reference page '0714' within the community. Is there currently a unidirectional hyperlink from '0302' to '0714' in the existing topology network?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在某个社交平台的网页拓扑网络中，节点'0302'和'0714'被社区检测算法归类到同一兴趣圈层，是否可以通过该圈层内的直接链接关系从节点'0302'跳转至节点'0714'？",
+        "question": "In the web topology network of a certain social media platform, nodes '0302' and '0714' have been classified into the same interest group by a community detection algorithm. Is it possible to jump from node '0302' to node '0714' through the direct linking relationships within that group?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某研究团队在分析网页拓扑网络时，发现节点主要聚集在学术资源和社交媒体两个主题社区。已知节点'0302'属于学术资源社区，节点'0714'位于社交媒体社区，请问当前网络中是否存在从'0302'直接指向'0714'的超链接关系？",
+        "question": "A research team analyzing web topology networks found that nodes predominantly cluster around two thematic communities: academic resources and social media. It is known that node '0302' belongs to the academic resources community, while node '0714' is located in the social media community. Can you determine if there is a direct hyperlink relationship from '0302' to '0714' in the current network?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在某个网页社区发现项目中，经算法划分后节点0302归属学术资源子群，节点0714位于社交媒体子群。现需验证这两个分属不同主题社区的节点间是否存在直接单向超链接，请问是否能确认从0302到0714存在直接访问路径？",
+        "question": "In a web community discovery project, after algorithmic clustering, node 0302 belongs to the academic resources subgroup, while node 0714 is part of the social media subgroup. We now need to verify whether there is a direct one-way hyperlink between these two nodes that belong to different thematic communities. Can it be confirmed that there is a direct access path from node 0302 to node 0714?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某用户在分析社交平台的网页社区结构时，发现节点0302所在的兴趣小组与节点0714所在的热点话题区可能存在跨圈层关联。请问当前网络数据中，这两个节点之间是否建立了直接的引用链接？",
+        "question": "A user analyzing the web community structure of a social platform discovered that the interest group where node 0302 is located may have cross-layer associations with the trending topic area where node 0714 is situated. Could you please let me know if there is a direct reference link established between these two nodes in the current network data?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在分析某网页拓扑网络时，发现节点'0302'属于技术文档主题社区，节点'0714'位于用户论坛主题社区。现需确认这两个不同主题社区的核心页面之间是否存在直接超链接路径，请问节点'0302'到节点'0714'是否存在单跳引用关系？",
+        "question": "In analyzing a certain webpage topology network, it was found that node '0302' belongs to the technical documentation thematic community, while node '0714' is located in the user forum thematic community. It is necessary to confirm whether there is a direct hyperlink path between the core pages of these two different thematic communities. Is there a one-hop citation relationship from node '0302' to node '0714'?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析网页社区结构时，发现节点'0302'和'0714'属于不同主题社区，需要确认两者之间是否存在直接单向超链接？",
+        "question": "In analyzing the structure of web communities, it was found that nodes '0302' and '0714' belong to different thematic communities. It is necessary to confirm whether there is a direct one-way hyperlink between the two.",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在在线教育平台的网页拓扑网络中，用户发现课程页面'0302'和'0714'均属于‘机器学习’主题社区。需要确认该平台是否在两者间设置了直接推荐链接，请问是否存在从'0302'到'0714'的单向超链接？",
+        "question": "In the web topology of the online education platform, users find that the course pages '0302' and '0714' both belong to the 'Machine Learning' thematic community. It is necessary to confirm whether the platform has set up direct recommendation links between the two. Is there a unidirectional hyperlink from '0302' to '0714'?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在分析两个关联社区的跨区链接时，需要确认社区A的核心节点'0302'是否通过直接超链接指向社区B的关键节点'0714'，该边是否存在？",
+        "question": "In analyzing the inter-regional links between two related communities, it is necessary to confirm whether the core node '0302' of community A directly hyperlinks to the key node '0714' of community B. Does this edge exist?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某网页链接网络的社区结构时，发现节点0302和0714分别属于两个不同的链接社区。请问，是否存在从节点0302直接指向节点0714的超链接？",
+        "question": "When analyzing the community structure of a certain web page link network, it was found that nodes 0302 and 0714 belong to two different link communities. Is there a direct hyperlink from node 0302 to node 0714?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网站进行主题社区维护时，发现页面'0302'与'0714'均属于技术文档板块，管理员需要确认这两个页面是否存在直接跳转链接以验证社区内链完整性，请问当前网络中是否检测到该单向超链接？",
+        "question": "During the maintenance of a themed community on a certain website, it was found that pages '0302' and '0714' both belong to the technical documentation section. The administrator needs to confirm whether there are direct redirect links between these two pages to verify the integrity of internal links within the community. Could you please check if there is a unidirectional hyperlink detected in the current network?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某网页拓扑网络中，节点'0302'所属社区以新闻聚合为核心，而节点'0714'位于社交媒体资源社区。已知社区间通常通过关键页面建立跨主题链接，当前需核查这两个节点是否存在直接超链接关系，请确认是否存在？",
+        "question": "In a certain webpage topology network, the community to which node '0302' belongs is centered around news aggregation, while node '0714' is located in the social media resources community. It is known that communities typically establish cross-topic links through key pages. It is now necessary to verify whether there is a direct hyperlink relationship between these two nodes. Please confirm if such a relationship exists.",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在网页拓扑网络中，社区发现算法将节点划分为多个主题子群后，若节点'0302'属于技术文档社区，节点'0714'位于用户论坛社区，当前是否需要更新跨社区导航链接——即直接检查是否存在从'0302'到'0714'的单向超链接？",
+        "question": "In a web topology network, after the community discovery algorithm partitions nodes into multiple thematic subgroups, if node '0302' belongs to the technical documents community and node '0714' is located in the user forum community, is it necessary to update the cross-community navigation links—specifically, to directly check for the existence of a unidirectional hyperlink from '0302' to '0714'?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某网页拓扑网络中，节点'0302'与'0714'被划入同一主题社区。在最新的社区链接调整后，请确认从'0302'到'0714'是否仍存在直接跳转链接？",
+        "question": "In a certain webpage topology network, nodes '0302' and '0714' are categorized into the same thematic community. After the recent adjustments to community links, please verify whether there is still a direct jump link from '0302' to '0714'.",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某网站进行社区结构分析时，发现节点'0302'与'0714'分属不同的主题社区。现需核查这两个社区间是否存在直接导航关系，请确认网页\"0302\"是否包含直接跳转到网页\"0714\"的超链接？",
+        "question": "When conducting community structure analysis on a certain website, it was found that nodes '0302' and '0714' belong to different thematic communities. It is now necessary to verify whether there is a direct navigation relationship between these two communities. Please confirm if the webpage \"0302\" contains a hyperlink that directly links to the webpage \"0714.\"",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在网页拓扑网络中，社区分析发现节点0302所在的兴趣群组与节点0714所属的学术资源圈存在跨社区交互通道，请验证这两个节点之间是否建立了直接超链接关系？",
+        "question": "In the web topology network, community analysis has found that the interest group of node 0302 has cross-community interaction channels with the academic resource group of node 0714. Could you please verify whether a direct hyperlink relationship has been established between these two nodes?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析某网页拓扑网络的社区结构时，发现节点0302与0714分别属于两个内部链接紧密但相互连接稀疏的社区。根据社区间的典型链接模式，能否确认存在从0302指向0714的直接超链接？",
+        "question": "When analyzing the community structure of a certain webpage topology network, it was found that node 0302 and node 0714 belong to two communities that are internally well-connected but sparsely connected to each other. Based on the typical linking patterns between communities, can we confirm the existence of a direct hyperlink from 0302 to 0714?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某平台通过社区发现划分网页子群后，需核查子群内部是否存在从节点'0302'指向节点'0714'的直接超链接，请问该边是否存在？",
+        "question": "After a platform identifies webpage subgroups through community discovery, it needs to verify whether there is a direct hyperlink from node '0302' to node '0714' within the subgroups. Is this edge present?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某社交平台的网页拓扑网络时，发现节点0302属于用户兴趣社区A的核心页面，而节点0714是社区B的资源推荐页。若需验证这两个社区之间是否存在单向资源引流通道，能否确认从0302到0714有直接超链接？",
+        "question": "In the analysis of the webpage topology network of a certain social platform, it was found that node 0302 belongs to the core page of user interest community A, while node 0714 is the resource recommendation page of community B. If we need to verify whether there is a one-way resource referral channel between these two communities, can we confirm if there is a direct hyperlink from 0302 to 0714?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在分析某在线教育平台的网页拓扑时，发现两个子社区分别专注于编程教程和技术支持文档。需要确认编程教程社区中的节点'0302'是否存在到技术支持社区节点'0714'的直接超链接，以确定两者间是否有必要的内容关联？",
+        "question": "In analyzing the webpage topology of a certain online education platform, it was found that two sub-communities focus on programming tutorials and technical support documentation, respectively. It is necessary to verify whether there is a direct hyperlink from the node '0302' in the programming tutorial community to the node '0714' in the technical support community, in order to determine if there is a necessary content relationship between the two.",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在最新一次主题社区优化中，节点'0302'所在的社区成员被重新分组，请问节点'0302'到'0714'之间是否保留有直接超链接？",
+        "question": "In the latest community optimization, the members of the community where node '0302' is located have been regrouped. Could you please confirm whether there are direct hyperlinks retained between node '0302' and '0714'?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某在线教育平台的网页拓扑网络中，课程资料社区的核心节点'0302'需向用户讨论社区的核心节点'0714'提供文档跳转入口，当前系统日志显示两者属于不同主题社区，请问能否通过直接超链接从节点'0302'访问到节点'0714'？",
+        "question": "In the web topology network of an online education platform, the core node of the course materials community, '0302', needs to provide a document jump entrance to the core node of the user discussion community, '0714'. The current system logs indicate that the two nodes belong to different thematic communities. Can a direct hyperlink from node '0302' be used to access node '0714'?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 15,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在基于网页拓扑结构的社区划分中，若发现节点'0302'和'0714'常被用户在同一浏览会话访问，能否确认存在从'0302'直接跳转至'0714'的超链接？",
+        "question": "In community detection based on web topology, if it is found that nodes '0302' and '0714' are often accessed by users in the same browsing session, can it be confirmed that there is a hyperlink that directly links from '0302' to '0714'?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在分析网页社区结构时，发现节点'0302'所属的主题社区与节点'0714'所在社区存在跨区关联，这两个节点是否存在直接的单向超链接关系？",
+        "question": "When analyzing the structure of web communities, it was found that the thematic community to which node '0302' belongs has cross-zone associations with the community where node '0714' is located. Is there a direct one-way hyperlink relationship between these two nodes?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在检测某社交平台网页社区的核心成员关系时，需要确认节点'0302'是否与节点'0714'存在直接的单向推荐链接，请问两者之间是否有这条边？",
+        "question": "When detecting the core member relationships within a specific social platform's webpage community, it is necessary to confirm whether there is a direct one-way recommendation link from node '0302' to node '0714'. Could you please check if there is an edge between the two?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在社区论坛的群组重构计划中，管理员需要验证原\"兴趣探索\"群组（节点0302）到新建的\"内容聚合\"群组（节点0714）是否已建立直接引导链接。根据拓扑关系图，这两个专题社群之间是否存在定向超链接？",
+        "question": "In the community forum's group restructuring plan, the administrator needs to verify whether a direct guiding link has been established from the original \"Interest Exploration\" group (Node 0302) to the newly created \"Content Aggregation\" group (Node 0714). Based on the topology diagram, is there a directional hyperlink between these two thematic communities?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 15,
+        "weak_count": 4
+    },
+    {
+        "origin_question": "在某个在线平台的网页拓扑网络中，教育资源共享社区内的节点'0302'是否包含直接指向学术论文库社区中节点'0714'的超链接？",
+        "question": "In the webpage topology network of a certain online platform, does the node '0302' in the educational resource sharing community contain a direct hyperlink pointing to the node '0714' in the academic paper library community?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某主题社区内部链接结构时，是否存在从节点'0302'到节点'0714'的直接超链接？",
+        "question": "When analyzing the internal link structure of a certain topic community, is there a direct hyperlink from node '0302' to node '0714'?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在优化某论坛的版块社区结构时，发现用户主页节点'0302'频繁访问群组节点'0714'，需核查两者间是否存在直接超链接以保证社区导航有效性？",
+        "question": "While optimizing the structure of a certain forum's community sections, it was found that the user homepage node '0302' frequently accesses the group node '0714'. It is necessary to check whether there is a direct hyperlink between the two to ensure the effectiveness of community navigation.",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析网页子群结构时，发现节点0302属于核心资讯社区，0714位于商品推荐社区，请核查这两个跨社区的关键导航节点之间是否存在直接超链接？",
+        "question": "In analyzing the sub-group structure of the webpage, it was found that node 0302 belongs to the core information community, while 0714 is located in the product recommendation community. Please check whether there are direct hyperlinks between these two key navigation nodes across communities.",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在分析某主题社区的子群链接时，发现节点'0302'属于核心讨论组A，而节点'0714'位于衍生资源组B。请问这两个子群间是否通过'0302'到'0714'的超链接实现了跨组内容关联？",
+        "question": "Translation: In analyzing the subgroup links of a certain thematic community, it was found that node '0302' belongs to Core Discussion Group A, while node '0714' is part of Derived Resource Group B. Could you please tell me if there is a cross-group content association between these two subgroups through the hyperlink from '0302' to '0714'?",
+        "label": "Edge_Existence",
+        "type": "主题社区发现",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在追踪某次针对政府网站的定向渗透攻击中，安全团队发现攻击者可能通过节点'0302'到节点'0714'的直接跳转链接注入后门程序。根据当前网页拓扑结构，是否实际存在这条高危攻击路径对应的单向链接？",
+        "question": "In tracking a targeted penetration attack on a government website, the security team discovered that the attacker might have injected a backdoor program through a direct jump link from node '0302' to node '0714'. Based on the current web topology, does a one-way link corresponding to this high-risk attack path actually exist?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在针对某企业内网的渗透测试中，攻击者尝试通过节点'0302'进行横向移动。安全团队需立即确认该节点是否直接关联存储核心数据的节点'0714'，若存在直接超链接路径，则必须立即切断该高危攻击通道。请验证当前网络拓扑中是否存在此关键边？",
+        "question": "In a penetration test targeting a company's internal network, the attacker attempts to move laterally through node '0302'. The security team must immediately confirm whether this node is directly connected to node '0714', which stores core data. If there is a direct hyperlink path, this high-risk attack channel must be severed immediately. Please verify whether this critical edge exists in the current network topology.",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在检测某次网络攻击路径时，安全团队发现攻击流量可能通过网页'0302'直接跳转至敏感后台'0714'。若需阻断此攻击链路，是否确认存在从'0302'到'0714'的单向超链接？",
+        "question": "When investigating the path of a network attack, the security team discovered that the attack traffic may directly jump from the webpage '0302' to the sensitive backend '0714'. If we need to block this attack link, can we confirm the existence of a unidirectional hyperlink from '0302' to '0714'?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在一次针对某政府网站的渗透攻击中，防御系统监测到攻击者正试图通过节点'0302'的注入漏洞建立命令控制通道。安全专家需立即验证该节点是否存有直接指向核心数据库节点'0714'的超链接，以便切断攻击者横向移动路径。当前拓扑网络中是否存在从节点'0302'到'0714'的单向边？",
+        "question": "In a penetration attack against a government website, the defense system detected that the attacker was attempting to establish a command and control channel through the injection vulnerability of node '0302'. Security experts must immediately verify whether there is a direct hyperlink from this node to the core database node '0714' in order to cut off the attacker's lateral movement path. Is there a unidirectional edge from node '0302' to '0714' in the current network topology?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在检测一起针对内部网络的渗透攻击时，安全团队发现攻击者试图通过节点0302的单向超链接直接访问节点0714以植入恶意程序。根据当前网页拓扑结构，能否确认存在这条用于定向攻击的隐蔽传输通道？",
+        "question": "During the detection of a penetration attack on the internal network, the security team discovered that the attacker attempted to directly access node 0714 via a one-way hyperlink from node 0302 to implant malware. Based on the current web topology, can we confirm the existence of this covert transmission channel used for targeted attacks?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 16,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "某次网络防御演练中，安全团队发现攻击者可能利用网页'0302'作为跳板渗透。现需紧急核查该页面是否直接关联到核心数据接口页面'0714'，以判定是否存在无需二次绕过的攻击路径。当前拓扑网络中是否具备该高危单向链接？",
+        "question": "During a recent network defense drill, the security team discovered that attackers might use the webpage '0302' as a springboard for infiltration. An urgent verification is needed to determine whether this page is directly linked to the core data interface page '0714', in order to assess whether there is an attack path that does not require secondary bypasses. Does the current network topology include this high-risk one-way link?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在检测网页拓扑网络中潜在的攻击跳板路径时，安全人员发现可疑节点'0302'曾发起跨站脚本攻击，需验证其是否通过单向超链接直接关联到防护系统节点'0714'以实施漏洞渗透。当前网络中是否存在从'0302'到'0714'的直接边关系？",
+        "question": "In the process of detecting potential attack vector paths within the web topology network, security personnel discovered that the suspicious node '0302' had initiated a cross-site scripting attack. It needs to be verified whether it is directly linked to the defense system node '0714' via a one-way hyperlink to exploit vulnerabilities. Is there currently a direct edge relationship from '0302' to '0714' in the network?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网络安全团队发现攻击者试图通过节点'0302'构造隐蔽访问路径，目标指向存储敏感数据的节点'0714'。根据当前拓扑监测，能否确认攻击链路中存在从'0302'到'0714'的直接后门超链接？",
+        "question": "A certain cybersecurity team has discovered that attackers are attempting to construct a covert access path through node '0302', targeting node '0714', which stores sensitive data. Based on the current topology monitoring, can we confirm whether there is a direct backdoor hyperlink from '0302' to '0714' in the attack chain?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某次网络攻击中，黑客试图通过节点'0302'向节点'0714'植入恶意重定向脚本，安全团队需立即验证这两个网页间是否存在直接单向超链接路径以实施封堵。根据当前拓扑结构，攻击者能否通过单次点击从节点'0302'直达节点'0714'？",
+        "question": "In a recent cyberattack, hackers attempted to implant a malicious redirection script from node '0302' to node '0714'. The security team needs to immediately verify whether there is a direct one-way hyperlink path between these two pages for blocking purposes. Based on the current topology, can the attacker reach node '0714' directly from node '0302' with a single click?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 16,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在检测某次网络攻击的渗透路径时，安全人员发现攻击者可能通过节点'0302'发起跨站脚本攻击。防御系统需确认该节点是否直接关联漏洞修复节点'0714'以阻断攻击链。该单向超链接是否存在？",
+        "question": "In detecting the penetration path of a particular cyber attack, security personnel found that the attacker may have initiated a cross-site scripting attack through node '0302'. The defense system needs to confirm whether this node is directly linked to the vulnerability patch node '0714' in order to block the attack chain. Is there a one-way hyper-link present?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 16,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "近期安全团队发现某恶意脚本尝试通过网页'0302'的漏洞建立隐蔽跳转链路，需紧急核查该页面是否直接包含指向后台审计模块'0714'的单向超链接，以阻断攻击路径。是否存在这条关键危险边？",
+        "question": "Recently, the security team discovered that a malicious script attempted to establish a covert redirection pathway through the vulnerability of the webpage '0302'. It is urgently required to verify whether this page directly contains a one-way hyperlink to the backend audit module '0714' in order to block the attack path. Is this critical dangerous edge present?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在防御某次网络攻击时，安全团队发现攻击者可能通过劫持节点0302作为跳板，若该节点存在直接指向内部日志服务器0714的单步超链接，攻击者就能窃取关键数据。请确认当前防御拓扑中是否存在这种危险的直接连接路径？",
+        "question": "During the defense against a cyber attack, the security team discovered that the attacker might be using node 0302 as a stepping stone. If this node has a direct single-hop hyperlink to the internal log server 0714, the attacker could potentially steal critical data. Please confirm whether such a dangerous direct connection path exists in the current defense topology.",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某次网络攻击溯源中，防御团队发现攻击者试图通过节点'0302'的漏洞建立隐蔽通信。经分析，若该节点存在指向运维系统节点'0714'的超链接，可能形成横向渗透通道。当前需紧急验证攻击链中是否包含这条直接边路径？",
+        "question": "During the investigation of a certain cyberattack, the defense team discovered that the attacker attempted to establish covert communication through the vulnerability in node '0302'. Upon analysis, it was found that if this node contains a hyperlink pointing to the operations and maintenance system node '0714', it could potentially create a lateral penetration channel. There is an urgent need to verify whether this direct edge path is included in the attack chain.",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在防御针对某政府网站的横向渗透攻击时，安全团队发现攻击者可能利用节点'0302'的留言板漏洞。现需紧急确认该页面是否直接链向后台管理节点'0714'，以便判断是否需要立即切断该路径的访问权限，请通过拓扑分析给出结论。",
+        "question": "During the defense against a lateral penetration attack targeting a government website, the security team discovered that the attacker might exploit a bulletin board vulnerability in node '0302'. It is urgently required to confirm whether this page directly links to the backend management node '0714' in order to determine if immediate access restrictions to this path are necessary. Please provide a conclusion through topology analysis.",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在一次针对某政府网站的渗透攻击中，攻击者声称通过节点'0302'植入了指向恶意资源节点'0714'的超链接。安全团队需要核实攻击路径真实性，该网站当前拓扑网络中是否存在从'0302'到'0714'的直接超链接关系？",
+        "question": "In a penetration attack on a government website, the attacker claimed to have implanted a hyperlink pointing to a malicious resource node '0714' through node '0302'. The security team needs to verify the authenticity of the attack path. Is there currently a direct hyperlink relationship from '0302' to '0714' in the network topology of the website?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在防御针对网页拓扑网络的注入攻击时，安全团队发现攻击者可能利用节点'0302'到'0714'的直接超链接进行数据渗透。根据当前网络连接关系，若攻击者已控制节点'0302'，是否可能通过单次跳转直接向节点'0714'发起恶意请求？",
+        "question": "In defending against injection attacks targeting web topology networks, the security team discovered that attackers may leverage direct hyperlinks from node '0302' to node '0714' for data infiltration. Based on the current network connection relations, if the attacker has already compromised node '0302', is it possible for them to initiate a malicious request to node '0714' through a single hop?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在一次网络攻击事件溯源中，安全团队发现攻击者可能通过页面0302注入的恶意脚本，尝试直接访问内部系统页面0714。根据网页拓扑监测日志，需紧急验证从0302到0714是否存在可直接触达的单向超链接关系，这是否存在？",
+        "question": "In the process of tracing a cyber attack incident, the security team discovered that the attacker might have used a malicious script injected into page 0302 to attempt direct access to the internal system page 0714. Based on the web topology monitoring logs, it is urgent to verify whether there is a direct one-way hyperlink relationship from 0302 to 0714. Is such a relationship present?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "近期发现节点0302可能存在恶意脚本注入，攻击者试图通过超链接直接跳转至节点0714的敏感后台页面。为阻断攻击路径，需立即确认该网络拓扑中是否存从节点0302到节点0714的单向连接？",
+        "question": "Recently, it has been discovered that node 0302 may have a malicious script injection. The attacker is attempting to directly jump to the sensitive backend page of node 0714 through hyperlinks. To block the attack path, it is necessary to immediately confirm whether there is a unidirectional connection from node 0302 to node 0714 in this network topology.",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在检测某次网络攻击路径时，攻击日志显示攻击者试图通过节点'0302'到'0714'的直接超链接注入恶意脚本，当前防御系统需要确认该边是否存在以评估风险。请问是否存在此边？",
+        "question": "When detecting the path of a certain network attack, the attack logs show that the attacker attempted to inject malicious scripts through a direct hyperlink from node '0302' to '0714'. The current defense system needs to confirm whether this edge exists in order to assess the risk. Is this edge present?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 18,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "攻击者在网页拓扑网络中试图通过节点'0302'的隐蔽超链接直接渗透至'0714'节点植入恶意代码，防御系统需立即验证这一攻击路径是否成立。请问从节点'0302'到节点'0714'是否存在单步可达的直接边？",
+        "question": "The attacker is attempting to directly penetrate node '0714' by using a covert hyperlink from node '0302' in the web topology network to implant malicious code. The defense system must immediately verify whether this attack path is valid. Is there a direct edge that allows one-step accessibility from node '0302' to node '0714'?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在一次网络攻击事件中，防御团队发现攻击者试图通过节点0302直接植入恶意脚本跳转到财务系统节点0714。为阻断此攻击链，需立即确认节点0302是否含有直连0714的超链接。请问该直接连接是否存在？",
+        "question": "During a cyber attack incident, the defense team discovered that the attacker attempted to directly implant a malicious script in node 0302 to redirect to the financial system node 0714. To block this attack chain, it is necessary to immediately verify whether node 0302 contains a direct hyperlink to node 0714. Is this direct connection present?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 17,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在最近一次针对某政府网站的渗透测试中，防御系统监测到攻击者试图通过节点0302实施横向移动。安全团队需要确认该节点是否含有指向0714节点的直接恶意跳转链接，以便修补漏洞。当前网络拓扑中是否存在从0302到0714的直接超链接？",
+        "question": "In a recent penetration test of a certain government website, the defense system detected that an attacker attempted to implement lateral movement through node 0302. The security team needs to confirm whether this node contains a direct malicious redirect link pointing to node 0714 in order to patch the vulnerability. Is there a direct hyperlink from 0302 to 0714 in the current network topology?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在检测某次网络攻击的横向渗透路径时，安全团队发现攻击者可能通过节点'0302'的漏洞页面直接跳转至存放敏感数据的节点'0714'。为确保防护策略有效性，需立即确认当前网页拓扑中是否存在从'0302'到'0714'的单向超链接，是否存在该攻击路径？",
+        "question": "During the investigation of a lateral penetration path in a network attack, the security team discovered that the attacker might directly jump from the vulnerability page of node '0302' to node '0714', which stores sensitive data. To ensure the effectiveness of the protection strategy, it is essential to immediately verify whether there is a unidirectional hyperlink from '0302' to '0714' in the current webpage topology, and if this attack path exists.",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 16,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在防御针对跨站脚本攻击的溯源分析中，安全团队发现攻击载荷可能通过恶意构造的超链接传播，需紧急确认漏洞利用路径是否包含从'0302'页面到'0714'后台接口的直接跳转链接，该边存在性将决定是否需要立即切断这条攻击通道，请问网络中是否存在这条关键边？",
+        "question": "In the defensive trace analysis against cross-site scripting attacks, the security team discovered that the attack payload might be propagated through maliciously constructed hyperlinks. There is an urgent need to confirm whether the vulnerability exploit path includes a direct link from the '0302' page to the '0714' backend interface. The existence of this edge will determine whether it is necessary to immediately cut off this attack channel. Is this critical edge present in the network?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 19,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在一次网络攻击防御分析中，安全团队怀疑攻击者通过节点0302的钓鱼页面直接嵌入恶意跳转链接，试图访问节点0714的核心权限接口。请问当前网页拓扑网络中是否存在从节点0302到节点0714的单向超链接？",
+        "question": "In an analysis of a network attack defense, the security team suspects that the attacker embedded a malicious redirect link directly on the phishing page of node 0302, attempting to access the core permission interface of node 0714. Is there currently a one-way hyperlink from node 0302 to node 0714 in the webpage topology network?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "安全团队发现一次针对网页拓扑网络的渗透攻击中，攻击者可能利用节点'0302'到'0714'的单向超链接进行横向移动。防御方需要紧急验证这两个节点之间是否存在直接连接的恶意跳板路径，请问当前网络是否存在该特定攻击链路？",
+        "question": "The security team discovered that, in a penetration attack against the web topology network, the attacker may exploit the unidirectional hyperlinks between nodes '0302' and '0714' to move laterally. The defenders urgently need to verify whether there is a malicious jump path with a direct connection between these two nodes. Is there a specific attack link currently present in the network?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某次网络安全事件中，攻击者疑似通过节点'0302'作为跳板发起渗透。应急响应团队需立即验证该节点是否直接存在指向敏感数据存储节点'0714'的超链接，以判定是否需要切断这条潜在攻击路径。请确认网络拓扑中是否含有此特定单向边？",
+        "question": "In a recent cybersecurity incident, the attacker is suspected of using node '0302' as a jump point to initiate infiltration. The emergency response team needs to immediately verify whether there is a direct hyperlink from this node to the sensitive data storage node '0714' in order to determine whether it is necessary to cut off this potential attack path. Please confirm whether this specific unidirectional edge exists in the network topology.",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在分析针对政府网站的恶意攻击路径时，防御团队发现攻击者可能利用网页间的单向跳转漏洞。若攻击者已控制节点'0302'，能否通过该节点直接访问到存储敏感数据的节点'0714'以实施窃取？",
+        "question": "When analyzing the malicious attack paths targeting government websites, the defense team discovered that attackers might exploit the one-way jump vulnerability between web pages. If an attacker has control of the node '0302', can they directly access the node '0714', which stores sensitive data, in order to carry out theft?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 17,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在检测针对政府网站的APT攻击中，攻击者可能利用网页间超链接横向渗透。安全团队需确认恶意脚本是否可通过节点'0302'直接跳转到关键页面'0714'，以评估入侵风险。当前网络中是否存在该直接跳转链接？",
+        "question": "In detecting APT attacks targeting government websites, attackers may use inter-page hyperlinks for lateral penetration. The security team needs to confirm whether malicious scripts can directly jump from node '0302' to the key page '0714' in order to assess the intrusion risk. Is there a direct jump link present in the current network?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "某网络安全团队在追踪恶意软件传播路径时，发现攻击者可能利用网页节点'0302'作为跳板。需立即验证该节点是否存在直接指向防护系统节点'0714'的单向超链接，从而判断关键系统是否面临直接入侵风险。当前能否确认此直接连接关系？",
+        "question": "A certain cybersecurity team, while tracking the propagation path of malware, discovered that the attacker might be using the web node '0302' as a jump point. It is necessary to immediately verify whether there is a direct one-way hyperlink from this node to the protection system node '0714' in order to assess if the critical system is at risk of direct intrusion. Can this direct connection be confirmed at this time?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在检测恶意超链接注入攻击时，安全团队需确认攻击者是否在网页'0302'中直接嵌入了指向'0714'的可疑链接。请问当前网络拓扑中是否存在从节点'0302'到节点'0714'的单向超链接？",
+        "question": "When detecting malicious hyperlink injection attacks, the security team needs to confirm whether the attacker has directly embedded a suspicious link pointing to '0714' within the webpage '0302'. Could you please check if there is a unidirectional hyperlink from node '0302' to node '0714' in the current network topology?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 15,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "某网络安全团队发现攻击者可能通过网页拓扑网络中的单向超链接传播恶意脚本。若攻击源头疑似节点'0302'，防御系统需紧急验证其是否具备直接指向关键防护节点'0714'的边，以阻断潜在攻击路径。当前能否确认该直接连接存在？",
+        "question": "A certain cybersecurity team has discovered that attackers may spread malicious scripts through one-way hyperlinks in the web topology network. If the suspected source of the attack is node '0302', the defense system urgently needs to verify whether it has a direct edge pointing to the critical protection node '0714' in order to block potential attack paths. Is it currently possible to confirm the existence of this direct connection?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 16,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "某次网络攻击中，防御系统检测到攻击者试图通过网页'0302'的漏洞建立非法外链。安全团队需紧急确认该页面是否直接关联到存储用户密钥的核心页面'0714'，当前拓扑网络中是否存在从节点0302指向节点0714的单向超链接？",
+        "question": "During a recent cyber attack, the defense system detected that the attacker attempted to establish unauthorized external links through the vulnerability of the webpage '0302.' The security team needs to urgently confirm whether this page is directly related to the core page '0714' that stores user keys, and whether there exists a unidirectional hyperlink from node 0302 to node 0714 in the current network topology.",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 17,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在检测恶意脚本传播路径时，安全团队需要确认攻击者是否可能通过单次点击从注入节点'0302'直接跳转到用户登录页面'0714'。当前网络拓扑中是否存在这样的直接超链接？",
+        "question": "When detecting the propagation path of malicious scripts, the security team needs to confirm whether the attacker could potentially redirect directly from the injection node '0302' to the user login page '0714' with a single click. Is there such a direct hyperlink present in the current network topology?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在检测针对内部系统的APT攻击时，防御团队需要确认攻击者是否可能通过节点0302到0714的直接超链接进行横向移动。当前网页拓扑网络中是否存在这条特定边？",
+        "question": "When detecting APT attacks targeting internal systems, the defense team needs to confirm whether the attacker could potentially move laterally via direct hyperlinks between nodes 0302 and 0714. Is this specific edge present in the current webpage topology network?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 20,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "近期发现攻击者可能通过网页拓扑网络中的隐蔽超链接传递恶意载荷，为确保防御措施有效，需立即验证节点'0302'是否直接通过单向链接指向节点'0714'。当前网络中是否存在这条潜在攻击路径对应的边？",
+        "question": "Recently, it has been discovered that attackers may transmit malicious payloads through concealed hyperlinks in the web topology network. To ensure the effectiveness of defense measures, it is necessary to immediately verify whether node '0302' directly points to node '0714' through a unidirectional link. Is there an edge corresponding to this potential attack path in the current network?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在检测针对政府网站的定向渗透攻击时，防御系统发现攻击链中可能存在从政务公示平台（节点'0302'）到市民数据库接口（节点'0714'）的直接跳转漏洞。根据网络拓扑关系，攻击者是否能够通过单次超链接直接访问敏感接口？",
+        "question": "In detecting targeted penetration attacks on government websites, the defense system identified a potential direct jump vulnerability in the attack chain from the government announcement platform (node '0302') to the citizen database interface (node '0714'). Based on the network topology, can the attacker directly access the sensitive interface through a single hyperlink?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在检测某次网络攻击路径时，安全人员发现攻击者可能利用节点'0302'向节点'0714'直接发送恶意载荷。根据拓扑关系，能否确认该攻击向量对应的单向链接真实存在？",
+        "question": "When detecting a certain network attack path, security personnel discovered that the attacker might utilize node '0302' to directly send malicious payloads to node '0714'. Based on the topology, can it be confirmed whether the unidirectional link corresponding to this attack vector actually exists?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在分析某次网络攻击的横向移动路径时，防御方发现攻击者可能利用网页节点'0302'的直接跳转机制渗透核心系统。若防护系统需阻断所有高危节点的直接外链，请验证节点'0302'到系统核心节点'0714'是否存在直接超链接关系？",
+        "question": "When analyzing the lateral movement path of a specific cyber attack, the defense team discovered that the attacker might exploit the direct jump mechanism of the webpage node '0302' to penetrate the core system. If the defense system needs to block all direct external links to high-risk nodes, please verify whether there is a direct hyperlink relationship between node '0302' and the core system node '0714'.",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在检测某次网络攻击路径时，安全团队发现攻击者可能通过网页间的单向超链接横向渗透。若当前攻击溯源数据显示攻击入口为节点'0302'，防御系统需立即确认该节点是否直接存在指向关键资产节点'0714'的超链接漏洞，以便阻断攻击链，是否存在这种直接威胁路径？",
+        "question": "When investigating the path of a network attack, the security team discovered that the attacker may be horizontally infiltrating through one-way hyperlinks between web pages. If the current attack tracing data indicates that the attack entry point is node '0302', the defense system must immediately confirm whether there is a hyperlink vulnerability at that node that directly points to the critical asset node '0714' in order to interrupt the attack chain. Is there such a direct threat path?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某次网络攻击防御演练中，安全团队发现恶意脚本可能通过网页间的超链接传播。若攻击者已控制节点0302，防御系统需立即判定该节点是否具备直接跳转到核心数据库入口节点0714的单跳超链接能力，这是否存在？",
+        "question": "During a network attack defense drill, the security team discovered that malicious scripts might spread through hyperlinks between web pages. If the attacker has already controlled node 0302, the defense system needs to immediately determine whether this node has the capability to directly jump to the core database entry node 0714 via a single-hop hyperlink. Does this exist?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 15,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "在检测针对内部数据服务器的定向渗透攻击时，防御系统发现攻击链路可能利用网页'0302'植入的恶意跳转脚本。现需紧急验证该页面是否直接通过超链接指向核心服务器接口页'0714'，当前网络是否存在这条关键攻击向量边？",
+        "question": "When detecting targeted penetration attacks against internal data servers, the defense system discovered that the attack chain might utilize a malicious redirect script embedded in the webpage '0302'. It is now urgently needed to verify whether this page directly links to the core server interface page '0714' through a hyperlink, and whether this critical attack vector currently exists in the network.",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在检测恶意跳转路径的防御场景中，安全团队发现攻击者可能利用从节点'0302'发起的隐蔽超链接渗透系统。现需紧急确认该节点是否直接关联至关键数据节点'0714'，能否通过当前网络拓扑验证两者间存在单向边？",
+        "question": "In the scenario of defending against malicious redirect paths, the security team has discovered that attackers may exploit covert hyperlinks originating from node '0302' to infiltrate the system. It is urgently required to confirm whether this node is directly associated with the critical data node '0714' and whether the existence of a unidirectional edge between the two can be verified through the current network topology.",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在检测网页网络潜在攻击路径时，防御团队发现攻击者可能利用节点0302作为跳板发起定向渗透。为阻断该威胁，需立即验证系统日志中是否存在从节点0302直接指向节点0714的超链接访问记录。当前拓扑结构是否包含这条特定边？",
+        "question": "When detecting potential attack paths on the web, the defense team found that an attacker might use node 0302 as a jump point to initiate targeted infiltration. To mitigate this threat, it is necessary to immediately verify whether there are any hyperlink access records in the system logs that point directly from node 0302 to node 0714. Does the current topology include this specific edge?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某次网络攻击中，攻击者声称已通过节点0302植入恶意重定向代码，试图直接操控节点0714的服务器权限。防御系统需紧急验证该攻击路径是否成立，请问从网页0302到0714是否存在单向超链接关系？",
+        "question": "In a recent cyber attack, the attacker claimed to have implanted malicious redirect code through node 0302, attempting to directly manipulate the server permissions of node 0714. The defense system needs to urgently verify whether this attack path is valid. Is there a one-way hyperlink relationship from webpage 0302 to 0714?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 16,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在检测一起针对政府网站的定向网络攻击中，安全团队发现攻击者可能利用页面跳转漏洞进行横向渗透。根据威胁情报溯源，需确认攻击路径中是否包含从政务公示页面'0302'到公民信息查询接口'0714'的直接恶意超链接，该链路是否存在？",
+        "question": "In the detection of a targeted cyber attack against a government website, the security team discovered that the attackers might be leveraging a page redirect vulnerability for horizontal penetration. According to threat intelligence tracing, it is necessary to confirm whether the attack path includes a direct malicious hyperlink from the government announcement page '0302' to the citizen information query interface '0714'. Is this link present?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 17,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "在一次针对某企业内网的渗透测试中，攻击者试图通过网页'0302'的XSS漏洞直接跳转到核心数据库接口页面'0714'。网络安全团队需要紧急确认这两个节点之间是否存在直接超链接路径，这是否构成无需中间节点的直达攻击通道？",
+        "question": "During a penetration test on a certain company's intranet, an attacker attempted to directly redirect from the webpage '0302' to the core database interface page '0714' via an XSS vulnerability. The cybersecurity team urgently needs to confirm whether there is a direct hyperlink path between these two nodes and whether this constitutes a direct attack channel without the need for intermediate nodes.",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 15,
+        "weak_count": 3
+    },
+    {
+        "origin_question": "网络安全团队监测到节点'0302'疑似被植入恶意重定向脚本，攻击者可能通过该页面的单向超链接直接入侵关键数据节点'0714'。现需紧急验证攻击链路中是否存在从'0302'到'0714'的单步直达路径以启动阻断措施，是否存在此类直接连接？",
+        "question": "The cybersecurity team has detected that node '0302' is suspected of being implanted with a malicious redirection script. The attacker may directly infiltrate the critical data node '0714' through one-way hyperlinks on that page. It is urgent to verify whether there exists a direct one-step pathway from '0302' to '0714' in the attack chain to initiate blocking measures. Is there such a direct connection?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 15,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "网络安全团队发现攻击者可能利用节点'0302'到'0714'的直接超链接进行跨站脚本攻击，需确认该边是否存在以阻断漏洞。当前网络中是否存在从节点'0302'到节点'0714'的单向链接？",
+        "question": "The cybersecurity team has discovered that attackers may exploit direct hyperlinks from node '0302' to node '0714' to conduct cross-site scripting attacks. It is necessary to confirm whether there is a connection in order to block the vulnerability. Is there a one-way link from node '0302' to node '0714' in the current network?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 17,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "网络安全团队监测到攻击者可能利用节点'0302'直接跳转至节点'0714'进行钓鱼攻击，需紧急验证这两个网页间是否存在单向超链接以实施阻断。请确认该攻击路径是否真实存在？",
+        "question": "The cybersecurity team has detected that an attacker may be using node '0302' to directly jump to node '0714' for phishing attacks. It is urgent to verify whether there is a one-way hyperlink between these two web pages to implement a blockage. Please confirm whether this attack path truly exists.",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 18,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "安全团队发现一次网络攻击中，攻击者可能利用从恶意页面'0302'到核心服务器页面'0714'的单向跳转链路进行渗透。根据最新威胁情报，需立即验证该拓扑结构中是否存在此高危直接连接边？",
+        "question": "The security team discovered that during a cyber attack, the attacker may have exploited a one-way redirect link from the malicious page '0302' to the core server page '0714' for infiltration. Based on the latest threat intelligence, it is necessary to immediately verify whether there is a high-risk direct connection in this topology.",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 19,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网络安全团队发现攻击者试图利用网页间的直接跳转漏洞进行横向渗透。现需紧急验证：在当前的网页拓扑结构中，恶意爬虫是否可能通过单次超链接从节点'0302'直接跳转到节点'0714'？请判断该直接访问路径是否存在。",
+        "question": "A certain cybersecurity team has discovered that attackers are attempting to exploit a direct jump vulnerability between web pages for lateral penetration. An urgent verification is needed: in the current web topology, is it possible for a malicious crawler to directly jump from node '0302' to node '0714' through a single hyperlink? Please determine whether this direct access path exists.",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 16,
+        "weak_count": 1
+    },
+    {
+        "origin_question": "在一次针对关键系统的网络攻击溯源中，安全团队发现攻击者可能通过网页跳转实施渗透。若攻击路径起点为页面'0302'，防御方需立即验证该节点是否直接存在指向漏洞数据库页面'0714'的超链接通道。请问该直接攻击向量是否存在于当前网络拓扑中？",
+        "question": "In a trace of a cyberattack targeting critical systems, the security team discovered that the attacker might have implemented the infiltration through web redirects. If the starting point of the attack path is the page '0302', the defense team needs to immediately verify whether there is a direct hyperlink channel pointing to the vulnerability database page '0714' at that node. Is this direct attack vector present in the current network topology?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 15,
+        "weak_count": 0
+    },
+    {
+        "origin_question": "某网络安全团队监测到黑客试图通过节点'0302'向关键业务节点'0714'植入恶意脚本，防御系统需紧急验证两者是否存在直接超链接以阻断攻击。当前拓扑中是否存这条高危边？",
+        "question": "A certain cybersecurity team has detected that hackers are attempting to implant malicious scripts into the critical business node '0714' through the node '0302'. The defense system urgently needs to verify whether there is a direct hyperlink between the two in order to block the attack. Is there a high-risk edge present in the current topology?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 18,
+        "weak_count": 2
+    },
+    {
+        "origin_question": "在分析某次网络钓鱼攻击的传播路径时，安全团队发现攻击载荷可能通过节点'0302'跳转至数据服务器节点'0714'。根据当前网页拓扑结构，能否确认这两个节点之间存在直接的单向链接通道？",
+        "question": "In analyzing the propagation path of a phishing attack, the security team discovered that the attack payload may jump from node '0302' to the data server node '0714'. Based on the current web topology, can we confirm that there is a direct unidirectional link channel between these two nodes?",
+        "label": "Edge_Existence",
+        "type": "网络攻击防御",
+        "true_count": 18,
+        "weak_count": 1
+    }
+]

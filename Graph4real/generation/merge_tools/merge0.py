@@ -2,7 +2,6 @@ from .utils import format_edges, load_json_file, save_json_file
 import os
 
 def merge_json_folders(folder1_path, folder2_path, output_folder_path):
-    """0 参数任务的合并逻辑"""
     os.makedirs(output_folder_path, exist_ok=True)
     
     for filename in os.listdir(folder1_path):
@@ -16,7 +15,7 @@ def merge_json_folders(folder1_path, folder2_path, output_folder_path):
                 data2 = load_json_file(json2_path)
                 
                 if len(data1) < len(data2):
-                    raise ValueError(f"{json1_path} 的长度必须 ≥ {json2_path}")
+                    raise ValueError(f"{json1_path} length must be ≥ {json2_path}")
                 
                 merged_data = []
                 for i, item2 in enumerate(data2):
@@ -41,6 +40,6 @@ def merge_json_folders(folder1_path, folder2_path, output_folder_path):
                     merged_data.append(merged_item)
                 
                 save_json_file(merged_data, output_path)
-                print(f"合并完成: {output_path}")
+                print(f"Merged successfully: {output_path}")
             else:
-                print(f"跳过: {filename} 在 {folder2_path} 中不存在")
+                print(f"Skipped: {filename} not found in {folder2_path}")
