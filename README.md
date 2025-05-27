@@ -225,19 +225,20 @@ python generation/validate.py --tasks tasks/transportation/
 ## 3. Evaluating GraphCogent <a href='#all_catelogue'>[Back to Top]</a>
 
 
-**Notice:** Due to the fact that we use 8*4090 GPUs running in parallel during the inference process, our execution script is not suitable for most users. Therefore, we recommend assigning specific tasks to specific GPUs and running each specific task separately.
-
+**Notice:** Due to the fact that we use 8*4090 GPUs running in parallel during the inference process, our execution script is not suitable for most users. Therefore, we recommend assigning specific tasks to specific GPUs and running each specific task separately. To simplify execution, we have designed a stage-by-stage pipeline that processes all input data per stage before moving to the next, minimizing GPU memory usage and allowing flexible resumption from any intermediate step. 
 
 ### **GraphCogent: Unified Execution Framework**  
 **Repository Structure**:  
 ```
-GraphCogent/
-├── run.py               # Unified execution script
-├── eval.py              # Unified evaluation script
-├── configs/             # Configuration files
-│   ├── graph4real.yaml  # Dataset/task parameters
-│   └── llama3.1-8b.yaml # Model settings
-└── outputs/             # Results directory
+Evaluation/
+├── run.py                  # Unified execution script
+├── eval.py                 # Count Results
+├── config.json             # Configuration json
+├── modules/                # Reasoning Components
+│   ├── __init__.py         # Package initialization
+│   ├── graph_extractor.py  # Graph extraction module
+│   ├── task_discriminator.py  # Task classification module 
+│   └── task_reasoner.py    # Core reasoning module
 ```
 
 ---
@@ -246,14 +247,13 @@ GraphCogent/
 #### **3.1 Task Execution**  <a href='#all_catelogue'>[Back to Top]</a>
 Run any task (Sensory → Buffer → Execution) with a single command:  
 ```bash
-python run.py \
-    --model_path ./models/llama3.1-8b \
-    --dataset_config ./configs/graph4real.yaml \
-    --task_name shortest_path \          # Specify task (e.g., "node_classification", "cycle_detection")
-    --output_dir ./outputs \
-    --max_tokens 4096
-    --temperature 0.7
-    --top_p 1
+python Evaluation/run.py \
+    --config Evaluation/config.json \     # Path to configuration file
+    --input .Graph4Real/Trans/Json/Small/Trans/Degree_Count.json \  # Input graph data
+    --output Evaluation/outputs/results.json \  # Output results path
+    # Optional: "resume-from" if needed choices=["graph_extraction", "task_discrimination", "task_reasoning"], our code supports resuming pipeline from specified stage"
+    # --resume-from
+
 ```
 
 ---
@@ -264,7 +264,6 @@ Evaluate results against ground truth:
 ```bash
 python eval.py \
     --result_dir ./outputs \             # Path to GraphCogent's outputs
-    --ground_truth ./data \  # Standard answer JSON path
     --report_file ./outputs/summary.json
 ```
 
