@@ -129,38 +129,60 @@ pip install -r requirements.txt
 
 ##### Directory Structure
 
+Although the task generation scripts for the four scenarios have some differences, their execution logic is largely similar. Here, we use **Transportation** as an example to introduce the construction process of our Graph4real, and we provide a Middle Scale task example.
+
+For task construction, we employ a two-phase methodology: (1) Graph Sampling and Generation, where we extract real-world data (e.g., PeMS) to generate graphs of varying scales and derive reasoning questions from them, and (2) Task Generation, where we enhance LLM intent understanding evaluation by moving beyond rigid templates—instead leveraging prompt_template to dynamically construct scenario-question pairs, using DeepSeek-R1 to synthesize reasoning questions that mimic authentic queries, ultimately merging these with the sampled graphs to form the Graph4real benchmark.
+
 ```
-Graph4real/
-├── generation/
-│   ├── sampling.py          # Graph sampling
-│   ├── task_generator.py    # Question generation
-│   └── validate.py          # Quality checks
-├── data/
-│   ├── raw/                 # Source datasets
-│   └── processed/           # Sampled graphs
-└── tasks/                   # Final benchmark
+Graph4real_Trans
+├── ques
+│   ├── Edge_Count.json
+│   └── ...
+├── sampling                   
+│   ├── Degree_Count.json
+│   └── ...
+├── task_middle                 # Final Task
+│   ├── Shortest_Path.json
+│   └── ...
+├── prompt_template             # Task generation template
+│   ├── Node_Count.txt
+│   └── ...
+├── data
+│   └── adj_matrix_node.txt     # Original graph data
+└── generation
+    ├── bash.sh
+    ├── sampling.py             # Graph sampling and generation
+    ├── task_generator.py       # Task generation
+    ├── merge_tools             
+    │   ├── merge0.py
+    │   ├── merge1.py
+    │   ├── merge2.py
+    │   └── utils.py
+    ├── process_json_files.py
+    └── merge.py                # Graph and Task merge
 ```
 
 
 ##### Key Scripts
 
-##### Graph Sampling
+##### Graph Sampling and Generation
 ```bash
-python generation/sampling.py \
-  --input_path data/raw/transportation/PeMS.edgelist \
-  --output_dir data/processed/transportation/100_nodes \
+python Graph4real__Trans/generation/sampling.py \
+  --input_path Graph4real__Trans/data/adj_matrix_node.txt \
+  --output_dir Graph4real__Trans/task \
   --scale 100 \
-  --walk_length 30
-```
+  --num_examples 1000 \
+  --granularity 50
 
+```
 
 ##### Task Generation
 ```bash
-python generation/task_generator.py \
-  --graph_data data/processed/web/100_nodes \
-  --template prompts/pagerank.txt \
-  --output tasks/web/pagerank.json \
-  --num_examples 200
+python Graph4real/generation/task_generator.py \
+  --input_folder Graph4real/prompt_template/trans \
+  --output_folder Graph4real/ques/trans \
+  --num_examples 400
+
 ```
 
 <span id='Task Scenarios'/>
@@ -198,26 +220,9 @@ python generation/task_generator.py \
 
 ```bash
 # Generate full Transportation benchmark
-bash scripts/build_transportation.sh
+bash Graph4real_Trans/generation/bash.sh
 ```
 
-**Sample script (`build_transportation.sh`)**:
-```bash
-#!/bin/bash
-# Step 1: Sample graphs
-python generation/sampling.py --input raw/PeMS.edgelist --output processed/transportation --scale 100
-
-# Step 2: Generate tasks
-for task in shortest_path traffic_flow; do
-  python generation/task_generator.py \
-    --graph_data processed/transportation/100_nodes \
-    --template prompts/${task}.txt \
-    --output tasks/transportation/${task}.json
-done
-
-# Step 3: Validate
-python generation/validate.py --tasks tasks/transportation/
-```
 
 
 <span id='Evaluating GraphCogent'/>
@@ -230,7 +235,7 @@ python generation/validate.py --tasks tasks/transportation/
 ### **GraphCogent: Unified Execution Framework**  
 **Repository Structure**:  
 ```
-Evaluation/
+GraphCogent/
 ├── run.py                  # Unified execution script
 ├── eval.py                 # Count Results
 ├── config.json             # Configuration json
@@ -284,7 +289,7 @@ python eval.py \
 
 ## 4. GraphCogent Training Process <a href='#all_catelogue'>[Back to Top]</a>
 
-
+For fine-tuning both the Reasoning Agent and Model Agent, we utilize the Llama-Factory framework. We will provide the relevant files for key training steps along with the corresponding execution commands.
 
 ### Training Pipeline 
 Reasoning Agent tuning paradigm consists of four stages: (1) LLaMA-Factory Installation; (2) Thinking Path Collection; (3) LoRA Tuning; (4) DPO Tuning; (5) Export Model.
@@ -325,10 +330,9 @@ generator.run(output_file="data/thinking_paths.jsonl")
 * **Output Format** (Alpaca-style):
 ```json
 {
-  "instruction": "Find shortest path between A and B in [adjacency list]",
-  "input": "[[0,1],[1,2],...]",
-  "output": "<THINK>Use shortest path tool</THINK><DECISION>tool:shortest_path</DECISION>",
-  "system": "You are a graph reasoning expert..."
+  "instruction": "You are a Graph expert, you should use one most suitable tool to solve the following task...",
+  "input": "When planning a scenic driving route through the mountain towns, a traveler wonders...",
+  "output": "<Think>Okay, so l need to figure out...</Thing> ... Tool_name: Shortest_Path"
 }
 ```
 
