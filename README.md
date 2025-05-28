@@ -4,7 +4,7 @@
 This repo contains the code, data, and models for "GraphCogent: Overcoming LLMs’ Working Memory Constraints via Multi-Agent Collaboration in Complex Graph Understanding."
 
 🔗 **GitHub**: [https://anonymous.4open.science/r/GraphCogent](https://anonymous.4open.science/r/GraphCogent)  
-📜 **Paper**: [Added later]() | 📊 **Benchmark**: [Graph4real](https://huggingface.co/5SAGI/NIPS2025/tree/main) | 🤖 **Agent**: [Huggingface](https://huggingface.co/5SAGI/NIPS2025/tree/main) 
+📜 **Paper**: [Added later]() | 📊 **Benchmark**: [Graph4real](https://anonymous.4open.science/r/GraphCogent) | 🤖 **Agent**: [Huggingface](https://huggingface.co/5SAGI/NIPS2025/tree/main) 
 
 
 **📢 Notice: Ongoing Maintenance**: 
@@ -117,11 +117,6 @@ pip install -r requirements.txt
 | Adjacency List | `[0,1],[0,2]` | Algorithmic tasks |
 | Symbolic Notation | `0→1` | Structural queries |
 | Linguistic Descriptions | "Station A connects to Station B" | Domain-specific tasks |
-
-##### Task Design Principles
-- **Balance**: 50% true/false for binary tasks
-- **Uniqueness**: Single valid solution for algorithmic tasks
-- **Diversity**: 5+ prompt templates per task
 
 <span id='Pipeline Implementation'/>
 
@@ -318,13 +313,13 @@ pip install -e ".[torch,metrics]"
 
 Generate reasoning trajectories for SFT using Graph4real tasks:
 ```python
-from graphcogent import ThinkingPathGenerator
-
-# Initialize with Graph4real dataset
-generator = ThinkingPathGenerator(dataset="Graph4real/train.json")
-
-# Generate <Problem, Reasoning Chain, Tool/Model Decision> triples
-generator.run(output_file="data/thinking_paths.jsonl")
+python GraphCogent_train/Think_generation.py \
+    --input_dir "/path/to/Graph4real/folder" \
+    --output_dir "/path/to/LLaMA-Factory/folder" \
+    --prompt_file "GraphCogent_train/reasoning_prompt.txt" \
+    --model "deepseek-r1" \
+    --api_key "your_api_key_here" \
+    --base_url "your_base_url_here"
 ```
 
 * **Output Format** (Alpaca-style):
@@ -332,22 +327,21 @@ generator.run(output_file="data/thinking_paths.jsonl")
 {
   "instruction": "You are a Graph expert, you should use one most suitable tool to solve the following task...",
   "input": "When planning a scenic driving route through the mountain towns, a traveler wonders...",
-  "output": "<Think>Okay, so l need to figure out...</Thing> ... Tool_name: Shortest_Path"
+  "output": "<Think>Okay, so l need to figure out...</Think> ... Tool_name: Shortest_Path"
 }
 ```
 
 
-* **Prepare data:** Please download our instruction tuning data first. Our fine-tuning dataset follows the Alpaca format. To use LLaMA-Factory for model fine-tuning, we need to add the following three formats to the LLaMA-Factory/data/dataset_info.json path:
+* **Prepare data:** To use LLaMA-Factory for model fine-tuning, we need to add the following three formats to the LLaMA-Factory/data/dataset_info.json path:
 
 
 ```shell
   "Reasoning": {
-    "file_name": "${Graph4real/Train/Thinking.json}",
+    "file_name": "${GraphCogent_train/Train/Thinking.json}",
     "columns": {
     "prompt": "instruction",
     "query": "input",
-    "response": "output",
-    "system": "system"
+    "response": "output"
     }
   }
 ```
@@ -369,7 +363,7 @@ llamafactory-cli train examples/train_lora/llama3_lora_sft.yaml
 ```shell
 # Our fine-tuning parameter settings are as follows.
 model_path= Llama3.1/model
-output_model= Llama3.1/lora_weight
+output_model= saves/llama3.1-8b/lora
 
 ### model
 model_name_or_path: ${model_path}
@@ -415,24 +409,38 @@ eval_steps: 500
 
 ---
 
+
 <span id='DPO Tuning'/>
 
 #### 4.4 DPO Tuning <a href='#all_catelogue'>[Back to Top]</a>
 #### Prepare Preference Data:
 ```python
-from graphcogent import DPOPreferenceGenerator
-
-# Generate <chosen, rejected> pairs from thinking paths
-DPOPreferenceGenerator(
-    sft_output="checkpoints/lora_sft/predictions.jsonl",
-    output_file="data/dpo_pairs.jsonl"
-).run()
+python process_dpo_data.py \
+    --input_file "/path/to/Graph4real/folder" \
+    --output_dir "/path/to/LLaMA-Factory/folder" \
+    --prompt_file "GraphCogent_train/reasoning_prompt.txt" \
+    --model_path "SFT-based/Llama3.1/path" 
 ```
+
+* **Prepare data:** To use LLaMA-Factory for model dpo-tuning, we need to add the following three formats to the LLaMA-Factory/data/dataset_info.json path:
+
+
+```shell
+  "dpo_Graph4real": {
+    "file_name": "${GraphCogent_train/Train/dpo_Graph4real.json}",
+    "columns": {
+    "prompt": "instruction",
+    "query": "input",
+    "response": "output"
+    }
+  }
+```
+
 
 #### Config: `examples/train_dpo/graphcogent_dpo.yaml`
 ```shell
-model_path= Llama3.1/model
-output_model= saves/llama3.1-8b/lora/dpo+grpo
+model_path= SFT-based/Llama3.1/path
+output_model= saves/llama3.1-8b/dpo
 
 ### model
 model_name_or_path: ${model_path}
@@ -444,10 +452,10 @@ do_train: true
 finetuning_type: lora
 lora_target: all
 pref_beta: 0.1
-pref_loss: sigmoid  # choices: [sigmoid (dpo), orpo, simpo]
+pref_loss: sigmoid  
 
 ### dataset
-dataset: dpo_en_demo
+dataset: dpo_Graph4real
 template: llama3
 cutoff_len: 4096
 max_samples: 10000
@@ -481,8 +489,7 @@ eval_steps: 500
 
 **Run DPO**:
 ```shell
-llamafactory-cli train examples/train_dpo/graphcogent_dpo.yaml \
-  --output_dir ./checkpoints/lora_dpo
+llamafactory-cli train examples/train_dpo/graphcogent_dpo.yaml 
 ```
 
 ---
@@ -492,28 +499,27 @@ llamafactory-cli train examples/train_dpo/graphcogent_dpo.yaml \
 #### 4.5 Export Model <a href='#all_catelogue'>[Back to Top]</a>
 Merge LoRA adapters into deployable model:
 ```shell
-llamafactory-cli export \
-  --model_name_or_path ./models/llama3-8b-instruct \
-  --adapter_path ./checkpoints/lora_dpo \
-  --template llama3 \
-  --export_dir ./deploy/graphcogent_agent \
-  --export_legacy_format false
+llamafactory-cli export examples/merge_lora/llama3_lora_sft.yaml
 ```
+
+```shell
+# Our settings are as follows.
+### model
+model_name_or_path: DPO-based/Llama3.1/path
+adapter_name_or_path: saves/llama3.1-8b/dpo
+template: llama3
+finetuning_type: lora
+
+### export
+export_dir: GraphCogent/model/Reasoning_Agent
+export_size: 4
+export_device: cpu
+export_legacy_format: false
+```
+
 
 
 ---
 
-## Folder Structure
-```
-GraphCogent_train/
-├── data/
-│   ├── thinking_paths.jsonl      # SFT data
-│   └── dpo_pairs.jsonl           # DPO preferences
-├── checkpoints/
-│   ├── lora_sft/                 # LoRA weights
-│   └── lora_dpo/                 # DPO-optimized
-└── deploy/
-    └── graphcogent_agent         # Production model
-```
 
 
