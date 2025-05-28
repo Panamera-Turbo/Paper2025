@@ -415,7 +415,7 @@ eval_steps: 500
 #### 4.4 DPO Tuning <a href='#all_catelogue'>[Back to Top]</a>
 #### Prepare Preference Data:
 ```python
-python process_dpo_data.py \
+python GraphCogent_train/DPO_construction.py \
     --input_file "/path/to/Graph4real/folder" \
     --output_dir "/path/to/LLaMA-Factory/folder" \
     --prompt_file "GraphCogent_train/reasoning_prompt.txt" \
