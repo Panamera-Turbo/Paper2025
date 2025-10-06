@@ -1,10 +1,10 @@
-# <center> GraphCogent: Overcoming LLMs’ Working Memory Constraints via Multi-Agent Collaboration in Complex Graph Understanding</center>
+# <center> GraphCogent: Mitigating LLMs’ Working Memory Constraints via Multi-Agent Collaboration in Complex Graph Understanding</center>
 
 
-This repo contains the code, data, and models for "GraphCogent: Overcoming LLMs’ Working Memory Constraints via Multi-Agent Collaboration in Complex Graph Understanding."
+This repo contains the code, data, and models for "GraphCogent: Mitigating LLMs’ Working Memory Constraints via Multi-Agent Collaboration in Complex Graph Understanding."
 
 🔗 **GitHub**: [https://anonymous.4open.science/r/GraphCogent](https://anonymous.4open.science/r/GraphCogent)  
-📜 **Paper**: [Added later]() | 📊 **Benchmark**: [Graph4real](https://anonymous.4open.science/r/GraphCogent) | 🤖 **Agent**: [Huggingface](https://huggingface.co/5SAGI/NIPS2025/tree/main) 
+📜 **Paper**: [Added later]() | 📊 **Benchmark**: [Graph4real](https://anonymous.4open.science/r/GraphCogent) | 🤖 **Agent**: [Huggingface](https://huggingface.co/5SAGI/www2026/tree/main) 
 
 
 **📢 Notice: Ongoing Maintenance**: 
@@ -16,7 +16,7 @@ This repository is currently under active development. Core code, execution scri
 We propose **GraphCogent**, a **collaborative agentic framework** that addresses LLMs' limitations in graph reasoning through:
 - **Sensory Module**: Standardizes diverse graph text representations (adjacency lists, symbolic notations, linguistic descriptions) via subgraph sampling.
 - **Buffer Module**: Integrates and indexes graph data for efficient retrieval across formats (NetworkX, PyG, NumPy).
-- **Execution Module**: Combines **tool calling** (for in-toolset tasks) and **model generation** (for out-toolset tasks) for robust reasoning.
+- **Execution Module**: Combines **tool calling** (for in-toolset tasks) and **tool generation** (for out-toolset tasks) for robust reasoning.
 
 ### 2. Graph4real Benchmark
 We introduce **Graph4real**, a **real-world graph reasoning benchmark** with:
@@ -64,8 +64,8 @@ Our entire work flow can be summarized as follows:
 * <a href='#GraphCogent Training Process'>4. GraphCogent Training Process </a>
   * <a href='#LLaMA-Factory Installation'>4.1. LLaMA-Factory Installation</a>
   * <a href='#Thinking Path Collection'>4.2. Thinking Path Collection</a>
-  * <a href='#LoRA Tuning'>4.3. LoRA Tuning</a>
-  * <a href='#DPO Tuning'>4.4 DPO Tuning</a>
+  * <a href='#Thinking Policy Initialization for Tool Invocation'>4.3. Thinking Policy Initialization for Tool Invocation</a>
+  * <a href='# Capability-Margin Preference Optimization'>4.4  Capability-Margin Preference Optimization</a>
   * <a href='#Export Model'>4.5 Export Model</a>
 
 
@@ -287,7 +287,7 @@ python eval.py \
 For fine-tuning both the Reasoning Agent and Model Agent, we utilize the Llama-Factory framework. We will provide the relevant files for key training steps along with the corresponding execution commands.
 
 ### Training Pipeline 
-Reasoning Agent tuning paradigm consists of four stages: (1) LLaMA-Factory Installation; (2) Thinking Path Collection; (3) LoRA Tuning; (4) DPO Tuning; (5) Export Model.
+Reasoning Agent tuning paradigm consists of four stages: (1) LLaMA-Factory Installation; (2) Thinking Path Collection; (3) Thinking Policy Initialization for Tool Invocation; (4)  Capability-Margin Preference Optimization; (5) Export Model.
 
 ---
 
@@ -349,9 +349,9 @@ python GraphCogent_train/Think_generation.py \
 
 ---
 
-<span id='LoRA Tuning'/>
+<span id='Thinking Policy Initialization for Tool Invocation'/>
 
-#### 4.3 LoRA Tuning <a href='#all_catelogue'>[Back to Top]</a>
+#### 4.3 Thinking Policy Initialization for Tool Invocation <a href='#all_catelogue'>[Back to Top]</a>
 
 Use the following command to run LoRA **fine-tuning** of the Llama3.1-8B-Instruct model under the path: examples/train_lora/llama3_lora_sft.yaml. 
 
@@ -410,9 +410,9 @@ eval_steps: 500
 ---
 
 
-<span id='DPO Tuning'/>
+<span id=' Capability-Margin Preference Optimization'/>
 
-#### 4.4 DPO Tuning <a href='#all_catelogue'>[Back to Top]</a>
+#### 4.4  Capability-Margin Preference Optimization <a href='#all_catelogue'>[Back to Top]</a>
 #### Prepare Preference Data:
 ```python
 python GraphCogent_train/DPO_construction.py \
