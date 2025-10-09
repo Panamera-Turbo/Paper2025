@@ -42,7 +42,7 @@ Our entire work flow can be summarized as follows:
 <img src="pics\method.jpg" width="800px">
 </div>
 
-**Overview of GraphCogent:** Sensory Module (left) standardizes various graph text representations through subgraph sampling and conversion; Buffer Module (center) establishes cross-format data (e.g., NetworkX) integrating and indexing transformations; Execution Module (right) enables two reasoning modes: Reasoning Agent is employed for task discrimination and implements tool calling for in-toolset tasks, Model Agent handles out-toolset tasks based on model generation.
+**Overview of GraphCogent:** Sensory Module (left) standardizes various graph text representations through subgraph sampling and conversion; Buffer Module (center) establishes cross-format data (e.g., NetworkX) integrating and indexing transformations; Execution Module (right) enables two reasoning modes: Execution Agent is employed for tool discrimination and implements tool calling for in-toolset tasks, Tool Creator handles out-toolset tasks based on tool creation.
 
 
 ## Getting Started
